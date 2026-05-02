@@ -9,6 +9,7 @@ This repository contains the Marxian economics pamphlet in two publication forms
 
 - Public PDF (stable URL): `docs/Marxian-Political-Economy.pdf`
 - LaTeX source files: `latex/main.tex`, `latex/content.tex`, `latex/notation.tex`, `latex/glossary.tex`, `latex/bibliography.tex`
+- LaTeX bundle: `latex/latex-source.zip`
 
 ## Local build
 
