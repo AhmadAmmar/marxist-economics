@@ -5,6 +5,8 @@ profit to fall” or a meme about capitalism “needing infinite growth on a
 finite planet”. The references are often to Karl~Marx, but the underlying
 method and mathematics are rarely explained carefully.
 
+## Purpose
+
 This pamphlet is a long-form attempt to do that work.
 
 A major reason careful method matters today is the culture of techno-utopianism.
@@ -21,10 +23,14 @@ the tool reorganises, how it shifts socially necessary labour time and the pace 
 new opportunities for surplus extraction, monopoly rent, and control. That is the only way to separate
 technical possibility from capitalist deployment.
 
+## Intended readers
+
 With that in mind, it is aimed at two overlapping readers:
 
 - the **university student**—often taught neoclassical economics and game theory while hearing that Marx is “relevant but outdated”, and
 - the **modern urban worker**—in a call centre, logistics warehouse, software firm, school, hospital, or gig platform—who feels that their life is organised around work, debt, and stress, yet is told that “the economy” is an abstract thing they have no say in.
+
+## What the pamphlet offers
 
 Marxian political economy offers:
 
@@ -37,6 +43,8 @@ conceptual and mathematical grip that you can read Marx, contemporary Marxist
 work, and even mainstream economic reports without feeling like the equations
 and jargon are a priestly language.
 
+## How to read this pamphlet
+
 Throughout, we will move back and forth between:
 
 - *basic definitions* (commodities, value, labour-power),
@@ -44,5 +52,5 @@ Throughout, we will move back and forth between:
 - *concrete examples* (smartphone supply chains, garment workers in Bangladesh, real-estate speculation in Pakistan, logistics warehouses, platform work, AI automation).
 
 Whenever we write $c$, $v$, $s$, $r$, or $e$, we are using
-a standard Marxian shorthand. A summary of these symbols is given in Appendix~sec:notation, and they are developed
-in more detail in Sections~sec:labour-surplus–sec:rate-profit.
+a standard Marxian shorthand. A summary of these symbols is given in Appendix A (Marxian notation at a glance), and they are developed
+in more detail in Chapters 5–7.
