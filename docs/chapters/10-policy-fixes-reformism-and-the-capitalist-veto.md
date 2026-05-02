@@ -32,7 +32,7 @@ This is not a moral claim about individual bosses. It is a claim about a system 
 controlled and social reproduction is forced to pass through money and markets. With that clarity, we can assess
 the most common policy fixes.
 
-\begin{quote}
+
 \small
 **“But where would the money come from?” Money versus provisioning.**
 
@@ -49,7 +49,7 @@ and corporate control, which turn conditions of life into commodities. Once esse
 social wealth—planned and provided as rights—“funding” stops being a mystical problem and becomes
 a practical one: how much capacity exists, what inputs and labour are required, what timelines are
 feasible, and which priorities society sets under democratic control.
-\end{quote}
+
 
 ## Minimum wage: why a good law meets a structural constraint
 

@@ -3,7 +3,7 @@
 Marx did not start from ethics (*capitalism is bad because it is
 unfair*) but from a method of analysing how societies reproduce themselves
 over time. In his words, capitalism is a “definite mode of production”
-with its own laws of motion.[Marx1867,MarxGrundrisse]
+with its own laws of motion.[Marx1867](../references.md#marx1867); [MarxGrundrisse](../references.md#marxgrundrisse)
 
 ## Materialism
 
@@ -42,7 +42,7 @@ subordination of production to profit.
 
 The task is therefore to reconstruct, conceptually and empirically, how this
 mode of production works: from the commodity up to crises, imperialism, and
-the possibility of transition.[EngelsAntiDuhring,Shaikh2016]
+the possibility of transition.[EngelsAntiDuhring](../references.md#engelsantiduhring); [Shaikh2016](../references.md#shaikh2016)
 
 ### A note on levels of abstraction.
 
@@ -55,7 +55,7 @@ makes profit compatible with apparently equal exchange. From that pivot we devel
 production of surplus value (necessary and surplus labour time) and the rate of
 exploitation, before turning to how competition redistributes surplus value and, through
 the formation of prices of production, generates systematic divergences between values
-and market prices (see Section~sec:prices-production). On that basis we can treat credit and fictitious capital as claims
+and market prices (see this section). On that basis we can treat credit and fictitious capital as claims
 on future surplus value that can expand well beyond the limits set by production and
 realisation, and therefore become a central transmission belt of crisis. We then extend
 the analysis to world-scale determinations—imperialism and unequal exchange—and to

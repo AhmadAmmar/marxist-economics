@@ -1,7 +1,7 @@
 # Constant and variable capital; circuits of capital
 
 To move from exploitation at the point of production to the dynamics of the
-system as a whole, we need to distinguish types of capital.[Marx1867]
+system as a whole, we need to distinguish types of capital.[Marx1867](../references.md#marx1867)
 
 ## Constant and variable capital
 
@@ -10,15 +10,15 @@ system as a whole, we need to distinguish types of capital.[Marx1867]
 
 If we consider one turnover of capital, the **value** of the total
 commodity product is:
-\begin{equation}
+
   W = \constcap + \varcap + \surplus.
   
-\end{equation}
+
 
 The **cost price** for the capitalist is:
-\begin{equation}
+
   k = \constcap + \varcap,
-\end{equation}
+
 while the surplus value $\surplus$ is the excess of value over cost.
 
 ### Why “selling above market price” cannot explain profit.
@@ -48,7 +48,7 @@ $$
 which is exactly the surplus value $\surplus$.
 
 Selling above (or below) value can redistribute surplus value between capitals (as shown in
-Section~sec:prices-production), especially under monopoly power. But the system-wide source of
+this section), especially under monopoly power. But the system-wide source of
 profit is surplus value extracted from labour-power. Profit appears here even though the commodity is
 sold at its value, because the source is the surplus value $s$ created in production.
 
@@ -58,13 +58,13 @@ With this cleared up, we can return to the movement of capital itself: how money
 
 Marx contrasts two circuits:
 
-\begin{align}
+
   \CMC &: C \rightarrow M \rightarrow C,
   
 
   \MCM &: M \rightarrow C \rightarrow M'.
   
-\end{align}
+
 
 - In $C \rightarrow M \rightarrow C$, a small producer sells a commodity $C$ for money $M$ to buy another commodity $C$ (e.g.\ a farmer selling grain to buy tools and food). The goal is use-value.
 - The same overall form also describes the *worker's* circuit, with an important twist. The worker does not usually sell a finished commodity they own; they sell their **labour-power** (the capacity to work for a period) for a money wage $M$. That wage is then spent to buy commodities $C$ needed to live and to return to work tomorrow—food, transport, rent, childcare, medicine, and so on. In that sense the wage is not payment for *all* the value the worker creates; it is the money form of the value of labour-power, i.e.\ the cost of reproducing the worker as a worker. This is why questions of households, care, and unpaid work (social reproduction) are not “outside” political economy: they are part of the conditions of possibility of wage-labour itself.

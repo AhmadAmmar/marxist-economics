@@ -48,7 +48,7 @@ directions:
 - Build and support organisations—unions, feminist and queer collectives, socialist groups, tenant unions—that link immediate demands to the horizon of a classless, moneyless, stateless society.
 
 Marx wrote that the point is not only to interpret the world, but to change
-it.[EngelsFuneral] Understanding the logic of capital is one step
+it.[EngelsFuneral](../references.md#engelsfuneral) Understanding the logic of capital is one step
 towards participating consciously in that change.
 
 \setcounter{section}{0}
