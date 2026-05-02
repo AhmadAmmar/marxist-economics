@@ -2,7 +2,7 @@
 
 Marx opens *Capital* with the line that the wealth of societies where the
 capitalist mode of production rules appears as an “immense collection of
-commodities”.[Marx1867] A **commodity** is, at minimum:
+commodities”.[Marx1867](../references.md#marx1867) A **commodity** is, at minimum:
 
 1. a useful thing (**use-value**); and
 2. produced for exchange, not direct use (**exchange-value**).
@@ -47,16 +47,16 @@ sack of rice, even though rice is more essential to life?
 Marx's answer is the \LTV. Very roughly, the value of a commodity grows in
 proportion to the amount of socially necessary labour time it takes to make it.
 
-\begin{equation}
+
   \Vi{i} = \MELT\,\LSN{i},
-\end{equation}
+
 
 where:
 - $\Vi{i}$ is the value (in money terms) of *one unit* of commodity $i$;
 - $\LSN{i}$ is the *socially necessary labour time* required to produce one unit of commodity $i$: that is, the labour time needed under *average* conditions of production, with average skill and intensity, using the prevailing technology; and
 - $\MELT$ is the **monetary expression of labour time** (MELT): a proportionality constant that converts labour-time into money magnitudes, i.e.\ the amount of money that corresponds to one hour of socially necessary labour time in a given country and period (money per hour of \snlt).
 
-We formalise \snlt{} as a social average across producers in Section~sec:abstract-concrete (Eq.~\eqref{eq:snlt}).
+We formalise \snlt{} as a social average across producers in this section (Eq.).
 
 A further clarification is needed. The labour-time that regulates value is *social*
 labour reduced to a common unit of **simple labour**. Concrete labours differ in
@@ -80,7 +80,7 @@ so the phone’s exchange-value tends to be about eight times the shirt’s (an 
 
 Market prices fluctuate around these values due to supply, demand, speculation, brand
 power, and state policy, but in Marx's framework the underlying regulator of prices over
-the long run is labour time *through competition and the formation of prices of production* (see Section~sec:prices-production).
+the long run is labour time *through competition and the formation of prices of production* (see this section).
 In other words, value does not appear on the surface as a direct “price tag”: it asserts itself
 through competitive pressures, productivity differences, and the redistribution of surplus value
 across capitals.
@@ -105,12 +105,12 @@ is one reason ecological crisis and profitability pressures can move together ra
 
 When natural conditions become *monopolised* (land, location, minerals), payments for access appear as
 *rent*. Rent is not value created by nature; it is a claim on surplus value created elsewhere, enforced
-by property rights over natural conditions.[Marx1894]
+by property rights over natural conditions.[Marx1894](../references.md#marx1894)
 
 ## A modern example: the smartphone
 
 Consider a mid-range smartphone assembled in southern China for a large
-brand.[DedrickKraemerLinden2010,Smith2016]
+brand.[DedrickKraemerLinden2010](../references.md#dedrickkraemerlinden2010); [Smith2016](../references.md#smith2016)
 
 - The phone retails in London for, say, \pounds800.
 - The total wage bill for assembly workers per phone might be on the order of \pounds10–\pounds15.

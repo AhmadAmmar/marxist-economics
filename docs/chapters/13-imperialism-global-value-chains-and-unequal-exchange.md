@@ -2,7 +2,7 @@
 
 Capitalism has been global from early on. Marx wrote about world markets and
 colonial plunder; later Marxists analysed imperialism as a stage where
-capital exports, monopolies, and state power become central.[LeninImperialism,PatnaikImperialism]
+capital exports, monopolies, and state power become central.[LeninImperialism](../references.md#leninimperialism); [PatnaikImperialism](../references.md#patnaikimperialism)
 
 Today, global value chains and unequal exchange structure the relation
 between global North and South.
@@ -14,12 +14,12 @@ Consider again:
 - garment workers in Bangladesh producing for fast-fashion brands headquartered in Europe; and
 - electronics workers in East and Southeast Asia assembling devices for firms headquartered in the US, Japan, or South Korea.
 
-Studies~[Smith2016,Hickel2022,DedrickKraemerLinden2010] of the cost structure of an iPhone or a pair of branded jeans show
+Studies [Smith2016](../references.md#smith2016); [Hickel2022](../references.md#hickel2022); [DedrickKraemerLinden2010](../references.md#dedrickkraemerlinden2010) of the cost structure of an iPhone or a pair of branded jeans show
 that:
 
 - direct manufacturing wages are often less than 5–10\% of the retail price;
 - most of the surplus value is realised and appropriated in the centres of finance, marketing, and intellectual property; and
-- Northern states and firms control key chokepoints: technology, finance, logistics, trade rules.[Smith2016,Hickel2022]
+- Northern states and firms control key chokepoints: technology, finance, logistics, trade rules.[Smith2016](../references.md#smith2016); [Hickel2022](../references.md#hickel2022)
 
 A growing portion of this power takes the form of **digital and intellectual-property enclosures**.
 Patents, licensing, paywalls, proprietary platforms, and “terms of service” operate as mechanisms of monopoly
@@ -45,7 +45,7 @@ to North.
 Imperialist relations are reinforced through sovereign debt, IMF and World
 Bank conditionalities, and trade agreements. Southern economies are pushed
 towards export-oriented, low-wage specialisation, while austerity shrinks
-public services and public employment.[StrugglePK_WorldPerspectives]
+public services and public employment.[StrugglePK_WorldPerspectives](../references.md#strugglepk_worldperspectives)
 
 This directly affects class struggle: workers, peasants, and oppressed
 genders face both the local bourgeoisie and global institutions as they fight
