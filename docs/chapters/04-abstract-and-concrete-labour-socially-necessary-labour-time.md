@@ -17,11 +17,11 @@ average, it loses out.
 We can formalise the idea of socially necessary labour time (SNLT) for a given
 commodity $i$ as an output-weighted average over firms:
 
-\begin{equation}
+
   \LSN{i} \approx
   \frac{\sum_{j=1}^{n} q_{ij}\,L_{ij}}{\sum_{j=1}^{n} q_{ij}},
   
-\end{equation}
+
 
 where $L_{ij}$ is the direct and indirect labour time *per unit* of commodity $i$
 at firm $j$, measured at normal intensity and average skill for the period, and

@@ -1,12 +1,13 @@
 site_name: Marxian Economics 101
-site_description: Marxist Economics 101 — pamphlet + web version
+site_description: Understanding Political Economy for Socialist Struggle in the 21st Century
 site_url: https://ahmadammar.github.io/marxist-economics/
 theme:
   name: material
   features:
     - navigation.sections
     - navigation.top
-    - toc.integrate
+    - navigation.tracking
+    - toc.follow
     - content.code.copy
 markdown_extensions:
   - admonition
@@ -44,7 +45,7 @@ nav:
       - "15. Technology, AI, and the future of work": chapters/15-technology-ai-and-the-future-of-work.md
       - "16. From critique to transition: why this matters for you": chapters/16-from-critique-to-transition-why-this-matters-for-you.md
   - Appendices:
-      - Appendix A: Notation: appendix-notation.md
-      - Appendix B: Glossary & acronyms: appendix-glossary.md
+      - "Appendix A: Notation": appendix-notation.md
+      - "Appendix B: Glossary & acronyms": appendix-glossary.md
   - References: references.md
   - LaTeX source: source.md

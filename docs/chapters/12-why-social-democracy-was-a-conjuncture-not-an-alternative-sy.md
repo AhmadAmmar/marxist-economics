@@ -243,7 +243,7 @@ blocked under contemporary capitalism.
 
 This is why policy packages that promise a painless return—“just tax the rich,” “just print money,” “just do a Green
 New Deal inside the market”—run into the structural limits already developed in this pamphlet. (See also the discussion
-of the capitalist veto and crisis management in Section~sec:policy-fixes-veto.) Reforms matter, but
+of the capitalist veto and crisis management in this section.) Reforms matter, but
 reformism fails: the system can shed a reform regime when profitability, competition, and class power demand it.
 
 ## What this means for strategy: reforms as struggle, socialism as a necessity
