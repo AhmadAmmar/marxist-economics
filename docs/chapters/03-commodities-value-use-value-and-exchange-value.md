@@ -47,16 +47,16 @@ sack of rice, even though rice is more essential to life?
 Marx's answer is the \LTV. Very roughly, the value of a commodity grows in
 proportion to the amount of socially necessary labour time it takes to make it.
 
-\begin{equation}
+
   \Vi{i} = \MELT\,\LSN{i},
-\end{equation}
+
 
 where:
 - $\Vi{i}$ is the value (in money terms) of *one unit* of commodity $i$;
 - $\LSN{i}$ is the *socially necessary labour time* required to produce one unit of commodity $i$: that is, the labour time needed under *average* conditions of production, with average skill and intensity, using the prevailing technology; and
 - $\MELT$ is the **monetary expression of labour time** (MELT): a proportionality constant that converts labour-time into money magnitudes, i.e.\ the amount of money that corresponds to one hour of socially necessary labour time in a given country and period (money per hour of \snlt).
 
-We formalise \snlt{} as a social average across producers in Section~sec:abstract-concrete (Eq.~\eqref{eq:snlt}).
+We formalise \snlt{} as a social average across producers in this section (Eq.).
 
 A further clarification is needed. The labour-time that regulates value is *social*
 labour reduced to a common unit of **simple labour**. Concrete labours differ in
@@ -80,7 +80,7 @@ so the phone’s exchange-value tends to be about eight times the shirt’s (an 
 
 Market prices fluctuate around these values due to supply, demand, speculation, brand
 power, and state policy, but in Marx's framework the underlying regulator of prices over
-the long run is labour time *through competition and the formation of prices of production* (see Section~sec:prices-production).
+the long run is labour time *through competition and the formation of prices of production* (see this section).
 In other words, value does not appear on the surface as a direct “price tag”: it asserts itself
 through competitive pressures, productivity differences, and the redistribution of surplus value
 across capitals.

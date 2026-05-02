@@ -7,7 +7,7 @@ productivity and a source of contradiction.
 ## Automation and the law of value
 
 Automation tends to increase $\constcap$ relative to $\varcap$, raising \OCC{}
-and putting downward pressure on \profitrate{} (section sec:rate-profit). At
+and putting downward pressure on \profitrate{} (the relevant sections). At
 the same time, it cheapens many goods, raises the technical capacity of
 society, and potentially frees time for education, art, care, and play.
 
