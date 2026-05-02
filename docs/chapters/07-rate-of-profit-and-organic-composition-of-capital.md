@@ -5,17 +5,17 @@ of view. It measures the surplus value obtained per unit of total capital
 advanced:
 
 
-$$
-r = \frac{s}{c+v}.
-$$
+  r = \frac{s}{c + v}.
+  
 
 
 From the definition of the exploitation rate in Eq.,
 \(e = s/v\), we have \(s = e v\), so we can rewrite the rate of profit as
 
-$$
-r = \frac{ev}{c+v} = \frac{e}{1+c/v} = \frac{e}{1+\organiccomp}.
-$$
+  r = \frac{e v}{c + v}
+    = \frac{e}{1 + c/v}
+    = \frac{e}{1 + \organiccomp},
+  
 
 
 where \(\organiccomp = c/v\) is the organic composition of capital.
@@ -27,16 +27,24 @@ $\exploitrate = 100\%$, i.e.\ $\surplus = \varcap$, and set $\varcap=100$
 as a numéraire. We examine what happens to $\profitrate$ as the ratio
 $\constcap/\varcap$ rises.
 
-| $c/v$ | $c$ | $s$ | $r=s/(c+v)$ |
-|---:|---:|---:|---:|
-| 0.5 | 50 | 100 | $\approx 66.7\%$ |
-| 1.0 | 100 | 100 | $50.0\%$ |
-| 2.0 | 200 | 100 | $\approx 33.3\%$ |
-| 4.0 | 400 | 100 | $20.0\%$ |
-| 8.0 | 800 | 100 | $\approx 11.1\%$ |
+{@{}lrrr@{}}
+\toprule
+$c/v$ & $c$ & $s$ & $r = \dfrac{s}{c+v}$ 
+
+\midrule
+$0.5$ & $50$  & $100$ & $\approx 66.7\%$ 
+
+$1.0$ & $100$ & $100$ & $50.0\%$        
 
 
-Even with a constant rate of exploitation $e = s/v = 100\%$, the rate of profit $r$ falls as capital becomes more “machine-heavy” relative to wages (as the ratio $c/v$ rises). This logical connection between a rising organic composition of capital $c/v$ and a falling profit rate $r$ is at the heart of Marx’s *law of the tendency of the rate of profit to fall* (TRPF). [Roberts2015](../references.md#roberts2015); [Shaikh2016](../references.md#shaikh2016)
+$4.0$ & $400$ & $100$ & $20.0\%$        
+
+$8.0$ & $800$ & $100$ & $\approx 11.1\%$ 
+
+\bottomrule
+
+
+Even with a constant rate of exploitation $e = s/v = 100\%$, the rate of profit $r$ falls as capital becomes more “machine-heavy” relative to wages (as the ratio $c/v$ rises). This logical connection between a rising organic composition of capital $c/v$ and a falling profit rate $r$ is at the heart of Marx’s *law of the tendency of the rate of profit to fall* (TRPF).[Roberts2015,Shaikh2016]
 
 ## Competition, average profit, and prices of production
 
@@ -57,16 +65,15 @@ $$
 Then the **value** (in money terms) of the industry's output (at this level of abstraction)
 can be written as
 
-$$
-w_i = \constcap_i + \varcap_i + \surplus_i = \constcap_i + (1+\exploitrate)\,\varcap_i.
-$$
+  w_i = \constcap_i + \varcap_i + \surplus_i
+      = \constcap_i + (1+\exploitrate)\,\varcap_i.
+  
 
 
 Define the **cost price** (capital advanced that must be replaced) as
 
-$$
-k_i = \constcap_i + \varcap_i.
-$$
+  k_i = \constcap_i + \varcap_i.
+  
 
 
 Total surplus value and total capital advanced are
@@ -77,17 +84,15 @@ $$
 $$
 Competition tends to equalise profit rates, so the **average rate of profit** is
 
-$$
-\profitrate = \frac{\surplus}{K}.
-$$
+  \profitrate = \frac{\surplus}{K}.
+  
 
 
 Under this tendency, the regulating price is not the direct value $w_i$ but the
 **price of production**, which yields the average profit on the capital advanced:
 
-$$
-p_i = k_i(1+\profitrate) = (\constcap_i + \varcap_i)(1+\profitrate).
-$$
+  p_i = k_i(1+\profitrate) = (\constcap_i + \varcap_i)(1+\profitrate).
+  
 
 The profit *received* by industry $i$ is therefore
 $$
@@ -108,9 +113,9 @@ $$
 $$
 Then, using $\Omega = C/V$ as the **average** organic composition, one can show
 
-$$
-p_i - w_i = \exploitrate\,\varcap_i \,\frac{(\constcap_i/\varcap_i)-\Omega}{1+\Omega}.
-$$
+  p_i - w_i
+  = \exploitrate\,\varcap_i \,\frac{\big(\constcap_i/\varcap_i\big) - \Omega}{1+\Omega}.
+  
 
 So industries with *above-average* $\constcap_i/\varcap_i$ tend to have $p_i>w_i$
 (they receive more profit than the surplus they themselves produce), while those with
@@ -177,6 +182,20 @@ So industries with *above-average* $\constcap_i/\varcap_i$ tend to have $p_i>w_i
     | $A$ | 50 | 100 | 100 | 250 | 150 | 225 | 75 |
     | $B$ | 150 | 100 | 100 | 350 | 250 | 375 | 125 |
     | **Total** | 200 | 200 | 200 | 600 | 400 | 600 | 200 |
+    
+    {@{}lrrrrrrr@{}}
+    \toprule
+    Industry & $c$ & $v$ & $s$ (produced) & $w=c+v+s$ & $k=c+v$ & $p=k(1+\profitrate)$ & $\pi=\profitrate k$ 
+
+    \midrule
+    $A$ & 50  & 100 & 100 & 250 & 150 & 225 & 75  
+
+    $B$ & 150 & 100 & 100 & 350 & 250 & 375 & 125 
+
+    \midrule
+    Total & 200 & 200 & 200 & 600 & 400 & 600 & 200 
+
+    \bottomrule
     
     
     
