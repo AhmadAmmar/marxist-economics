@@ -12,7 +12,11 @@
 
 % ---------- Page layout & spacing ----------
 \usepackage{xurl}             % improves URL line-breaking to prevent margin overflow
+% Robust URL breaking (helps long DOIs/URLs in manual bibliography)
+\Urlmuskip=0mu plus 1mu\relax
 \usepackage[margin=2.5cm]{geometry}
+% Last-resort line-break slack for occasional long-link paragraphs
+\emergencystretch=2em
 \usepackage{setspace}
 \onehalfspacing               % 1.5 line spacing
 \usepackage{parskip}          % no indents, space between paragraphs
@@ -57,6 +61,7 @@
 
 \hypersetup{
   colorlinks = true,
+  breaklinks = true,          % allow link wrapping
   linkcolor  = blue!60!black,
   citecolor  = blue!60!black,
   urlcolor   = blue!70!black,
@@ -68,7 +73,24 @@
   pdfproducer= {pdfTeX}
 }
 
+% Improves PDF bookmarks robustness with hyperref
+\usepackage{bookmark}
+
 \usepackage[capitalise]{cleveref}
+
+% ----------------------------------------------------------------------
+% Strict integrity guard: treat undefined references/citations as errors.
+% NOTE: On a first-pass compile (before labels/citations settle), LaTeX may
+% legitimately report undefined refs/cites. Re-run after fixing/settling.
+% ----------------------------------------------------------------------
+\makeatletter
+\def\@refundefined{%
+  \ifG@refundefined
+    \PackageError{pamphlet}{There were undefined references or citations}{%
+      Fix missing \string\label/\string\ref/\string\cref targets and missing \string\bibitem keys.\MessageBreak
+      If this is an initial compilation pass, rerun LaTeX once the .aux is populated.}%
+  \fi}
+\makeatother
 
 % ----------------------------------------------------------------------
 % Glossary / acronyms (glossaries-extra, no-index workflow)
@@ -79,6 +101,14 @@
 \def\GLOSSARYENTRIESONLY{}%
 \loadglsentries{glossary} % loads ONLY \newacronym / \newglossaryentry definitions
 \let\GLOSSARYENTRIESONLY\undefined
+
+% ----------------------------------------------------------------------
+% Defensive fallbacks for glossaries-extra internals.
+% These prevent compile failures on some TeX distributions / versions where
+% the style hooks may be executed before these commands are defined.
+% ----------------------------------------------------------------------
+\providecommand*{\glossaryentryfield}[5]{}
+\providecommand*{\glossarysubentryfield}[6]{}
 
 % Make glossary titles (Acronyms / Glossary of terms) look like real headings
 % Also: reduce the big gap after the parent \section for the FIRST glossary title only
@@ -185,6 +215,12 @@
 \setcounter{secnumdepth}{2}
 \setcounter{tocdepth}{2}
 
+% Give double-digit subsection numbers enough room in the table of contents
+% so entries like "10.10 Reforms..." do not run into the title.
+\makeatletter
+\renewcommand*\l@subsection{\@dottedtocline{2}{1.5em}{3.4em}}
+\makeatother
+
 % ============================
 %  Theorem-like environments
 % ============================
@@ -283,3 +319,9 @@
 
 % Small explanatory note under/next to an equation
 \newcommand{\explain}[1]{\textit{\small(#1)}}
+
+% ----------------------------------------------------------------------
+% Optional development-time integrity checks (leave commented for release)
+% Uncomment to surface undefined refs/cites and unused labels in the log.
+% ----------------------------------------------------------------------
+% \usepackage{refcheck}
