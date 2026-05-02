@@ -14,7 +14,7 @@ much of the work that actually reproduces labour-power is displaced onto househo
 onto women and marginalised genders, and onto racialised and migrant workers in low-paid “care” and
 service sectors. Feminist Marxists speak of **social reproduction** to name this terrain: the
 interlinked processes through which labour-power is produced, maintained, repaired, and renewed as a
-condition for capitalist production.[BhattacharyaSRT,FedericiCaliban]
+condition for capitalist production.[BhattacharyaSRT](../references.md#bhattacharyasrt); [FedericiCaliban](../references.md#federicicaliban)
 
 This matters politically because it changes what we count as “economic.” If the workplace is one
 frontline of exploitation, the household and community are another frontline where the costs of that
@@ -59,4 +59,4 @@ For example:
 
 Marxian political economy enriched by social reproduction theory therefore
 links factory, office, and platform struggles with feminist, queer, and
-anti-racist movements.[BhattacharyaSRT]
+anti-racist movements.[BhattacharyaSRT](../references.md#bhattacharyasrt)

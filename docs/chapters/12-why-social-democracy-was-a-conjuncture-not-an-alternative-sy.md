@@ -120,7 +120,7 @@ profitability and discipline labour.
 
 What followed is now called neoliberalism: privatisation, deregulation, attacks on unions, cuts to social spending,
 and the reorientation of states toward “market confidence.” This was not merely an ideological fad. It was a class
-strategy to restore profitability by reshaping the balance of power between labour and capital.[HarveyNeoliberalism]
+strategy to restore profitability by reshaping the balance of power between labour and capital.[HarveyNeoliberalism](../references.md#harveyneoliberalism)
 
 Monetarism—the shift toward using interest rates and tight money as the primary policy tool—played a key role.
 High interest-rate regimes disciplined wages, raised unemployment, and strengthened creditors. In Marxist terms,
@@ -142,7 +142,7 @@ especially in the global South.
 Latin America provides clear examples of “shock” restructuring: labour rights crushed, public assets privatised,
 and economies opened to foreign capital. Debt crises—especially from the late 1970s into the 1980s—became a lever.
 States dependent on external finance were pushed into IMF-style programmes: austerity, currency devaluation,
-cuts to subsidies, and privatisation.[PeetUnholyTrinity] These policies were sold as “stabilisation,” but their class content was
+cuts to subsidies, and privatisation.[PeetUnholyTrinity](../references.md#peetunholytrinity) These policies were sold as “stabilisation,” but their class content was
 consistent: shift crisis costs onto workers and the poor, open new fields for accumulation, and guarantee repayment
 to creditors.
 
@@ -156,9 +156,9 @@ A further clarification is needed for much of the global South: capitalism does 
 base, completes land reform, secularises the state, and then deepens democratic participation. It arrives
 *through a world market already dominated by monopolies, imperial states, and finance*, and it therefore
 produces a pattern of **combined and uneven development**: advanced technologies and enclaves of modern
-production sit alongside older property relations, coercive labour regimes, and vast zones of abandonment.[TrotskyPermanentRevolution,RosenbergUCD]
+production sit alongside older property relations, coercive labour regimes, and vast zones of abandonment.[TrotskyPermanentRevolution](../references.md#trotskypermanentrevolution); [RosenbergUCD](../references.md#rosenbergucd)
 The result is not “underdevelopment” as a cultural failure, but a structured outcome of integration into a
-hierarchical world economy.[LeninImperialism,PatnaikImperialism]
+hierarchical world economy.[LeninImperialism](../references.md#leninimperialism); [PatnaikImperialism](../references.md#patnaikimperialism)
 
 This matters because the classic tasks often associated with bourgeois-democratic revolutions—land reform,
 a thorough secularisation of law and schooling, universal civil equality, democratic control over the state,
@@ -167,7 +167,7 @@ interests and dependencies of local ruling classes in belated capitalist formati
 typically sits at the intersection of landlordism, foreign capital, state contracts, and creditor discipline.
 It therefore fears mass mobilisation from below more than it fears the survival of “pre-modern” coercions
 and compromises. Even when liberal elections occur, decisive questions about investment, energy, trade,
-security, and debt servicing remain constrained by property, the world market, and external conditionality.[PeetUnholyTrinity,HarveyNeoliberalism]
+security, and debt servicing remain constrained by property, the world market, and external conditionality.[PeetUnholyTrinity](../references.md#peetunholytrinity); [HarveyNeoliberalism](../references.md#harveyneoliberalism)
 
 This is why the democratic question cannot be reduced to whether elections are formally competitive. In many
 settings, the deeper absence is *popular decision-making power over the material organisation of life*:
@@ -189,7 +189,7 @@ capitalism, the completion of democratic and social tasks cannot be entrusted to
 material reproduction depends on the very property relations and external constraints that block those tasks.
 In that sense, what liberals treat as the horizon of “secular, democratic progress” becomes inseparable from
 working-class struggle for power: decommodification of essentials, democratic control of investment, and
-breaking the mechanisms of imperial and creditor discipline.[PeetUnholyTrinity,HarveyNeoliberalism]
+breaking the mechanisms of imperial and creditor discipline.[PeetUnholyTrinity](../references.md#peetunholytrinity); [HarveyNeoliberalism](../references.md#harveyneoliberalism)
 
 ## Financialisation and bubble-led management: dot-com to housing
 
@@ -238,12 +238,12 @@ blocked under contemporary capitalism.
 1. **Capital mobility is greater.** Supply chains, finance, and ownership structures allow capital to move, threaten, and evade more easily. This strengthens the capitalist veto: disinvestment and capital flight become routine weapons against reforms.
 2. **The global balance of class forces has shifted.** Union density and workplace power are weaker in many places after decades of defeat, repression, and fragmentation. Without strong organisation from below, welfare gains are easier to roll back.
 3. **Debt and external constraints are tighter.** Many states operate under heavy debt burdens and creditor conditionality. In the global South, import dependence and foreign-exchange vulnerability amplify these constraints. This is why IMF-style programmes so often demand cuts to public spending and “market reforms.”
-4. **The ecological constraint is now unavoidable.** The post-war boom assumed cheap energy and expanding throughput. Today, climate breakdown and ecological limits mean that a growth-at-all-costs welfare compromise is not a viable horizon.[IPCCAR6WGIII] Transition requires planning, not just redistribution.
+4. **The ecological constraint is now unavoidable.** The post-war boom assumed cheap energy and expanding throughput. Today, climate breakdown and ecological limits mean that a growth-at-all-costs welfare compromise is not a viable horizon.[IPCCAR6WGIII](../references.md#ipccar6wgiii) Transition requires planning, not just redistribution.
 5. **Financialisation changes the terrain.** Asset-price inflation, rent extraction, and private control of housing, energy, and infrastructure mean that cash-based reforms are often recaptured through prices unless essentials are decommodified.
 
 This is why policy packages that promise a painless return—“just tax the rich,” “just print money,” “just do a Green
 New Deal inside the market”—run into the structural limits already developed in this pamphlet. (See also the discussion
-of the capitalist veto and crisis management in Section~sec:policy-fixes-veto.) Reforms matter, but
+of the capitalist veto and crisis management in this section.) Reforms matter, but
 reformism fails: the system can shed a reform regime when profitability, competition, and class power demand it.
 
 ## What this means for strategy: reforms as struggle, socialism as a necessity

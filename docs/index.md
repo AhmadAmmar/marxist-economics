@@ -1,12 +1,21 @@
 # Marxian Economics 101
 
-This is a GitHub Pages site for the pamphlet.
+## Understanding Political Economy for Socialist Struggle in the 21st Century
 
-- Start here if you want the full document: **[Pamphlet (PDF)](pamphlet.md)**.
-- If you prefer web pages: use the **Chapters** section in the left sidebar.
-- If you want to reuse/modify the document: **[LaTeX source](source.md)**.
+**Author:** Ammar
 
-## Quick links
+This website is the web-reading edition of the pamphlet. It preserves the original argument, examples, equations, and references while presenting them in chapter format for easier study.
 
-- PDF: [assets/Marxian-Political-Economy.pdf](assets/Marxian-Political-Economy.pdf)
-- References: [references](references.md)
+[Start reading](chapters/01-why-this-pamphlet-from-meme-to-method.md){ .md-button .md-button--primary }
+[Download PDF](Marxian-Political-Economy.pdf){ .md-button }
+[View source on GitHub](https://github.com/AhmadAmmar/marxist-economics){ .md-button }
+
+## Sections
+
+- 16 chapter sequence in the left navigation
+- Appendix A: notation
+- Appendix B: glossary and acronyms
+- References and further reading
+
+!!! note
+    The PDF is the print version. This site is the web-reading version.

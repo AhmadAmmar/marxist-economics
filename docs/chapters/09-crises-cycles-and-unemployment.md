@@ -9,7 +9,7 @@ sees crises as **endogenous** to the system.
 If profits fall in the productive sectors, capitalists may cut investment.
 Yet credit and fictitious capital—stocks, bonds, derivatives, property
 titles—can keep expanding claims on future surplus value even when the
-underlying surplus is under strain.[HarveyNewImperialism]
+underlying surplus is under strain.[HarveyNewImperialism](../references.md#harveynewimperialism)
 
 At the same time, the drive to raise \exploitrate{} and cut costs means that
 workers' wages grow slowly relative to productivity. The result is a chronic
@@ -28,4 +28,4 @@ A highly simplified stylised cycle looks like this:
 
 The Great Depression, the post-war boom, the profitability crisis of the
 1970s, the global crisis of 2007–08, and the uneven post-COVID conjuncture
-can all be read through this lens.[Roberts2015,HarveyCompanion]
+can all be read through this lens.[Roberts2015](../references.md#roberts2015); [HarveyCompanion](../references.md#harveycompanion)

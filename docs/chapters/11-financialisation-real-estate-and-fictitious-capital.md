@@ -12,7 +12,7 @@ ultimately grounded in surplus value: shares (claims on profits/dividends), bond
 many derivatives (claims whose payoffs are linked to the prices of other claims).
 It is “fictitious” not because it is unreal, but because it is a *title* to future
 income rather than a direct embodiment of value already produced and currently functioning
-as capital in production.[HarveyNewImperialism]
+as capital in production.[HarveyNewImperialism](../references.md#harveynewimperialism)
 
 A share can be understood as a claim on a stream of expected future profits (or dividends);
 a bond as a claim on a stream of interest payments; and many structured assets as claims on
@@ -20,9 +20,10 @@ bundled or re-sliced cash flows. A basic way to see this is capitalisation. If a
 expected to yield net receipts $R_t$ (dividends, interest, rents, or other contractual payoffs)
 over time, and those receipts are discounted at rate $d$ (which may incorporate risk and liquidity),
 then its market valuation can be written schematically as
-\begin{equation}
-  K_f = \sum_{t=1}^{\infty} \frac{R_t}{(1+d)^t}.
-\end{equation}
+$$
+K_f = \sum_{t=1}^{\infty} \frac{R_t}{(1+d)^t}.
+$$
+
 We use $d$ (not $i$) for the discount rate to avoid confusing it with the commodity index $i$
 used elsewhere. This is a stylised expression (it assumes a stable discounting convention and a
 reasonably well-defined expected flow), but it captures the key point: the market value of the
@@ -65,7 +66,7 @@ In many parts of the global South, including Pakistan, the combination of
 energy costs, infrastructural bottlenecks, political instability, and import
 dependence has made productive investment risky. At the same time, property
 speculation, urban land grabs, and financial arbitrage have offered
-relatively easier gains for those with capital.[StrugglePK_TDR]
+relatively easier gains for those with capital.[StrugglePK_TDR](../references.md#strugglepk_tdr)
 
 This pattern is inseparable from belated, uneven development and the structure of the state. Where local
 capital has historically remained narrow, import- and contract-dependent, and politically risk-averse, it has
@@ -82,7 +83,7 @@ modernisation run into a material barrier: the underlying property relations, th
 the coercive apparatus that defends both. Without confronting those relations—especially land, finance,
 strategic infrastructure, and the external discipline of debt and conditionality—electoral alternation tends
 to reshuffle administrators while leaving the core drivers of speculation, informalisation, and repression
-intact.[StrugglePK_WorldPerspectives,PeetUnholyTrinity]
+intact.[StrugglePK_WorldPerspectives](../references.md#strugglepk_worldperspectives); [PeetUnholyTrinity](../references.md#peetunholytrinity)
 
 This leads to:
 

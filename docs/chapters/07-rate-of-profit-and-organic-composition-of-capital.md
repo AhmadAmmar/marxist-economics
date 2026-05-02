@@ -4,19 +4,19 @@ The **rate of profit** is the central ratio from the capitalist point
 of view. It measures the surplus value obtained per unit of total capital
 advanced:
 
-\begin{equation}
-  r = \frac{s}{c + v}.
-  
-\end{equation}
 
-From the definition of the exploitation rate in Eq.~\eqref{eq:exploitation-time},
+$$
+r = \frac{s}{c+v}.
+$$
+
+
+From the definition of the exploitation rate in Eq.,
 \(e = s/v\), we have \(s = e v\), so we can rewrite the rate of profit as
-\begin{equation}
-  r = \frac{e v}{c + v}
-    = \frac{e}{1 + c/v}
-    = \frac{e}{1 + \organiccomp},
-  
-\end{equation}
+
+$$
+r = \frac{ev}{c+v} = \frac{e}{1+c/v} = \frac{e}{1+\organiccomp}.
+$$
+
 
 where \(\organiccomp = c/v\) is the organic composition of capital.
 
@@ -27,31 +27,22 @@ $\exploitrate = 100\%$, i.e.\ $\surplus = \varcap$, and set $\varcap=100$
 as a numéraire. We examine what happens to $\profitrate$ as the ratio
 $\constcap/\varcap$ rises.
 
-\begin{tabular}{@{}lrrr@{}}
-\toprule
-$c/v$ & $c$ & $s$ & $r = \dfrac{s}{c+v}$ 
+| $c/v$ | $c$ | $s$ | $r=s/(c+v)$ |
+|---:|---:|---:|---:|
+| 0.5 | 50 | 100 | $\approx 66.7\%$ |
+| 1.0 | 100 | 100 | $50.0\%$ |
+| 2.0 | 200 | 100 | $\approx 33.3\%$ |
+| 4.0 | 400 | 100 | $20.0\%$ |
+| 8.0 | 800 | 100 | $\approx 11.1\%$ |
 
-\midrule
-$0.5$ & $50$  & $100$ & $\approx 66.7\%$ 
 
-$1.0$ & $100$ & $100$ & $50.0\%$        
-
-$2.0$ & $200$ & $100$ & $\approx 33.3\%$ 
-
-$4.0$ & $400$ & $100$ & $20.0\%$        
-
-$8.0$ & $800$ & $100$ & $\approx 11.1\%$ 
-
-\bottomrule
-\end{tabular}
-
-Even with a constant rate of exploitation $e = s/v = 100\%$, the rate of profit $r$ falls as capital becomes more “machine-heavy” relative to wages (as the ratio $c/v$ rises). This logical connection between a rising organic composition of capital $c/v$ and a falling profit rate $r$ is at the heart of Marx’s *law of the tendency of the rate of profit to fall* (TRPF).[Roberts2015,Shaikh2016]
+Even with a constant rate of exploitation $e = s/v = 100\%$, the rate of profit $r$ falls as capital becomes more “machine-heavy” relative to wages (as the ratio $c/v$ rises). This logical connection between a rising organic composition of capital $c/v$ and a falling profit rate $r$ is at the heart of Marx’s *law of the tendency of the rate of profit to fall* (TRPF). [Roberts2015](../references.md#roberts2015); [Shaikh2016](../references.md#shaikh2016)
 
 ## Competition, average profit, and prices of production
 
 So far we have treated $\surplus$ and $\profitrate$ at the level of production:
 surplus value is produced where living labour is set to work, and the profit rate
-is $\profitrate = \surplus/(\constcap+\varcap)$ (Eq.~\eqref{eq:profit-rate-basic}).
+is $\profitrate = \surplus/(\constcap+\varcap)$ (Eq.).
 But on the surface of capitalist society, capitals do not simply pocket the surplus
 they individually produce. They compete, they move, and they compare returns.
 This movement produces a *tendency* toward an *average* rate of profit.
@@ -65,17 +56,18 @@ $$
 $$
 Then the **value** (in money terms) of the industry's output (at this level of abstraction)
 can be written as
-\begin{equation}
-  w_i = \constcap_i + \varcap_i + \surplus_i
-      = \constcap_i + (1+\exploitrate)\,\varcap_i.
-  
-\end{equation}
+
+$$
+w_i = \constcap_i + \varcap_i + \surplus_i = \constcap_i + (1+\exploitrate)\,\varcap_i.
+$$
+
 
 Define the **cost price** (capital advanced that must be replaced) as
-\begin{equation}
-  k_i = \constcap_i + \varcap_i.
-  
-\end{equation}
+
+$$
+k_i = \constcap_i + \varcap_i.
+$$
+
 
 Total surplus value and total capital advanced are
 $$
@@ -84,17 +76,19 @@ $$
   K = \sum_i (\constcap_i + \varcap_i) = \sum_i k_i.
 $$
 Competition tends to equalise profit rates, so the **average rate of profit** is
-\begin{equation}
-  \profitrate = \frac{\surplus}{K}.
-  
-\end{equation}
+
+$$
+\profitrate = \frac{\surplus}{K}.
+$$
+
 
 Under this tendency, the regulating price is not the direct value $w_i$ but the
 **price of production**, which yields the average profit on the capital advanced:
-\begin{equation}
-  p_i = k_i(1+\profitrate) = (\constcap_i + \varcap_i)(1+\profitrate).
-  
-\end{equation}
+
+$$
+p_i = k_i(1+\profitrate) = (\constcap_i + \varcap_i)(1+\profitrate).
+$$
+
 The profit *received* by industry $i$ is therefore
 $$
 \pi_i = p_i - k_i = \profitrate\,k_i = \profitrate(\constcap_i+\varcap_i).
@@ -113,16 +107,16 @@ $$
   = \frac{\exploitrate}{1 + C/V}.
 $$
 Then, using $\Omega = C/V$ as the **average** organic composition, one can show
-\begin{equation}
-  p_i - w_i
-  = \exploitrate\,\varcap_i \,\frac{\big(\constcap_i/\varcap_i\big) - \Omega}{1+\Omega}.
-  
-\end{equation}
+
+$$
+p_i - w_i = \exploitrate\,\varcap_i \,\frac{(\constcap_i/\varcap_i)-\Omega}{1+\Omega}.
+$$
+
 So industries with *above-average* $\constcap_i/\varcap_i$ tend to have $p_i>w_i$
 (they receive more profit than the surplus they themselves produce), while those with
 *below-average* $\constcap_i/\varcap_i$ tend to have $p_i<w_i$.
 
-\subsubsection*{A two-industry illustration (values vs.\ prices of production)}
+### A two-industry illustration (values vs. prices of production)
 
 !!! example "Example"
     [Two industries and the redistribution of surplus value]
@@ -139,7 +133,7 @@ So industries with *above-average* $\constcap_i/\varcap_i$ tend to have $p_i>w_i
     $$
     \surplus_A=\varcap_A=100,\qquad \surplus_B=\varcap_B=100.
     $$
-    So values (Eq.~\eqref{eq:value-output-industry}) are:
+    So values (Eq.) are:
     $$
     w_A=\constcap_A+\varcap_A+\surplus_A=50+100+100=250,\qquad
       w_B=\constcap_B+\varcap_B+\surplus_B=150+100+100=350.
@@ -154,7 +148,7 @@ So industries with *above-average* $\constcap_i/\varcap_i$ tend to have $p_i>w_i
 
     ### Step 3: Prices of production and profits received.
 
-    Prices of production (Eq.~\eqref{eq:price-of-production}) are:
+    Prices of production (Eq.) are:
     $$
     p_A=(\constcap_A+\varcap_A)(1+\profitrate)=(50+100)(1.5)=225,\qquad
       p_B=(\constcap_B+\varcap_B)(1+\profitrate)=(150+100)(1.5)=375.
@@ -177,23 +171,13 @@ So industries with *above-average* $\constcap_i/\varcap_i$ tend to have $p_i>w_i
 
     
     
-    \setlength{\tabcolsep}{6pt}
-    \renewcommand{\arraystretch}{1.15}
+            
+    | Industry | $c$ | $v$ | $s$ produced | $w=c+v+s$ | $k=c+v$ | $p=k(1+r)$ | $\pi=rk$ |
+    |---|---:|---:|---:|---:|---:|---:|---:|
+    | $A$ | 50 | 100 | 100 | 250 | 150 | 225 | 75 |
+    | $B$ | 150 | 100 | 100 | 350 | 250 | 375 | 125 |
+    | **Total** | 200 | 200 | 200 | 600 | 400 | 600 | 200 |
     
-    \begin{tabular}{@{}lrrrrrrr@{}}
-    \toprule
-    Industry & $c$ & $v$ & $s$ (produced) & $w=c+v+s$ & $k=c+v$ & $p=k(1+\profitrate)$ & $\pi=\profitrate k$ 
-
-    \midrule
-    $A$ & 50  & 100 & 100 & 250 & 150 & 225 & 75  
-
-    $B$ & 150 & 100 & 100 & 350 & 250 & 375 & 125 
-
-    \midrule
-    Total & 200 & 200 & 200 & 600 & 400 & 600 & 200 
-
-    \bottomrule
-    \end{tabular}
     
     
 
@@ -208,7 +192,7 @@ So industries with *above-average* $\constcap_i/\varcap_i$ tend to have $p_i>w_i
     So prices of production redistribute surplus value; they do not create it. Market prices can
     fluctuate around $p_i$ due to demand, supply, monopoly power, state policy, and world-market
     conditions, but the competitive tendency toward average profit is the key mediating mechanism
-    through which labour-time asserts itself in the long run.[Marx1894,Shaikh2016]
+    through which labour-time asserts itself in the long run. [Marx1894](../references.md#marx1894); [Shaikh2016](../references.md#shaikh2016)
 
 ## Modern intuition
 
