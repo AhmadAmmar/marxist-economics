@@ -1,6 +1,5 @@
 # Commodities, value, use-value, and exchange-value
 
-%=========================================================
 
 Marx opens *Capital} with the line that the wealth of societies where the capitalist mode of production
 rules appears as an ``immense collection of commodities''.[Marx1867] That opening is not literary
@@ -117,7 +116,7 @@ where:
       and period (money per hour of \snlt).
 
 
-We formalise \snlt{} as a social average across producers in Section~sec:abstract-concrete (Eq.~\eqref{eq:snlt}).
+We formalise \snlt{} as a social average across producers in Section~sec:abstract-concrete (Eq.~eq.).
 
 
 \paragraph{Complex labour (skilled labour).}
@@ -162,12 +161,10 @@ these differences tend to express themselves through wage hierarchies and profes
 but the point is not that the wage *creates} value; rather, it is one of the ways the system
 *registers} and reproduces these differences.[Foley1986,Shaikh2016]
 
-%---------------------------------------------------------
 
 ## Common sceptical objections: supply and demand, ``time is not value'', skilled labour, and the market
 
 
-%---------------------------------------------------------
 
 A cluster of sceptical objections appears again and again in discussions of Marx: some are posed in the language
 of ``preferences'' and supply--demand, others in the language of ``measurement'' and epistemology (``time is not
@@ -318,4 +315,3 @@ global supply chain is realised in the final sale; part is that monopolistic
 firms capture *surplus value} generated across the chain. To understand
 how, we need to go deeper into labour, surplus, and capital.
 
-%=========================================================

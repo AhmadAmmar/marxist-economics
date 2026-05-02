@@ -1,6 +1,5 @@
 # Constant and variable capital; circuits of capital
 
-%=========================================================
 
 To move from exploitation at the point of production to the dynamics of the
 system as a whole, we need to distinguish types of capital.[Marx1867]
@@ -33,7 +32,7 @@ $$
 while the surplus value $\surplus$ is the excess of value over cost.
 
 
-\begin{example}[A documented producer-stage cost table (one football): \(c\), \(v\), \(k\), markup \(m\), and surplus \(s\)]
+!!! example "Example: A documented producer-stage cost table (one football): \(c\), \(v\), \(k\), markup \(m\), and surplus \(s\)"
 
 
 We can now return to the Sialkot football case introduced in
@@ -53,23 +52,13 @@ input costs in rupees per ball from their baseline survey. See
 The source reports the following approximate input costs per ball:
 
 \[
-\begin{array}{@{}lrr@{}}
-\toprule
-\text{Input} & \text{PKR per ball} & \text{Marxian category}\\
-\midrule
-\text{rexine} & 39.68 & \constcap\\
-\text{cotton/poly cloth} & 23.27 & \constcap\\
-\text{latex} & 38.71 & \constcap\\
-\text{bladder} & 42.02 & \constcap\\
-\text{overhead} & 10.84 & \constcap\\
-\midrule
-\text{labour for cutting} & 1.49 & \varcap\\
-\text{labour for stitching} & 39.24 & \varcap\\
-\text{other labour} & 15.56 & \varcap\\
-\midrule
-\text{total reported cost} & 210.83 & k\\
-\bottomrule
-\end{array}
+{@{}lrr@{}}
+
+\text{Input} & \text{PKR per ball} & \text{Marxian category}\\n
+\text{rexine} & 39.68 & \constcap\\n\text{cotton/poly cloth} & 23.27 & \constcap\\n\text{latex} & 38.71 & \constcap\\n\text{bladder} & 42.02 & \constcap\\n\text{overhead} & 10.84 & \constcap\\n
+\text{labour for cutting} & 1.49 & \varcap\\n\text{labour for stitching} & 39.24 & \varcap\\n\text{other labour} & 15.56 & \varcap\\n
+\text{total reported cost} & 210.83 & k\\n
+
 \]
 
 Grouping the non-wage inputs as constant capital and the labour-cost items as
@@ -153,7 +142,7 @@ world-market price later includes export contracting, logistics, finance,
 branding, retail margins, monopoly rents, and other mechanisms of realisation
 and redistribution.
 
-\end{example}
+
 
 \paragraph{Why ``selling above market price'' cannot explain profit.}
 A common intuition is that profit comes from *selling dear}: buy for $100$, sell for $120$.
@@ -204,8 +193,7 @@ Marx contrasts two circuits:
 
 $$
   \CMC &: C \rightarrow M \rightarrow C,
-  \\
-  \MCM &: M \rightarrow C \rightarrow M'.
+  \\n  \MCM &: M \rightarrow C \rightarrow M'.
   
 $$
 
@@ -217,8 +205,7 @@ $$
   does not usually sell a finished commodity they own; they sell their **labour-power} (the capacity to
   work for a period) for a money wage $M$. That wage is then spent to buy commodities $C$ needed to live and to
   return to work tomorrow---food, transport, rent, childcare, medicine, and so on. In that sense the wage is not
-  payment for *all} the value the worker creates; it is the money form of the value of labour-power, i.e.\
-  the cost of reproducing the worker as a worker. This is why questions of households, care, and unpaid work
+  payment for *all} the value the worker creates; it is the money form of the value of labour-power, i.e.\n  the cost of reproducing the worker as a worker. This is why questions of households, care, and unpaid work
   (social reproduction) are not ``outside'' political economy: they are part of the conditions of possibility of
   wage-labour itself.
 
@@ -240,4 +227,3 @@ Capital is therefore best understood not as a thing (a machine) but as a social 
 and is realised in monetary form as $M \rightarrow M'$.}
 
 
-%=========================================================

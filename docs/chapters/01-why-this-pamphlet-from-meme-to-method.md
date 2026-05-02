@@ -1,6 +1,5 @@
 # Why this pamphlet? From meme to method
 
-%=========================================================
 
 On social media, you might see a graph about ``the tendency of the rate of
 profit to fall'' or a meme about capitalism ``needing infinite growth on a
@@ -70,4 +69,3 @@ a standard Marxian shorthand. A summary of these symbols is given in Appendix~se
 in more detail in Sections~sec:labour-surplus--sec:rate-profit.
 
 
-%=========================================================

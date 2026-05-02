@@ -1,6 +1,5 @@
 # From critique to transition: why this matters for you
 
-%=========================================================
 
 We can now step back and summarise what this conceptual and mathematical
 journey offers.

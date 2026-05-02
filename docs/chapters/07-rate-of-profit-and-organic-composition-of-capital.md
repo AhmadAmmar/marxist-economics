@@ -1,6 +1,5 @@
 # Rate of profit and organic composition of capital
 
-%=========================================================
 
 The **rate of profit} is the central ratio from the capitalist point
 of view. It measures the surplus value obtained per unit of total capital
@@ -12,7 +11,7 @@ $$
 $$
 
 
-From the definition of the exploitation rate in Eq.~\eqref{eq:exploitation-time},
+From the definition of the exploitation rate in Eq.~eq.,
 \(e = s/v\), we have \(s = e v\), so we can rewrite the rate of profit as
 $$
   r = \frac{e v}{c + v}
@@ -34,19 +33,13 @@ $\exploitrate = 100%$, i.e.\ $\surplus = \varcap$, and set $\varcap=100$
 as a numéraire. We examine what happens to $\profitrate$ as the ratio
 $\constcap/\varcap$ rises.
 
-\begin{center}
-\begin{tabular}{@{}lrrr@{}}
-\toprule
-$c/v$ & $c$ & $s$ & $r = \dfrac{s}{c+v}$ \\
-\midrule
-$0.5$ & $50$  & $100$ & $\approx 66.7%$ \\
-$1.0$ & $100$ & $100$ & $50.0%$        \\
-$2.0$ & $200$ & $100$ & $\approx 33.3%$ \\
-$4.0$ & $400$ & $100$ & $20.0%$        \\
-$8.0$ & $800$ & $100$ & $\approx 11.1%$ \\
-\bottomrule
-\end{tabular}
-\end{center}
+
+{@{}lrrr@{}}
+
+$c/v$ & $c$ & $s$ & $r = \dfrac{s}{c+v}$ \\n
+$0.5$ & $50$  & $100$ & $\approx 66.7%$ \\n$1.0$ & $100$ & $100$ & $50.0%$        \\n$2.0$ & $200$ & $100$ & $\approx 33.3%$ \\n$4.0$ & $400$ & $100$ & $20.0%$        \\n$8.0$ & $800$ & $100$ & $\approx 11.1%$ \\n
+
+
 
 Even with a constant rate of exploitation $e = s/v = 100%$, the rate of profit $r$ falls as capital becomes more “machine-heavy” relative to wages (as the ratio $c/v$ rises). This logical connection between a rising organic composition of capital $c/v$ and a falling profit rate $r$ is at the heart of Marx’s *law of the tendency of the rate of profit to fall} (TRPF).[Roberts2015,Shaikh2016]
 
@@ -57,7 +50,7 @@ Even with a constant rate of exploitation $e = s/v = 100%$, the rate of profit $
 
 So far we have treated $\surplus$ and $\profitrate$ at the level of production:
 surplus value is produced where living labour is set to work, and the profit rate
-is $\profitrate = \surplus/(\constcap+\varcap)$ (Eq.~\eqref{eq:profit-rate-basic}).
+is $\profitrate = \surplus/(\constcap+\varcap)$ (Eq.~eq.).
 But on the surface of capitalist society, capitals do not simply pocket the surplus
 they individually produce. They compete, they move, and they compare returns.
 This movement produces a *tendency} toward an *average} rate of profit.
@@ -174,7 +167,7 @@ cannot be read off as ``the surplus produced here'' without specifying the level
 ### A two-industry illustration (values vs.\ prices of production)
 
 
-\begin{example}[Two industries and the redistribution of surplus value]
+!!! example "Example: Two industries and the redistribution of surplus value"
 Assume two industries, $A$ and $B$, with a common exploitation rate $\exploitrate = 100%$,
 so $\surplus_i = \varcap_i$. Let $\varcap_A=\varcap_B=100$, and let $A$ be lower-composition
 and $B$ higher-composition:
@@ -187,12 +180,11 @@ Since $\exploitrate=100%$, we have
 \[
   \surplus_A=\varcap_A=100,\qquad \surplus_B=\varcap_B=100.
 \]
-So values (Eq.~\eqref{eq:value-output-industry}) are:
+So values (Eq.~eq.) are:
 \[
-\begin{aligned}
-w_A &= c_A + v_A + s_A = 50 + 100 + 100 = 250,\\
-w_B &= c_B + v_B + s_B = 150 + 100 + 100 = 350.
-\end{aligned}
+
+w_A &= c_A + v_A + s_A = 50 + 100 + 100 = 250,\\nw_B &= c_B + v_B + s_B = 150 + 100 + 100 = 350.
+
 \]
 
 \paragraph{Step 2: The average profit rate.}
@@ -202,19 +194,17 @@ Totals are $C=200$, $V=200$, $\surplus=200$, so the average profit rate is
 \]
 
 \paragraph{Step 3: Prices of production and profits received.}
-Prices of production (Eq.~\eqref{eq:price-of-production}) are:
+Prices of production (Eq.~eq.) are:
 \[
-\begin{aligned}
-p_A &= (c_A + v_A)(1+r) = (50+100)(1.5) = 225,\\
-p_B &= (c_B + v_B)(1+r) = (150+100)(1.5) = 375.
-\end{aligned}
+
+p_A &= (c_A + v_A)(1+r) = (50+100)(1.5) = 225,\\np_B &= (c_B + v_B)(1+r) = (150+100)(1.5) = 375.
+
 \]
 Profits received are \(\pi_i = p_i - (c_i+v_i)=r(c_i+v_i)\), hence
 \[
-\begin{aligned}
-\pi_A &= 0.5 \times 150 = 75,\\
-\pi_B &= 0.5 \times 250 = 125.
-\end{aligned}
+
+\pi_A &= 0.5 \times 150 = 75,\\n\pi_B &= 0.5 \times 250 = 125.
+
 \]
 
 \paragraph{Step 4: Who transfers surplus value, and who receives it?}
@@ -231,18 +221,14 @@ Industry $B$ sells *above} its value ($375>350$) and receives more profit than t
 \begingroup
 \setlength{\tabcolsep}{6pt}
 \renewcommand{\arraystretch}{1.15}
-\begin{center}
-\begin{tabular}{@{}lrrrrrrr@{}}
-\toprule
-Industry & $c$ & $v$ & $s$ (produced) & $w=c+v+s$ & $k=c+v$ & $p=k(1+\profitrate)$ & $\pi=\profitrate k$ \\
-\midrule
-$A$ & 50  & 100 & 100 & 250 & 150 & 225 & 75  \\
-$B$ & 150 & 100 & 100 & 350 & 250 & 375 & 125 \\
-\midrule
-Total & 200 & 200 & 200 & 600 & 400 & 600 & 200 \\
-\bottomrule
-\end{tabular}
-\end{center}
+
+{@{}lrrrrrrr@{}}
+
+Industry & $c$ & $v$ & $s$ (produced) & $w=c+v+s$ & $k=c+v$ & $p=k(1+\profitrate)$ & $\pi=\profitrate k$ \\n
+$A$ & 50  & 100 & 100 & 250 & 150 & 225 & 75  \\n$B$ & 150 & 100 & 100 & 350 & 250 & 375 & 125 \\n
+Total & 200 & 200 & 200 & 600 & 400 & 600 & 200 \\n
+
+
 \endgroup
 
 \paragraph{Aggregate identities (the punchline).}
@@ -263,7 +249,7 @@ It means that, through the movement of capitals and the coercive discipline of c
 techniques, branch allocations, and capacities are pressured toward the social average, with crises and devaluation as violent moments of rebalancing.
 This is why Marx treats prices of production as *mediations}: they are the forms through which the underlying value relations
 appear and operate in capitalist reality, not a separate sphere that floats free of production.
-\end{example}
+
 
 
 ## Modern intuition
@@ -281,4 +267,3 @@ diffuses, the industry-wide \snlt{} falls, values fall, and competitive
 pressures reassert themselves. At a given or even rising exploitation rate,
 the long-run tendency is for \profitrate{} to come under pressure.
 
-%=========================================================

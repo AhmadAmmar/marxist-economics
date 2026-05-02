@@ -1,6 +1,5 @@
 # The tendency of the rate of profit to fall and its countertendencies
 
-%=========================================================
 
 Marx formulates the TRPF as a *tendency} of capitalist accumulation:[Marx1894,Roberts2015]
 
@@ -16,7 +15,7 @@ gradual fall of the general rate of profit \dots''}[Marx1894]
 
 
 
-The mathematics is compact in Eq.~\eqref{eq:profit-rate-occ}: if \OCC{} rises while $e$ is constant, then the rate of profit $r$ must fall. But Marx immediately adds that this tendency is modified by counteracting influences.
+The mathematics is compact in Eq.~eq.: if \OCC{} rises while $e$ is constant, then the rate of profit $r$ must fall. But Marx immediately adds that this tendency is modified by counteracting influences.
 
 
 ## Counteracting tendencies

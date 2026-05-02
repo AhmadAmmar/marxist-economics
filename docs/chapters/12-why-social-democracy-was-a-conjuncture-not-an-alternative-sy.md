@@ -1,6 +1,5 @@
 # Why social democracy was a conjuncture, not an alternative system
 
-%=========================================================
 
 Liberals often say: ``Communism is too extreme. Let's aim for social democracy.'' In everyday discussion,
 ``social democracy'' is treated as if it were a different economic system: capitalism with a human face.
@@ -18,15 +17,12 @@ To make this concrete, we need a short historical map: how capitalism expanded g
 recur, why the post-war boom was exceptional, why neoliberalism followed, and why ``returning'' to that earlier
 compromise is structurally blocked today.
 
-% Hide the many subsections of this long historical section from the TOC
 \setcounter{tocdepth}{1}
 
-%---------------------------------------------------------
 
 ## Colonialism, the world market, and why capital must expand
 
 
-%---------------------------------------------------------
 
 Capitalism does not grow peacefully inside national borders. It generalises commodity production and then
 compels expansion: more markets, more inputs, cheaper labour, and new outlets for accumulated capital.
@@ -46,12 +42,10 @@ the fusion of concentrated capital with state power in the struggle over world-s
 This does not mean that every war has one simple cause. It means that, under capitalism, rivalry over world-market
 advantage and control over conditions of accumulation is not accidental. It is structural.
 
-%---------------------------------------------------------
 
 ## War, depression, and the reorganisation of capitalism (1914--1945)
 
 
-%---------------------------------------------------------
 
 The first half of the twentieth century shows the brutal logic of capitalist rivalry and crisis.
 
@@ -74,12 +68,10 @@ enormous masses of capital and human life. That destruction was barbaric—but i
 accumulation. One cannot understand the post-war boom without understanding that war and depression forcibly
 restructured the system: debts were rewritten, industries were reorganised, and global leadership changed.
 
-%---------------------------------------------------------
 
 ## The post-war boom and the social-democratic compromise (roughly 1945--early 1970s)
 
 
-%---------------------------------------------------------
 
 After 1945, much of Western Europe and Japan underwent reconstruction. The period from the late 1940s through
 the early 1970s is often described as a ``Golden Age'' of capitalism: rapid growth, rising productivity, and,
@@ -109,12 +101,10 @@ because the mass of profits could still expand.
 But the compromise was conditional. It worked only so long as the underlying engine—profitability in the productive
 economy—could sustain it.
 
-%---------------------------------------------------------
 
 ## Why the boom broke: profitability, stagflation, and the crisis of the 1970s
 
 
-%---------------------------------------------------------
 
 The post-war boom did not end because society became less reasonable. It ended because capitalism's contradictions
 reasserted themselves.
@@ -133,12 +123,10 @@ problem.
 The political conclusion drawn by ruling classes was clear: the post-war compromise had to be dismantled to restore
 profitability and discipline labour.
 
-%---------------------------------------------------------
 
 ## Monetarism and neoliberalism: restoring class power
 
 
-%---------------------------------------------------------
 
 What followed is now called neoliberalism: privatisation, deregulation, attacks on unions, cuts to social spending,
 and the reorientation of states toward ``market confidence.'' This was not merely an ideological fad. It was a class
@@ -156,12 +144,10 @@ treat social spending as a cost, not a right.
 This is why, even where social-democratic parties remained in office, they increasingly administered neoliberal policy.
 The system's constraints tightened, and reformist parties became managers of austerity.
 
-%---------------------------------------------------------
 
 ## The global South as laboratory: debt, coups, and structural adjustment
 
 
-%---------------------------------------------------------
 
 Neoliberalism was not rolled out only through elections. It was imposed through coups, repression, and debt regimes,
 especially in the global South.
@@ -176,12 +162,10 @@ to creditors.
 This history matters for countries like Pakistan because it clarifies that fiscal policy is not only a domestic choice.
 External debt, import dependence, and creditor conditionality shape what states are ``allowed'' to do under capitalism.
 
-%---------------------------------------------------------
 
 ## Belated capitalism, combined and uneven development, and the bourgeois-democratic impasse
 
 
-%---------------------------------------------------------
 
 A further clarification is needed for much of the global South: capitalism does not arrive everywhere as a
 ``clean'' national development sequence in which an independent bourgeoisie steadily builds an industrial
@@ -223,12 +207,10 @@ working-class struggle for power: decommodification of essentials, democratic co
 breaking the mechanisms of imperial and creditor discipline.[PeetUnholyTrinity,HarveyNeoliberalism]
 
 
-%---------------------------------------------------------
 
 ## Financialisation and bubble-led management: dot-com to housing
 
 
-%---------------------------------------------------------
 
 As productive investment became more difficult or less profitable, capitalism leaned harder on finance, asset prices,
 and credit expansion. This is the context for repeated bubble cycles.
@@ -249,12 +231,10 @@ collapsed when repayment and realisation failed.
 From a Marxist standpoint, these crises are not simply regulatory accidents. They are expressions of a system trying
 to offset profitability and realisation problems by expanding financial claims.
 
-%---------------------------------------------------------
 
 ## After 2008: austerity, revolt, and the rise of the far right
 
 
-%---------------------------------------------------------
 
 After 2007--08, states intervened massively to stabilise banks and financial markets, while much of the cost was pushed
 onto working classes through austerity, wage restraint, privatisation, and degraded public services. This was not
@@ -274,12 +254,10 @@ often cannot defeat this; it frequently feeds it by policing dissent and protect
 This is one reason the question of social democracy returns today as nostalgia: people feel the loss of security,
 services, and meaning. But nostalgia is not a strategy.
 
-%---------------------------------------------------------
 
 ## Why you cannot simply ``return'' to social democracy today
 
 
-%---------------------------------------------------------
 
 Even if one admires the best welfare achievements of the post-war period, restoring that regime today is structurally
 blocked under contemporary capitalism.
@@ -311,12 +289,10 @@ New Deal inside the market''—run into the structural limits already developed 
 of the capitalist veto and crisis management in Section~sec:policy-fixes-veto.) Reforms matter, but
 reformism fails: the system can shed a reform regime when profitability, competition, and class power demand it.
 
-%---------------------------------------------------------
 
 ## What this means for strategy: reforms as struggle, socialism as a necessity
 
 
-%---------------------------------------------------------
 
 The Marxist conclusion is not that reforms are pointless. It is that reforms must be understood as *sites of struggle}
 that can build power, expose limits, and create openings—rather than as a parliamentary substitute for transforming property
@@ -343,7 +319,5 @@ turn—are produced by a system in which production and investment are governed 
 A democratic, planned, internationally coordinated reorganisation of the economy is not the ``extreme'' option; it is the
 option adequate to the scale of the contradictions.
 
-% Restore subsections in the TOC from here onward
 \setcounter{tocdepth}{2}
 
-%=========================================================

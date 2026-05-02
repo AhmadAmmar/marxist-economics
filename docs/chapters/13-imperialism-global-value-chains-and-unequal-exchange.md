@@ -1,6 +1,5 @@
 # Imperialism, global value chains, and unequal exchange
 
-%=========================================================
 
 Capitalism is a world system. Marx wrote about the world market and colonial plunder; later Marxists
 analysed imperialism as a phase in which monopolies, capital exports, and state power become central.[LeninImperialism,PatnaikImperialism]
@@ -22,12 +21,10 @@ In other words: the world market is not a neutral meeting-point of equals. It is
 asymmetries of ownership and coercion.
 
 
-%---------------------------------------------------------
 
 ## Unequal exchange in practice
 
 
-%---------------------------------------------------------
 
 Consider again:
 
@@ -118,4 +115,3 @@ but because creditors and the world market enforce specific reproduction conditi
 This directly affects class struggle: workers, peasants, and oppressed genders face both the local bourgeoisie and global institutions
 as they fight for wages, land, services, and democratic rights.
 
-%=========================================================

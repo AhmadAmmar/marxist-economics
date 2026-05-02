@@ -1,6 +1,5 @@
 # Policy fixes, reformism, and the capitalist veto
 
-%=========================================================
 
 When crises intensify, politics usually floods with proposals that promise to stabilise capitalism without
 touching ownership: raise the minimum wage, tax the rich, give everyone cash (UBI), print money (QE/MMT),
@@ -52,12 +51,10 @@ feasible, and which priorities society sets under democratic control.
 
 
 
-%---------------------------------------------------------
 
 ## Minimum wage: why a good law meets a structural constraint
 
 
-%---------------------------------------------------------
 
 Consider a large legal increase in the minimum wage, for example a guaranteed living wage. On paper this is a gain.
 But the law immediately collides with the relation developed earlier: labour-power is purchased as *variable
@@ -87,12 +84,10 @@ evade, relocate, or recapture the gain through prices and intensified labour. Th
 the more socialised the provision of essentials (housing, transport, healthcare, energy), the more durable a wage gain
 can become.
 
-%---------------------------------------------------------
 
 ## Progressive taxation: redistribution meets capital mobility and state dependence
 
 
-%---------------------------------------------------------
 
 Progressive taxation is another common solution: tax profits, wealth, and high incomes to fund social spending. From a
 Marxian perspective, the first point is simple: taxes do not abolish exploitation; they redistribute claims on social
@@ -110,13 +105,11 @@ So the Marxian point is not ``taxation never helps.'' It is: taxation that serio
 property tends to trigger a confrontation with capital's structural power. If that confrontation is not met with organised
 power and controls over finance and investment, redistribution is diluted, reversed, or captured.
 
-%---------------------------------------------------------
 
 ## UBI: cash without decommodification
 
 
 
-%---------------------------------------------------------
 
 A universal basic income (UBI) proposes unconditional cash payments. In principle, it can reduce poverty and provide
 a survival floor. The Marxian question is: does a cash grant decommodify life, or does it become another money stream
@@ -135,12 +128,10 @@ socialised housing, transport, energy, healthcare, education, and care. These ar
 capital's ability to recapture wage gains and cash transfers through prices, and they shift part of social reproduction
 out of the market.
 
-%---------------------------------------------------------
 
 ## Quantitative easing and ``printing money'': expanding claims versus producing value
 
 
-%---------------------------------------------------------
 
 Quantitative easing (QE) and related ``print money'' proposals are often framed as a technical solution: if the state can
 create money, why not fund jobs, services, and investment directly? Marxian political economy begins by separating two
@@ -158,12 +149,10 @@ profits and interest-bearing claims must be validated by production and realisat
 are decisive, or oligopolies dominate essentials, money injections can reappear as price inflation and renewed class
 discipline. The question is not whether money can be created, but who controls production, pricing, and allocation.
 
-%---------------------------------------------------------
 
 ## Job guarantees and Keynesian stimulus: demand management without investment control
 
 
-%---------------------------------------------------------
 
 A Job Guarantee (JG) or large fiscal stimulus is often posed as an alternative to UBI: instead of paying people to exist,
 the state directly employs them and stabilises demand. Such measures can reduce unemployment and build useful infrastructure.
@@ -176,12 +165,10 @@ control over investment and strategic sectors.
 This is a recurring pattern: the state can absorb some unemployment and fund projects, but if capital remains free to
 withhold investment, relocate, or raise prices, the system fights back against reforms that shift power to labour.
 
-%---------------------------------------------------------
 
 ## Debt relief, jubilees, and bailouts: revaluing claims without transforming production
 
 
-%---------------------------------------------------------
 
 Debt relief can be necessary. In a debt-driven economy, households, firms, and states can become locked into servicing
 claims that are no longer compatible with living standards and productive capacity. From a Marxian standpoint, debt is a
@@ -195,12 +182,10 @@ credit allocation, the debt machine tends to rebuild itself through new lending,
 Debt relief is therefore best understood not as a final solution but as a terrain of struggle over who bears crisis costs,
 and whether finance remains a private power or is brought under democratic control.
 
-%---------------------------------------------------------
 
 ## ``Green capitalism'': carbon markets, offsets, ESG, and climate finance
 
 
-%---------------------------------------------------------
 
 The dominant ruling-class response to ecological crisis increasingly takes the form of ``green capitalism'': carbon pricing,
 offset markets, ESG metrics, green bonds, and climate-finance instruments. Some of these measures can shift relative prices
@@ -219,12 +204,10 @@ problem. It requires deliberate decisions about what to phase out, what to build
 materials under democratic control. That, in turn, requires confronting ownership in energy, transport, housing, land, and
 finance.
 
-%---------------------------------------------------------
 
 ## Regulation-only fixes: antitrust and ``better governance''
 
 
-%---------------------------------------------------------
 
 Finally, there are proposals that aim to civilise capitalism through regulation: antitrust, platform rules, transparency,
 corporate governance reform. Such measures can curb specific abuses. But they do not abolish exploitation, competition, or
@@ -232,12 +215,10 @@ the profit imperative. Monopolies and oligopolies are not just policy accidents;
 concentration, and control over chokepoints (land, finance, logistics, intellectual property). Regulation can change tactics.
 It does not remove the underlying compulsion that drives the system toward crisis and toward new forms of domination.
 
-%---------------------------------------------------------
 
 ## The general point: what these fixes can and cannot do
 
 
-%---------------------------------------------------------
 
 The common thread is not that reforms are irrelevant. It is that reforms which act mainly on *distribution},
 *circulation}, or *regulation}, while leaving the ownership and control of production intact, cannot eliminate the
@@ -249,12 +230,10 @@ measures that neutralise the capitalist veto.
 This is why crisis management so often feeds directly into financialisation (the next section): when productive profitability
 is weak and deeper transformations are blocked, the system leans harder on credit, asset prices, and speculative claims.
 
-%=========================================================
 
 ## Reforms as struggle: making gains durable by confronting power
 
 
-%=========================================================
 
 Communists therefore fight on two levels at once.
 
@@ -281,4 +260,3 @@ In short: reforms matter, but reformism fails. Parliamentary measures can win re
 are rooted in production and property relations. To move beyond recurring crisis, society must bring investment, production, and
 the conditions of life under democratic control. That is the horizon that gives reform struggles their strategic direction.
 
-%=========================================================

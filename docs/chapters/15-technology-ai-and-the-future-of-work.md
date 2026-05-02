@@ -1,6 +1,5 @@
 # Technology, AI, and the future of work
 
-%=========================================================
 
 From automatic looms to industrial robots to AI systems, capital constantly
 seeks to reduce its dependence on living labour. This is both a driver of
@@ -11,7 +10,7 @@ productivity and a source of contradiction.
 
 
 Automation tends to increase $\constcap$ relative to $\varcap$, raising \OCC{}
-and putting downward pressure on \profitrate{} (\cref{sec:rate-profit}). At
+and putting downward pressure on \profitrate{} (this section). At
 the same time, it cheapens many goods, raises the technical capacity of
 society, and potentially frees time for education, art, care, and play.
 
@@ -100,4 +99,3 @@ and open access to essential datasets and models as public goods rather than pri
 In transition, this is one concrete meaning of freeing technology from the profit motive: directing
 digital capacity toward collective planning and safety rather than accumulation and control.
 
-%=========================================================

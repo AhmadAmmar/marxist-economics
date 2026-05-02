@@ -1,6 +1,5 @@
 # Social reproduction, unpaid labour, and gender
 
-%=========================================================
 
 Class struggle does not occur only in the workplace. The reproduction of labour-power---the everyday and generational work of keeping
 human beings alive, functional, and able to return to work---is itself a site of struggle. This includes feeding, cleaning, rest and recovery,
@@ -66,4 +65,3 @@ Marxian political economy enriched by social reproduction theory therefore
 links factory, office, and platform struggles with feminist, queer, and
 anti-racist movements.[BhattacharyaSRT]
 
-%=========================================================

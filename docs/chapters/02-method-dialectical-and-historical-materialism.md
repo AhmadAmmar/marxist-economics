@@ -1,6 +1,5 @@
 # Method: dialectical and historical materialism
 
-%=========================================================
 
 Marx did not start from ethics (*capitalism is bad because it is unfair})
 but from a method of analysing how societies reproduce themselves over time.
@@ -124,38 +123,31 @@ hunting, fishing, and foraging.[LeeDaly1999]
 If we take \(\sim 315{,}000\) years as a conservative baseline for *Homo sapiens} and \(\sim 11{,}700\) years for the onset of the Holocene, then foraging-dominant reproduction represents roughly \(95\)–\(97%\) of our species’ time. What people often remember as ``\(\sim 10{,}000\) years ago'' is usually the *Neolithic transition}: the uneven, regionally staggered onset of domestication, sedentism, and storage beginning around the terminal Pleistocene/early Holocene (on the order of 12--10k years ago in several regions). But *state-based} class society in the stricter sense---city--state complexes with taxation/tribute apparatuses, bureaucracy, durable institutionalised stratification, and (in some cases) written administration---becomes archaeologically legible later in some core regions, often in the fourth millennium BCE (hence a rough ``\(\sim 5\)–\(6\)k years'' anchor).[Scott2017]\footnote{These are *markers}, not a single global clock. Farming spreads unevenly; some societies remain primarily foraging-based for millennia; and inequality can appear without full state formation. The point here is proportionality and historicity: the commodity-form and capitalism occupy a thin slice of our species history.}
 
 
-% --- Requires in preamble (once): \usepackage{booktabs,tabularx}
-\begin{table}[htbp]
+[htbp]
 \centering
 \small
 \setlength{\tabcolsep}{4pt} % tighter columns
 \renewcommand{\arraystretch}{1.15} % slightly taller rows
-\begin{tabularx}{\linewidth}{@{}Xrr@{}}
-\toprule
+{\linewidth}{@{}Xrr@{}}
+
 **Marker (indicative horizon; not a single ``stage'')} &
 **Approx.\ years} &
-**Share of sapiens time} \\
-\midrule
+**Share of sapiens time} \\n
 Foraging-dominant reproduction (baseline \(\rightarrow\) Holocene climatic regime) &
 \(\sim 303{,}000\) &
-\(\sim 96%\) \\
-Neolithic transitions begin (cultivation/domestication, sedentism, storage in multiple regions) &
+\(\sim 96%\) \\nNeolithic transitions begin (cultivation/domestication, sedentism, storage in multiple regions) &
 \(\sim 12{,}000\) &
-\(\sim 3.8%\) \\
-Holocene begins (climatic context for many domestication trajectories) &
+\(\sim 3.8%\) \\nHolocene begins (climatic context for many domestication trajectories) &
 \(\sim 11{,}700\) &
-\(\sim 3.7%\) \\
-State-based class societies (cities/states; tax/tribute; bureaucracy; durable stratification) &
+\(\sim 3.7%\) \\nState-based class societies (cities/states; tax/tribute; bureaucracy; durable stratification) &
 \(\sim 5{,}500\) &
-\(\sim 1\)–\(2%\) \\
-Capitalism (world-market formation; colonial expansion; generalised commodity dependence consolidates later) &
+\(\sim 1\)–\(2%\) \\nCapitalism (world-market formation; colonial expansion; generalised commodity dependence consolidates later) &
 \(\sim 500\) &
-\(\sim 0.1\)–\(0.2%\) \\
-\bottomrule
-\end{tabularx}
+\(\sim 0.1\)–\(0.2%\) \\n
+
 \caption{Compressed time-scales to keep ``historicity'' concrete. Percentages are shares of \(\sim 315{,}000\) years and are *not additive}:
 rows mark overlapping horizons rather than mutually exclusive periods.[Hublin2017,Richter2017,Walker2018Holocene,LeeDaly1999,Zeder2011,Scott2017,WoodOriginCapitalism]}
-\end{table}
+
 
 
 
@@ -321,4 +313,3 @@ That position gives the working class a strategic capacity no other exploited gr
 and reorganise labour on a different basis. A socialist transition is not simply swapping rulers; it is workers and their allies seizing the means of production and
 reproduction and bringing them under democratic control, so that automation and productivity become a common good rather than a weapon against labour.
 
-%=========================================================

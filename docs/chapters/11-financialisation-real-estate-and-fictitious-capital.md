@@ -1,17 +1,14 @@
 # Financialisation, real estate, and fictitious capital
 
-%=========================================================
 
 When profitability in productive sectors is squeezed, capital tends to
 search for easier routes to profit: finance, real estate, speculation on
 currencies and commodities. This is often called **financialisation}.
 
-%---------------------------------------------------------
 
 ## Fictitious capital
 
 
-%---------------------------------------------------------
 
 **Fictitious capital} refers to *tradable claims} on future income streams
 ultimately grounded in surplus value: shares (claims on profits/dividends), bonds and loans
@@ -47,12 +44,10 @@ the expectations embedded in $K_f$ become incompatible with the underlying capac
 and realisation to sustain those cash flows. Asset prices then fall sharply, destroying or
 revaluing paper wealth, while leaving behind debts, unemployment, and social damage.
 
-%---------------------------------------------------------
 
 ## Tech hype as a vehicle for speculative valuation
 
 
-%---------------------------------------------------------
 
 A contemporary cultural form of fictitious capital is techno-utopian speculation: venture-funded firms and their investors often sell not present profitability but stories about future monopoly positions and future command over revenue streams. Under conditions of weak productive profitability, capital
 hunts for assets whose *valuation} can be pushed upward faster than any measured improvement
@@ -72,12 +67,10 @@ open-access health systems, resilient grids---are chronically underbuilt, while 
 can attract extraordinary funding. The difference is not technical feasibility alone; it is the
 difference between what meets needs and what can be owned, priced, and capitalised.
 
-%---------------------------------------------------------
 
 ## Example: real estate and speculation in Pakistan
 
 
-%---------------------------------------------------------
 
 In many parts of the global South, including Pakistan, the combination of
 energy costs, infrastructural bottlenecks, political instability, and import
@@ -196,4 +189,3 @@ sustain accumulation temporarily by absorbing surplus capital and credit, but it
 fragile and rent-heavy economy whose ``growth'' depends on rising claims rather than rising social capacity.
 
 
-%=========================================================

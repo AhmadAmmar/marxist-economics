@@ -1,6 +1,5 @@
 # Labour-power, wages, surplus labour, and surplus value
 
-%=========================================================
 
 A central conceptual breakthrough in *Capital} is the distinction between
 **labour} and **labour-power}.[Marx1867]
@@ -155,9 +154,7 @@ But the capitalist has purchased control over labour-power for the *whole} day $
 so the surplus value is the difference:
 $$
   s
-  &= \MELT \, T \;-\; \MELT \, \Tn \\
-  &= \MELT \, (T - \Tn) \\
-  &= \MELT \, \Ts.
+  &= \MELT \, T \;-\; \MELT \, \Tn \\n  &= \MELT \, (T - \Tn) \\n  &= \MELT \, \Ts.
 $$
 So $s$ is the quantitative expression of surplus labour time mediated through money.
 
@@ -300,7 +297,7 @@ relation, but ultimately the abolition of the wage relation itself.\footnote{In 
 
 Consider a barista in a large coffee chain in a global North city.
 
-\begin{example}[A coffee-shop worker]
+!!! example "Example: A coffee-shop worker"
 Suppose:
 
 [leftmargin=1.5em]
@@ -328,13 +325,10 @@ The total value of the day's output is \$800.  Of this, \$300 is just the value 
 used-up constant capital $\constcap$ being transferred to the finished products.
 The remainder must therefore be new value created by living labour:
 $$
-  \text{Total value of output} &= \$800,\\
-  \text{Value of used-up constant capital } (\constcap) &= \$300,\\[0.5em]
+  \text{Total value of output} &= \$800,\\n  \text{Value of used-up constant capital } (\constcap) &= \$300,\\[0.5em]
   \Rightarrow\quad
   \text{New value created by labour } (\varcap + \surplus)
-    &= \text{Total value} - \text{Constant capital}\\
-    &= \$800 - \$300\\
-    &= \$500.
+    &= \text{Total value} - \text{Constant capital}\\n    &= \$800 - \$300\\n    &= \$500.
 $$
 So the labour of the barista has added \$500 of new value during the shift:
 \[
@@ -353,9 +347,7 @@ This \$100 is the value of variable capital $\varcap$:
 The rest of the new value is surplus-value $\surplus$:
 $$
   \surplus
-    &= (\varcap + \surplus) - \varcap\\
-    &= \$500 - \$100\\
-    &= \$400.
+    &= (\varcap + \surplus) - \varcap\\n    &= \$500 - \$100\\n    &= \$400.
 $$
 So
 \[
@@ -429,7 +421,7 @@ rent to the landlord, franchise fees to the global brand, and taxes to
 the state. Marx’s key point is that all of these streams ultimately
 originate in unpaid surplus labour time like that of this barista.
 
-\end{example}
+
 
 
 ## Forms of wages: time-wages and piece-wages
@@ -527,7 +519,7 @@ single firm-year account, but rather calculated to make the class
 relation---wage, labour-time, producer-stage cost, surplus, and downstream
 price-forms---understandable for the reader.
 
-\begin{example}[Sialkot football stitching: piece-wage, implied time-wage, and the retail-price gap]
+!!! example "Example: Sialkot football stitching: piece-wage, implied time-wage, and the retail-price gap"
 
 
 A piece-wage can be rewritten as a time-wage once we specify the time required
@@ -683,7 +675,7 @@ We return to the same industry in Example~ex:sialkot-costtable, after
 introducing constant capital, variable capital, cost price, and producer-stage
 surplus.
 
-\end{example}
+
 
 \paragraph{Piece-rates and technological change.}
 The Sialkot case also shows why technology is never just a neutral matter of
@@ -764,4 +756,3 @@ the global chain through control of intellectual property, market access, financ
 and pricing power (including transfer pricing and monopoly rents).[Smith2016,Hickel2022]
 
 
-%=========================================================

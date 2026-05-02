@@ -1,6 +1,5 @@
 # Crises, cycles, and unemployment
 
-%=========================================================
 
 Mainstream economics often treats crises as the result of ``shocks'': a bad
 policy, a pandemic, an oil price spike. Marxian political economy instead
@@ -131,12 +130,11 @@ Write their outputs in value terms as:
   W_{II} = c_{II} + v_{II} + s_{II}.
 \]
 
-\begin{example}[Simple reproduction and the realisation constraint]
+!!! example "Example: Simple reproduction and the realisation constraint"
 Consider a toy “balanced” case (values in money units):
 
 $$
-\text{Dept.\ I: } \;&(c_I,v_I,s_I)=(400,100,100) \Rightarrow W_I=600,\\
-\text{Dept.\ II: } \;&(c_{II},v_{II},s_{II})=(200,100,100) \Rightarrow W_{II}=400.
+\text{Dept.\ I: } \;&(c_I,v_I,s_I)=(400,100,100) \Rightarrow W_I=600,\\n\text{Dept.\ II: } \;&(c_{II},v_{II},s_{II})=(200,100,100) \Rightarrow W_{II}=400.
 $$
 
 For the system to reproduce at the same scale (simple reproduction), Dept.\ II must replace its
@@ -157,7 +155,7 @@ Then Dept.\ II cannot sell the same mass of consumption goods, it cannot realise
 and it cannot replace $c_{II}$ at the required scale. The crisis appears as “insufficient demand,”
 but the trigger is a breakdown in the circuit of accumulation and replacement---especially in the
 investment-driven demand for Dept.\ I outputs and the income streams tied to it.
-\end{example}
+
 
 This is why Marxists treat “underconsumption” as a real constraint on mass life, but not as a full
 explanation of crisis timing: the volatile pivot is accumulation and replacement, i.e.\ investment,
@@ -243,7 +241,7 @@ This debate has practical implications.
 A pure underconsumption story easily slides into the claim that capitalism can be stabilised
 primarily through redistribution: raise wages, expand welfare, boost demand.
 Marxists do fight for wages and services, but the pamphlet’s point about the capitalist veto
-(\cref{sec:policy-fixes-veto}) still applies: sustained redistribution that materially shifts power toward labour
+(this section) still applies: sustained redistribution that materially shifts power toward labour
 tends to trigger price recapture, disinvestment, relocation, credit sabotage, or political
 counter-attack unless ownership and investment control are confronted.
 
@@ -336,4 +334,3 @@ can all be read through this lens.[Roberts2015,HarveyCompanion]
 
 
 
-%=========================================================

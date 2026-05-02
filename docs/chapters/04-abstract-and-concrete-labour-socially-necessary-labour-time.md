@@ -1,6 +1,5 @@
 # Abstract and concrete labour
 
-%=========================================================
 
 Every act of labour is concrete: a nurse tending patients, a teacher
 preparing a lesson, a coder debugging, a farmer transplanting rice seedlings.
@@ -53,4 +52,3 @@ industry norm, the value of the commodity falls—even if the selling price
 only gradually adjusts.
 
 
-%=========================================================
