@@ -43,7 +43,7 @@ surveillance, and exhaustion rather than emancipation.
 In many workplaces, AI and digital systems are currently used as tools of
 management and control:
 
-- automated scheduling, productivity tracking, and ratings in logistics and platform work;[WoodEtAl2019]
+- automated scheduling, productivity tracking, and ratings in logistics and platform work;[WoodEtAl2019](../references.md#woodetal2019)
 - algorithmic management in call centres and warehouses;
 - predictive policing and risk scoring in welfare systems.
 
@@ -56,7 +56,7 @@ intensify exploitation and surveillance, not to liberate time.
 
 The same clarity applies to the material infrastructure behind “AI”: data centres, fibre networks,
 server farms, and the mining and assembly labour embedded in hardware. These are not abstract clouds;
-they are energy- and water-intensive industrial systems.[IEADataCentres2019] The ecological question is therefore not
+they are energy- and water-intensive industrial systems.[IEADataCentres2019](../references.md#ieadatacentres2019) The ecological question is therefore not
 whether computation exists, but *what it is used for*, *who controls it*, and *how its costs
 and benefits are allocated*.
 

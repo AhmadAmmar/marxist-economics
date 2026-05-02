@@ -25,3 +25,32 @@
 - Rosenberg, J. (2006) “Why is there no International Historical Sociology?” *European Journal of International Relations*, 12(3), 307–340. (Develops the concept of uneven and combined development in IR/IHS.)
 - The Struggle (Pakistan) (2024) *Pakistan Perspective 2024–25* [PDF]. Available at: <https://www.struggle.pk/wp-content/uploads/2024/02/The-Struggle-Pakistan-Perspective-2024-25-PDF-Final.pdf>.
 - Asian Marxist Review (2025) *A Turning Point in History: Trump, Crisis, and the Decline of the Liberal Order* (World Perspectives 2025) [English translation of the first draft of the Congress 2025 document]. Available at: <https://www.marxistreview.asia/wp-2025/>.
+
+
+## Citation key index
+
+- <span id="bhattacharyasrt"></span>**BhattacharyaSRT**
+- <span id="dedrickkraemerlinden2010"></span>**DedrickKraemerLinden2010**
+- <span id="engelsantiduhring"></span>**EngelsAntiDuhring**
+- <span id="engelsfuneral"></span>**EngelsFuneral**
+- <span id="federicicaliban"></span>**FedericiCaliban**
+- <span id="harveycompanion"></span>**HarveyCompanion**
+- <span id="harveyneoliberalism"></span>**HarveyNeoliberalism**
+- <span id="harveynewimperialism"></span>**HarveyNewImperialism**
+- <span id="hickel2022"></span>**Hickel2022**
+- <span id="ieadatacentres2019"></span>**IEADataCentres2019**
+- <span id="ipccar6wgiii"></span>**IPCCAR6WGIII**
+- <span id="leninimperialism"></span>**LeninImperialism**
+- <span id="marx1867"></span>**Marx1867**
+- <span id="marx1894"></span>**Marx1894**
+- <span id="marxgrundrisse"></span>**MarxGrundrisse**
+- <span id="patnaikimperialism"></span>**PatnaikImperialism**
+- <span id="peetunholytrinity"></span>**PeetUnholyTrinity**
+- <span id="roberts2015"></span>**Roberts2015**
+- <span id="rosenbergucd"></span>**RosenbergUCD**
+- <span id="shaikh2016"></span>**Shaikh2016**
+- <span id="smith2016"></span>**Smith2016**
+- <span id="strugglepk_tdr"></span>**StrugglePK_TDR**
+- <span id="strugglepk_worldperspectives"></span>**StrugglePK_WorldPerspectives**
+- <span id="trotskypermanentrevolution"></span>**TrotskyPermanentRevolution**
+- <span id="woodetal2019"></span>**WoodEtAl2019**

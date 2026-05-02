@@ -1,7 +1,7 @@
 # Constant and variable capital; circuits of capital
 
 To move from exploitation at the point of production to the dynamics of the
-system as a whole, we need to distinguish types of capital.[Marx1867]
+system as a whole, we need to distinguish types of capital.[Marx1867](../references.md#marx1867)
 
 ## Constant and variable capital
 
@@ -57,6 +57,10 @@ With this cleared up, we can return to the movement of capital itself: how money
 ## Circuits of capital
 
 Marx contrasts two circuits:
+$$
+\CMC: C \rightarrow M \rightarrow C,\qquad
+\MCM: M \rightarrow C \rightarrow M'.
+$$
 
 
   \CMC &: C \rightarrow M \rightarrow C,

@@ -36,7 +36,6 @@ $0.5$ & $50$  & $100$ & $\approx 66.7\%$
 
 $1.0$ & $100$ & $100$ & $50.0\%$        
 
-$2.0$ & $200$ & $100$ & $\approx 33.3\%$ 
 
 $4.0$ & $400$ & $100$ & $20.0\%$        
 
@@ -122,7 +121,7 @@ So industries with *above-average* $\constcap_i/\varcap_i$ tend to have $p_i>w_i
 (they receive more profit than the surplus they themselves produce), while those with
 *below-average* $\constcap_i/\varcap_i$ tend to have $p_i<w_i$.
 
-\subsubsection*{A two-industry illustration (values vs.\ prices of production)}
+### A two-industry illustration (values vs. prices of production)
 
 !!! example "Example"
     [Two industries and the redistribution of surplus value]
@@ -177,8 +176,12 @@ So industries with *above-average* $\constcap_i/\varcap_i$ tend to have $p_i>w_i
 
     
     
-    \setlength{\tabcolsep}{6pt}
-    \renewcommand{\arraystretch}{1.15}
+            
+    | Industry | $c$ | $v$ | $s$ produced | $w=c+v+s$ | $k=c+v$ | $p=k(1+r)$ | $\pi=rk$ |
+    |---|---:|---:|---:|---:|---:|---:|---:|
+    | $A$ | 50 | 100 | 100 | 250 | 150 | 225 | 75 |
+    | $B$ | 150 | 100 | 100 | 350 | 250 | 375 | 125 |
+    | **Total** | 200 | 200 | 200 | 600 | 400 | 600 | 200 |
     
     {@{}lrrrrrrr@{}}
     \toprule
@@ -208,7 +211,7 @@ So industries with *above-average* $\constcap_i/\varcap_i$ tend to have $p_i>w_i
     So prices of production redistribute surplus value; they do not create it. Market prices can
     fluctuate around $p_i$ due to demand, supply, monopoly power, state policy, and world-market
     conditions, but the competitive tendency toward average profit is the key mediating mechanism
-    through which labour-time asserts itself in the long run.[Marx1894,Shaikh2016]
+    through which labour-time asserts itself in the long run. [Marx1894](../references.md#marx1894); [Shaikh2016](../references.md#shaikh2016)
 
 ## Modern intuition
 

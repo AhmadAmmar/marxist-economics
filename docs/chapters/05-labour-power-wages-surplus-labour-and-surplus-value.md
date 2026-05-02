@@ -1,7 +1,7 @@
 # Labour-power, wages, surplus labour, and surplus value
 
 A central conceptual breakthrough in *Capital* is the distinction between
-**labour** and **labour-power**.[Marx1867]
+**labour** and **labour-power**.[Marx1867](../references.md#marx1867)
 
 - **Labour-power** is the worker's capacity to work, treated as a commodity. Its value is the SNLT embodied in the worker's means of subsistence: food, housing, clothing, education, healthcare, social support.
 - **Labour** is the actual activity performed during the working day.
@@ -158,7 +158,7 @@ Consider a barista in a large coffee chain in a global North city.
     - the rate of exploitation $\exploitrate$, and
     - how many hours of the 8-hour day are necessary labour time and how many are surplus labour time.
 
-    \subsubsection*{Step 1: Separate the value created by labour from the value of used-up machinery and inputs}
+    #### Step 1: Separate the value created by labour from the value of used-up machinery and inputs
 
     The total value of the day's output is \$800.  Of this, \$300 is just the value of
     used-up constant capital $\constcap$ being transferred to the finished products.
@@ -181,7 +181,7 @@ Consider a barista in a large coffee chain in a global North city.
     \varcap + \surplus = \$500.
     $$
 
-    \subsubsection*{Step 2: Split this new value into wages and surplus-value}
+    #### Step 2: Split this new value into wages and surplus-value
 
     Out of this \$500 of new value, the capitalist pays the barista \$100 as wages.
     This \$100 is the value of variable capital $\varcap$:
@@ -202,7 +202,7 @@ Consider a barista in a large coffee chain in a global North city.
     \surplus = \$400.
     $$
 
-    \subsubsection*{Step 3: Compute the rate of exploitation}
+    #### Step 3: Compute the rate of exploitation
 
     The *rate of exploitation* (or *rate of surplus-value*) is defined as
     the ratio of surplus-value to variable capital:
@@ -225,7 +225,7 @@ Consider a barista in a large coffee chain in a global North city.
     This means that, measured in value terms, the barista produces four times as
     much surplus for the owner as they receive back in wages.
 
-    \subsubsection*{Step 4: Translate the value relations into hours of the working day}
+    #### Step 4: Translate the value relations into hours of the working day
 
     The barista works an 8-hour shift.  We know that, in value terms,
     $$
@@ -269,9 +269,9 @@ Consider a barista in a large coffee chain in a global North city.
 ## Forms of wages: time-wages and piece-wages
 
 Marx treats wages not only as a magnitude ($v$) but also as a *form* that can
-conceal exploitation.[Marx1867] Two classic forms are time-wages and piece-wages.
+conceal exploitation.[Marx1867](../references.md#marx1867) Two classic forms are time-wages and piece-wages.
 
-\subsubsection*{Time-wages}
+#### Time-wages
 
 Under **time-wages**, the worker is paid per unit of time (hour/day/week/month).
 Let the money wage per hour be $w_h$ and the paid hours in the period be $T$.
@@ -303,7 +303,7 @@ conditions can produce further, conjunctural deviations. The key point is concep
 if $W_w$ equals the value of labour-power (no cheating), exploitation can still occur because
 the use-value of labour-power is value-creating labour for a longer working day than $\Tn$.
 
-\subsubsection*{Piece-wages}
+#### Piece-wages
 
 Under **piece-wages**, the worker is paid per unit output. Let output per hour be
 $q$ units/hour and the piece rate be $w_p$ money/unit. Then hourly pay is:
@@ -322,7 +322,7 @@ and can shift risks of stoppages, defects, and speed-up onto workers, while leav
 unchanged—labour-power is still bought for a period, and surplus labour can still be extracted within
 (or by extending) the working day.
 
-\subsubsection*{Why this matters}
+#### Why this matters
 
 Piece-wages tend to:
 - intensify labour (workers self-discipline to increase $q$);
@@ -374,4 +374,4 @@ processes that create commodities (or commodity-services) for sale. Much of what
 the *realisation* and *redistribution* of surplus value rather than its direct
 production. The brand and its shareholders can nonetheless capture surplus generated across
 the global chain through control of intellectual property, market access, finance, logistics,
-and pricing power (including transfer pricing and monopoly rents).[Smith2016,Hickel2022]
+and pricing power (including transfer pricing and monopoly rents).[Smith2016](../references.md#smith2016); [Hickel2022](../references.md#hickel2022)

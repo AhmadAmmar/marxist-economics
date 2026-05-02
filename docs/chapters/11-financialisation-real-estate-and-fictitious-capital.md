@@ -12,7 +12,7 @@ ultimately grounded in surplus value: shares (claims on profits/dividends), bond
 many derivatives (claims whose payoffs are linked to the prices of other claims).
 It is “fictitious” not because it is unreal, but because it is a *title* to future
 income rather than a direct embodiment of value already produced and currently functioning
-as capital in production.[HarveyNewImperialism]
+as capital in production.[HarveyNewImperialism](../references.md#harveynewimperialism)
 
 A share can be understood as a claim on a stream of expected future profits (or dividends);
 a bond as a claim on a stream of interest payments; and many structured assets as claims on
@@ -65,7 +65,7 @@ In many parts of the global South, including Pakistan, the combination of
 energy costs, infrastructural bottlenecks, political instability, and import
 dependence has made productive investment risky. At the same time, property
 speculation, urban land grabs, and financial arbitrage have offered
-relatively easier gains for those with capital.[StrugglePK_TDR]
+relatively easier gains for those with capital.[StrugglePK_TDR](../references.md#strugglepk_tdr)
 
 This pattern is inseparable from belated, uneven development and the structure of the state. Where local
 capital has historically remained narrow, import- and contract-dependent, and politically risk-averse, it has
@@ -82,7 +82,7 @@ modernisation run into a material barrier: the underlying property relations, th
 the coercive apparatus that defends both. Without confronting those relations—especially land, finance,
 strategic infrastructure, and the external discipline of debt and conditionality—electoral alternation tends
 to reshuffle administrators while leaving the core drivers of speculation, informalisation, and repression
-intact.[StrugglePK_WorldPerspectives,PeetUnholyTrinity]
+intact.[StrugglePK_WorldPerspectives](../references.md#strugglepk_worldperspectives); [PeetUnholyTrinity](../references.md#peetunholytrinity)
 
 This leads to:
 

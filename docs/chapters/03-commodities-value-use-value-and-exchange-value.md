@@ -2,7 +2,7 @@
 
 Marx opens *Capital* with the line that the wealth of societies where the
 capitalist mode of production rules appears as an “immense collection of
-commodities”.[Marx1867] A **commodity** is, at minimum:
+commodities”.[Marx1867](../references.md#marx1867) A **commodity** is, at minimum:
 
 1. a useful thing (**use-value**); and
 2. produced for exchange, not direct use (**exchange-value**).
@@ -105,12 +105,12 @@ is one reason ecological crisis and profitability pressures can move together ra
 
 When natural conditions become *monopolised* (land, location, minerals), payments for access appear as
 *rent*. Rent is not value created by nature; it is a claim on surplus value created elsewhere, enforced
-by property rights over natural conditions.[Marx1894]
+by property rights over natural conditions.[Marx1894](../references.md#marx1894)
 
 ## A modern example: the smartphone
 
 Consider a mid-range smartphone assembled in southern China for a large
-brand.[DedrickKraemerLinden2010,Smith2016]
+brand.[DedrickKraemerLinden2010](../references.md#dedrickkraemerlinden2010); [Smith2016](../references.md#smith2016)
 
 - The phone retails in London for, say, \pounds800.
 - The total wage bill for assembly workers per phone might be on the order of \pounds10–\pounds15.
