@@ -8,12 +8,12 @@ new value, a rising $c$ relative to $v$ tends, over long periods, to press down 
 counter-tendencies (higher exploitation, cheapening of elements of constant capital, foreign trade, etc.)
 offset it.
 
-\begin{quote}
+
 *“[T]he gradual growth of constant capital in relation to variable capital must necessarily lead to a
 gradual fall of the general rate of profit \dots”*[Marx1894]
-\end{quote}
 
-The mathematics is compact in Eq.~\eqref{eq:profit-rate-occ}: if \OCC{} rises while $e$ is constant, then the rate of profit $r$ must fall. But Marx immediately adds that this tendency is modified by counteracting influences.
+
+The mathematics is compact in Eq.: if \OCC{} rises while $e$ is constant, then the rate of profit $r$ must fall. But Marx immediately adds that this tendency is modified by counteracting influences.
 
 ## Counteracting tendencies
 

@@ -11,7 +11,7 @@
 \setlength{\tabcolsep}{4pt}
 \renewcommand{\arraystretch}{1.18} 
 
-\begin{longtable}{@{}>{\centering\arraybackslash}p{0.12\textwidth}@{\hspace{8pt}}
+{@{}>{\centering\arraybackslash}p{0.12\textwidth}@{\hspace{8pt}}
                   >{\raggedright\arraybackslash}p{\dimexpr\textwidth-0.12\textwidth-8pt\relax}@{}}
 
 \caption{Key symbols and definitions used throughout the pamphlet.}
@@ -136,7 +136,7 @@ $K_f$ &
 $R_t$ &
 expected net receipts (cash flows) at time $t$ for a financial claim (dividends, interest, rents, or other contractual payoffs), used in present-value expressions. 
 
-\end{longtable}
+
 
 \subsection*{Reminder: two circuits of circulation}
 
