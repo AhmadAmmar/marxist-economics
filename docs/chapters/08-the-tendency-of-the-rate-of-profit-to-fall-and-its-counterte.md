@@ -9,8 +9,8 @@ counter-tendencies (higher exploitation, cheapening of elements of constant capi
 offset it.
 
 
-*“The gradual growth of constant capital in relation to variable capital must necessarily lead to a
-gradual fall of the general rate of profit \dots”*[Marx1894](../references.md#marx1894)
+*“[T]he gradual growth of constant capital in relation to variable capital must necessarily lead to a
+gradual fall of the general rate of profit \dots”*[Marx1894]
 
 
 The mathematics is compact in Eq.: if \OCC{} rises while $e$ is constant, then the rate of profit $r$ must fall. But Marx immediately adds that this tendency is modified by counteracting influences.

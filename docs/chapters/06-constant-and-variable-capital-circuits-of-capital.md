@@ -10,15 +10,15 @@ system as a whole, we need to distinguish types of capital.[Marx1867](../referen
 
 If we consider one turnover of capital, the **value** of the total
 commodity product is:
-$$
-W = \constcap + \varcap + \surplus.
-$$
+
+  W = \constcap + \varcap + \surplus.
+  
 
 
 The **cost price** for the capitalist is:
-$$
-k = \constcap + \varcap,
-$$
+
+  k = \constcap + \varcap,
+
 while the surplus value $\surplus$ is the excess of value over cost.
 
 ### Why “selling above market price” cannot explain profit.
@@ -61,6 +61,13 @@ $$
 \CMC: C \rightarrow M \rightarrow C,\qquad
 \MCM: M \rightarrow C \rightarrow M'.
 $$
+
+
+  \CMC &: C \rightarrow M \rightarrow C,
+  
+
+  \MCM &: M \rightarrow C \rightarrow M'.
+  
 
 
 - In $C \rightarrow M \rightarrow C$, a small producer sells a commodity $C$ for money $M$ to buy another commodity $C$ (e.g.\ a farmer selling grain to buy tools and food). The goal is use-value.

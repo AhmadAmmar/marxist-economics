@@ -20,9 +20,8 @@ bundled or re-sliced cash flows. A basic way to see this is capitalisation. If a
 expected to yield net receipts $R_t$ (dividends, interest, rents, or other contractual payoffs)
 over time, and those receipts are discounted at rate $d$ (which may incorporate risk and liquidity),
 then its market valuation can be written schematically as
-$$
-K_f = \sum_{t=1}^{\infty} \frac{R_t}{(1+d)^t}.
-$$
+
+  K_f = \sum_{t=1}^{\infty} \frac{R_t}{(1+d)^t}.
 
 We use $d$ (not $i$) for the discount rate to avoid confusing it with the commodity index $i$
 used elsewhere. This is a stylised expression (it assumes a stable discounting convention and a
