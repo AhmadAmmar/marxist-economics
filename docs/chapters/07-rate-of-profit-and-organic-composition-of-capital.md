@@ -44,7 +44,7 @@ $8.0$ & $800$ & $100$ & $\approx 11.1\%$
 \bottomrule
 
 
-Even with a constant rate of exploitation $e = s/v = 100\%$, the rate of profit $r$ falls as capital becomes more “machine-heavy” relative to wages (as the ratio $c/v$ rises). This logical connection between a rising organic composition of capital $c/v$ and a falling profit rate $r$ is at the heart of Marx’s *law of the tendency of the rate of profit to fall* (TRPF).[Roberts2015,Shaikh2016]
+Even with a constant rate of exploitation $e = s/v = 100\%$, the rate of profit $r$ falls as capital becomes more “machine-heavy” relative to wages (as the ratio $c/v$ rises). This logical connection between a rising organic composition of capital $c/v$ and a falling profit rate $r$ is at the heart of Marx’s *law of the tendency of the rate of profit to fall* (TRPF). [Roberts2015](../references.md#roberts2015); [Shaikh2016](../references.md#shaikh2016)
 
 ## Competition, average profit, and prices of production
 
