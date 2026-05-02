@@ -55,10 +55,10 @@ of labour-power is value-creating labour.
 Let the working day be $T$ hours. Suppose the value of the worker’s labour-power
 corresponds to $\Tn$ hours of labour—the *necessary* labour time. The
 remaining
-\begin{equation}
+
   \Ts = T - \Tn,
   
-\end{equation}
+
 is *surplus labour time*, during which the worker produces value for the
 capitalist without equivalent wages.
 
@@ -72,10 +72,10 @@ $$
 
 We can therefore capture the rate of surplus value, or *rate of
 exploitation*, as
-\begin{equation}
+
   e = \frac{s}{v} = \frac{\Ts}{\Tn},
   
-\end{equation}
+
 because the proportionality factors cancel when we take the ratio.
 
 Here, $v$ is the value of variable capital—the wages advanced—and $s$ is the
@@ -97,14 +97,14 @@ v = \MELT \, \Tn.
 $$
 But the capitalist has purchased control over labour-power for the *whole* day $T$,
 so the surplus value is the difference:
-\begin{align*}
+
   s
   &= \MELT \, T \;-\; \MELT \, \Tn 
 
   &= \MELT \, (T - \Tn) 
 
   &= \MELT \, \Ts.
-\end{align*}
+
 So $s$ is not a moral hypothesis; it is the quantitative expression of surplus labour
 time, mediated through money.
 
@@ -123,7 +123,7 @@ In the normal case, exploitation does not require the capitalist to cheat the wo
 at the point of exchange.
 
 The wage contract can be formally voluntary and “fair” in the sense that the worker is paid the value of labour-power.
-The point, as shown in Section~sec:labourpower-not-labour, is that exploitation is compatible with equivalent exchange
+The point, as shown in this section, is that exploitation is compatible with equivalent exchange
 because capital purchases control over labour-power for the whole working day, not the value the worker will create.
 
 The coercion is *structural*: workers are separated from the means of production
@@ -163,7 +163,7 @@ Consider a barista in a large coffee chain in a global North city.
     The total value of the day's output is \$800.  Of this, \$300 is just the value of
     used-up constant capital $\constcap$ being transferred to the finished products.
     The remainder must therefore be new value created by living labour:
-    \begin{align*}
+    
       \text{Total value of output} &= \$800,
 
       \text{Value of used-up constant capital } (\constcap) &= \$300,\$$
@@ -175,7 +175,7 @@ Consider a barista in a large coffee chain in a global North city.
         &= \$800 - \$300
 
         &= \$500.
-    \end{align*}
+    
     So the labour of the barista has added \$500 of new value during the shift:
     $$
     \varcap + \surplus = \$500.
@@ -189,14 +189,14 @@ Consider a barista in a large coffee chain in a global North city.
     \varcap = \$100.
     $$
     The rest of the new value is surplus-value $\surplus$:
-    \begin{align*}
+    
       \surplus
         &= (\varcap + \surplus) - \varcap
 
         &= \$500 - \$100
 
         &= \$400.
-    \end{align*}
+    
     So
     $$
     \surplus = \$400.
@@ -210,14 +210,14 @@ Consider a barista in a large coffee chain in a global North city.
     \exploitrate = \frac{\surplus}{\varcap}.
     $$
     Plugging in our numbers:
-    \begin{align*}
+    
       \exploitrate
         &= \frac{\surplus}{\varcap}\$$
     0.3em]
         &= \frac{\$400}{\$100}\$$
     0.3em]
         &= 4.
-    \end{align*}
+    
     As a percentage:
     $$
     \exploitrate = 4 \times 100\% = 400\%.
@@ -235,7 +235,7 @@ Consider a barista in a large coffee chain in a global North city.
     necessary labour (reproducing the wage) and four-fifths is surplus labour.
 
     Necessary labour time is therefore one-fifth of the working day:
-    \begin{align*}
+    
       \text{Necessary labour time}
         &= \frac{\varcap}{\varcap + \surplus} \times 8\ \text{hours}\$$
     0.3em]
@@ -244,14 +244,14 @@ Consider a barista in a large coffee chain in a global North city.
         &= 0.2 \times 8\$$
     0.3em]
         &= 1.6\ \text{hours}.
-    \end{align*}
+    
     The remaining part of the working day is surplus labour time:
-    \begin{align*}
+    
       \text{Surplus labour time}
         &= 8\ \text{hours} - 1.6\ \text{hours}\$$
     0.3em]
         &= 6.4\ \text{hours}.
-    \end{align*}
+    
 
     So in this simple coffee-shop example:
 
@@ -296,7 +296,7 @@ v = \MELT \, \Tn,
 $$
 
 The approximation sign here flags that money-wages and market prices do not, in general,
-equal values. Section~sec:prices-production explains how competition and the tendency
+equal values. this section explains how competition and the tendency
 toward an average rate of profit generate prices of production that systematically diverge
 from values; market power, state policy, and world-market (exchange-rate and terms-of-trade)
 conditions can produce further, conjunctural deviations. The key point is conceptual: even
@@ -341,7 +341,7 @@ the exploitation relation itself.
 For simplicity in these numerical examples, treat observed money prices and costs as
 proportional to underlying values. In reality, prices can systematically deviate from
 values through competition and the redistribution of surplus value via prices of
-production; see Section~sec:prices-production. Market power, state policy, and
+production; see this section. Market power, state policy, and
 world-market conditions can generate further deviations around these regulating prices.
 
 Return to the smartphone example. Suppose a batch of phones sells for
@@ -351,21 +351,21 @@ Return to the smartphone example. Suppose a batch of phones sells for
 - $\varcap = \$200{,}000$ in direct wages at the assembly plant.
 
 If the phones sell for \$1.4 million, the surplus value *realised* on this batch is
-\begin{equation}
+
   \surplus = \$1{,}400{,}000 - (\$1{,}000{,}000 + \$200{,}000) = \$200{,}000.
-\end{equation}
+
 
 The exploitation rate for the assembly labour (in this simplified example) is
-\begin{equation}
+
   \exploitrate = \frac{\surplus}{\varcap}
   = \frac{\$200{,}000}{\$200{,}000} = 1 \quad\Rightarrow\quad \exploitrate = 100\%.
-\end{equation}
+
 
 Two cautions matter for Marxian precision.
 
 First, this arithmetic treats money magnitudes as proportional to values for clarity.
 In reality, competition, productivity differentials, and market power generate systematic
-value–price divergences (see Section~sec:prices-production); we flag this here but
+value–price divergences (see this section); we flag this here but
 abstract from those divergences in the worked numbers.
 
 Second, surplus value is produced where *productive labour* is set to work in production

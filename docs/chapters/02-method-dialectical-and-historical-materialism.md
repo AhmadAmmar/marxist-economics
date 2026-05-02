@@ -55,7 +55,7 @@ makes profit compatible with apparently equal exchange. From that pivot we devel
 production of surplus value (necessary and surplus labour time) and the rate of
 exploitation, before turning to how competition redistributes surplus value and, through
 the formation of prices of production, generates systematic divergences between values
-and market prices (see Section~sec:prices-production). On that basis we can treat credit and fictitious capital as claims
+and market prices (see this section). On that basis we can treat credit and fictitious capital as claims
 on future surplus value that can expand well beyond the limits set by production and
 realisation, and therefore become a central transmission belt of crisis. We then extend
 the analysis to world-scale determinations—imperialism and unequal exchange—and to
