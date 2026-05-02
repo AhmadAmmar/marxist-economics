@@ -163,11 +163,19 @@ Consider a barista in a large coffee chain in a global North city.
     The total value of the day's output is \$800.  Of this, \$300 is just the value of
     used-up constant capital $\constcap$ being transferred to the finished products.
     The remainder must therefore be new value created by living labour:
-    $$
-    \text{New value created by labour } (\varcap + \surplus)
-      = \$800 - \$300
-      = \$500.
-    $$
+    
+      \text{Total value of output} &= \$800,
+
+      \text{Value of used-up constant capital } (\constcap) &= \$300,\$$
+    0.5em]
+      \Rightarrow\quad
+      \text{New value created by labour } (\varcap + \surplus)
+        &= \text{Total value} - \text{Constant capital}
+
+        &= \$800 - \$300
+
+        &= \$500.
+    
     So the labour of the barista has added \$500 of new value during the shift:
     $$
     \varcap + \surplus = \$500.
@@ -181,9 +189,14 @@ Consider a barista in a large coffee chain in a global North city.
     \varcap = \$100.
     $$
     The rest of the new value is surplus-value $\surplus$:
-    $$
-    \surplus = (\varcap + \surplus) - \varcap = \$500 - \$100 = \$400.
-    $$
+    
+      \surplus
+        &= (\varcap + \surplus) - \varcap
+
+        &= \$500 - \$100
+
+        &= \$400.
+    
     So
     $$
     \surplus = \$400.
@@ -197,9 +210,14 @@ Consider a barista in a large coffee chain in a global North city.
     \exploitrate = \frac{\surplus}{\varcap}.
     $$
     Plugging in our numbers:
-    $$
-    \exploitrate = \frac{\surplus}{\varcap} = \frac{\$400}{\$100} = 4.
-    $$
+    
+      \exploitrate
+        &= \frac{\surplus}{\varcap}\$$
+    0.3em]
+        &= \frac{\$400}{\$100}\$$
+    0.3em]
+        &= 4.
+    
     As a percentage:
     $$
     \exploitrate = 4 \times 100\% = 400\%.
@@ -217,16 +235,23 @@ Consider a barista in a large coffee chain in a global North city.
     necessary labour (reproducing the wage) and four-fifths is surplus labour.
 
     Necessary labour time is therefore one-fifth of the working day:
-    $$
-    \text{Necessary labour time}
-      = \frac{\varcap}{\varcap + \surplus} \times 8\ \text{hours}
-      = \frac{100}{500} \times 8
-      = 1.6\ \text{hours}.
-    $$
+    
+      \text{Necessary labour time}
+        &= \frac{\varcap}{\varcap + \surplus} \times 8\ \text{hours}\$$
+    0.3em]
+        &= \frac{100}{500} \times 8\$$
+    0.3em]
+        &= 0.2 \times 8\$$
+    0.3em]
+        &= 1.6\ \text{hours}.
+    
     The remaining part of the working day is surplus labour time:
-    $$
-    \text{Surplus labour time} = 8\ \text{hours} - 1.6\ \text{hours} = 6.4\ \text{hours}.
-    $$
+    
+      \text{Surplus labour time}
+        &= 8\ \text{hours} - 1.6\ \text{hours}\$$
+    0.3em]
+        &= 6.4\ \text{hours}.
+    
 
     So in this simple coffee-shop example:
 
