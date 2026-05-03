@@ -1,10 +1,8 @@
 # LaTeX source
 
-- [Download LaTeX source bundle](assets/latex-source.zip)
-- Browse individual files:
-  - [main.tex](assets/latex/main.tex)
-  - [preamble.tex](assets/latex/preamble.tex)
-  - [content.tex](assets/latex/content.tex)
-  - [glossary.tex](assets/latex/glossary.tex)
-  - [notation.tex](assets/latex/notation.tex)
-  - [bibliography.tex](assets/latex/bibliography.tex)
+The authoritative LaTeX source is maintained in the repository root under `latex/`.
+
+- [View LaTeX folder on GitHub](https://github.com/AhmadAmmar/marxist-economics/tree/main/latex)
+- [Download LaTeX source bundle (from latex/latex-source.zip)](https://github.com/AhmadAmmar/marxist-economics/raw/main/latex/latex-source.zip)
+
+The downloadable bundle is now stored in `latex/latex-source.zip` to keep all source artifacts in one canonical location.
