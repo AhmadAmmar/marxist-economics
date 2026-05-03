@@ -1,0 +1,16 @@
+.venv/
+site/
+__pycache__/
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.bbl
+*.blg
+*.glg
+*.glo
+*.gls
+*.ist

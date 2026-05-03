@@ -1,0 +1,34 @@
+# Marxian Economics 101
+
+**Understanding Political Economy for Socialist Struggle in the 21st Century**  
+Ammar
+
+This is the web-reading version of the pamphlet. The PDF remains the print/reference version.
+
+[Start reading](chapters/01-why-this-pamphlet-from-meme-to-method.md){ .md-button .md-button--primary }
+[Download PDF](Marxian-Political-Economy.pdf){ .md-button }
+[References](references.md){ .md-button }
+[LaTeX source](source.md){ .md-button }
+
+## Contents
+
+- [01. Why this pamphlet? From meme to method](chapters/01-why-this-pamphlet-from-meme-to-method.md)
+- [02. Method: dialectical and historical materialism](chapters/02-method-dialectical-and-historical-materialism.md)
+- [03. Commodities, value, use-value, and exchange-value](chapters/03-commodities-value-use-value-and-exchange-value.md)
+- [04. Abstract and concrete labour](chapters/04-abstract-and-concrete-labour.md)
+- [05. Labour-power, wages, surplus labour, and surplus value](chapters/05-labour-power-wages-surplus-labour-and-surplus-value.md)
+- [06. Constant and variable capital; circuits of capital](chapters/06-constant-and-variable-capital-circuits-of-capital.md)
+- [07. Rate of profit and organic composition of capital](chapters/07-rate-of-profit-and-organic-composition-of-capital.md)
+- [08. The tendency of the rate of profit to fall and its countertendencies](chapters/08-the-tendency-of-the-rate-of-profit-to-fall-and-its-countertendencies.md)
+- [09. Crises, cycles, and unemployment](chapters/09-crises-cycles-and-unemployment.md)
+- [10. Policy fixes, reformism, and the capitalist veto](chapters/10-policy-fixes-reformism-and-the-capitalist-veto.md)
+- [11. Financialisation, real estate, and fictitious capital](chapters/11-financialisation-real-estate-and-fictitious-capital.md)
+- [12. Why social democracy was a conjuncture, not an alternative system](chapters/12-why-social-democracy-was-a-conjuncture-not-an-alternative-system.md)
+- [13. Imperialism, global value chains, and unequal exchange](chapters/13-imperialism-global-value-chains-and-unequal-exchange.md)
+- [14. Social reproduction, unpaid labour, and gender](chapters/14-social-reproduction-unpaid-labour-and-gender.md)
+- [15. Technology, AI, and the future of work](chapters/15-technology-ai-and-the-future-of-work.md)
+- [16. From critique to transition: why this matters for you](chapters/16-from-critique-to-transition-why-this-matters-for-you.md)
+
+- [Appendix A: Marxian notation at a glance](appendix-notation.md)
+- [Appendix B: Glossary and acronyms](appendix-glossary.md)
+- [References and further reading](references.md)
