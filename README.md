@@ -20,5 +20,3 @@ python -m pip install -r requirements.txt
 python -m mkdocs serve
 python -m mkdocs build
 ```
-
-Do not commit `site/` or `.venv/`.
