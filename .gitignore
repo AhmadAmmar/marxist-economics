@@ -14,3 +14,21 @@ __pycache__/
 *.glo
 *.gls
 *.ist
+
+# Local conversion and repair artefacts
+_markdown_fix_backups/
+CONVERSION_REPORT.md
+fix-mkdocs-rendering.ps1
+fix_chapter05_rendering_and_overflow.py
+fix_inline_math_pairs.py
+fix_mkdocs_markdown.py
+fix_remaining_dollar_math.py
+fix_remaining_dollar_math_v2.py
+
+# Local editor and environment files
+.vscode/
+.env
+.env.*
+!.env.example
+Thumbs.db
+Desktop.ini
