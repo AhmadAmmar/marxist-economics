@@ -1,12 +1,13 @@
 # Marxian Economics 101
 
 **Understanding Political Economy for Socialist Struggle in the 21st Century**  
-Ammar
+**Comrade Ammar (AA)**
 
-This is the web-reading version of the pamphlet. The PDF remains the print/reference version.
+PhD Researcher (Earth Observation, Geo-computing, Urban Informatics), Ulster University  
+Organiser, [The Struggle (Pakistan)](https://www.struggle.pk/) | [Solidarity: The Socialist Alternative (Ireland)](https://www.solidarity.ie/)
 
 [Start reading](chapters/01-why-this-pamphlet-from-meme-to-method.md){ .md-button .md-button--primary }
-[Download PDF](Marxian-Political-Economy.pdf){ .md-button }
+[Read or download the PDF](pamphlet.md){ .md-button }
 [References](references.md){ .md-button }
 [LaTeX source](source.md){ .md-button }
 

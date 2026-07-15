@@ -1,27 +1,49 @@
-# Abstract and concrete labour {#sec:abstract-concrete}
+# 4. Abstract and concrete labour { #sec-abstract-concrete }
 
-Every act of labour is concrete: a nurse tending patients, a teacher preparing a lesson, a coder debugging, a farmer transplanting rice seedlings. Concrete labour produces specific use-values.
+Every act of labour is concrete: a nurse tending patients, a teacher preparing a lesson, a coder
+debugging, a farmer transplanting rice seedlings. Concrete labour produces specific use-values.
 
-At the same time, under capitalism, labour also counts as an *abstract* expenditure of human energy that can be compared across jobs: eight hours of call-centre work and eight hours of garment stitching are treated as equal quantities of homogeneous labour time on the market.
+At the same time, under capitalism, different concrete labours are socially reduced to comparable
+quantities of *abstract labour*. This does not mean that every clock-hour counts one-for-one. The
+social weight of a working hour depends on normal intensity and the reduction of complex labour to
+simple labour, while productivity determines how much labour-time is represented in each unit of
+output. Abstract labour is therefore not simply labour measured by the clock; it is labour counted
+in the social form specific to commodity production.
 
-The reduction of concrete labour to abstract labour happens socially, behind the backs of individuals, through the discipline of competition and the wage relation. If a firm uses more labour time per unit than the social average, it loses out.
+The reduction of concrete labour to abstract labour happens socially, behind the backs of
+individuals, through the discipline of competition and the wage relation. If a firm uses more labour
+time per unit than the social average, it loses out.
 
-## Socially necessary labour time (SNLT) {#sec:snlt}
+## 4.1 Socially necessary labour time (SNLT) { #sec-snlt }
 
-We can formalise the idea of socially necessary labour time (SNLT) for a given commodity $i$ as an output-weighted average over firms:
-
+For a simplified illustration, under normal-demand conditions, socially necessary labour time for
+commodity $i$ may be approximated by an output-weighted average over producers:
+<span id="eq-snlt"></span> 
 
 $$
 L^{\mathrm{SN}}_{i} \approx
-  \frac{\sum_{j=1}^{n} q_{ij}\,L_{ij}}{\sum_{j=1}^{n} q_{ij}},
-  <a id="eq:snlt"></a>
+\frac{\sum_{j=1}^{n} q_{ij}\,L_{ij}}
+{\sum_{j=1}^{n} q_{ij}},
+\tag{4.1}
 $$
 
+where $L_{ij}$ is the direct and indirect labour time per unit of commodity $i$ at firm $j$,
+measured at normal intensity and average skill for the period, and $q_{ij}$ is firm $j$’s socially
+realised output of commodity $i$ in the period, that is, output validated through exchange. This is
+a pedagogical approximation, not a universal formula. The regulating magnitude is the labour-time
+required under prevailing normal conditions of production. Depending on the distribution of supply
+and social demand, those regulating conditions need not coincide with an arithmetic weighted mean.
+Competition tends to penalise producers whose unit labour-time remains above the prevailing norm
+through profit squeezes, forced price reductions, and loss of market share. It therefore shifts
+production toward techniques closer to, or below, the social standard.
 
-where $L_{ij}$ is the direct and indirect labour time *per unit* of commodity $i$ at firm $j$, measured at normal intensity and average skill for the period, and $q_{ij}$ is firm $j$'s *socially realised* output of commodity $i$ in the period (i.e. output that is validated in exchange). Competition tends to penalise high-$L_{ij}$ producers (those using more labour time per unit than the social average) through profit squeezes and loss of market share, shifting production toward lower-$L_{ij}$ techniques and pulling the socially necessary time toward what is required under prevailing, normal conditions. The precise social process is more complex, but the key point is: value depends on the *average* conditions of production, not any individual firm's whims.
+### Private labour is socially validated through exchange. { #private-labour-is-socially-validated-through-exchange }
 
-#### Private labour only counts as social labour through sale.
+Private labour does not count as social labour merely because it has been expended. Sale is the form
+through which privately performed labour is socially validated, but sale does not prove that every
+hour privately expended counts fully as socially necessary labour. Unsold output, forced discounts,
+write-downs, bankruptcies, and idle capacity reveal mismatches between private labour, prevailing
+production conditions, and social demand.<span class="citation">[<a href="../references.md#ref-marx1867">5</a>]</span>
 
-Even if a firm expends labour-time, that labour is only *validated* as socially necessary when the commodity is sold (realised) on the market. In a boom this validation is widespread; in a slump, commodities that cannot be sold at normal conditions are devalorised: the labour they contain does not count as socially necessary *for capital*, and the loss appears as write-downs, layoffs, bankruptcies, and idle capacity.\[5\]
-
-If a new technology halves the labour time required while becoming the industry norm, the value of the commodity falls---even if the selling price only gradually adjusts.
+If a new technology halves the labour time required while becoming the industry norm, the value of
+the commodity falls—even if the selling price only gradually adjusts.

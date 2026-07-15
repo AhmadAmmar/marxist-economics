@@ -1,14 +1,11 @@
 # LaTeX source
 
-The authoritative LaTeX source files live in the repository's `latex/` folder.
+The PDF and web edition are generated from the canonical files in the repository's
+[`latex/`](https://github.com/AhmadAmmar/marxist-economics/tree/main/latex) directory.
 
-Core files:
-
-- `latex/main.tex`
-- `latex/preamble.tex`
-- `latex/content.tex`
-- `latex/notation.tex`
-- `latex/glossary.tex`
-- `latex/bibliography.tex`
-
-No duplicate LaTeX source folder is needed under `docs/assets/`.
+- [`main.tex`](https://github.com/AhmadAmmar/marxist-economics/blob/main/latex/main.tex)
+- [`preamble.tex`](https://github.com/AhmadAmmar/marxist-economics/blob/main/latex/preamble.tex)
+- [`content.tex`](https://github.com/AhmadAmmar/marxist-economics/blob/main/latex/content.tex)
+- [`notation.tex`](https://github.com/AhmadAmmar/marxist-economics/blob/main/latex/notation.tex)
+- [`glossary.tex`](https://github.com/AhmadAmmar/marxist-economics/blob/main/latex/glossary.tex)
+- [`bibliography.tex`](https://github.com/AhmadAmmar/marxist-economics/blob/main/latex/bibliography.tex)

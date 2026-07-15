@@ -1,39 +1,15 @@
 site_name: Marxian Economics 101
 site_description: Understanding Political Economy for Socialist Struggle in the 21st Century
-site_author: Ammar
+site_author: Comrade Ammar
+site_url: https://ahmadammar.github.io/marxist-economics/
 repo_url: https://github.com/AhmadAmmar/marxist-economics
 repo_name: AhmadAmmar/marxist-economics
 
-theme:
-  name: material
-  features:
-    - navigation.sections
-    - navigation.expand
-    - navigation.tracking
-    - navigation.top
-    - toc.follow
-    - search.suggest
-    - search.highlight
-    - content.code.copy
-  palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: black
-      accent: indigo
-      toggle:
-        icon: material/weather-night
-        name: Switch to dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: black
-      accent: indigo
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to light mode
+use_directory_urls: true
 
 nav:
   - Home: index.md
-  - "Pamphlet PDF": pamphlet.md
+  - Pamphlet PDF: pamphlet.md
   - Chapters:
       - "01. Why this pamphlet? From meme to method": chapters/01-why-this-pamphlet-from-meme-to-method.md
       - "02. Method: dialectical and historical materialism": chapters/02-method-dialectical-and-historical-materialism.md
@@ -55,7 +31,38 @@ nav:
       - "Appendix A: Notation": appendix-notation.md
       - "Appendix B: Glossary & acronyms": appendix-glossary.md
   - References: references.md
-  - "LaTeX source": source.md
+  - LaTeX source: source.md
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.tracking
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+plugins:
+  - search
 
 markdown_extensions:
   - admonition
@@ -66,6 +73,7 @@ markdown_extensions:
   - def_list
   - toc:
       permalink: true
+      toc_depth: 4
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.arithmatex:

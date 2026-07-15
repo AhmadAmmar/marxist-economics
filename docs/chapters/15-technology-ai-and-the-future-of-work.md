@@ -1,53 +1,117 @@
-# Technology, AI, and the future of work {#sec:technology-ai}
+# 15. Technology, AI, and the future of work { #sec-technology-ai }
 
-From automatic looms to industrial robots to AI systems, capital constantly seeks to reduce its dependence on living labour. This is both a driver of productivity and a source of contradiction.
+From automatic looms to industrial robots to AI systems, capital constantly seeks to reduce its
+dependence on living labour. This is both a driver of productivity and a source of contradiction.
 
-## Automation and the law of value
+## 15.1 Automation and the law of value { #automation-and-the-law-of-value }
 
-Automation tends to increase $c$ relative to $v$, raising and putting downward pressure on r (\[7\](../chapters/07-rate-of-profit-and-organic-composition-of-capital.md#sec:rate-profit)). At the same time, it cheapens many goods, raises the technical capacity of society, and potentially frees time for education, art, care, and play.
+Automation tends to increase $c$ relative to $v$, raising $\mathrm{OCC}$
+and putting downward pressure on $r$ ([Section 7](07-rate-of-profit-and-organic-composition-of-capital.md#sec-rate-profit)). At the same time, it cheapens many goods,
+raises the technical capacity of society, and potentially frees time for education, art, care, and
+play.
 
 Under capitalism, however, the gains of automation are unevenly distributed:
 
--   some workers are displaced, others' labour is intensified;
+-   some workers are displaced, others’ labour is intensified;
 
--   skills are polarised, with a few high-paid specialists and large layers of precarious, low-paid service workers;
+-   skills are polarised, with a few high-paid specialists and large layers of precarious, low-paid
+    service workers;
 
--   managerial and surveillance technologies extend the working day into the home via emails, apps, and metrics.
+-   managerial and surveillance technologies extend the working day into the home via emails, apps,
+    and metrics.
 
-Despite the hype, AI does not abolish the law of value. Behind every algorithm are infrastructures of material labour: data labellers, content moderators, hardware assemblers, miners of rare-earth metals, and workers maintaining data centres. Value is still created by human labour-power.
+AI remains embedded in capitalist production and depends on extensive human labour and material
+infrastructure: data labelling, content moderation, software development, hardware assembly, mining,
+electricity generation, and the construction and maintenance of data centres. Whether particular
+forms of this labour create new value in the strict Marxian sense depends on how they are organised
+and on the role they perform within capitalist production.
 
-A particularly clear example is generative AI in offices, media, design, and "knowledge work." Much commentary treats it either as imminent mass automation or as a neutral productivity aid. The more immediate dynamic is often neither: it is the *moving benchmark* of socially necessary labour time.
+Generative AI in offices, media, design, and other forms of “knowledge work” shows how technological
+change can alter the benchmark of socially necessary labour time. When a tool allows a task to be
+completed more quickly under normal conditions, employers can raise output norms, reduce staffing,
+and intensify the pace of work. A firm that adopts the technique ahead of its competitors may obtain
+extra surplus value while its individual labour-time remains below the prevailing social norm. As
+the technique spreads, the socially necessary labour time required for the task may fall.
 
-When a tool allows a task to be completed faster under normal conditions, the socially enforced norm for that task shifts. What used to be an acceptable daily output becomes "slow"; what used to require two workers is redefined as one worker's baseline. The gain is not automatically returned to workers as shorter hours or lower intensity. If wages and hours do not change, the same paid time is made to yield more surplus labour in practice, raising the realised rate of exploitation $e=s/v$ even when the contract form remains unchanged. Under capitalist control, it is typically converted into new targets, tighter deadlines, and higher throughput per unit time.
+A fall in socially necessary labour time does not by itself raise the economy-wide rate of surplus
+value. That also depends on the working day, labour intensity, wages, and the value of the
+commodities required to reproduce labour-power. Capital can raise exploitation by intensifying
+labour, extending working hours, holding wages below productivity growth, or reducing necessary
+labour time through productivity gains in wage-goods. The productivity gain is therefore commonly
+converted into higher targets, tighter deadlines, reduced staffing, and greater throughput rather
+than shorter working hours. For many workers, AI consequently appears as another instrument of
+speed-up, surveillance, and managerial control.
 
-In Marxian terms, the point is simple. The working day is still split between necessary and surplus labour. If the wage does not rise with the new benchmark, and if working hours do not fall, then raising output by tools and metrics is a practical route to raising the effective rate of exploitation: more surplus is extracted from the same paid time. This is why many workers experience "productivity tools" as speed-up, surveillance, and exhaustion rather than emancipation.
+## 15.2 AI as a class weapon { #ai-as-a-class-weapon }
 
-## AI as a class weapon
+In many workplaces and public institutions, AI and digital systems are used to organise labour,
+monitor performance, and extend managerial and state control:
 
-In many workplaces, AI and digital systems are currently used as tools of management and control:
+-   automated scheduling, productivity tracking, ratings, and other forms of algorithmic control in
+    logistics and platform work <span class="citation">[<a href="../references.md#ref-woodetal2019">60</a>]</span>;
 
--   automated scheduling, productivity tracking, and ratings in logistics and platform work;\[60\]
+-   algorithmic management in call centres and warehouses <span class="citation">[<a href="../references.md#ref-mateescunguyen2019">61</a>]</span>;
 
--   algorithmic management in call centres and warehouses;
+-   predictive policing and automated risk scoring in welfare systems <span class="citation">[<a href="../references.md#ref-lumisaac2016">62</a>, <a href="../references.md#ref-eubanks2018">63</a>]</span>.
 
--   predictive policing and risk scoring in welfare systems.
+The decisive questions concern who controls AI, the purposes for which it is deployed, and how its
+gains are distributed. Under capitalism, AI is generally used to intensify exploitation and
+surveillance rather than to liberate time.
 
-From a Marxist perspective, the question is not "Will AI take our jobs?" in the abstract, but who controls the technology, for what purpose, and how its gains are distributed. Under capitalism, the default is to use AI to intensify exploitation and surveillance, not to liberate time.
+## 15.3 Data centres, ecological cost, and democratic control of computation { #sec-data-centres-ecology-control }
 
-## Data centres, ecological cost, and democratic control of computation {#sec:data-centres-ecology-control}
+The same clarity applies to the material infrastructure behind “AI”: data centres, fibre networks,
+server farms, and the mining and assembly labour embedded in hardware. These are not abstract
+clouds; they are energy- and water-intensive industrial systems.<span class="citation">[<a href="../references.md#ref-ieaenergyai2026">64</a>]</span>[^1] Empirically,
+data-centre electricity demand is already a material component of national grids, and leading
+estimates emphasise both the scale and uncertainty introduced by rapid hardware turnover and
+accelerated AI workloads.<span class="citation">[<a href="../references.md#ref-ieaenergyai2026">64</a>, <a href="../references.md#ref-masanet2020">65</a>, <a href="../references.md#ref-lietal2023thirsty">66</a>]</span> Recent IEA analysis projects global electricity consumption
+from data centres to roughly double from $485$ TWh in 2025 to around $950$ TWh in 2030, when it
+would account for about $3\%$ of global electricity demand. Electricity consumption from AI-focused
+data centres is projected to triple over the same period.<span class="citation">[<a href="../references.md#ref-ieaenergyai2026">64</a>]</span>[^2] The ecological question
+is therefore not whether computation exists, but *what it is used for*, *who controls it*, and *how
+its costs and benefits are allocated*.[^3]
 
-The same clarity applies to the material infrastructure behind "AI": data centres, fibre networks, server farms, and the mining and assembly labour embedded in hardware. These are not abstract clouds; they are energy- and water-intensive industrial systems.\[61\][^1] Empirically, data-centre electricity demand is already a material component of national grids, and leading estimates emphasise both the scale and uncertainty introduced by rapid hardware turnover and accelerated AI workloads.\[61, 63, 64\] Recent IEA analysis projects that global electricity demand from data centres could roughly double by 2030 in a baseline scenario, with AI one of the major drivers.\[62\][^2] The ecological question is therefore not whether computation exists, but *what it is used for*, *who controls it*, and *how its costs and benefits are allocated*.[^3]
+Modern cloud infrastructure is software-defined and multi-tenant: the same physical servers can be
+allocated by software to many users and can run very different workloads at the same time. One class
+of workloads can be socially necessary and life-saving—storm tracking, flood mapping, early warning
+systems, public health modelling, grid optimisation, drought monitoring. Another class can be
+socially low-value but profit-rich—advertising optimisation, mass surveillance, speculative content
+factories, endless synthetic media churn. It is not the existence of servers as such that decides
+the socio-environmental outcome, but who schedules those machines, which workloads are prioritised,
+and what rules govern their use.[^4]
 
-A key point is that modern cloud infrastructure is software-defined and multi-tenant: the same physical systems can run radically different workloads side by side. One class of workloads can be socially necessary and life-saving---storm tracking, flood mapping, early warning systems, public health modelling, grid optimisation, drought monitoring. Another class can be socially low-value but profit-rich---advertising optimisation, mass surveillance, speculative content factories, endless synthetic media churn. It is not the existence of servers as such that decides the socioenvironmental outcome, but who schedules those machines, which workloads are prioritised, and what rules govern their use.[^4]
+A socialist response would reorganise computation as a social infrastructure: major data centres,
+models, networks, and datasets should be treated as part of the means of production and brought
+under democratic control. That implies at minimum: transparent accounting of energy and water use;
+public rules that prioritise life-preserving and scientific workloads; strict limits on wasteful,
+speculative, and coercive uses; and open access to essential datasets and models as public goods
+rather than private moats.[^5] In transition, this is one concrete meaning of freeing technology
+from the profit motive: directing digital capacity toward collective planning and safety rather than
+accumulation and control.
 
-A socialist response would reorganise computation as a social infrastructure: major data centres, models, networks, and datasets should be treated as part of the means of production and brought under democratic control. That implies at minimum: transparent accounting of energy and water use; public rules that prioritise life-preserving and scientific workloads; strict limits on wasteful, speculative, and coercive uses; and open access to essential datasets and models as public goods rather than private moats.[^5] In transition, this is one concrete meaning of freeing technology from the profit motive: directing digital capacity toward collective planning and safety rather than accumulation and control.
+[^1]: Sectoral electricity and water footprints vary according to how “data centres” are delineated,
+    the regional electricity mix and cooling system, and rates of hardware utilisation. The
+    estimates therefore carry substantial geographical and methodological variation. Computation
+    nonetheless remains a material industrial system whose scale and growth are shaped by
+    accumulation and state policy.
 
-[^1]: Precision note: in practice, sectoral electricity/water footprints depend on (i) how "data centres" are delineated (hyperscale, colocation, enterprise, network transmission), (ii) regional electricity mixes and cooling systems, and (iii) utilisation rates. The point here is not a single global number but the material character of computation as an industrial system whose scale and growth are shaped by capital accumulation and state policy.
+[^2]: “AI” depends on training and running models, storing data, moving it through networks, and
+    cooling the hardware that performs this work. More efficient chips and cooling systems can
+    reduce the electricity or water used for each task, but competition also drives firms to run
+    more models, process more data, and expand capacity. Total resource use can therefore rise even
+    when each individual task becomes more efficient.
 
-[^2]: Interpretive note: "AI" here should be read materially as a bundle of specific compute workloads (training, inference, data preparation, storage, and network traffic) whose energy and water demands are mediated by hardware efficiency, cooling design, siting decisions, and utilisation. Capitalist competition can increase efficiency per unit while expanding total throughput (a rebound dynamic), so aggregate resource demand can rise even as per-task intensity falls.
+[^3]: In Marxian terms: computation is a material subsystem of the labour process (and a component
+    of constant capital) whose scale is governed by accumulation. Under capitalist property
+    relations, optimisation targets are set by profitability and control, not by socially necessary
+    need.
 
-[^3]: In Marxian terms: computation is a material subsystem of the labour process (and a component of constant capital) whose scale is governed by accumulation. Under capitalist property relations, optimisation targets are set by profitability and control, not by socially necessary need.
+[^4]: The technical possibilities of a productive force do not determine its social ends. The same
+    infrastructure that could reduce socially necessary labour time and protect life can, under
+    capital, be deployed to intensify labour, enforce discipline, and expand commodification.
 
-[^4]: The technical possibilities of a productive force do not determine its social ends. The same infrastructure that could reduce socially necessary labour time and protect life can, under capital, be deployed to intensify labour, enforce discipline, and expand commodification.
-
-[^5]: Practically, this also implies contesting the legal and contractual enclosures that presently govern access (platform terms, proprietary standards, trade secrecy, and intellectual-property regimes). In other words: democratic control is not only a question of public ownership of servers, but of the social rules that decide what runs on them and who can use the outputs.
+[^5]: Practically, this also requires contesting the legal and contractual enclosures that presently
+    govern access, including platform terms, proprietary standards, trade secrecy, and
+    intellectual-property regimes. Public ownership of servers would have to be combined with
+    democratic rules governing what runs on them and who can use the outputs.
