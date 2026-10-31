@@ -1,0 +1,713 @@
+% ============================================================
+% sialkot_football_marxian_example.tex
+% Standalone LaTeX file (pdflatex) — no external dependencies.
+% ============================================================
+
+\documentclass[11pt]{article}
+
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{amsmath,amssymb,mathtools}
+\usepackage{booktabs,longtable}
+\usepackage{siunitx}
+\usepackage{enumitem}
+\usepackage{microtype}
+\usepackage[hidelinks]{hyperref}
+
+\sisetup{
+  detect-all,
+  group-separator={,},
+  group-minimum-digits=4
+}
+
+% ---------- Convenience macros ----------
+\newcommand{\PKR}{\text{PKR}}
+\newcommand{\USD}{\text{USD}}
+\newcommand{\uBall}{\text{ball}}
+\newcommand{\uHour}{\text{hour}}
+\newcommand{\uDay}{\text{day}}
+\newcommand{\uMonth}{\text{month}}
+\newcommand{\uYear}{\text{year}}
+
+\newcommand{\cconst}{c} % constant capital
+\newcommand{\vvar}{v}   % variable capital
+\newcommand{\splus}{s}  % surplus value (here proxied by accounting profit)
+\newcommand{\kcost}{k}  % cost price: k=c+v
+\newcommand{\eRate}{e}  % rate of exploitation: e=s/v
+\newcommand{\pRate}{r}  % profit rate: r=s/(c+v)
+\newcommand{\OCC}{\mathrm{OCC}} % organic composition proxy: c/v
+
+\title{A Worked, Real-World Marxian Example\\Football Manufacturing in Sialkot (Pakistan)}
+\author{Standalone teaching note (with fully worked arithmetic)}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\vspace{-0.5em}
+\begin{center}
+\small
+This document uses real, published numbers on Sialkot football manufacturing to build two concrete worked examples:
+(1) a hand-stitcher paid per ball; and (2) the per-ball cost structure of a Sialkot firm.
+Every calculation is shown step-by-step and explained in plain language.
+\end{center}
+
+\section{Industry snapshot (why Sialkot matters)}
+Sialkot is a globally important production cluster for footballs. Bloomberg reports that the city produces about
+\emph{70\% of the world’s soccer balls}, with roughly \emph{1,000 factories} and about \emph{60,000 people}
+working in the soccer ball manufacturing business.\footnote{Bloomberg Businessweek, ``This Is Where Most of the World’s Soccer Balls Come From'' (Nov 22, 2022). \url{https://www.bloomberg.com/features/2022-world-cup-soccer-ball-adidas-al-rihla-sialkot/}}
+Bloomberg also reports that \emph{more than 80\%} of Sialkot’s soccer balls use \emph{hand stitching}, though thermo-bonding
+is expanding.\footnote{Same Bloomberg source as above.}
+
+On exports: Pakistan’s trade reporting (TDAP) lists football exports of about \USD{}~254.0 million in FY2023--24 (and \USD{}~237.0 million in FY2022--23).\footnote{TDAP, \emph{Pakistan Trade Perspective} FY2023--24 and TDAP annual trade performance FY2022--23 (tables listing ``Footballs''). \url{https://tdap.gov.pk/wp-content/uploads/2025/01/TDAP-Annual-Report-PAKISTAN-TRADE-PERSPECTIVE-FY-23-24-new.pdf} and \url{https://tdap.gov.pk/wp-content/uploads/2023/10/Final-draft-of-Pakistans-Annual-Trade-Performance-July-June-FY23-6-SEPTEMBER-2023.pdf}}
+
+A Reuters report (reprinted by \emph{Dawn}) adds two useful scale facts:
+Forward Sports said it made \emph{5.5 million} Al Rihla balls, and the local chamber claimed
+\emph{43 million balls valued at \USD{}~191 million} were made in Sialkot in FY2021--22.\footnote{\emph{Dawn} (Reuters), ``‘Made-in-Sialkot’ ball puts Pakistan in FIFA World Cup'' (Dec 9, 2022). \url{https://www.dawn.com/news/1725468}}
+
+\section{What we will compute (and why the steps are so slow)}
+We will compute three things, carefully:
+\begin{enumerate}[leftmargin=*]
+\item \textbf{Piece-rate wages in time form.} A ``per ball'' payment is just a wage in disguise. If we know how many hours it takes to stitch one ball, we can compute an hourly wage.
+\item \textbf{Per-ball cost structure.} Using firm microdata, we will split the cost of one ball into \emph{materials}, \emph{overhead}, and \emph{wages}.
+\item \textbf{Marxian ratios in money form.} With those components, we compute:
+  \[
+    \kcost=\cconst+\vvar,\qquad
+    \splus,\qquad
+    \eRate=\frac{\splus}{\vvar},\qquad
+    \pRate=\frac{\splus}{\cconst+\vvar},\qquad
+    \OCC=\frac{\cconst}{\vvar}.
+  \]
+\end{enumerate}
+
+\section{Mini arithmetic primer (only what we need)}
+This section is intentionally basic.
+
+\subsection*{(A) Multiplication}
+If you earn \(\PKR{}~160\) per ball and you stitch \(3\) balls:
+\[
+  160 \times 3 = 480.
+\]
+That means \(\PKR{}~480\) total.
+
+\subsection*{(B) Division}
+If you earned \(\PKR{}~480\) over \(9\) hours:
+\[
+  \frac{480}{9} \approx 53.33.
+\]
+This is ``\(\PKR{}~53.33\) per hour''.
+
+\subsection*{(C) Turning a ratio into a percent}
+If a number is \(0.48\) and you want percent:
+\[
+  0.48 \times 100 = 48\%.
+\]
+
+\section{Notation (definitions you can check)}
+We use standard Marxian accounting notation:
+\begin{itemize}[leftmargin=*]
+\item \(\cconst\): \textbf{constant capital} (money spent on materials, energy, depreciation---inputs that transfer value to output).
+\item \(\vvar\): \textbf{variable capital} (wages: money spent on labour-power).
+\item \(\kcost\): \textbf{cost price}, defined as \(\kcost=\cconst+\vvar\).
+\item \(\splus\): \textbf{surplus value}. In this document we will \emph{approximate} \(\splus\) by observed accounting profit at the producing firm level, for a transparent first pass.
+\item \(\eRate\): \textbf{rate of exploitation}, \(\eRate=\splus/\vvar\).
+\item \(\pRate\): \textbf{profit rate}, \(\pRate=\splus/(\cconst+\vvar)\).
+\item \(\OCC\): \textbf{organic composition proxy}, \(\OCC=\cconst/\vvar\).
+\end{itemize}
+
+\bigskip
+\noindent
+\textbf{Important limitation (stated up front):}
+a low observed producer profit margin does \emph{not} imply low exploitation.
+It can also reflect intense competition, buyer power, and value capture downstream (brands, logistics, retail).
+We will show this tension explicitly.
+
+% ============================================================
+\section{Worked Example 1: a hand-stitcher paid per ball (Bloomberg data)}
+% ============================================================
+
+Bloomberg reports the following for stitchers at manufacturer Anwar Khawaja Industries:
+\begin{itemize}[leftmargin=*]
+\item payment per ball: \(w_{\uBall}=\PKR{}~160\) (about \USD{}~0.75),
+\item time per ball: \(t_{\uBall}=3\) hours,
+\item output per day (typical): \(q_{\uDay}=3\) balls,
+\item monthly earnings at that pace: about \(\PKR{}~9{,}600\),
+\item an estimated living wage for Sialkot: about \(\PKR{}~20{,}000\) per month.\footnote{Bloomberg Businessweek (Nov 22, 2022), as cited earlier.}
+\end{itemize}
+
+\subsection{Step 1: daily earnings from a piece rate}
+Daily earnings are:
+\[
+  w_{\uDay} = w_{\uBall}\times q_{\uDay}.
+\]
+Now substitute the numbers:
+\[
+  w_{\uDay} = 160 \times 3.
+\]
+Compute \(160\times 3\):
+\[
+  160\times 3 = 480.
+\]
+So:
+\[
+  w_{\uDay}=\PKR{}~480.
+\]
+
+\subsection{Step 2: implied working hours per day}
+If each ball takes \(3\) hours, and the stitcher completes \(3\) balls:
+\[
+  T_{\uDay} = t_{\uBall}\times q_{\uDay} = 3\times 3 = 9~\uHour.
+\]
+So the stitching time alone is about \(9\) hours per day.
+
+\subsection{Step 3: hourly wage implied by the piece rate}
+Hourly wage is:
+\[
+  w_{\uHour} = \frac{w_{\uDay}}{T_{\uDay}}.
+\]
+Substitute:
+\[
+  w_{\uHour}=\frac{480}{9}.
+\]
+Do the division:
+\[
+  \frac{480}{9}\approx 53.33.
+\]
+So:
+\[
+  w_{\uHour}\approx \PKR{}~53.33/\uHour.
+\]
+
+\subsection{Step 4: monthly earnings (showing the hidden assumption)}
+Bloomberg reports monthly earnings of about \(\PKR{}~9{,}600\) at this pace.
+We can recover the implied number of working days.
+
+We already have \(w_{\uDay}=\PKR{}~480\).
+Let the number of working days per month be \(D_{\uMonth}\).
+Then:
+\[
+  w_{\uMonth}=w_{\uDay}\times D_{\uMonth}.
+\]
+We set \(w_{\uMonth}=\PKR{}~9{,}600\) and solve for \(D_{\uMonth}\):
+\[
+  9{,}600 = 480\times D_{\uMonth}.
+\]
+Divide both sides by \(480\):
+\[
+  D_{\uMonth}=\frac{9{,}600}{480}.
+\]
+Now compute:
+\[
+  \frac{9{,}600}{480} = 20.
+\]
+So the implied working schedule is about:
+\[
+  D_{\uMonth}\approx 20~\uDay/\uMonth.
+\]
+
+\subsection{Step 5: compare to a living-wage benchmark}
+Living wage benchmark:
+\[
+  L_{\uMonth}=\PKR{}~20{,}000/\uMonth.
+\]
+Actual earnings:
+\[
+  w_{\uMonth}=\PKR{}~9{,}600/\uMonth.
+\]
+Compute the fraction:
+\[
+  \frac{w_{\uMonth}}{L_{\uMonth}}=\frac{9{,}600}{20{,}000}.
+\]
+Divide numerator and denominator by \(100\) to simplify:
+\[
+  \frac{9{,}600}{20{,}000}=\frac{96}{200}.
+\]
+Now divide:
+\[
+  \frac{96}{200}=0.48.
+\]
+Convert to percent:
+\[
+  0.48\times 100 = 48\%.
+\]
+So the reported monthly earnings are about:
+\[
+  48\% \text{ of the cited living-wage benchmark.}
+\]
+
+\subsection{Step 6: share of the retail price (Al Rihla launch price)}
+A contemporaneous report states the Al Rihla official match ball retailed at \USD{}~165 on Adidas’ US website at launch.\footnote{GOAL (Mar 30, 2022), retail price table. \url{https://www.goal.com/en/news/adidas-world-cup-match-ball-al-rihla-qatar-2022/blta7dc0012ef2a879f}}
+
+Bloomberg reports stitchers get about \USD{}~0.75 per ball.
+Let the stitcher’s pay per ball be \(w^{\$}_{\uBall}=0.75\) and the retail price be \(P^{\$}_{\text{retail}}=165\).
+
+The share is:
+\[
+  \text{share}=\frac{w^{\$}_{\uBall}}{P^{\$}_{\text{retail}}}=\frac{0.75}{165}.
+\]
+Compute the division:
+\[
+  \frac{0.75}{165}\approx 0.004545\ldots
+\]
+Convert to percent:
+\[
+  0.004545\ldots \times 100 \approx 0.4545\%.
+\]
+So, at launch pricing, the stitcher’s pay is roughly:
+\[
+  0.45\% \text{ of the retail price of an Al Rihla match ball.}
+\]
+
+\subsection{A quick ``order'' calculation (1,000 balls)}
+Suppose a buyer places an order for \(Q=1{,}000\) hand-stitched balls at \(160\) rupees stitching pay each.
+
+Total stitching wage bill for that order:
+\[
+  W_{\text{stitch}} = 160\times 1{,}000.
+\]
+Compute:
+\[
+  160\times 1{,}000 = 160{,}000.
+\]
+So:
+\[
+  W_{\text{stitch}}=\PKR{}~160{,}000.
+\]
+
+If each ball takes \(3\) hours, total stitching hours:
+\[
+  H_{\text{stitch}} = 3\times 1{,}000 = 3{,}000~\uHour.
+\]
+This is useful later: it lets you translate piece-wages into labour-time at the batch scale.
+
+% ============================================================
+\section{Worked Example 2: per-ball cost structure (Atkin et al.\ microdata)}
+% ============================================================
+
+Now we move from one worker’s wage to one firm’s \emph{per-ball} cost structure using microdata
+from Atkin et al.\ (NBER), based on a baseline survey of Pakistani soccer ball producers.\footnote{Atkin, Khandelwal, Osman, and Pavcnik (2015), NBER Working Paper 21112. \url{https://www.nber.org/papers/w21112}}
+
+\subsection{The raw data (one size-5 promotional ball)}
+Atkin et al.\ report an input cost table (``Table A.1: input cost in rupees'') for a size-5, two-layer promotional ball
+and note an exchange rate of about \(\PKR{}~100=\USD{}~1\) for their tabulation.\footnote{Atkin et al.\ (2015), Appendix Table A.1 and note on exchange rate. \url{https://www.nber.org/papers/w21112}}
+
+Here are the per-ball money costs (rupees):
+\begin{center}
+\begin{longtable}{@{}lS[table-format=3.2]@{}}
+\toprule
+\textbf{Cost item (per ball)} & {\textbf{Rupees}} \\
+\midrule
+Rexine (outer synthetic material)      & 39.68 \\
+Backing cloth                          & 23.27 \\
+Latex                                  & 38.71 \\
+Bladder                                & 42.02 \\
+Cutting labour                          & 1.49 \\
+Stitching labour                        & 39.24 \\
+Other labour                            & 15.56 \\
+Overhead                                & 10.84 \\
+\midrule
+\textbf{Total cost (all items)}         & 210.83 \\
+\bottomrule
+\end{longtable}
+\end{center}
+
+\subsection{Step 1: classify items into \(\cconst\) and \(\vvar\)}
+We treat \textbf{materials} and \textbf{overhead} as constant capital \(\cconst\),
+and \textbf{labour} items as variable capital \(\vvar\).
+
+So:
+
+\paragraph{Constant capital \(\cconst\) (materials + overhead).}
+\[
+  \cconst = 39.68 + 23.27 + 38.71 + 42.02 + 10.84.
+\]
+Add step by step:
+\[
+  39.68 + 23.27 = 62.95
+\]
+\[
+  62.95 + 38.71 = 101.66
+\]
+\[
+  101.66 + 42.02 = 143.68
+\]
+\[
+  143.68 + 10.84 = 154.52
+\]
+So:
+\[
+  \cconst = \PKR{}~154.52.
+\]
+
+\paragraph{Variable capital \(\vvar\) (wages).}
+\[
+  \vvar = 1.49 + 39.24 + 15.56.
+\]
+Add step by step:
+\[
+  1.49 + 39.24 = 40.73
+\]
+\[
+  40.73 + 15.56 = 56.29
+\]
+So:
+\[
+  \vvar = \PKR{}~56.29.
+\]
+
+\paragraph{Check: \(\kcost=\cconst+\vvar\).}
+\[
+  \kcost=\cconst+\vvar=154.52+56.29=210.81.
+\]
+This is (up to rounding of cents) the reported total \(210.83\). Small differences like \(0.02\) happen because
+the table entries are rounded to two decimals.
+
+\subsection{Step 2: a profit margin (what Atkin et al.\ report)}
+Atkin et al.\ also report profit margins; for size-5 promotional balls, a mean ``profit (\%)'' around \(8.1\%\) is shown in their table.\footnote{Atkin et al.\ (2015), Table of average prices and profit percentages for ball types (e.g.\ size-5 promotional). \url{https://www.nber.org/papers/w21112}}
+They also state the conversion they use: \emph{unit cost} is recovered by dividing price by \(1+\) (profit margin),
+which means the margin is a \textbf{markup on cost}.\footnote{Atkin et al.\ (2015), note describing ``divide its reported price by one plus its reported profit margin'' to obtain unit cost. \url{https://www.nber.org/papers/w21112}}
+
+So we will treat:
+\[
+  m = 0.081
+\]
+as the (mean) profit markup on cost for this illustrative ball.
+
+\subsection{Step 3: compute an implied producer selling price}
+If markup on cost is \(m\), then:
+\[
+  p = \kcost(1+m).
+\]
+Use \(\kcost=210.83\) and \(m=0.081\):
+\[
+  p = 210.83(1+0.081)=210.83\times 1.081.
+\]
+
+Now compute \(210.83\times 1.081\) carefully by splitting \(1.081\):
+\[
+  1.081 = 1 + 0.081.
+\]
+So:
+\[
+  210.83\times 1.081 = 210.83\times 1 + 210.83\times 0.081.
+\]
+The first term is just \(210.83\).
+
+Now compute the second term:
+\[
+  210.83\times 0.081 = 210.83\times \frac{81}{1000}.
+\]
+First compute \(210.83\times 81\):
+\[
+  210.83\times 81 = 210.83\times 80 + 210.83\times 1.
+\]
+\[
+  210.83\times 80 = (210.83\times 8)\times 10.
+\]
+Compute \(210.83\times 8\):
+\[
+  210.83\times 8 = 1686.64.
+\]
+So:
+\[
+  210.83\times 80 = 1686.64\times 10 = 16866.40.
+\]
+Add the \(\times 1\) part:
+\[
+  210.83\times 81 = 16866.40 + 210.83 = 17077.23.
+\]
+Now divide by \(1000\):
+\[
+  210.83\times 0.081 = \frac{17077.23}{1000} = 17.07723.
+\]
+
+So the price is:
+\[
+  p = 210.83 + 17.07723 = 227.90723.
+\]
+Rounded to two decimals:
+\[
+  p \approx \PKR{}~227.91 \quad \text{(producer selling price per ball).}
+\]
+
+\subsection{Step 4: compute \(\splus\) as the per-ball accounting profit}
+Accounting profit per ball is:
+\[
+  \pi = p - \kcost.
+\]
+Substitute:
+\[
+  \pi = 227.90723 - 210.83 = 17.07723.
+\]
+In this simplified first pass, we set:
+\[
+  \splus \approx 17.08.
+\]
+
+\subsection{Step 5: compute the Marxian ratios}
+Now we compute:
+\[
+  \eRate=\frac{\splus}{\vvar},\quad
+  \pRate=\frac{\splus}{\cconst+\vvar},\quad
+  \OCC=\frac{\cconst}{\vvar}.
+\]
+
+\paragraph{(A) Rate of exploitation \(\eRate=\splus/\vvar\).}
+\[
+  \eRate = \frac{17.07723}{56.29}.
+\]
+A quick long-division approximation:
+\[
+  56.29\times 0.30 = 16.887 \quad (\text{slightly below }17.07723),
+\]
+difference:
+\[
+  17.07723 - 16.887 = 0.19023.
+\]
+Now add \(0.003\) more:
+\[
+  56.29\times 0.003 = 0.16887,
+\]
+new difference:
+\[
+  0.19023 - 0.16887 = 0.02136.
+\]
+Add \(0.0003\) more:
+\[
+  56.29\times 0.0003 = 0.016887,
+\]
+difference:
+\[
+  0.02136 - 0.016887 = 0.004473.
+\]
+So we are at \(0.3033\) with a tiny remainder. Therefore:
+\[
+  \eRate \approx 0.303 \approx 30.3\%.
+\]
+
+\paragraph{(B) Profit rate \(\pRate=\splus/(\cconst+\vvar)\).}
+Here \(\cconst+\vvar \approx 210.83\), so:
+\[
+  \pRate = \frac{17.07723}{210.83} \approx 0.081 = 8.1\%.
+\]
+(This matches the assumed markup construction.)
+
+\paragraph{(C) Organic composition proxy \(\OCC=\cconst/\vvar\).}
+\[
+  \OCC = \frac{154.52}{56.29}.
+\]
+Compute:
+\[
+  56.29\times 2 = 112.58,\quad \text{remainder } 154.52-112.58=41.94.
+\]
+Now:
+\[
+  56.29\times 0.7 = 39.403,\quad \text{remainder } 41.94-39.403=2.537.
+\]
+Now:
+\[
+  56.29\times 0.04 = 2.2516,\quad \text{remainder } 2.537-2.2516=0.2854.
+\]
+Now:
+\[
+  56.29\times 0.005 = 0.28145,\quad \text{remainder } 0.2854-0.28145\approx 0.00395.
+\]
+So:
+\[
+  \OCC \approx 2.745 \approx 2.75.
+\]
+
+\subsection{Step 6: ``necessary'' vs ``surplus'' shares (labour-time intuition without MELT)}
+Even if you do not know the MELT, one identity is helpful.
+
+New value (in money terms) created in production is:
+\[
+  \text{new value} = \vvar + \splus.
+\]
+Here:
+\[
+  \vvar + \splus \approx 56.29 + 17.08 = 73.37.
+\]
+Wage share of new value:
+\[
+  \frac{\vvar}{\vvar+\splus} = \frac{56.29}{73.37}\approx 0.767 = 76.7\%.
+\]
+Surplus share:
+\[
+  \frac{\splus}{\vvar+\splus} = \frac{17.08}{73.37}\approx 0.233 = 23.3\%.
+\]
+In labour-time language, these shares correspond to:
+\[
+  \frac{T_n}{T}=\frac{1}{1+\eRate},\qquad
+  \frac{T_s}{T}=\frac{\eRate}{1+\eRate}.
+\]
+With \(\eRate\approx 0.303\):
+\[
+  \frac{T_n}{T}\approx \frac{1}{1.303}\approx 0.767,\quad
+  \frac{T_s}{T}\approx \frac{0.303}{1.303}\approx 0.233.
+\]
+So, \emph{if} the relevant working day were, say, \(T=9\) hours, then:
+\[
+  T_n \approx 0.767\times 9 \approx 6.90~\uHour,\qquad
+  T_s \approx 0.233\times 9 \approx 2.10~\uHour.
+\]
+That is: roughly \(6.9\) hours to reproduce wages, and \(2.1\) hours as surplus labour time---under the simplifying
+assumption that the money shares reflect value shares and that the ratios apply uniformly across the direct labour in this production process.
+
+\section{Scaling up: from a ball to the Sialkot cluster (transparent approximations)}
+Here we take published scale facts and do simple ``back-of-the-envelope'' totals. The point is not precision; the point is
+to show exactly what assumptions you must make, and how each assumption changes the result.
+
+\subsection{Step 1: average export value per ball (Reuters/Dawn numbers)}
+Reuters (via \emph{Dawn}) reports a chamber claim: \(43\) million balls valued at \USD{}~191 million (FY2021--22).\footnote{\emph{Dawn} (Reuters) (Dec 9, 2022), as cited earlier.}
+
+Average value per ball is:
+\[
+  \overline{P} = \frac{191{,}000{,}000}{43{,}000{,}000}.
+\]
+Cancel six zeros by dividing numerator and denominator by \(1{,}000{,}000\):
+\[
+  \overline{P} = \frac{191}{43}.
+\]
+Now divide \(191\) by \(43\):
+\[
+  43\times 4 = 172,\quad \text{remainder } 191-172 = 19.
+\]
+So:
+\[
+  \frac{191}{43} = 4 + \frac{19}{43}.
+\]
+And:
+\[
+  \frac{19}{43}\approx 0.44186.
+\]
+So:
+\[
+  \overline{P}\approx 4.44~\USD/\uBall.
+\]
+Interpretation: the average value per ball at that scale is about \USD{}~4.44.
+
+\subsection{Step 2: total stitching wage bill under two piece-rate scenarios}
+We will compute two \emph{stitching-only} wage-bills:
+
+\paragraph{Scenario A (high-end hand stitching; Bloomberg).}
+Bloomberg reports about \USD{}~0.75 stitching pay per ball.\footnote{Bloomberg Businessweek (Nov 22, 2022), as cited earlier.}
+Then stitching wage bill for \(Q=43\) million balls is:
+\[
+  W^{A}_{\text{stitch}} = 0.75\times 43{,}000{,}000.
+\]
+Compute:
+\[
+  0.75\times 43{,}000{,}000 = \frac{3}{4}\times 43{,}000{,}000 = 32{,}250{,}000.
+\]
+So:
+\[
+  W^{A}_{\text{stitch}}\approx 32.25~\text{million USD}.
+\]
+
+\paragraph{Scenario B (promotional ball stitching cost; Atkin et al.).}
+Atkin et al.\ report stitching labour cost \(\PKR{}~39.24\) per ball, and use \(\PKR{}~100=\USD{}~1\) for their tabulation.\footnote{Atkin et al.\ (2015), Appendix Table A.1 and exchange-rate note.}
+So stitching labour cost in dollars (for their dataset) is approximately:
+\[
+  w^{B}_{\uBall} \approx \frac{39.24}{100} = 0.3924~\USD/\uBall.
+\]
+Now multiply by \(43\) million balls:
+\[
+  W^{B}_{\text{stitch}} = 0.3924\times 43{,}000{,}000.
+\]
+Compute \(0.3924\times 43\) first:
+\[
+  0.3924\times 40 = 15.696,\qquad 0.3924\times 3 = 1.1772.
+\]
+Add:
+\[
+  15.696 + 1.1772 = 16.8732.
+\]
+So:
+\[
+  W^{B}_{\text{stitch}} \approx 16.8732~\text{million USD}.
+\]
+
+\subsection{Step 3: compare stitching wages to the export value}
+Export value (Reuters/Dawn chamber claim): \USD{}~191 million.
+
+\paragraph{Scenario A share.}
+\[
+  \text{share}^{A}=\frac{32.25}{191}\approx 0.1689 = 16.9\%.
+\]
+
+\paragraph{Scenario B share.}
+\[
+  \text{share}^{B}=\frac{16.87}{191}\approx 0.0883 = 8.8\%.
+\]
+
+\noindent
+So stitching wages alone are somewhere between about \(9\%\) and \(17\%\) of export value \emph{under these two
+very different ball types / wage regimes}.
+This is not a contradiction: it reflects product heterogeneity (cheap vs premium balls), technology choice (machine vs hand stitching),
+and buyer-driven price pressure.
+
+\subsection{A note on why producer profit margins can be low while retail prices are high}
+Atkin et al.\ report producer profit margins on the order of single digits (around \(8\%\) in the example table),
+which is compatible with fierce competition among suppliers.\footnote{Atkin et al.\ (2015), profit table, as cited earlier.}
+Meanwhile, retail pricing for the branded match ball can be on the order of \USD{}~165.\footnote{GOAL (Mar 30, 2022), as cited earlier.}
+That wedge is where downstream costs and profits sit: branding, sponsorship, distribution, retail markups, and (often) monopoly rents.
+This document does not ``solve'' that wedge; it makes it visible and computable.
+
+\section{Historical note (labour regulation and the child-labour scandal)}
+For context: the Sialkot cluster became a major site of international scrutiny over child labour in the 1990s,
+followed by monitoring and restructuring initiatives.\footnote{For one overview: UNIDO (2010), Khalid Nadvi, ``The Soccer Ball Cluster of Sialkot, Pakistan'' (PDF). \url{https://www.unido.org/sites/default/files/files/2010-12/GC.13_10_Ebook_part2.pdf}}
+This history matters because it shaped subcontracting patterns, home-based work, and compliance regimes that still structure
+how piece-rate labour is organised.
+
+\section{What you can change (and recompute immediately)}
+If you want to adapt this to a specific pamphlet chapter, or to a different ball type, change these inputs and redo the same steps:
+\begin{itemize}[leftmargin=*]
+\item piece rate per ball (\(w_{\uBall}\)),
+\item hours per ball (\(t_{\uBall}\)),
+\item balls per day (\(q_{\uDay}\)),
+\item cost table (materials, overhead, wage items),
+\item markup / profit margin (\(m\)),
+\item annual output volume (\(Q\)) and export value (for scaling).
+\end{itemize}
+
+\section*{References (quick list)}
+\begin{thebibliography}{9}
+\setlength{\itemsep}{0.35em}
+\bibitem{Bloomberg2022}
+Bloomberg Businessweek (2022).
+\newblock ``This Is Where Most of the World’s Soccer Balls Come From'' (Nov 22, 2022).
+\newblock \url{https://www.bloomberg.com/features/2022-world-cup-soccer-ball-adidas-al-rihla-sialkot/}
+
+\bibitem{TDAPFY2324}
+Trade Development Authority of Pakistan (TDAP) (2025).
+\newblock \emph{Pakistan Trade Perspective FY 2023--24}.
+\newblock \url{https://tdap.gov.pk/wp-content/uploads/2025/01/TDAP-Annual-Report-PAKISTAN-TRADE-PERSPECTIVE-FY-23-24-new.pdf}
+
+\bibitem{TDAPFY23}
+Trade Development Authority of Pakistan (TDAP) (2023).
+\newblock \emph{Pakistan’s Annual Trade Performance July--June FY 2022--23}.
+\newblock \url{https://tdap.gov.pk/wp-content/uploads/2023/10/Final-draft-of-Pakistans-Annual-Trade-Performance-July-June-FY23-6-SEPTEMBER-2023.pdf}
+
+\bibitem{Atkin2015}
+Atkin, D., Khandelwal, A.\ K., Osman, A., \& Pavcnik, N. (2015).
+\newblock ``Exporting and Firm Performance: Evidence from a Randomized Experiment.''
+NBER Working Paper 21112.
+\newblock \url{https://www.nber.org/papers/w21112}
+
+\bibitem{DawnReuters2022}
+\emph{Dawn} (Reuters) (2022).
+\newblock ``‘Made-in-Sialkot’ ball puts Pakistan in FIFA World Cup'' (Dec 9, 2022).
+\newblock \url{https://www.dawn.com/news/1725468}
+
+\bibitem{GoalPrice2022}
+GOAL (2022).
+\newblock ``Adidas unveils 'fastest in flight' World Cup match ball Al Rihla'' (Mar 30, 2022).
+\newblock \url{https://www.goal.com/en/news/adidas-world-cup-match-ball-al-rihla-qatar-2022/blta7dc0012ef2a879f}
+
+\bibitem{NadviUNIDO2010}
+UNIDO (2010).
+\newblock Khalid Nadvi, ``The Soccer Ball Cluster of Sialkot, Pakistan'' (PDF).
+\newblock \url{https://www.unido.org/sites/default/files/files/2010-12/GC.13_10_Ebook_part2.pdf}
+\end{thebibliography}
+
+\end{document}

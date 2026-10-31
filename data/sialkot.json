@@ -1,0 +1,24 @@
+{
+  "_about": "Sialkot football figures shared by the pamphlet, the worked report and the slides. Change them here, then run tools/sialkot.py.",
+  "inputs": {
+    "PieceRatePKR": {"value": 160, "source": "Bloomberg Businessweek, 22 Nov 2022"},
+    "HoursPerBall": {"value": 3, "source": "Bloomberg Businessweek, 22 Nov 2022"},
+    "BallsPerDay": {"value": 3, "source": "Bloomberg Businessweek, 22 Nov 2022"},
+    "WorkDaysMonth": {"value": 20, "source": "Assumption that reproduces Bloomberg's monthly figure"},
+    "LivingWageQuotePKR": {"value": 20000, "source": "Bloomberg Businessweek, 22 Nov 2022"},
+    "LivingWageUrbanPKR": {"value": 51733, "source": "Global Living Wage Coalition, 2025 estimate"},
+    "LivingWageRuralPKR": {"value": 45588, "source": "Global Living Wage Coalition, 2025 estimate"},
+    "ConstantCapitalPKR": {"value": 154.52, "source": "Sum of non-labour items, Atkin et al., Table A.1"},
+    "VariableCapitalPKR": {"value": 56.29, "source": "Sum of labour items, Atkin et al., Table A.1"},
+    "StitchingLabourPKR": {"value": 39.24, "source": "Atkin et al., Table A.1"},
+    "ReportedTotalCostPKR": {"value": 210.83, "source": "Atkin et al., Table A.1; differs from c + v by rounding"},
+    "MarkupPct": {"value": 8.1, "source": "Atkin et al., profit margin for size-5 promotional balls"},
+    "RetailUSD": {"value": 165, "source": "GOAL, 30 Mar 2022"},
+    "BallsMillion": {"value": 43, "source": "Dawn (Reuters), 9 Dec 2022, chamber claim for FY2021-22"},
+    "ValueUSDMillion": {"value": 191, "source": "Dawn (Reuters), 9 Dec 2022, chamber claim for FY2021-22"}
+  },
+  "appear_in": {
+    "latex/content.tex": ["160", "53.33", "9,600", "20,000", "56.29", "39.24", "210.83", "227.91", "17.08"],
+    "examples/sialkot/report.tex": ["160", "53.33", "9,600", "20,000", "154.52", "56.29", "39.24", "210.83", "227.91", "4.44"]
+  }
+}

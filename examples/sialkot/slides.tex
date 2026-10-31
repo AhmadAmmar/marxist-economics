@@ -1,0 +1,576 @@
+% ============================================================
+% insta_sialkot_football_marx_SQUARECANVAS_BLACK_BOXED.tex
+% Standalone (pdflatex). Each page = one square slide.
+% Black background, white text, white box outline.
+% Asymmetric margins (more space to right and bottom).
+% Header font size controlled independently from body font.
+% PKR first everywhere; USD in brackets using a stated reference rate.
+% Slide numbering automated: current page / total pages.
+% ============================================================
+
+\documentclass[17pt]{extarticle}
+
+% --- Square canvas; more usable area toward right + bottom ---
+\usepackage[
+  paperwidth=7.5in,paperheight=7.5in,
+  left=0.33in,top=0.33in,
+  right=0.22in,bottom=0.22in
+]{geometry}
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+
+\usepackage{xcolor}
+\usepackage{amsmath,amssymb}
+\usepackage{siunitx}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{xfp}
+
+\usepackage{xurl} % better URL line breaking
+\urlstyle{same}
+
+% --- Slide numbering: current page / total pages ---
+\usepackage{lastpage}
+\usepackage{refcount}
+
+\sisetup{detect-all,group-separator={,},group-minimum-digits=4}
+
+% --- Black canvas, white ink ---
+\AtBeginDocument{\pagecolor{black}\color{white}}
+
+% --- Spacing (looser, readable on phone) ---
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.60em}
+\renewcommand{\baselinestretch}{1.12}
+
+\setlist[itemize]{leftmargin=1.35em,itemsep=0.28em,topsep=0.20em,parsep=0pt}
+
+% --- Robust line breaking inside boxed slides ---
+\emergencystretch=2.5em
+
+% --- Units (avoid \day/\month primitives) ---
+\newcommand{\uDay}{\mathrm{day}}
+\newcommand{\uHour}{\mathrm{hour}}
+\newcommand{\uBall}{\mathrm{ball}}
+\newcommand{\uMonth}{\mathrm{month}}
+
+% --- Currency tokens and formats ---
+\newcommand{\PKR}{\text{PKR}}
+\newcommand{\USD}{\text{USD}}
+\newcommand{\pkr}[1]{\text{PKR}\,\num{#1}}
+\newcommand{\usd}[1]{\text{USD}\,\num{#1}}
+
+% ============================================================
+% Exchange rate (single point of truth)
+% ============================================================
+% SBP USD/PKR M2M revaluation rate as on 2 Jan 2026
+\newcommand{\USDPKR}{280.112}
+\newcommand{\RateDate}{2 Jan 2026}
+
+\newcommand{\USDofPKR}[1]{\fpeval{round((#1)/\USDPKR,2)}}
+\newcommand{\PKRofUSD}[1]{\fpeval{round((#1)*\USDPKR,0)}}
+\newcommand{\PKRofUSDtwo}[1]{\fpeval{round((#1)*\USDPKR,2)}}
+
+% ============================================================
+% Fixed inputs
+% ============================================================
+
+% Piece-rate example:
+\input{../../latex/generated/sialkot_numbers.tex}
+
+\newcommand{\DailyPayPKR}{\fpeval{round(\PieceRatePKR*\BallsPerDay,0)}}   % 480
+\newcommand{\DailyHours}{\fpeval{round(\HoursPerBall*\BallsPerDay,0)}}    % 9
+\newcommand{\HourlyWagePKR}{\fpeval{round(\DailyPayPKR/\DailyHours,2)}}   % 53.33
+
+% Monthly-pay assumption (keeps your 9,600 outcome but makes the arithmetic explicit)
+\newcommand{\MonthlyPayPKR}{\fpeval{round(\DailyPayPKR*\WorkDaysMonth,0)}} % 9600
+
+% Living-wage benchmarks (avoid digits in command names)
+
+% Coverage / shortfall vs quoted (2022 context)
+\newcommand{\ShortfallQuotePKR}{\fpeval{round(\LivingWageQuotePKR-\MonthlyPayPKR,0)}}
+\newcommand{\LivingPctQuote}{\fpeval{round(100*\MonthlyPayPKR/\LivingWageQuotePKR,0)}}
+
+% Coverage / shortfall vs updated (2025)
+\newcommand{\ShortfallUrbanPKR}{\fpeval{round(\LivingWageUrbanPKR-\MonthlyPayPKR,0)}}
+\newcommand{\LivingPctUrban}{\fpeval{round(100*\MonthlyPayPKR/\LivingWageUrbanPKR,0)}}
+
+\newcommand{\ShortfallRuralPKR}{\fpeval{round(\LivingWageRuralPKR-\MonthlyPayPKR,0)}}
+\newcommand{\LivingPctRural}{\fpeval{round(100*\MonthlyPayPKR/\LivingWageRuralPKR,0)}}
+
+% Producer cost structure example (PKR per ball):
+
+% International benchmarks (USD -> PKR via reference rate):
+\newcommand{\RetailPKR}{\PKRofUSD{\RetailUSD}}
+
+\newcommand{\ExportAvgPKR}{\PKRofUSDtwo{\ExportAvgUSD}}
+\newcommand{\ExportAvgPKRint}{\fpeval{round(\ExportAvgPKR,0)}}
+
+% Derived comparisons:
+\newcommand{\DailyExportPKR}{\fpeval{round(\BallsPerDay*\ExportAvgPKR,0)}}
+\newcommand{\DailyRetailPKR}{\fpeval{round(\BallsPerDay*\RetailPKR,0)}}
+\newcommand{\WageShareExportPct}{\fpeval{round(100*\DailyPayPKR/(\BallsPerDay*\ExportAvgPKR),2)}}
+\newcommand{\WageShareRetailPct}{\fpeval{round(100*\DailyPayPKR/(\BallsPerDay*\RetailPKR),3)}}
+
+\newcommand{\HoursToBuy}{\fpeval{round(\RetailPKR/\HourlyWagePKR,0)}}
+\newcommand{\BallsToBuy}{\fpeval{round((\RetailPKR/\HourlyWagePKR)/\HoursPerBall,0)}}
+\newcommand{\DaysToBuy}{\fpeval{round((\RetailPKR/\HourlyWagePKR)/\DailyHours,1)}}
+
+% Margin/spread comparisons (factory gate vs export vs retail)
+\newcommand{\ExportMinusFactoryPKR}{\fpeval{round(\ExportAvgPKR-\pPKR,0)}}
+\newcommand{\RetailMinusFactoryPKR}{\fpeval{round(\RetailPKR-\pPKR,0)}}
+\newcommand{\ExportMultiple}{\fpeval{round(\ExportAvgPKR/\pPKR,2)}}
+\newcommand{\RetailMultiple}{\fpeval{round(\RetailPKR/\pPKR,1)}}
+\newcommand{\LocalProfitShareExportPct}{\fpeval{round(100*\sPKR/\ExportAvgPKR,2)}}
+\newcommand{\LocalProfitShareRetailPct}{\fpeval{round(100*\sPKR/\RetailPKR,3)}}
+
+% Time intuition:
+\newcommand{\NecessaryHours}{6.9}
+\newcommand{\SurplusHours}{2.1}
+
+% ============================================================
+% Typography controls (HEADER vs BODY)
+% ============================================================
+\newcommand{\BodyFont}{\normalsize}
+\newcommand{\HeaderFont}{\fontsize{20}{24}\selectfont}
+\newcommand{\SlideNoFont}{\fontsize{16}{19}\selectfont}
+
+% ============================================================
+% Slide numbering helpers
+% ============================================================
+\newcommand{\TwoDigit}[1]{\ifnum#1<10 0\fi\number#1}
+\newcommand{\SlideCurrent}{\TwoDigit{\value{page}}}
+\newcommand{\SlideTotal}{\TwoDigit{\getpagerefnumber{LastPage}}}
+\newcommand{\SlideCounterText}{\SlideCurrent/\SlideTotal}
+
+% ============================================================
+% Dense-slide helper: tighten display-math vertical spacing
+% (use ONLY inside dense slides)
+% ============================================================
+\newcommand{\TightMath}{%
+  \setlength{\abovedisplayskip}{0.35em}%
+  \setlength{\belowdisplayskip}{0.35em}%
+  \setlength{\abovedisplayshortskip}{0.20em}%
+  \setlength{\belowdisplayshortskip}{0.20em}%
+}
+
+% ============================================================
+% Boxed slide macro
+% ============================================================
+
+\setlength{\fboxsep}{14pt}
+\setlength{\fboxrule}{1.05pt}
+
+\newlength{\InnerW}
+\newlength{\InnerH}
+\setlength{\InnerW}{\dimexpr\textwidth-2\fboxsep-2\fboxrule\relax}
+\setlength{\InnerH}{\dimexpr\textheight-2\fboxsep-2\fboxrule\relax}
+
+\newcommand{\HeaderLine}[2]{%
+  \parbox[t]{0.78\linewidth}{\raggedright{\HeaderFont\bfseries #1}}%
+  \hfill
+  \parbox[t]{0.20\linewidth}{\raggedleft{\SlideNoFont\bfseries #2}}%
+  \par\vspace{0.25em}\hrule\vspace{0.60em}%
+}
+
+\newcommand{\SlideBox}[2]{%
+  \clearpage
+  \thispagestyle{empty}
+  \noindent\fbox{%
+    \begin{minipage}[t][\InnerH][t]{\InnerW}
+      \HeaderLine{#1}{\SlideCounterText}
+      \vspace*{\fill}
+      {\BodyFont\raggedright\sloppy #2\par}
+      \vspace*{\fill}
+    \end{minipage}
+  }%
+}
+
+\begin{document}
+\pagenumbering{arabic}
+
+% ============================================================
+% SLIDES
+% ============================================================
+
+\SlideBox
+{Sialkot footballs: workshop labour, world-market prices}
+{%
+\textbf{Reference FX rate used here:} \(1~\USD \approx \pkr{\USDPKR}\) (\RateDate).
+
+Sialkot’s football workers produce commodities that pass through exporters, brands, and retailers into global leagues and tournaments. The same stitched object can reappear in the world market at a money price that stands far above the local wage.
+
+Two benchmarks (converted using the reference rate above):
+\[
+\begin{array}{ll}
+\text{Retail benchmark:} & \pkr{\RetailPKR}\ (\usd{\RetailUSD})\\
+\text{Export-average benchmark:} & \pkr{\ExportAvgPKRint}\ (\usd{\ExportAvgUSD})
+\end{array}
+\]
+
+We will measure one simple thing: how wages, costs, and surplus fit together, and what that implies for class struggle in a supply chain.
+}
+
+\SlideBox
+{Data sources and years:}
+{%
+\small
+
+These slides combine figures drawn from different sources and years (each labelled). The aim is to make the class relation legible.
+
+\begin{itemize}
+\item \textbf{Piece-rate, time per ball, and the \pkr{\MonthlyPayPKR}/month example:} \textbf{Bloomberg Businessweek, 22 Nov 2022} (\pkr{160}/ball; \(\sim 3\) hours/ball; \(\sim 3\) balls/day; \(\sim\pkr{9600}\)/month).
+\item \textbf{“Living wage \(\sim\) \pkr{\LivingWageQuotePKR}/month”:} quoted as a \textbf{researcher-estimate benchmark} in that same \textbf{Nov 2022} Bloomberg reporting. \textbf{Updated} benchmarks are shown later.
+\item \textbf{Export scale / implied export unit value:} \textbf{FY 2021/22} output and value reported via \textbf{Reuters (published 9 Dec 2022)}: 43 million balls valued at USD 191 million \(\Rightarrow\) implied average export unit value \(\approx\usd{4.44}\).
+\item \textbf{Producer-stage cost structure \(c,v,k\) and mean profit margin:} firm survey evidence in \textbf{NBER Working Paper 21417} (dated \textbf{July 2015}, revised \textbf{July 2016}); cost table is for a \textbf{size-5 promotional ball} and reports costs in PKR.
+\item \textbf{FX conversion shown in brackets:} SBP USD/PKR M2M revaluation rate as on \RateDate.
+\end{itemize}
+
+We keep PKR as primary, and we mark benchmark-years so inflation and time are not hidden.%
+}
+
+\SlideBox
+{Notations first:}
+{%
+We use standard Marxian notation, defined before any calculation:
+
+\begin{itemize}
+\item \(w_{\uBall}\): piece-rate pay per ball. \(w_{\uDay}\), \(w_{\uMonth}\): wage income per day/month.
+\item \(T_{\uDay}\): hours worked per day. \(w_{\uHour}=w_{\uDay}/T_{\uDay}\): implied hourly wage.
+\item \(c\): \textbf{constant capital} (materials, overhead, machines) whose value is transferred.
+\item \(v\): \textbf{variable capital} (wages paid for labour-power).
+\item \(k=c+v\): \textbf{cost price} advanced by capital.
+\item \(p\): selling price at the producer stage. \(s=p-k\): \textbf{surplus} in money form at this stage.
+\item \(e=\dfrac{s}{v}\): \textbf{rate of exploitation} (surplus relative to wages).
+\end{itemize}
+
+From here on, each slide repeats the definition relevant to its step, and then plugs in numbers.%
+}
+
+\SlideBox
+{Piece rate \(\rightarrow\) hourly wage: the wage in disguise}
+{%
+\textbf{Definitions.} \(w_{\uBall}\) is pay per ball; \(q\) is balls/day; \(t_{\uBall}\) is hours/ball.
+Then \(w_{\uDay}=w_{\uBall}q\), \(T_{\uDay}=t_{\uBall}q\), and \(w_{\uHour}=w_{\uDay}/T_{\uDay}\).
+
+Numbers (PKR first; USD in brackets uses SBP \RateDate\ FX):
+\[
+w_{\uBall}=\pkr{\PieceRatePKR}\ (\usd{\USDofPKR{\PieceRatePKR}}),\quad
+q=\BallsPerDay,\quad
+t_{\uBall}=\HoursPerBall.
+\]
+Daily wage income:
+\[
+w_{\uDay}=160\times 3=\pkr{\DailyPayPKR}\ (\usd{\USDofPKR{\DailyPayPKR}}).
+\]
+Daily hours:
+\[
+T_{\uDay}=3\times 3=\DailyHours\ \text{hours}.
+\]
+Implied hourly wage:
+\[
+w_{\uHour}=\frac{480}{9}\approx \pkr{\HourlyWagePKR}/\uHour\ (\usd{\USDofPKR{\HourlyWagePKR}}/\uHour).
+\]
+
+A piece rate looks like payment for output. In reality it is a method of controlling time: the worker must increase pace, lengthen hours, or absorb risk to keep income steady.
+}
+
+% -----------------------------
+% FIXED: split former Slide 5 into TWO slides
+% -----------------------------
+
+\SlideBox
+{Monthly wage vs. living wage (2022)}
+{%
+
+Monthly income at this pace:
+\[
+w_{\uMonth}\approx \pkr{\MonthlyPayPKR}\ (\usd{\USDofPKR{\MonthlyPayPKR}}),
+\]
+which corresponds to about \(\WorkDaysMonth\) paid workdays/month at \(w_{\uDay}=\pkr{\DailyPayPKR}\).
+
+Living-wage benchmark (as reported in Nov 2022):
+\[
+L^{\text{(quote, 2022)}}_{\uMonth}\approx \pkr{\LivingWageQuotePKR}\ (\usd{\USDofPKR{\LivingWageQuotePKR}}).
+\]
+
+So under that \textbf{2022} benchmark:
+\[
+\frac{w_{\uMonth}}{L^{\text{(quote, 2022)}}_{\uMonth}}\approx \LivingPctQuote\%,
+\qquad
+L^{\text{(quote, 2022)}}_{\uMonth}-w_{\uMonth}=\pkr{\ShortfallQuotePKR}.
+\]
+
+This is social reproduction as arithmetic: when wages sit below reproduction, the “adjustment” is rationing, debt, longer hours, and unpaid labour pushed into households. Unless wages rose proportionally with the reproduction benchmark---estimated at
+\(\pkr{\LivingWageUrbanPKR}\) (urban) and \(\pkr{\LivingWageRuralPKR}\) (rural)
+(Anker Method; 2025 estimate)---the implied shortfall would be larger today.%
+}
+
+\SlideBox
+{What the worker produces in a day}
+{%
+\textbf{Definitions.} Output per day is \(q\). Daily wage is \(w_{\uDay}\). We compare the wage to two money benchmarks for the day’s output.
+
+At this pace \(q=3\) balls/day and \(w_{\uDay}=\pkr{\DailyPayPKR}\ (\usd{\USDofPKR{\DailyPayPKR}})\).
+
+Benchmark values of the day’s output:
+\begin{align*}
+\text{Export benchmark/day}
+&=3\times \pkr{\ExportAvgPKRint}\approx \pkr{\DailyExportPKR},\\
+\text{Retail benchmark/day}
+&=3\times \pkr{\RetailPKR}= \pkr{\DailyRetailPKR}.
+\end{align*}
+
+Wage as a share of those benchmarks:
+\begin{align*}
+\frac{w_{\uDay}}{\text{export benchmark/day}}
+&=\frac{480}{\num{\DailyExportPKR}}\approx \WageShareExportPct\%,\\
+\frac{w_{\uDay}}{\text{retail benchmark/day}}
+&=\frac{480}{\num{\DailyRetailPKR}}\approx \WageShareRetailPct\%.
+\end{align*}
+
+These ratios do \emph{not} claim the local employer pockets full retail. They show the scale of separation between the wage and the commodity’s world-market money form.
+}
+
+% -----------------------------
+% FIXED: split former Slide 7 into TWO slides
+% -----------------------------
+
+\SlideBox
+{Who captures the margin? (factory-gate profit after costs)}
+{%
+
+We have one \textbf{producer-stage} example with full costs (a size-5 promotional ball):
+\[
+\begin{aligned}
+k &= c+v = \pkr{\kPKR},\\
+p &\approx \pkr{\pPKR},\\
+s &= p-k = \pkr{\sPKR}.
+\end{aligned}
+\]
+
+
+So the \textbf{local capitalist’s profit after costs at this stage} is:
+\[
+s\approx \pkr{\sPKR}\ \text{per ball}.
+\]
+
+This is not “the whole supply-chain profit”. It is the surplus captured at \textbf{one documented producer stage}. Next we compare the factory gate to export and retail benchmarks.
+}
+
+\SlideBox
+{Downstream spread (export/brand/retail gap)}
+{%
+
+World-market benchmarks (converted using SBP \RateDate\ FX):
+\[
+\begin{aligned}
+\text{export unit value} &\approx \pkr{\ExportAvgPKRint},\\
+\text{retail benchmark}  &\approx \pkr{\RetailPKR}.
+\end{aligned}
+\]
+
+Downstream \textbf{spread beyond the factory gate} \(p\)
+(\emph{not “pure profit”; includes freight, finance, marketing, brand rents, etc.}):
+\[
+\text{export}-p \approx \pkr{\ExportMinusFactoryPKR},
+\qquad
+\text{retail}-p \approx \pkr{\RetailMinusFactoryPKR}.
+\]
+
+Same relation as \textbf{multiples of the factory gate}:
+\[
+\frac{\text{export}}{p}\approx \ExportMultiple,
+\qquad
+\frac{\text{retail}}{p}\approx \RetailMultiple.
+\]
+
+Local producer-stage \textbf{profit after costs} as a share of benchmarks:
+\[
+\frac{s}{\text{export}}\approx \LocalProfitShareExportPct\%,
+\qquad
+\frac{s}{\text{retail}}\approx \LocalProfitShareRetailPct\%.
+\]
+
+
+This is the scale of the downstream spread fought over among exporters, brands, and retailers.
+}
+
+
+\SlideBox
+{Inside one ball: \(c\), \(v\), \(k\)}
+{%
+\textbf{Definitions.}
+\(c\) = constant capital \emph{advanced and used up} in production (value transferred);
+\(v\) = variable capital (wages paid for labour-power);
+\(k=c+v\) = cost price advanced by capital.
+
+\textbf{Breakdown of \(c\).} In general,
+\[
+c = c_{\text{materials}} + c_{\text{depreciation}} + c_{\text{overhead}},
+\]
+where materials include rexine/synthetic panels, bladder, thread/glue, packaging; depreciation is wear-and-tear of tools/machines/buildings; overhead includes electricity, rent, admin, and related running costs.
+
+In the producer-cost figures used here, these elements are reported together as one combined \(c\) (materials + overhead), so we do not split them numerically.
+
+Representative producer cost structure (PKR per ball):
+\[
+ c=\pkr{\cPKR},\qquad
+ v=\pkr{\vPKR},\qquad
+ k=c+v=\pkr{\kPKR}.
+\]
+
+Why it matters: \(c\) does not create new value; it passes value on. New value comes from living labour. Profit is not explained by “exchange” alone; it is rooted in production under capitalist control.
+}
+
+\SlideBox
+{Selling price \(p\), surplus \(s\), and new value \(v+s\)}
+{%
+\textbf{Definitions.}
+\(p\) = producer-stage selling price;
+\(s=p-k\) = surplus in money form at this stage;
+new value (money form) \(=v+s\).
+
+With markup \(m=\MarkupPct\%\) on cost (as documented in literature):
+\[
+p=k\Bigl(1+\frac{m}{100}\Bigr)\approx \pkr{\pPKR}.
+\]
+So surplus:
+\[
+s\approx p-k=\pkr{\pPKR}-\pkr{\kPKR}=\pkr{\sPKR}.
+\]
+New value added by living labour (money form):
+\[
+v+s=\pkr{\vPKR}+\pkr{\sPKR}=\pkr{\NewValuePKR}.
+\]
+
+Labour creates new value; wages return only part of it. The remainder appears as \(s\), and that remainder is what capital lives on.
+}
+
+\SlideBox
+{Rate of exploitation \(e=s/v\)}
+{%
+\textbf{Definition.} The rate of exploitation is \(e=\dfrac{s}{v}\): surplus relative to wages.
+
+Compute:
+\[
+e=\frac{17.08}{56.29}\approx 0.303 \Rightarrow 30.3\%.
+\]
+Meaning: for every \(\pkr{100}\) paid in wages, about \(\pkr{30}\) is appropriated as surplus at this producer stage.
+
+Time intuition (for a 9-hour day):
+\[
+T_{\uDay}=T_n+T_s \approx \NecessaryHours + \SurplusHours = 9,
+\]
+where \(T_n\) is necessary labour time (the part of the day in which the worker reproduces the value of their wage) and \(T_s\) is surplus labour time (the part of the day in which the worker produces surplus value appropriated by capital).
+}
+
+\SlideBox
+{How long to buy what you make?}
+{%
+\textbf{Definitions.} \(w_{\uHour}\) is hourly wage. \(H=\dfrac{\text{price}}{w_{\uHour}}\) is hours needed to earn a given price in wages.
+
+Hourly wage:
+\[
+w_{\uHour}\approx \pkr{\HourlyWagePKR}/\uHour\ (\usd{\USDofPKR{\HourlyWagePKR}}/\uHour).
+\]
+Retail benchmark price:
+\[
+\pkr{\RetailPKR}\ (\usd{\RetailUSD}).
+\]
+Hours to afford one retail-price ball:
+\[
+H=\frac{\num{\RetailPKR}}{\num{\HourlyWagePKR}}\approx \HoursToBuy\ \text{hours}.
+\]
+Convert into output and workdays:
+\[
+\HoursToBuy\div 3 \approx \BallsToBuy\ \text{balls},
+\qquad
+\HoursToBuy\div 9 \approx \DaysToBuy\ \text{days}.
+\]
+
+So the worker must stitch roughly \textbf{\BallsToBuy\ balls}—nearly \textbf{\DaysToBuy\ workdays}—to earn enough wages to buy \textbf{one} ball at the retail benchmark.
+}
+
+\SlideBox
+{Why Marxism clarifies what liberal economics obscures}
+{%
+Neoclassical and neoliberal economics typically start from exchange: a wage contract is made, a price is paid, and outcomes are explained as “returns” to factors.
+
+Marxism starts from production and power. Workers sell \emph{labour-power} for wages \(v\). Under capitalist command, labour produces new value \(v+s\). Because capital owns the product, it appropriates \(s\). Exploitation is the measurable split:
+\[
+\text{new value}=v+s,\qquad e=\frac{s}{v}.
+\]
+
+This is why exploitation can exist even when contracts are legal and wages are paid on time. The issue is not merely a defective contract; it is the property relation that makes the contract necessary.
+}
+
+\SlideBox
+{History as class struggle:}
+{%
+When Marx and Engels say history is the history of class struggles, they mean the central conflict is over control of labour, ownership of the product, and appropriation of surplus.
+
+In a supply chain like football manufacturing, that conflict appears as:
+\begin{itemize}
+\item piece rates and speed-up (how time is commanded for how little pay),
+\item subcontracting and fragmentation (how capital isolates workers),
+\item compliance regimes and buyer power (how global contracts discipline local labour),
+\item reproduction crises (how wages below survival are “managed” through debt and unpaid labour).
+\end{itemize}
+
+The arithmetic is not for classrooms or textbooks, but for streets and neighbourhoods. It makes the relation legible: who bears the cost, who captures the surplus, and why collective organisation becomes necessary.%
+}
+
+\SlideBox
+{Perspectives for the movement}
+{%
+If wages are below reproduction (\pkr{\MonthlyPayPKR} vs \(\sim\pkr{\LivingWageUrbanPKR}\) urban living wage), closing the reproduction gap is not charity; it is a class demand. If surplus exists and is measurable (\(e\approx 30.3\%\) in the producer-stage example), the struggle is also over time, intensity, and control.
+
+Practical implications:
+\begin{itemize}
+\item Raise piece rates and base wages so monthly income meets and exceeds the reproduction benchmark.
+\item Reduce working time without wage loss: contest surplus labour time directly.
+\item Organise across workshops and subcontractors so capital cannot isolate workers by contract type.
+\item Target downstream enforcement: purchasing contracts and brand/retail power that squeezes labour at the bottom.
+\end{itemize}
+
+Marxist rigour is useful because it ties demands to the structure of the relation: \(v\) versus \(v+s\), reproduction versus deprivation, and the necessity of collective power to change the terms.
+}
+
+\SlideBox
+{References}
+{%
+
+\begin{itemize}
+
+\item Bloomberg Businessweek (22 Nov 2022):
+\nolinkurl{www.bloomberg.com/features/2022-world-cup-soccer-ball-adidas-al-rihla-sialkot/}
+
+\item Reuters via \emph{Dawn} (9 Dec 2022):
+\nolinkurl{www.dawn.com/news/1725468}
+
+\item Al Jazeera / Story of the Football (2014):
+\nolinkurl{interactive.aljazeera.com/aje/2014/WCball/index.html}
+
+\item Atkin et al. (NBER WP 21417):
+\nolinkurl{www.nber.org/papers/w21417}
+
+\item GOAL (30 Mar 2022):
+\nolinkurl{www.goal.com/en/news/adidas-world-cup-match-ball-al-rihla-qatar-2022/blta7dc0012ef2a879f}
+
+\item Global Living Wage Coalition / Anker Research Institute (Pakistan, urban):
+\nolinkurl{www.globallivingwage.org/countries/pakistan/}
+
+\item UNIDO / Khalid Nadvi (2010) Sialkot cluster (PDF):
+\nolinkurl{www.unido.org/sites/default/files/2010-07/Global_value_chains_local_clusters_and_CSR_01_0.pdf}
+
+\item TDAP (2025) Pakistan Trade Perspective FY 2023--24 (PDF):
+\nolinkurl{tdap.gov.pk/wp-content/uploads/2025/01/TDAP-Annual-Report-PAKISTAN-TRADE-PERSPECTIVE-FY-23-24-new.pdf}
+
+\end{itemize}
+
+}
+
+\end{document}
