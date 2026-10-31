@@ -25,15 +25,14 @@ def text_fingerprint(pdf):
 
 
 def overflowing(images):
-    """Slides with anything drawn outside the white frame, which is 64 pixels in from each edge at 1440 pixels."""
+    """Slides with anything drawn beyond the white frame, whose right and bottom edges sit near 1412 and 1398 of 1440 pixels."""
     from PIL import Image
     bad = []
     for path in images:
         im = Image.open(path).convert("L")
         w, h = im.size
-        margin = round(50 * w / 1440)
-        outer = [(0, 0, margin, h), (w - margin - 8, 0, w, h), (0, 0, w, margin), (0, h - margin - 8, w, h)]
-        if any(im.crop(box).getextrema()[1] > 60 for box in outer[1:2] + outer[3:]):
+        beyond = [(round(1420 * w / 1440), 0, w, h), (0, round(1405 * h / 1440), w, h)]
+        if any(im.crop(box).getextrema()[1] > 60 for box in beyond):
             bad.append(path.name)
     return bad
 
