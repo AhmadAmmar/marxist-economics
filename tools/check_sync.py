@@ -23,6 +23,7 @@ LAYOUT_NUMBERS = {"1.5", "1.15", "0"}
 
 
 def clean(t):
+    t = t.replace("\\$", " ")
     t = re.sub(r"\$\$.*?\$\$|\\\[.*?\\\]|\\begin\{(equation\*?|align\*?|gather\*?|tabularx|tabular|table)\}.*?\\end\{\1\}", " ", t, flags=re.S)
     t = re.sub(r"\$[^$\n]*\$|\\\(.*?\\\)", " ", t)
     t = re.sub(r"<span class=\"citation\".*?</span>|<table.*?</table>", " ", t, flags=re.S)
@@ -66,7 +67,7 @@ def main():
     web = "\n".join(p.read_text(encoding="utf8") for p in sorted((ROOT / "docs/chapters").glob("*.md")))
     bad += word_problems(tex, web) + number_problems(tex, web)
     d = sialkot.derive(sialkot.inputs())
-    for k, want in {"HourlyWage": 53.33, "MonthlyPayPKR": 9600, "CostSum": 210.81, "ProducerPrice": 227.91, "Surplus": 17.08, "NewValue": 73.37, "ExportAvgUSD": 4.44}.items():
+    for k, want in {"HourlyWage": 53.33, "MonthlyPayPKR": 9600, "CostSum": 210.81, "ProducerPrice": 227.91, "Surplus": 17.08, "NewValue": 73.37, "ExportAvgUSD": 4.44, "RetailPKR": 46183, "HoursToBuy": 866}.items():
         if d[k] != want:
             bad.append(f"Sialkot {k} is {d[k]}, the documents say {want}")
     for doc, figures in json.loads((ROOT / "data/sialkot.json").read_text(encoding="utf8"))["appear_in"].items():
@@ -74,7 +75,7 @@ def main():
         if not p.exists():
             bad.append(f"{doc} is missing")
             continue
-        t = p.read_text(encoding="utf8").replace("{,}", ",")
+        t = p.read_text(encoding="utf8")
         bad += [f"{doc} does not state {f}" for f in figures if not re.search(r"(?<![\d.,])" + re.escape(f) + r"(?!\d)", t)]
     print("\n".join("FAIL " + b for b in bad) or "OK: PDF, LaTeX, web chapters and Sialkot figures agree")
     sys.exit(bool(bad))

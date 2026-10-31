@@ -10,9 +10,17 @@ This repository contains a LaTeX pamphlet and a MkDocs Material website version.
 - `docs/references.md` — references converted from `bibliography.tex`.
 - `docs/appendix-notation.md` and `docs/appendix-glossary.md` — appendices.
 
-## Keeping everything in step
+## One source
 
-`latex/` is the source. After changing it, run `python tools/build_pdf.py`, update the web chapters, and run `python tools/check_sync.py`. GitHub runs the same check before publishing. Figures shared with the Sialkot example live in `data/sialkot.json`, and `tools/sialkot.py` writes them as LaTeX macros.
+`latex/` holds the text and `data/sialkot.json` the figures shared with the Sialkot example. Change those, then run:
+
+```powershell
+python tools/build_all.py --site
+```
+
+This generates the shared macros, the web pages, the pamphlet PDF and the Sialkot report and slides, then checks that they agree. GitHub regenerates the web pages and repeats the check before publishing, and refuses if the LaTeX changed without a new PDF.
+
+`marxian/` holds the pamphlet's equations as Python functions, tested against its worked examples. Code is under the MIT licence in `LICENSE-CODE`.
 
 ## Local build on Windows PowerShell
 

@@ -65,9 +65,6 @@
 % ============================================================
 % Exchange rate (single point of truth)
 % ============================================================
-% SBP USD/PKR M2M revaluation rate as on 2 Jan 2026
-\newcommand{\USDPKR}{280.112}
-\newcommand{\RateDate}{2 Jan 2026}
 
 \newcommand{\USDofPKR}[1]{\fpeval{round((#1)/\USDPKR,2)}}
 \newcommand{\PKRofUSD}[1]{\fpeval{round((#1)*\USDPKR,0)}}
@@ -127,8 +124,6 @@
 \newcommand{\LocalProfitShareRetailPct}{\fpeval{round(100*\sPKR/\RetailPKR,3)}}
 
 % Time intuition:
-\newcommand{\NecessaryHours}{6.9}
-\newcommand{\SurplusHours}{2.1}
 
 % ============================================================
 % Typography controls (HEADER vs BODY)
@@ -225,7 +220,7 @@ These slides combine figures drawn from different sources and years (each labell
 \item \textbf{“Living wage \(\sim\) \pkr{\LivingWageQuotePKR}/month”:} quoted as a \textbf{researcher-estimate benchmark} in that same \textbf{Nov 2022} Bloomberg reporting. \textbf{Updated} benchmarks are shown later.
 \item \textbf{Export scale / implied export unit value:} \textbf{FY 2021/22} output and value reported via \textbf{Reuters (published 9 Dec 2022)}: 43 million balls valued at USD 191 million \(\Rightarrow\) implied average export unit value \(\approx\usd{4.44}\).
 \item \textbf{Producer-stage cost structure \(c,v,k\) and mean profit margin:} firm survey evidence in \textbf{NBER Working Paper 21417} (dated \textbf{July 2015}, revised \textbf{July 2016}); cost table is for a \textbf{size-5 promotional ball} and reports costs in PKR.
-\item \textbf{FX conversion shown in brackets:} SBP USD/PKR M2M revaluation rate as on \RateDate.
+\item \textbf{FX conversion shown in brackets:} NBP Treasury rate sheet, \RateDate.
 \end{itemize}
 
 We keep PKR as primary, and we mark benchmark-years so inflation and time are not hidden.%
@@ -255,7 +250,7 @@ From here on, each slide repeats the definition relevant to its step, and then p
 \textbf{Definitions.} \(w_{\uBall}\) is pay per ball; \(q\) is balls/day; \(t_{\uBall}\) is hours/ball.
 Then \(w_{\uDay}=w_{\uBall}q\), \(T_{\uDay}=t_{\uBall}q\), and \(w_{\uHour}=w_{\uDay}/T_{\uDay}\).
 
-Numbers (PKR first; USD in brackets uses SBP \RateDate\ FX):
+Numbers (PKR first; USD in brackets uses NBP \RateDate\ FX):
 \[
 w_{\uBall}=\pkr{\PieceRatePKR}\ (\usd{\USDofPKR{\PieceRatePKR}}),\quad
 q=\BallsPerDay,\quad
@@ -364,7 +359,7 @@ This is not “the whole supply-chain profit”. It is the surplus captured at \
 {Downstream spread (export/brand/retail gap)}
 {%
 
-World-market benchmarks (converted using SBP \RateDate\ FX):
+World-market benchmarks (converted using NBP \RateDate\ FX):
 \[
 \begin{aligned}
 \text{export unit value} &\approx \pkr{\ExportAvgPKRint},\\

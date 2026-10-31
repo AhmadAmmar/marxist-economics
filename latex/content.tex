@@ -1191,7 +1191,7 @@ to produce one unit.
 Using widely reported benchmark figures for Sialkot-style hand-stitching, let
 the piece rate be
 \[
-w_{\text{piece}}=\text{PKR }160/\text{ball},
+w_{\text{piece}}=\text{PKR }\PieceRatePKR{}/\text{ball},
 \]
 and let the labour-time per ball be
 \[
@@ -1200,10 +1200,10 @@ t_{\text{ball}}\approx 3\ \text{hours/ball}.
 These figures are drawn from reporting on Sialkot football stitching in 2022 and
 are used here as an illustrative benchmark, not as a complete firm-level accounts
 sheet for a single year.\footnote{Bloomberg Businessweek reported a piece-rate
-benchmark of roughly PKR \(160\) per ball, about three hours per ball, roughly
+benchmark of roughly PKR \(\PieceRatePKR{}\) per ball, about three hours per ball, roughly
 three balls per day, and an illustrative monthly wage figure of roughly
-PKR \(9{,}600\); it also quotes a researcher-estimate living-wage benchmark of
-roughly PKR \(20{,}000\) per month. See \cite{Bloomberg2022Sialkot}.}
+PKR \(\SkMonthly{}\); it also quotes a researcher-estimate living-wage benchmark of
+roughly PKR \(\SkLiving{}\) per month. See \cite{Bloomberg2022Sialkot}.}
 
 Then the implied hourly wage is:
 
@@ -1212,9 +1212,9 @@ w_{\text{hour}}
 =
 \frac{w_{\text{piece}}}{t_{\text{ball}}}
 \approx
-\frac{\text{PKR }160}{3\ \text{hours}}
+\frac{\text{PKR }\PieceRatePKR{}}{3\ \text{hours}}
 \approx
-\text{PKR }53.33/\text{hour}.
+\text{PKR }\SkHourly{}/\text{hour}.
 \]
 
 If the worker stitches roughly \(q=3\) balls per day, then:
@@ -1224,7 +1224,7 @@ w_{\text{day}}
 =
 w_{\text{piece}}\times q
 =
-\text{PKR }160 \times 3
+\text{PKR }\PieceRatePKR{} \times 3
 =
 \text{PKR }480,
 \]
@@ -1249,11 +1249,11 @@ w_{\text{month}}
 \approx
 \text{PKR }480 \times 20
 =
-\text{PKR }9{,}600.
+\text{PKR }\SkMonthly{}.
 \]
 
 Against the same report's quoted 2022 living-wage benchmark of about
-\(\text{PKR }20{,}000\) per month, this is:
+\(\text{PKR }\SkLiving{}\) per month, this is:
 
 \[
 \frac{w_{\text{month}}}{L_{\text{month}}}
@@ -1274,15 +1274,15 @@ Now compare this wage with a downstream retail benchmark. Suppose a branded matc
 \[
 P_{\text{retail}}=\text{USD }165.
 \]
-\footnote{For the retail-price benchmark, see \cite{GoalAlRihla2022}. For the conversion below, we use the NBP Treasury rate sheet for 20 January 2026 as a fixed benchmark: \(1\,\text{USD}\approx\text{PKR }279.897\); see \cite{NBPRateSheet20Jan2026}. This is used only to make the comparison in PKR and should not be read as a retail foreign-exchange quotation.}
+\footnote{For the retail-price benchmark, see \cite{GoalAlRihla2022}. For the conversion below, we use the NBP Treasury rate sheet for 20 January 2026 as a fixed benchmark: \(1\,\text{USD}\approx\text{PKR }\USDPKR{}\); see \cite{NBPRateSheet20Jan2026}. This is used only to make the comparison in PKR and should not be read as a retail foreign-exchange quotation.}
 Using this fixed conversion benchmark:
 
 \[
 P_{\text{retail}}
 \approx
-165\times \text{PKR }279.897
+165\times \text{PKR }\USDPKR{}
 \approx
-\text{PKR }46{,}183.
+\text{PKR }\SkRetail{}.
 \]
 
 The number of wage-hours required to earn the retail price of one ball is:
@@ -1292,9 +1292,9 @@ H
 =
 \frac{P_{\text{retail}}}{w_{\text{hour}}}
 \approx
-\frac{\text{PKR }46{,}183}{\text{PKR }53.33/\text{hour}}
+\frac{\text{PKR }\SkRetail{}}{\text{PKR }\SkHourly{}/\text{hour}}
 \approx
-866\ \text{hours}.
+\SkHours{}\ \text{hours}.
 \]
 
 Converted into footballs stitched and 9-hour workdays:
@@ -1306,7 +1306,7 @@ Converted into footballs stitched and 9-hour workdays:
 \approx
 \frac{866}{3}
 \approx
-289\ \text{balls},
+\SkBalls{}\ \text{balls},
 \]
 
 \[
@@ -1316,11 +1316,11 @@ Converted into footballs stitched and 9-hour workdays:
 \approx
 \frac{866}{9}
 \approx
-96.2\ \text{workdays}.
+\SkDays{}\ \text{workdays}.
 \]
 
 So, under these benchmark assumptions, the worker would have to stitch roughly
-\(289\) footballs---nearly \(96\) nine-hour workdays---to earn enough
+\(\SkBalls{}\) footballs---nearly \(96\) nine-hour workdays---to earn enough
 wages to buy one branded match ball at the retail benchmark.
 
 This calculation does \emph{not} mean that the local employer pockets the full
@@ -1474,13 +1474,13 @@ The source reports the following approximate costs per ball:
 \text{cotton/poly cloth} & 23.27 & c_{\text{proxy}}\\
 \text{latex} & 38.71 & c_{\text{proxy}}\\
 \text{bladder} & 42.02 & c_{\text{proxy}}\\
-\text{overhead} & 10.84 & \text{mixed / unspecified}\\
+\text{overhead} & \SkOverhead{} & \text{mixed / unspecified}\\
 \midrule
 \text{labour for cutting} & 1.49 & v_{\text{proxy}}\\
-\text{labour for stitching} & 39.24 & v_{\text{proxy}}\\
+\text{labour for stitching} & \SkStitch{} & v_{\text{proxy}}\\
 \text{other labour} & 15.56 & v_{\text{proxy}}\\
 \midrule
-\text{total reported cost} & 210.83 & k_{\text{acct}}\\
+\text{total reported cost} & \kPKR{} & k_{\text{acct}}\\
 \bottomrule
 \end{array}
 \]
@@ -1493,7 +1493,7 @@ c_{\text{proxy}}
 \approx
 39.68+23.27+38.71+42.02
 \approx
-\text{PKR }143.68.
+\text{PKR }\SkMaterials{}.
 \]
 
 Treating the reported labour-cost rows as a rough proxy for variable capital
@@ -1502,9 +1502,9 @@ gives:
 \[
 v_{\text{proxy}}
 \approx
-1.49+39.24+15.56
+1.49+\SkStitch{}+15.56
 \approx
-\text{PKR }56.29.
+\text{PKR }\vPKR{}.
 \]
 
 The source also reports:
@@ -1512,7 +1512,7 @@ The source also reports:
 \[
 o_{\text{overhead}}
 =
-\text{PKR }10.84.
+\text{PKR }\SkOverhead{}.
 \]
 
 The reconstructed accounting cost is therefore:
@@ -1526,15 +1526,15 @@ v_{\text{proxy}}
 +
 o_{\text{overhead}}
 \approx
-\text{PKR }210.81.
+\text{PKR }\SkCostSum{}.
 \]
 
 The source reports a total cost of approximately
-\(\text{PKR }210.83\); the small difference results from rounding in the
+\(\text{PKR }\kPKR{}\); the small difference results from rounding in the
 individual rows.
 
 The same study reports a mean producer-stage profit margin for size-5
-promotional balls of roughly \(m=8.1\%\).\footnote{The paper reports profit
+promotional balls of roughly \(m=\MarkupPct{}\%\).\footnote{The paper reports profit
 percentages for size-5 promotional balls in its baseline summary statistics.
 It also explains that unit cost is recovered by dividing reported price by
 \(1+\) the reported profit margin, so the margin is treated here as a markup
@@ -1549,9 +1549,9 @@ p_{\text{prod}}
 k_{\text{acct}}
 \Bigl(1+\frac{m}{100}\Bigr)
 \approx
-\text{PKR }210.83 \times 1.081
+\text{PKR }\kPKR{} \times 1.081
 \approx
-\text{PKR }227.91.
+\text{PKR }\pPKR{}.
 \]
 
 The corresponding producer-stage accounting profit is:
@@ -1561,11 +1561,11 @@ The corresponding producer-stage accounting profit is:
 =
 p_{\text{prod}}-k_{\text{acct}}
 \approx
-\text{PKR }227.91
+\text{PKR }\pPKR{}
 -
-\text{PKR }210.83
+\text{PKR }\kPKR{}
 \approx
-\text{PKR }17.08.
+\text{PKR }\sPKR{}.
 \]
 
 The accounting profit-to-wage-cost ratio is therefore:
@@ -1577,17 +1577,17 @@ The accounting profit-to-wage-cost ratio is therefore:
 \approx
 0.303
 \quad\Rightarrow\quad
-30.3\%.
+\SkSurplusOverWage{}\%.
 \]
 
-This \(30.3\%\) figure is not an empirical measurement of the Marxian rate of
+This \(\SkSurplusOverWage{}\%\) figure is not an empirical measurement of the Marxian rate of
 exploitation \(s/v\). Such an estimate would require a fuller reconstruction
 of value magnitudes, including the composition of overhead, the distinction
 between productive and circulation labour, depreciation, turnover times, input
 prices, and the redistribution of surplus value across capitals.
 
 Nor does the calculation mean that the total profit associated with a branded
-football is only \(\text{PKR }17.08\). It shows a documented accounting
+football is only \(\text{PKR }\sPKR{}\). It shows a documented accounting
 relation at one producer stage: material costs, wage costs, overhead, total
 cost, and accounting profit. The prices and revenues that arise later in the
 supply chain are shaped by export contracts, logistics, branding, retail,

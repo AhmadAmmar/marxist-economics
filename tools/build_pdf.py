@@ -10,7 +10,7 @@ import subprocess
 import tempfile
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
-SOURCES = ["main.tex", "preamble.tex", "content.tex", "notation.tex", "glossary.tex", "bibliography.tex"]
+SOURCES = ["main.tex", "preamble.tex", "content.tex", "notation.tex", "glossary.tex", "bibliography.tex", "generated/sialkot_numbers.tex"]
 RECORD = ROOT / "docs/pdf-source.json"
 
 
