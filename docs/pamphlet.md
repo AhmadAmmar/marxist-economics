@@ -5,7 +5,7 @@
 <div class="pdf-shell">
   <iframe
     class="pdf-frame"
-    src="Marxian-Political-Economy.pdf#view=FitH"
+    src="../Marxian-Political-Economy.pdf#view=FitH"
     title="Marxian Economics 101 pamphlet PDF"
   ></iframe>
 </div>
