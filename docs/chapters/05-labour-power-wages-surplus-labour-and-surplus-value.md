@@ -1,6 +1,6 @@
 # 5. Labour-power, wages, surplus labour, and surplus value {#sec-labour-surplus}
 
-A central conceptual breakthrough in *Capital* is the distinction between **labour** and **labour-power**.<span class="citation">[<a href="../references.md#ref-marx1867">5</a>]</span>
+A central conceptual breakthrough in *Capital* is the distinction between **labour** and **labour-power**.<span class="citation">[[5](../references.md#ref-marx1867)]</span>
 
 -   **Labour-power** is the worker’s capacity to work, treated as a commodity. Its value is the socially necessary labour time required to reproduce labour-power under historically and socially specific conditions: food, housing, clothing, healthcare, transport, relevant education and training, social support, and the reproduction of the working class across generations.
 
@@ -354,7 +354,7 @@ This does *not* mean that the branch manager personally pockets \$400. In this s
 
 ## 5.7 Forms of wages: time-wages and piece-wages {#sec-wage-forms}
 
-Marx treats wages not only as a magnitude ($v$) but also as a *form* that can conceal exploitation.<span class="citation">[<a href="../references.md#ref-marx1867">5</a>]</span> Two classic forms are time-wages and piece-wages.
+Marx treats wages not only as a magnitude ($v$) but also as a *form* that can conceal exploitation.<span class="citation">[[5](../references.md#ref-marx1867)]</span> Two classic forms are time-wages and piece-wages.
 
 ### Time-wages {#time-wages .unnumbered}
 
@@ -579,7 +579,7 @@ We return to the same industry in Example [6.1](06-constant-and-variable-capita
 
 #### Piece-rates and technological change.
 
-The Sialkot case also shows why technology is never just about “efficiency”. Atkin et al.’s study of Sialkot football producers examined a new cutting die that reduced waste of rexine, the main material input. From the owner’s standpoint, this looked like a straightforward cost-saving innovation. But the relevant workers were commonly paid by piece-rate. If the new technique slowed them down while they learned it, and if the piece-rate was not adjusted, then part of the cost of adoption was shifted onto workers as a lower effective hourly wage.<span class="citation">[<a href="../references.md#ref-atkinetal2017">53</a>]</span>
+The Sialkot case also shows why technology is never just about “efficiency”. Atkin et al.’s study of Sialkot football producers examined a new cutting die that reduced waste of rexine, the main material input. From the owner’s standpoint, this looked like a straightforward cost-saving innovation. But the relevant workers were commonly paid by piece-rate. If the new technique slowed them down while they learned it, and if the piece-rate was not adjusted, then part of the cost of adoption was shifted onto workers as a lower effective hourly wage.<span class="citation">[[53](../references.md#ref-atkinetal2017)]</span>
 
 A productive force does not enter society abstractly or in isolation, but through a labour process already organised by property, wages, supervision, and competition. Under capitalist control, even a technique that could reduce material waste can become a conflict over who bears the transition cost and who captures the gain. That same logic returns later in automation and AI: the question is not only what the tool can do, but who owns it, who controls its introduction, how it changes the pace of work, and whether the saving becomes free time for workers or surplus for capital.
 
@@ -618,7 +618,7 @@ Two cautions matter for Marxian precision.
 
 First, this arithmetic treats money magnitudes as proportional to values for clarity. In reality, competition, productivity differentials, and market power generate systematic value–price divergences (see Section [7.2](07-rate-of-profit-and-organic-composition-of-capital.md#sec-prices-production)); we flag this here but abstract from those divergences in the worked numbers.[^8]
 
-Second, surplus value is produced where *productive labour* is set to work in production processes that create commodities (or commodity-services) for sale.[^9] Much of what happens “downstream” (advertising, branding, some retail functions, finance) is better analysed as the *realisation* and *redistribution* of surplus value rather than its direct production. The brand and its shareholders can nonetheless capture surplus generated across the global chain through control of intellectual property, market access, finance, logistics, and pricing power (including transfer pricing and monopoly rents).<span class="citation">[<a href="../references.md#ref-smith2016">41</a>, <a href="../references.md#ref-hickel2022">59</a>]</span>
+Second, surplus value is produced where *productive labour* is set to work in production processes that create commodities (or commodity-services) for sale.[^9] Much of what happens “downstream” (advertising, branding, some retail functions, finance) is better analysed as the *realisation* and *redistribution* of surplus value rather than its direct production. The brand and its shareholders can nonetheless capture surplus generated across the global chain through control of intellectual property, market access, finance, logistics, and pricing power (including transfer pricing and monopoly rents).<span class="citation">[[41](../references.md#ref-smith2016), [59](../references.md#ref-hickel2022)]</span>
 
 [^1]: This is the specific sense in which Marx calls the worker “free”: free to sell labour-power to any capitalist, but also free of property in the means of production. The “choice” is therefore constrained by the material need to reproduce life under conditions of dispossession.
 
@@ -626,9 +626,9 @@ Second, surplus value is produced where *productive labour* is set to work in pr
 
 [^3]: In plain terms: ending exploitation requires breaking the link between survival and selling labour-power, and socialising the major means of production so that the surplus produced by collective labour is democratically planned and used rather than privately appropriated.
 
-[^4]: Bloomberg Businessweek reported a piece-rate benchmark of roughly PKR $160{}$ per ball, about three hours per ball, roughly three balls per day, and an illustrative monthly wage figure of roughly PKR $9{,}600{}$; it also quotes a researcher-estimate living-wage benchmark of roughly PKR $20{,}000{}$ per month. See<span class="citation">[<a href="../references.md#ref-bloomberg2022sialkot">55</a>]</span>.
+[^4]: Bloomberg Businessweek reported a piece-rate benchmark of roughly PKR $160{}$ per ball, about three hours per ball, roughly three balls per day, and an illustrative monthly wage figure of roughly PKR $9{,}600{}$; it also quotes a researcher-estimate living-wage benchmark of roughly PKR $20{,}000{}$ per month. See<span class="citation">[[55](../references.md#ref-bloomberg2022sialkot)]</span>.
 
-[^5]: For the retail-price benchmark, see<span class="citation">[<a href="../references.md#ref-goalalrihla2022">57</a>]</span>. For the conversion below, we use the NBP Treasury rate sheet for 20 January 2026 as a fixed benchmark: $1\,\text{USD}\approx\text{PKR }279.897{}$; see<span class="citation">[<a href="../references.md#ref-nbpratesheet20jan2026">68</a>]</span>. This is used only to make the comparison in PKR and should not be read as a retail foreign-exchange quotation.
+[^5]: For the retail-price benchmark, see<span class="citation">[[57](../references.md#ref-goalalrihla2022)]</span>. For the conversion below, we use the NBP Treasury rate sheet for 20 January 2026 as a fixed benchmark: $1\,\text{USD}\approx\text{PKR }279.897{}$; see<span class="citation">[[68](../references.md#ref-nbpratesheet20jan2026)]</span>. This is used only to make the comparison in PKR and should not be read as a retail foreign-exchange quotation.
 
 [^6]: In what follows, this “proportional to values” convention should be read as: we treat the money figures as value magnitudes expressed in money (as if a roughly constant conversion from socially necessary labour time to money were operating), and we treat the consumed inputs as if they enter at their values. This isolates the logic of exploitation and accumulation. When one instead plugs in observed supplier prices, the same subtraction yields an *accounting residual* (realised profit for this firm/segment) that can mix surplus value produced here with surplus value redistributed through mark-ups, transfer pricing, monopoly rents, and credit conditions.
 

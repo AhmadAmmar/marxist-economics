@@ -9,6 +9,9 @@ Organiser, [The Struggle (Pakistan)](https://www.struggle.pk/) | [Solidarity: Th
 [Start reading](chapters/01-why-this-pamphlet-from-meme-to-method.md){ .md-button .md-button--primary }
 [Read or download the PDF](pamphlet.md){ .md-button }
 [References](references.md){ .md-button }
+[The mathematics](mathematics.md){ .md-button }
+[Worked example: Sialkot footballs](examples/sialkot.md){ .md-button }
+[Help improve this](contribute.md){ .md-button }
 [LaTeX source](source.md){ .md-button }
 
 ## Contents

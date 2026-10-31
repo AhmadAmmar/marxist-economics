@@ -12,7 +12,10 @@ import sys
 import tempfile
 
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
+import build_carousel
 import build_pdf
+import export_refs
+import make_workbook
 import sialkot
 import tex_to_web
 
@@ -37,13 +40,36 @@ def examples():
             print("built", f"examples/sialkot/{name}.pdf")
 
 
+def cheatsheet():
+    with tempfile.TemporaryDirectory() as t:
+        shutil.copy2(ROOT / "cheatsheet/marxian_cheatsheet.tex", t)
+        subprocess.run(["pdflatex", "-interaction=nonstopmode", "marxian_cheatsheet.tex"], cwd=t, capture_output=True, errors="replace")
+        (ROOT / "docs/downloads").mkdir(exist_ok=True)
+        shutil.copy2(pathlib.Path(t) / "marxian_cheatsheet.pdf", ROOT / "docs/downloads/marxian_cheatsheet.pdf")
+
+
+def publish_downloads():
+    d = ROOT / "docs/downloads"
+    d.mkdir(exist_ok=True)
+    shutil.copy2(ROOT / "examples/sialkot/slides.pdf", d / "sialkot_slides.pdf")
+    shutil.copy2(ROOT / "examples/sialkot/report.pdf", d / "sialkot_report.pdf")
+
+
 if __name__ == "__main__":
     print("wrote", sialkot.write())
     tex_to_web.main(ROOT / "docs")
     build_pdf.build()
     examples()
+    export_refs.build()
+    make_workbook.build(ROOT / "docs/downloads/marxian_calculator.xlsx")
+    cheatsheet()
+    publish_downloads()
+    if "--no-carousel" not in sys.argv:
+        build_carousel.build()
     check = subprocess.run([sys.executable, str(ROOT / "tools/check_sync.py")])
     if check.returncode:
         sys.exit(1)
     if "--site" in sys.argv:
         subprocess.run([sys.executable, "-m", "mkdocs", "build", "--strict"], cwd=ROOT, check=True)
+        if subprocess.run([sys.executable, str(ROOT / "tools/check_links.py")]).returncode:
+            sys.exit(1)

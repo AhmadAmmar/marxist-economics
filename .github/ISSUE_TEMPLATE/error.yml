@@ -1,0 +1,13 @@
+name: Report an error
+description: A wrong number, broken link, faulty derivation or misattributed quote
+title: "Error: "
+labels: [error]
+body:
+  - type: input
+    attributes: {label: Where is it?, description: "A page address, chapter or section"}
+    validations: {required: true}
+  - type: textarea
+    attributes: {label: What is wrong?}
+    validations: {required: true}
+  - type: textarea
+    attributes: {label: What should it say?, description: "Please give a source if you can"}

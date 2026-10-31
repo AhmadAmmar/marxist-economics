@@ -1,6 +1,6 @@
 # 6. Constant and variable capital; circuits of capital {#sec-constant-variable}
 
-To move from exploitation at the point of production to the dynamics of the system as a whole, we need to distinguish types of capital.<span class="citation">[<a href="../references.md#ref-marx1867">5</a>]</span>
+To move from exploitation at the point of production to the dynamics of the system as a whole, we need to distinguish types of capital.<span class="citation">[[5](../references.md#ref-marx1867)]</span>
 
 ## 6.1 Constant and variable capital
 
@@ -252,6 +252,6 @@ $$
 
 Capital is therefore best understood not as a thing (a machine) but as a social relation and a circuit: **value in motion that valorises itself through the exploitation of labour, and that necessarily appears and is realised in monetary form as $M \rightarrow M'$.**
 
-[^1]: Atkin et al. report the table as Appendix Table A.1, “Production Costs”. The figures are mean input costs in rupees per ball from their baseline survey. See<span class="citation">[<a href="../references.md#ref-atkinetal2017">53</a>]</span>. The NBER working-paper version is<span class="citation">[<a href="../references.md#ref-atkinetal2015nber">54</a>]</span>.
+[^1]: Atkin et al. report the table as Appendix Table A.1, “Production Costs”. The figures are mean input costs in rupees per ball from their baseline survey. See<span class="citation">[[53](../references.md#ref-atkinetal2017)]</span>. The NBER working-paper version is<span class="citation">[[54](../references.md#ref-atkinetal2015nber)]</span>.
 
 [^2]: The paper reports profit percentages for size-5 promotional balls in its baseline summary statistics. It also explains that unit cost is recovered by dividing reported price by $1+$ the reported profit margin, so the margin is treated here as a markup on cost.

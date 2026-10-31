@@ -180,7 +180,7 @@ def pandoc(tex):
 def postprocess(md, keys):
     def cites(m):
         nums = m.group(1).split("QQ")
-        return '<span class="citation">[' + ", ".join(f'<a href="../references.md#ref-{keys[int(n) - 1].lower().replace(":", "-")}">{n}</a>' for n in nums) + "]</span>"
+        return '<span class="citation">[' + ", ".join(f'[{n}](../references.md#ref-{keys[int(n) - 1].lower().replace(":", "-")})' for n in nums) + "]</span>"
 
     md = re.sub(r" ?CITEMARK([0-9Q]+)END", cites, md)
     md = re.sub(r"EQANCHOR(\w+?)END", lambda m: '<span id="' + m.group(1).replace("QZ", "-") + '"></span>', md)

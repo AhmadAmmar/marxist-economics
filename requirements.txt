@@ -1,3 +1,6 @@
 mkdocs>=1.5
 mkdocs-material>=9.5
 pymdown-extensions>=10.0
+openpyxl>=3.1
+python-pptx>=0.6
+research-helpers @ git+https://github.com/GeospatialGeeks/research-helpers.git

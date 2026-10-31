@@ -1,0 +1,65 @@
+\documentclass[10pt]{extarticle}
+\usepackage[a4paper,margin=11mm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{amsmath,multicol,microtype,ragged2e}
+\usepackage[most]{tcolorbox}
+\linespread{1.2}
+\setlength{\parindent}{0pt}\setlength{\parskip}{3pt}\setlength{\columnsep}{9pt}
+\setlength{\abovedisplayskip}{4pt}\setlength{\belowdisplayskip}{4pt}
+\newtcolorbox{qbox}[1]{enhanced,breakable,colback=white,colframe=black,boxrule=0.6pt,arc=0pt,left=5pt,right=5pt,top=3pt,bottom=3pt,before skip=6pt,after skip=6pt,
+  title={\bfseries #1},coltitle=black,colbacktitle=black!12,toptitle=1pt,bottomtitle=1pt,before upper=\RaggedRight}
+\pagestyle{empty}
+\begin{document}
+{\LARGE\bfseries Marxian Economics 101: the equations}\par\vspace{2pt}
+Comrade Ammara. Examples, calculator and corrections: ahmadammar.github.io/marxist-economics\par\vspace{3pt}
+\begin{multicols}{2}
+\begin{qbox}{The letters}
+$c$: constant capital, the value of materials and machinery used up. It passes into the product.\par
+$v$: variable capital, the wages paid for labour-power.\par
+$s$: surplus value, the new value beyond $v$.\par
+Labour-power is the capacity to work. Labour is the activity.
+\end{qbox}
+\begin{qbox}{Value and cost}
+\[w = c + v + s\]
+\[\text{new value} = v + s\]
+\[k = c + v\]
+With $c=100$, $v=100$, $s=100$: $w=300$, new value $=200$, $k=200$.
+\end{qbox}
+\begin{qbox}{Rate of exploitation}
+Surplus value for each unit of wages:
+\[e = \frac{s}{v} = \frac{100}{100} = 100\%\]
+\end{qbox}
+\begin{qbox}{The working day}
+\[T_n = T \times \frac{v}{v+s}\]
+\[T_s = T - T_n\]
+\[e = \frac{T_s}{T_n}\]
+In an 8-hour day with $v=s$: 4 hours replace the wage, and 4 produce surplus value.
+\end{qbox}
+\begin{qbox}{Rate of profit}
+Surplus value for each unit of capital advanced:
+\[r = \frac{s}{c+v} = \frac{100}{200} = 50\%\]
+\end{qbox}
+\columnbreak
+\begin{qbox}{Linking the rates}
+Replace $s$ with $ev$, then divide top and bottom by $v$:
+\[r = \frac{ev}{c+v} = \frac{e}{1+\mathrm{OCC}}\]
+\[\mathrm{OCC} = \frac{c}{v}\]
+If $e$ stays fixed and OCC rises, $r$ falls. Rising exploitation and cheaper machinery can offset it, so this is a tendency and not a forecast.
+\end{qbox}
+\begin{qbox}{Prices of production}
+Competition tends to equalise profit rates:
+\[r = \frac{\sum s_i}{\sum (c_i+v_i)}\]
+\[p_i = (c_i+v_i)(1+r)\]
+A: $50,100,100$. B: $150,100,100$. Then $r=50\%$, $p_A=225$ and $p_B=375$. Values are 250 and 350, so 25 is redistributed, and total price equals total value.
+\end{qbox}
+\begin{qbox}{Piece wage to time wage}
+\[w_{\text{hour}} = \frac{\text{pay per piece}}{\text{hours per piece}}\]
+PKR 160 per ball at 3 hours per ball gives about PKR 53.33 an hour.
+\end{qbox}
+\begin{qbox}{Reading the numbers with care}
+Money examples assume money is proportional to value, as a teaching convention. Reported profit is only a stand-in for surplus value, so accounts cannot directly measure $e$.
+\end{qbox}
+\end{multicols}
+\end{document}

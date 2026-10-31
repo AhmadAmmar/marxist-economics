@@ -42,7 +42,7 @@ Suppose, for simplicity, that the exploitation rate is fixed at $e= 100\%$, i.e.
 | $8.0$ | $800$ | $100$ |     $\approx 11.1\%$ |
 :::
 
-Even with a constant rate of exploitation $e=s/v=100\%$, the rate of profit $r$ falls as constant capital rises relative to variable capital, that is, as the ratio $c/v$ increases. Under the simplifying convention used here, this rising value composition is treated as an expression of a rising organic composition of capital. The resulting downward pressure on $r$, other things equal, is the basic relation underlying Marx’s *law of the tendency of the rate of profit to fall* (TRPF).<span class="citation">[<a href="../references.md#ref-roberts2016">42</a>, <a href="../references.md#ref-shaikh2016">36</a>]</span>
+Even with a constant rate of exploitation $e=s/v=100\%$, the rate of profit $r$ falls as constant capital rises relative to variable capital, that is, as the ratio $c/v$ increases. Under the simplifying convention used here, this rising value composition is treated as an expression of a rising organic composition of capital. The resulting downward pressure on $r$, other things equal, is the basic relation underlying Marx’s *law of the tendency of the rate of profit to fall* (TRPF).<span class="citation">[[42](../references.md#ref-roberts2016), [36](../references.md#ref-shaikh2016)]</span>
 
 ## 7.2 Competition, average profit, and prices of production {#sec-prices-production}
 
@@ -274,7 +274,7 @@ $$
 \sum_i \pi_i = \sum_i s_i.
 $$
 
-So prices of production redistribute surplus value; they do not create it. Market prices can fluctuate around $p_i$ due to demand, supply, monopoly power, state policy, and world-market conditions, but the competitive tendency toward average profit is the key mediating mechanism through which labour-time asserts itself in the long run.<span class="citation">[<a href="../references.md#ref-marx1894">6</a>, <a href="../references.md#ref-shaikh2016">36</a>]</span>
+So prices of production redistribute surplus value; they do not create it. Market prices can fluctuate around $p_i$ due to demand, supply, monopoly power, state policy, and world-market conditions, but the competitive tendency toward average profit is the key mediating mechanism through which labour-time asserts itself in the long run.<span class="citation">[[6](../references.md#ref-marx1894), [36](../references.md#ref-shaikh2016)]</span>
 
 #### How labour-time regulates prices.
 

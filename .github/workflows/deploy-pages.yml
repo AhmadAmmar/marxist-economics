@@ -24,22 +24,18 @@ jobs:
           python-version: '3.11'
       - name: Install dependencies
         run: python -m pip install -r requirements.txt
-      - name: Install pandoc
+      - name: Install pandoc, LaTeX and Poppler
         run: |
           curl -sL -o pandoc.deb https://github.com/jgm/pandoc/releases/download/2.12/pandoc-2.12-1-amd64.deb
           sudo dpkg -i pandoc.deb
-      - name: Generate the web pages from LaTeX
-        run: |
-          python tools/sialkot.py
-          python tools/tex_to_web.py
-      - name: Check that the PDF, LaTeX, web pages and shared figures agree
-        run: python tools/check_sync.py
+          sudo apt-get update -q
+          sudo apt-get install -y -q poppler-utils texlive-latex-extra texlive-fonts-recommended texlive-fonts-extra texlive-science texlive-pictures cm-super
       - name: Test the equations
         run: |
           python -m pip install pytest
           python -m pytest tests -q
-      - name: Build site
-        run: python -m mkdocs build --strict
+      - name: Build everything from source and check it
+        run: python tools/build_all.py --site --no-carousel
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site

@@ -24,6 +24,6 @@ where $L_{ij}$ is the direct and indirect labour time per unit of commodity $i$ 
 
 #### Private labour is socially validated through exchange.
 
-Private labour does not count as social labour merely because it has been expended. Sale is the form through which privately performed labour is socially validated, but sale does not prove that every hour privately expended counts fully as socially necessary labour. Unsold output, forced discounts, write-downs, bankruptcies, and idle capacity reveal mismatches between private labour, prevailing production conditions, and social demand.<span class="citation">[<a href="../references.md#ref-marx1867">5</a>]</span>
+Private labour does not count as social labour merely because it has been expended. Sale is the form through which privately performed labour is socially validated, but sale does not prove that every hour privately expended counts fully as socially necessary labour. Unsold output, forced discounts, write-downs, bankruptcies, and idle capacity reveal mismatches between private labour, prevailing production conditions, and social demand.<span class="citation">[[5](../references.md#ref-marx1867)]</span>
 
 If a new technology halves the labour time required while becoming the industry norm, the value of the commodity falls—even if the selling price only gradually adjusts.

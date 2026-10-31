@@ -28,7 +28,11 @@ nav:
   - Appendices:
       - "Appendix A: Notation": appendix-notation.md
       - "Appendix B: Glossary & acronyms": appendix-glossary.md
+  - The mathematics, step by step: mathematics.md
+  - "Worked example: Sialkot footballs": examples/sialkot.md
   - References: references.md
+  - Help improve this pamphlet: contribute.md
+  - How this project is built: how-it-works.md
   - LaTeX source: source.md
 
 theme:

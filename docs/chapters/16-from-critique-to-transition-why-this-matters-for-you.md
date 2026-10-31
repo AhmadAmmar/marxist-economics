@@ -42,4 +42,4 @@ No single pamphlet can tell you what to do. But it can suggest some directions:
 
 -   Build and support organisations—unions, feminist and queer collectives, socialist groups, tenant unions—that link immediate demands to the horizon of a classless, moneyless, stateless society.
 
-Marx wrote that philosophers had only interpreted the world; the point was to change it.<span class="citation">[<a href="../references.md#ref-marxthesesfeuerbach1845">4</a>]</span> Understanding the logic of capital is one small part of learning how to fight it consciously.
+Marx wrote that philosophers had only interpreted the world; the point was to change it.<span class="citation">[[4](../references.md#ref-marxthesesfeuerbach1845)]</span> Understanding the logic of capital is one small part of learning how to fight it consciously.

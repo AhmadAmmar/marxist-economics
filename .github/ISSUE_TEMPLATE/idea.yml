@@ -1,0 +1,10 @@
+name: Suggest an improvement
+description: A clearer explanation, new example or translation
+title: "Idea: "
+labels: [idea]
+body:
+  - type: input
+    attributes: {label: Which part?}
+  - type: textarea
+    attributes: {label: Your suggestion}
+    validations: {required: true}
