@@ -14,3 +14,17 @@ document.addEventListener("DOMContentLoaded", function () {
     menu.setAttribute("aria-expanded", nav.classList.toggle("open") ? "true" : "false");
   });
 });
+
+// Shrink a displayed equation that is too wide for its column, down to three-quarters size. Beyond that it scrolls inside its own box.
+function fitEquations() {
+  document.querySelectorAll(".md-content mjx-container[display=true]").forEach(function (eq) {
+    eq.style.fontSize = "";
+    if (eq.scrollWidth > eq.clientWidth + 1) {
+      eq.style.fontSize = Math.max(75, Math.floor(100 * eq.clientWidth / eq.scrollWidth)) + "%";
+    }
+  });
+}
+window.addEventListener("load", function () {
+  if (window.MathJax && MathJax.startup && MathJax.startup.promise) MathJax.startup.promise.then(fitEquations);
+});
+window.addEventListener("resize", fitEquations);

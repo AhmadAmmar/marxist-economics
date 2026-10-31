@@ -1,12 +1,14 @@
 window.MathJax = {
   tex: {
-    inlineMath: [['$', '$'], ['\\(', '\\)']],
-    displayMath: [['$$', '$$'], ['\\[', '\\]']],
+    inlineMath: [['\\(', '\\)']],  // the Markdown step has already marked all maths, so a $ in text is money
+    displayMath: [['\\[', '\\]']],
     processEscapes: true,
     tags: 'ams',
     packages: {'[+]': ['html']},
     macros: {
       ensuremath: ['#1', 1],
+      pounds: '\\unicode{xA3}',
+      euro: '\\unicode{x20AC}',
       constcap: 'c',
       varcap: 'v',
       surplus: 's',

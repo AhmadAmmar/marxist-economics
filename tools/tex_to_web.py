@@ -113,12 +113,27 @@ def resolve_refs(t, labels, here, prefix=""):
     return re.sub(r"\\(eqref|ref|cref|Cref)\{([^}]+)\}", ref, t)
 
 
+def array_to_tabular(m):
+    """A print-style table written as a maths array becomes a real table, which can wrap and scroll on the web."""
+    def cell(c):
+        c = c.strip()
+        plain = re.fullmatch(r"\\text\{([^{}]*)\}", c)
+        return plain.group(1) if plain else f"\\({c}\\)" if c else ""
+    rows = [r for r in re.split(r"\\\\", re.sub(r"\\(toprule|midrule)", "", m.group(2))) if r.strip()]
+    body = " \\\\\n".join(" & ".join(cell(c) for c in r.split("&")) for r in rows)
+    return f"\\begin{{tabular}}{{{m.group(1)}}}\n\\toprule\n{body} \\\\\n\\bottomrule\n\\end{{tabular}}"
+
+
+ARRAY_TABLE = re.compile(r"\\\[\s*\\begin\{array\}\{((?:[^{}]|\{\})*)\}\s*(\\toprule.*?)\\bottomrule\s*\\end\{array\}\s*\\\]", re.S)
+
+
 def preprocess(body, chapter, labels, cite_no):
     s = chapter["n"]
     here = chapter["file"]
     t = inputs(body)
     t = re.sub(r"\\money\{([^{}]*)\}", lambda m: "\\$" + m.group(1), t)
 
+    t = ARRAY_TABLE.sub(array_to_tabular, t)
     t = resolve_refs(t, labels, here)
 
     def cite(m):
@@ -222,6 +237,8 @@ def postprocess(md, keys):
     md = re.sub(r"\\ensuremath\{([^{}]*)\}", r"\1", md)
     md = re.sub(r"(?m)^::: *\{\.(\w+)\} *$", r'\n<div class="\1" markdown="1">\n', md)
     md = re.sub(r"(?m)^:::+ *$", "\n</div>\n", md)
+    # a table whose first row sits under an empty header: make that row the header
+    md = re.sub(r"(?m)^(\|[ |]*\|)\n(\|[:\-| ]+\|)\n(\|.*\|)$", lambda m: m.group(3) + "\n" + m.group(2), md)
     md = re.sub(r"\n{3,}", "\n\n", md)
     md = re.sub(r"(?m)[ \t]+$", "", md)
     return md.strip() + "\n"

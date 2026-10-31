@@ -2,7 +2,7 @@
 
     python tools/check_render.py [--site site] [--shots folder]      exit code 1 on any failure
 
-Tests: no raw LaTeX or Markdown in the text; MathJax errors; each page's tables and displayed equations match the LaTeX source;
+Tests: no raw LaTeX or Markdown in the text; MathJax errors, undefined commands shown in red, and ordinary words swallowed into maths by paired dollar signs; clipped equations; each page's tables and displayed equations match the LaTeX source;
 readable contrast for links and buttons (WCAG AA, 4.5:1); no sideways page overflow; no table clipped on desktop; a filled table of contents;
 an opaque sidebar title; one main heading; images with alt text. Needs playwright and its Chromium, and network access for MathJax.
 """
@@ -51,7 +51,21 @@ MEASURE = r"""() => {
     math: document.querySelectorAll('.md-content mjx-container').length,
     display: document.querySelectorAll('.md-content mjx-container[display=true]').length,
     errors: document.querySelectorAll('mjx-merror,[data-mjx-error]').length,
+    badMath: (() => {
+      const out = [];
+      const items = window.MathJax && MathJax.startup && MathJax.startup.document ? [...MathJax.startup.document.math] : [];
+      for (const item of items) {
+        const tex = item.math;
+        const html = item.typesetRoot ? item.typesetRoot.innerHTML : '';
+        const stripped = tex.replace(/\\(begin|end)\s*\{[^{}]*\}/g, ' ').replace(/\\(text|mathrm|mathbf|operatorname|textbf|textit|tag)\s*\{[^{}]*\}/g, ' ').replace(/\\[a-zA-Z]+/g, ' ');
+        if (/color:\s*red|mathcolor="red"|mjx-merror/.test(html)) out.push('undefined command: ' + tex.trim().replace(/\\s+/g, ' ').slice(0, 80));
+        else if (/[A-Za-z]{5,}/.test(stripped) || /\b(and|the|for|but|has|of|to)\s+[A-Za-z]/.test(stripped)) out.push('words read as maths: ' + tex.trim().replace(/\\s+/g, ' ').slice(0, 80));
+      }
+      return out;
+    })(),
+    wideMath: [...content.querySelectorAll('mjx-container[display=true]')].filter(m => m.scrollWidth > m.clientWidth + 2).map(m => m.innerText.replace(/\s+/g, '').slice(0, 30)),
     tables: content.querySelectorAll('table').length,
+    emptyHeads: [...content.querySelectorAll('table thead')].filter(h => !h.innerText.trim()).length,
     low, clipped,
     wide: document.documentElement.scrollWidth > innerWidth + 1,
     toc: toc ? toc.querySelectorAll('a').length : 0,
@@ -70,8 +84,9 @@ def expected():
     out = {}
     for ch, body in zip(chapters, sections):
         body = re.split(r"(?m)^\\(?:clearpage|appendix|input\{)", body)[0]
-        tables = len(re.findall(r"\\begin\{(?:tabular|tabularx|longtable)\}", body))
-        display = len(re.findall(r"(?<!\\)\\\[|\\begin\{(?:equation|align)\*?\}", body))
+        converted = len(W.ARRAY_TABLE.findall(body))
+        tables = len(re.findall(r"\\begin\{(?:tabular|tabularx|longtable)\}", body)) + converted
+        display = len(re.findall(r"(?<!\\)\\\[|\\begin\{(?:equation|align)\*?\}", body)) - converted
         out["chapters/" + ch["file"][:-3]] = (tables, display)
     return out
 
@@ -96,6 +111,11 @@ def problems_of(m, want, view):
             bad.append(f"raw {name}: ...{m['text'][max(0, hit.start() - 25):hit.end() + 25]!r}")
     if m["errors"]:
         bad.append(f"{m['errors']} MathJax errors")
+    bad += [f"bad maths: {x}" for x in m["badMath"][:12]]
+    if view[1] == "desktop":
+        bad += [f"equation clipped: {x}" for x in m["wideMath"][:6]]
+    if m["emptyHeads"]:
+        bad.append(f"{m['emptyHeads']} tables with an empty header row")
     if m["wide"]:
         bad.append("page scrolls sideways")
     bad += [f"low contrast: {x}" for x in m["low"][:8]]
@@ -139,6 +159,7 @@ def main():
                 page.goto(url, wait_until="networkidle")
                 page.wait_for_function("() => !window.MathJax || !MathJax.startup || !MathJax.startup.promise || true")
                 page.evaluate("() => window.MathJax && MathJax.startup && MathJax.startup.promise")
+                page.wait_for_timeout(100)
                 m = page.evaluate(MEASURE)
                 bad = problems_of(m, want.get(name), view)
                 for b in bad:

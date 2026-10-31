@@ -38,25 +38,17 @@ Consider the production-cost breakdown for a size-5 two-layer promotional footba
 
 The source reports the following approximate costs per ball:
 
-$$
-\begin{array}{@{}lrr@{}}
-\toprule
-\text{Input} & \text{PKR per ball} & \text{Treatment in this example}\\
-\midrule
-\text{rexine} & 39.68 & c_{\text{proxy}}\\
-\text{cotton/poly cloth} & 23.27 & c_{\text{proxy}}\\
-\text{latex} & 38.71 & c_{\text{proxy}}\\
-\text{bladder} & 42.02 & c_{\text{proxy}}\\
-\text{overhead} & 10.84{} & \text{mixed / unspecified}\\
-\midrule
-\text{labour for cutting} & 1.49 & v_{\text{proxy}}\\
-\text{labour for stitching} & 39.24{} & v_{\text{proxy}}\\
-\text{other labour} & 15.56 & v_{\text{proxy}}\\
-\midrule
-\text{total reported cost} & 210.83{} & k_{\text{acct}}\\
-\bottomrule
-\end{array}
-$$
+| Input                | PKR per ball | Treatment in this example |
+|:---------------------|-------------:|--------------------------:|
+| rexine               |      $39.68$ |        $c_{\text{proxy}}$ |
+| cotton/poly cloth    |      $23.27$ |        $c_{\text{proxy}}$ |
+| latex                |      $38.71$ |        $c_{\text{proxy}}$ |
+| bladder              |      $42.02$ |        $c_{\text{proxy}}$ |
+| overhead             |    $10.84{}$ |       mixed / unspecified |
+| labour for cutting   |       $1.49$ |        $v_{\text{proxy}}$ |
+| labour for stitching |    $39.24{}$ |        $v_{\text{proxy}}$ |
+| other labour         |      $15.56$ |        $v_{\text{proxy}}$ |
+| total reported cost  |   $210.83{}$ |         $k_{\text{acct}}$ |
 
 Treating the specified material inputs as a rough proxy for constant capital used up in production gives:
 
