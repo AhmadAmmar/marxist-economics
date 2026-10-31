@@ -12,13 +12,10 @@ If we consider one turnover of capital, the **value** of the total commodity pro
 
 <span id="eq-total-value"></span>
 
-
 $$
 W = c+ v+ s.
 \tag{6.1}
 $$
-
-
 
 The **cost price** for the capitalist is:
 
@@ -33,14 +30,13 @@ while the surplus value $s$ is the excess of value over cost. For the simplified
 
 <span id="ex-sialkot-costtable"></span>
 
-**Example 6.1: A documented producer-stage cost table for one football**
+<p class="example-title"><strong>Example 6.1: A documented producer-stage cost table for one football</strong></p>
 
 We can now return to the Sialkot football case introduced in Example [5.2](05-labour-power-wages-surplus-labour-and-surplus-value.md#ex-sialkot-piecewage), but at a different level of analysis. There we compared the worker’s piece-rate wage with the downstream retail price. Here we use the source’s producer-stage cost table. These are accounting figures: they can illustrate the relation between non-wage costs, wage costs, total cost, markup, and profit, but they cannot be read directly as measurements of Marxian $c$, $v$, and $s$.
 
 Consider the production-cost breakdown for a size-5 two-layer promotional football reported in the online appendix to Atkin et al.’s study of Sialkot soccer-ball producers.[^1]
 
 The source reports the following approximate costs per ball:
-
 
 $$
 \begin{array}{@{}lrr@{}}
@@ -62,10 +58,7 @@ $$
 \end{array}
 $$
 
-
-
 Treating the specified material inputs as a rough proxy for constant capital used up in production gives:
-
 
 $$
 c_{\text{proxy}}
@@ -75,10 +68,7 @@ c_{\text{proxy}}
 \text{PKR }143.68{}.
 $$
 
-
-
 Treating the reported labour-cost rows as a rough proxy for variable capital gives:
-
 
 $$
 v_{\text{proxy}}
@@ -88,10 +78,7 @@ v_{\text{proxy}}
 \text{PKR }56.29{}.
 $$
 
-
-
 The source also reports:
-
 
 $$
 o_{\text{overhead}}
@@ -99,10 +86,7 @@ o_{\text{overhead}}
 \text{PKR }10.84{}.
 $$
 
-
-
 The reconstructed accounting cost is therefore:
-
 
 $$
 k_{\text{acct}}
@@ -116,14 +100,11 @@ o_{\text{overhead}}
 \text{PKR }210.81{}.
 $$
 
-
-
 The source reports a total cost of approximately $\text{PKR }210.83{}$; the small difference results from rounding in the individual rows.
 
 The same study reports a mean producer-stage profit margin for size-5 promotional balls of roughly $m=8.1{}\%$.[^2]
 
 Using the reported total cost and this markup, the estimated producer-stage selling price is:
-
 
 $$
 p_{\text{prod}}
@@ -136,10 +117,7 @@ k_{\text{acct}}
 \text{PKR }227.91{}.
 $$
 
-
-
 The corresponding producer-stage accounting profit is:
-
 
 $$
 \pi_{\text{prod}}
@@ -153,10 +131,7 @@ p_{\text{prod}}-k_{\text{acct}}
 \text{PKR }17.08{}.
 $$
 
-
-
 The accounting profit-to-wage-cost ratio is therefore:
-
 
 $$
 \frac{\pi_{\text{prod}}}{v_{\text{proxy}}}
@@ -167,8 +142,6 @@ $$
 \quad\Rightarrow\quad
 30.3{}\%.
 $$
-
-
 
 This $30.3{}\%$ figure is not an empirical measurement of the Marxian rate of exploitation $s/v$. Such an estimate would require a fuller reconstruction of value magnitudes, including the composition of overhead, the distinction between productive and circulation labour, depreciation, turnover times, input prices, and the redistribution of surplus value across capitals.
 
@@ -206,15 +179,12 @@ Marx contrasts two circuits:
 
 <span id="eq-cmc"></span> <span id="eq-mcm"></span>
 
-
 $$
 \begin{align}
 \ensuremath{C \text{--} M \text{--} C}&: C \rightarrow M \rightarrow C, \tag{6.3} \\
 \ensuremath{M \text{--} C \text{--} M'}&: M \rightarrow C \rightarrow M'. \tag{6.4}
 \end{align}
 $$
-
-
 
 -   In $C \rightarrow M \rightarrow C$, a small producer sells a commodity $C$ for money $M$ in order to buy another commodity $C$, for example a farmer selling grain to buy tools and food. The goal is use-value.
 

@@ -58,14 +58,11 @@ W_I = c_I + v_I + s_I,
 W_{II} = c_{II} + v_{II} + s_{II}.
 $$
 
-
-
 <div class="example" markdown="1">
 
-**Example 9.1: Simple reproduction and the realisation constraint**
+<p class="example-title"><strong>Example 9.1: Simple reproduction and the realisation constraint</strong></p>
 
 Consider a toy “balanced” case (values in money units):
-
 
 $$
 \begin{aligned}
@@ -73,8 +70,6 @@ $$
 \text{Dept.\ II: } \;&(c_{II},v_{II},s_{II})=(200,100,100) \Rightarrow W_{II}=400.
 \end{aligned}
 $$
-
-
 
 For the system to reproduce at the same scale (simple reproduction), Dept. II must replace its used-up constant capital $c_{II}=200$ by buying means of production from Dept. I. Where does Dept. II get the money to do that? From selling consumption goods to the incomes generated in both departments, i.e. to $(v_I+s_I)+(v_{II}+s_{II})$.
 

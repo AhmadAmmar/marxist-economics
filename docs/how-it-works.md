@@ -61,6 +61,7 @@ git push
 | `tools/check_sync.py` | Confirms that PDF, LaTeX, web pages and figures agree |
 | `tools/check_links.py` | Tests links, anchors and references |
 | `tools/check_arithmetic.py` | Recalculates numeric steps in equations |
+| `tools/check_render.py` | Opens every page in a real browser, light and dark, on desktop and phone, and tests what readers see |
 
 ## Going back to an earlier version
 
@@ -87,10 +88,9 @@ The images are 1440 by 1440 pixel PNG files. PNG suits text on a plain backgroun
 |:--|:--|
 | This repository | The pamphlet, its example, and tools that know about them |
 | [research-helpers](https://github.com/GeospatialGeeks/research-helpers) | General tools for any project, such as converting LaTeX to Word and PDF slides to images and PowerPoint |
-| [ulster-thesis-template](https://github.com/GeospatialGeeks/ulster-thesis-template) | The thesis template |
 
 The rule: if a tool would help a stranger with a different project, it belongs in research-helpers. If it needs to know about this pamphlet, it stays here.
 
 ## What the checks cannot do
 
-They confirm that the outputs agree and that the sums add up. They can't tell you that an argument is right, or that a source says what is claimed. That takes readers, which is why [your corrections](contribute.md) matter.
+They confirm that the outputs agree, the sums add up and the pages display properly. They can't tell you that an argument is right, or that a source says what is claimed. That takes readers, which is why [your corrections](contribute.md) matter.

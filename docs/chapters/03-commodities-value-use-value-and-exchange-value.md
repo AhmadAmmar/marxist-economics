@@ -42,13 +42,10 @@ Answers based on status, taste, or desire—“luxury is valued more,” “peop
 
 Marx’s answer is the labour theory of value. Very roughly, the value of a commodity is proportional to the socially necessary labour time required to produce it.
 
-
 $$
 \ensuremath{V_{i}} = \MELT\,\ensuremath{L^{\mathrm{SN}}_{i}},
 \tag{3.1}
 $$
-
-
 
 where:
 

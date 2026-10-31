@@ -36,6 +36,11 @@ jobs:
           python -m pytest tests -q
       - name: Build everything from source and check it
         run: python tools/build_all.py --site --no-carousel
+      - name: Test the pages in a real browser
+        run: |
+          python -m pip install playwright
+          python -m playwright install --with-deps chromium
+          python tools/check_render.py
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site

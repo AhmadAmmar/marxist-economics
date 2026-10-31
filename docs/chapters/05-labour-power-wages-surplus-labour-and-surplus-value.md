@@ -52,7 +52,6 @@ Let the working day be $T$ hours. Suppose the value of the worker’s labour-pow
 
 <span id="eq-Ts"></span>
 
-
 $$
 \ensuremath{T_{\mathrm{S}}}= T - \ensuremath{T_{\mathrm{N}}},
 \tag{5.1}
@@ -68,12 +67,9 @@ v \propto \ensuremath{T_{\mathrm{N}}},
 s \propto \ensuremath{T_{\mathrm{S}}}.
 $$
 
-
-
 We can therefore capture the rate of surplus value, or *rate of exploitation*, as
 
 <span id="eq-exploitation-time"></span>
-
 
 $$
 e = \frac{s}{v} = \frac{\ensuremath{T_{\mathrm{S}}}}{\ensuremath{T_{\mathrm{N}}}},
@@ -208,7 +204,7 @@ Consider a barista in a large coffee chain in a global North city. The numbers b
 
 <div class="example" markdown="1">
 
-**Example 5.1: A coffee-shop worker**
+<p class="example-title"><strong>Example 5.1: A coffee-shop worker</strong></p>
 
 Suppose:
 
@@ -250,8 +246,6 @@ $$
 v+ s= \$500.
 $$
 
-
-
 ### Step 2: Split this new value into wages and surplus-value {#step-2-split-this-new-value-into-wages-and-surplus-value .unnumbered}
 
 Out of this \$500 of new value, the capitalist pays the barista \$100 as wages. This \$100 is the value of variable capital $v$:
@@ -276,8 +270,6 @@ So
 $$
 s= \$400.
 $$
-
-
 
 ### Step 3: Compute the rate of exploitation {#step-3-compute-the-rate-of-exploitation .unnumbered}
 
@@ -338,8 +330,6 @@ $$
 \end{aligned}
 $$
 
-
-
 So in this simple coffee-shop example:
 
 -   In the first $1.6$ hours of the shift, the barista produces value equivalent to their own wage (necessary labour time).
@@ -364,8 +354,6 @@ $$
 W_w = w_h \, T.
 $$
 
-
-
 Time-wages make it appear as if the worker is paid for *all* labour performed in those hours. But in Marxian terms, the wage is the price of *labour-power*, not the price of *labour*. What is purchased is the worker’s capacity to labour for $T$ hours under capital’s control. The wage corresponds (in value terms) to $v$, the value of labour-power, i.e. the socially necessary labour time required to reproduce the worker.
 
 To connect money-wages to labour-time, introduce the monetary expression of labour time (MELT), $\MELT$ (money per hour of socially necessary labour time). Then the value of labour-power corresponds to a quantity of necessary labour time $\ensuremath{T_{\mathrm{N}}}$, and (schematically)
@@ -375,8 +363,6 @@ v = \MELT \, \ensuremath{T_{\mathrm{N}}},
 \qquad
 W_w \approx v.
 $$
-
-
 
 The approximation sign here flags that money-wages and market prices do not, in general, equal values. Section [7.2](07-rate-of-profit-and-organic-composition-of-capital.md#sec-prices-production) explains how competition and the tendency toward an average rate of profit generate prices of production that systematically diverge from values; market power, state policy, and world-market (exchange-rate and terms-of-trade) conditions can produce further, conjunctural deviations. Even if $W_w$ equals the value of labour-power, exploitation still occurs because labour-power creates value over a working day longer than $\ensuremath{T_{\mathrm{N}}}$.
 
@@ -414,7 +400,7 @@ The Sialkot football examples below combine figures from different sources and y
 
 <span id="ex-sialkot-piecewage"></span>
 
-**Example 5.2: Sialkot football stitching: piece-wage, implied time-wage, and the retail-price gap**
+<p class="example-title"><strong>Example 5.2: Sialkot football stitching: piece-wage, implied time-wage, and the retail-price gap</strong></p>
 
 A piece-wage can be rewritten as a time-wage once we specify the time required to produce one unit.
 
@@ -434,7 +420,6 @@ These figures are drawn from reporting on Sialkot football stitching in 2022 and
 
 Then the implied hourly wage is:
 
-
 $$
 w_{\text{hour}}
 =
@@ -445,10 +430,7 @@ w_{\text{hour}}
 \text{PKR }53.33{}/\text{hour}.
 $$
 
-
-
 If the worker stitches roughly $q=3$ balls per day, then:
-
 
 $$
 w_{\text{day}}
@@ -460,10 +442,7 @@ w_{\text{piece}}\times q
 \text{PKR }480,
 $$
 
-
-
 and
-
 
 $$
 T_{\text{day}}
@@ -475,10 +454,7 @@ t_{\text{ball}}\times q
 9\ \text{hours}.
 $$
 
-
-
 If this pace is sustained for roughly $20$ paid workdays in a month, then monthly wage income is:
-
 
 $$
 w_{\text{month}}
@@ -488,10 +464,7 @@ w_{\text{month}}
 \text{PKR }9{,}600{}.
 $$
 
-
-
 Against the same report’s quoted 2022 living-wage benchmark of about $\text{PKR }20{,}000{}$ per month, this is:
-
 
 $$
 \frac{w_{\text{month}}}{L_{\text{month}}}
@@ -503,8 +476,6 @@ $$
 48\%.
 $$
 
-
-
 So even before we compare the wage to export or retail prices, the wage relation already appears as a social-reproduction problem: the missing income has to be made up through longer hours, debt, rationing, unpaid household labour, or some combination of these.
 
 Now compare this wage with a downstream retail benchmark. Suppose a branded match ball retails at
@@ -515,7 +486,6 @@ $$
 
 [^5] Using this fixed conversion benchmark:
 
-
 $$
 P_{\text{retail}}
 \approx
@@ -524,10 +494,7 @@ P_{\text{retail}}
 \text{PKR }46{,}183{}.
 $$
 
-
-
 The number of wage-hours required to earn the retail price of one ball is:
-
 
 $$
 H
@@ -539,10 +506,7 @@ H
 866{}\ \text{hours}.
 $$
 
-
-
 Converted into footballs stitched and 9-hour workdays:
-
 
 $$
 \text{balls required}
@@ -554,9 +518,6 @@ $$
 289{}\ \text{balls},
 $$
 
-
-
-
 $$
 \text{workdays required}
 \approx
@@ -566,8 +527,6 @@ $$
 \approx
 96.2{}\ \text{workdays}.
 $$
-
-
 
 So, under these benchmark assumptions, the worker would have to stitch roughly $289{}$ footballs—nearly $96$ nine-hour workdays—to earn enough wages to buy one branded match ball at the retail benchmark.
 

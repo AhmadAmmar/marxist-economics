@@ -15,14 +15,14 @@ This pamphlet uses a compact set of standard Marxian symbols. Where a symbol can
 | $M'$ | money realised after sale, $M' = M + \Delta M$ (surplus-value realised in money-form). |
 | $\Delta M$ | increment of money in the circuit of capital: $\Delta M = M' - M$ (surplus-value realised in money-form). |
 | $W$ | total value of the commodity product of a given production period: $W = c + v + s$. |
-| $w_i$ | value of the output of industry $i$ (at the level of value magnitudes): $w_i = c_i + v_i + s_i$ (see Section [\[sec:prices-production\]](chapters/07-rate-of-profit-and-organic-composition-of-capital.md#sec-prices-production){reference-type="ref" reference="sec:prices-production"}). |
+| $w_i$ | value of the output of industry $i$ (at the level of value magnitudes): $w_i = c_i + v_i + s_i$ (see Section [7.2](chapters/07-rate-of-profit-and-organic-composition-of-capital.md#sec-prices-production)). |
 | $c$ | **constant capital**: in $W=c+v+s$, the value transferred to the product from used-up materials, energy, and depreciation of fixed capital; it does *not* create new value. In the simplified profit-rate equations, $c$ also stands for constant capital advanced under the one-turnover convention used in the pamphlet. |
 | $v$ | **variable capital**: value advanced to purchase labour-power (the wage bill in value terms); “variable” because living labour can create more value than it costs. |
 | $s$ | **surplus value**: unpaid value created by living labour beyond $v$, appropriated by capital; in value terms $s = W - (c+v)$. |
 | $e$ | **rate of exploitation** (rate of surplus value): $e = \dfrac{s}{v}$. |
 | $r$ | **rate of profit**: $r = \dfrac{s}{c+v}$. |
 | $\mathrm{OCC}$ | **organic composition of capital**: for expository simplicity, this pamphlet uses $\mathrm{OCC}=c/v$ as shorthand. Strictly speaking, $c/v$ is the value composition of capital; it is organic insofar as it reflects changes in the underlying technical composition of production. |
-| $\Omega$ | average organic composition of capital (in the prices-of-production example): $\Omega = \dfrac{C}{V}$ where $C=\sum_i c_i$ and $V=\sum_i v_i$ (see Section [\[sec:prices-production\]](chapters/07-rate-of-profit-and-organic-composition-of-capital.md#sec-prices-production){reference-type="ref" reference="sec:prices-production"}). |
+| $\Omega$ | average organic composition of capital (in the prices-of-production example): $\Omega = \dfrac{C}{V}$ where $C=\sum_i c_i$ and $V=\sum_i v_i$ (see Section [7.2](chapters/07-rate-of-profit-and-organic-composition-of-capital.md#sec-prices-production)). |
 | $\mathrm{TRPF}$ | **tendency of the rate of profit to fall**: *ceteris paribus*, rising $\mathrm{OCC}$ tends to press $r$ downward over long periods (with counter-tendencies). |
 | $T$ | length of the working day (hours). |
 | $T_{\mathrm{N}}$ | **necessary labour time**: part of the working day that reproduces the value of labour-power (corresponding to $v$). |
@@ -34,10 +34,10 @@ This pamphlet uses a compact set of standard Marxian symbols. Where a symbol can
 | $\mathrm{SNLT}$ | **socially necessary labour time**: labour time required to produce a commodity under average conditions of production, with average skill and intensity, using prevailing technology. |
 | $L^{\mathrm{SN}}_i$ | SNLT for commodity $i$: socially necessary labour time required to produce one unit of commodity $i$ under average, prevailing conditions. |
 | $L_{ij}$ | labour time per unit of commodity $i$ at firm $j$ (as produced by $j$; in practice this stands in for both direct and indirect labour time embodied in the unit). |
-| $q_{ij}$ | socially realised output of commodity $i$ supplied by firm $j$ during the period, used as an illustrative weight in Eq. [\[eq:snlt\]](chapters/04-abstract-and-concrete-labour.md#eq-snlt){reference-type="eqref" reference="eq:snlt"}. The weighted average is a pedagogical approximation, not a general definition of socially necessary labour time. |
+| $q_{ij}$ | socially realised output of commodity $i$ supplied by firm $j$ during the period, used as an illustrative weight in Eq. [(4.1)](chapters/04-abstract-and-concrete-labour.md#eq-snlt). The weighted average is a pedagogical approximation, not a general definition of socially necessary labour time. |
 | $k$ | **cost price**: the money-capital laid out by the capitalist to purchase means of production and labour-power; in value terms, $k = c+v$. |
 | $k_i$ | cost price in industry $i$: $k_i = c_i + v_i$ (capital advanced that must be replaced). |
-| $p_i$ | **price of production** in industry $i$: regulating price yielding the average profit rate, $p_i = k_i(1+r)$ (see Section [\[sec:prices-production\]](chapters/07-rate-of-profit-and-organic-composition-of-capital.md#sec-prices-production){reference-type="ref" reference="sec:prices-production"}). |
+| $p_i$ | **price of production** in industry $i$: regulating price yielding the average profit rate, $p_i = k_i(1+r)$ (see Section [7.2](chapters/07-rate-of-profit-and-organic-composition-of-capital.md#sec-prices-production)). |
 | $\pi_i$ | profit received in industry $i$ under prices of production: $\pi_i = p_i - k_i = r\,k_i$. |
 | $\MELT$ | **monetary expression of labour time (MELT)**: conversion factor from labour-time to money magnitudes, used here as money per hour of **SNLT**. In this pamphlet we denote this conversion factor by $\MELT$ throughout. If $L^{\mathrm{SN}}_i$ is the socially necessary labour time embodied in one unit of commodity $i$, then its value in money terms is $V_i = \MELT\,L^{\mathrm{SN}}_i$. |
 | $V_i$ | value of one unit of commodity $i$ in money terms: $V_i = \MELT\,L^{\mathrm{SN}}_i$. |

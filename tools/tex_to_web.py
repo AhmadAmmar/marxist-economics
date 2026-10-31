@@ -94,25 +94,32 @@ def link(lab, here, text):
     return f"\\href{{{f}#{lab['id']}}}{{{text}}}"
 
 
-def preprocess(body, chapter, labels, cite_no):
-    s = chapter["n"]
-    here = chapter["file"]
-    t = inputs(body)
-    t = re.sub(r"\\money\{([^{}]*)\}", lambda m: "\\$" + m.group(1), t)
+def resolve_refs(t, labels, here, prefix=""):
+    """Replace LaTeX references with links and the numbers LaTeX would print."""
 
     def ref(m):
         cmd, key = m.group(1), m.group(2)
         lab = labels.get(key)
         if lab is None:
             raise SystemExit(f"undefined reference {key}")
+        target = dict(lab, file=prefix + lab["file"]) if lab["file"] != here else lab
         if cmd == "eqref":
-            return link(lab, here, f"({lab['num']})")
+            return link(target, here, f"({lab['num']})")
         if cmd in ("cref", "Cref"):
             word = {"section": "Section", "subsection": "Section", "equation": "Eq.", "example": "Example", "appendix": ""}[lab["kind"]]
-            return link(lab, here, f"{word} {lab['num']}".strip())
-        return link(lab, here, lab["num"])
+            return link(target, here, f"{word} {lab['num']}".strip())
+        return link(target, here, lab["num"])
 
-    t = re.sub(r"\\(eqref|ref|cref|Cref)\{([^}]+)\}", ref, t)
+    return re.sub(r"\\(eqref|ref|cref|Cref)\{([^}]+)\}", ref, t)
+
+
+def preprocess(body, chapter, labels, cite_no):
+    s = chapter["n"]
+    here = chapter["file"]
+    t = inputs(body)
+    t = re.sub(r"\\money\{([^{}]*)\}", lambda m: "\\$" + m.group(1), t)
+
+    t = resolve_refs(t, labels, here)
 
     def cite(m):
         keys = [k.strip() for k in m.group(1).split(",")]
@@ -174,7 +181,7 @@ def pandoc(tex):
                        input=(macros() + tex).encode("utf8"), capture_output=True)
     if r.returncode:
         raise SystemExit(r.stderr.decode("utf8", "replace")[:800])
-    return r.stdout.decode("utf8")
+    return r.stdout.decode("utf8").replace("\r\n", "\n")  # the same on Windows and Linux
 
 
 def postprocess(md, keys):
@@ -213,6 +220,8 @@ def postprocess(md, keys):
                 out.append(indent + p.lstrip(" "))
     md = "".join(out)
     md = re.sub(r"\\ensuremath\{([^{}]*)\}", r"\1", md)
+    md = re.sub(r"(?m)^::: *\{\.(\w+)\} *$", r'\n<div class="\1" markdown="1">\n', md)
+    md = re.sub(r"(?m)^:::+ *$", "\n</div>\n", md)
     md = re.sub(r"\n{3,}", "\n\n", md)
     md = re.sub(r"(?m)[ \t]+$", "", md)
     return md.strip() + "\n"
@@ -229,7 +238,7 @@ def bibliography(keys, out):
 
 
 def notation(out, labels):
-    t = inputs((L / "notation.tex").read_text(encoding="utf8"))
+    t = resolve_refs(inputs((L / "notation.tex").read_text(encoding="utf8")), labels, "appendix-notation.md", "chapters/")
     title = re.search(r"\\section\{([^}]*)\}", t).group(1)
     intro = t[t.index("\\noindent"):t.index("\\begingroup")]
     caption = re.search(r"\\caption\{([^}]*)\}", t).group(1)
@@ -246,11 +255,7 @@ def notation(out, labels):
     after = re.sub(r"\\endgroup|\\clearpage", " ", after).strip()
     if after:
         md += ["", pandoc(after).strip()]
-    def anchor(m):
-        lab = labels[m.group(1)]
-        return f"(chapters/{lab['file']}#{lab['id']})"
-
-    text = re.sub(r"\(#([A-Za-z]+:[^)]+)\)", anchor, "\n".join(md))
+    text = "\n".join(md)
     (out / "appendix-notation.md").write_text(text + "\n", encoding="utf8", newline="\n")
 
 
@@ -263,8 +268,8 @@ def braces(text, start):
     raise SystemExit("unbalanced braces in glossary.tex")
 
 
-def glossary(out):
-    t = inputs((L / "glossary.tex").read_text(encoding="utf8"))
+def glossary(out, labels):
+    t = resolve_refs(inputs((L / "glossary.tex").read_text(encoding="utf8")), labels, "appendix-glossary.md", "chapters/")
     acronyms = sorted(re.findall(r"\\newacronym\{([^}]*)\}\{([^}]*)\}\{([^}]*)\}", t), key=lambda a: a[1].lower())
     terms = []
     for m in re.finditer(r"\\newglossaryentry\{([^}]*)\}\{", t):
@@ -296,7 +301,7 @@ def main(out):
         (out / "chapters" / chapter["file"]).write_text(md, encoding="utf8", newline="\n")
     bibliography(keys, out)
     notation(out, labels)
-    glossary(out)
+    glossary(out, labels)
     print(f"wrote {len(chapters)} chapters and {len(keys)} references to {out}")
 
 

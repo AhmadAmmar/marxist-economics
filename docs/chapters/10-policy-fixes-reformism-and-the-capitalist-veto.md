@@ -26,7 +26,6 @@ Consider a substantial legal increase in the minimum wage, such as the introduct
 
 Under the simplifying assumptions used here, suppose that the amount of new value produced, $v+s$, and the constant capital advanced, $c$, remain unchanged. If the wage increase raises $v$, then $s$ falls:
 
-
 $$
 \Delta(v+s)=0,
 \qquad
@@ -35,16 +34,11 @@ $$
 \Delta s=-\Delta v<0.
 $$
 
-
-
 The rate of profit,
-
 
 $$
 r=\frac{s}{c+v},
 $$
-
-
 
 is then pushed downward: surplus value in the numerator falls while the capital advanced in the denominator rises. Capital therefore seeks to defend or restore profitability through measures available to employers:
 

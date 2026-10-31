@@ -10,7 +10,6 @@ A share can be understood as a claim on a stream of expected future profits (or 
 
 <span id="eq-fictitious-capitalisation"></span>
 
-
 $$
 K_f = \sum_{t=1}^{\infty} \frac{R_t}{(1+d)^t}.
 \tag{11.1}

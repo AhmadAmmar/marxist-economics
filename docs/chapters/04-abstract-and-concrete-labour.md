@@ -12,7 +12,6 @@ For a simplified illustration, under normal-demand conditions, socially necessar
 
 <span id="eq-snlt"></span>
 
-
 $$
 \ensuremath{L^{\mathrm{SN}}_{i}} \approx
 \frac{\sum_{j=1}^{n} q_{ij}\,L_{ij}}
