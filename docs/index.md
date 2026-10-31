@@ -1,7 +1,7 @@
 # Marxian Economics 101
 
 **Understanding Political Economy for Socialist Struggle in the 21st Century**  
-**Comrade Ammar (AA)**
+**Comrade Ammara**
 
 PhD Researcher (Earth Observation, Geo-computing, Urban Informatics), Ulster University  
 Organiser, [The Struggle (Pakistan)](https://www.struggle.pk/) | [Solidarity: The Socialist Alternative (Ireland)](https://www.solidarity.ie/)
