@@ -24,6 +24,20 @@ def text_fingerprint(pdf):
     return hashlib.sha256(text).hexdigest()[:8]
 
 
+def overflowing(images):
+    """Slides with anything drawn outside the white frame, which is 64 pixels in from each edge at 1440 pixels."""
+    from PIL import Image
+    bad = []
+    for path in images:
+        im = Image.open(path).convert("L")
+        w, h = im.size
+        margin = round(50 * w / 1440)
+        outer = [(0, 0, margin, h), (w - margin - 8, 0, w, h), (0, 0, w, margin), (0, h - margin - 8, w, h)]
+        if any(im.crop(box).getextrema()[1] > 60 for box in outer[1:2] + outer[3:]):
+            bad.append(path.name)
+    return bad
+
+
 def build():
     pdf = EX / "slides.pdf"
     tag = text_fingerprint(pdf)
@@ -31,6 +45,9 @@ def build():
     existing = list(versions.glob(f"*_{tag}"))
     folder = existing[0] if existing else versions / f"{datetime.date.today()}_{tag}"
     images = sorted(folder.glob("slide-*.png")) or pdf_to_images(pdf, folder, pixels=PIXELS)
+    bad = overflowing(images)
+    if bad:
+        raise SystemExit(f"text runs outside the frame on: {bad}")
     notes = json.loads((EX / "notes.json").read_text(encoding="utf8"))
     downloads = ROOT / "docs/downloads"
     downloads.mkdir(exist_ok=True)
