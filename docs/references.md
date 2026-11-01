@@ -142,7 +142,7 @@ Citation numbers match the PDF edition.
 
 <div class="reference-entry" id="ref-cambridgemehrgarh" markdown="1">
 
-**[24]** Jarrige, C. and Jarrige, J.-F. (2015) “Mehrgarh, Pakistan” (Chapter 11), in Barker, G. and Goucher, C. (eds.) *The Cambridge World History, Volume 2: A World with Agriculture, 12,000 BCE–500 CE*. Cambridge: Cambridge University Press. Available at: <https://www.cambridge.org/core/books/cambridge-world-history/mehrgarh-pakistan/> (accessed 20 January 2026).
+**[24]** Petrie, C. A. (2015) “Mehrgarh, Pakistan”, in Barker, G. and Goucher, C. (eds.) *The Cambridge World History, Volume 2: A World with Agriculture, 12,000 BCE–500 CE*. Cambridge: Cambridge University Press, 289–309. DOI: <https://doi.org/10.1017/CBO9780511978807.012>.
 
 </div>
 
@@ -184,7 +184,7 @@ Citation numbers match the PDF edition.
 
 <div class="reference-entry" id="ref-cambridgecapitalism1" markdown="1">
 
-**[31]** Neal, L. and Williamson, J. G. (eds.) (2014) *The Cambridge History of Capitalism, Volume 1: The Rise of Capitalism: From Ancient Origins to 1848*. Cambridge: Cambridge University Press. Available at: <https://www.cambridge.org/core/books/cambridge-history-of-capitalism/> (accessed 20 January 2026).
+**[31]** Neal, L. and Williamson, J. G. (eds.) (2014) *The Cambridge History of Capitalism, Volume 1: The Rise of Capitalism: From Ancient Origins to 1848*. Cambridge: Cambridge University Press.
 
 </div>
 
@@ -196,7 +196,7 @@ Citation numbers match the PDF edition.
 
 <div class="reference-entry" id="ref-heller2011" markdown="1">
 
-**[33]** Heller, H. (2011) *The Birth of Capitalism: A Twenty-First-Century Perspective*. London: Pluto Press. Open-access edition available via OAPEN: <https://www.oapen.org/handle/20.500.12657/31724> (accessed 20 January 2026).
+**[33]** Heller, H. (2011) *The Birth of Capitalism: A Twenty-First-Century Perspective*. London: Pluto Press. Open access. DOI: <https://doi.org/10.2307/j.ctt183p671>.
 
 </div>
 
@@ -352,7 +352,7 @@ Citation numbers match the PDF edition.
 
 <div class="reference-entry" id="ref-hickel2022" markdown="1">
 
-**[59]** Hickel, J., Sullivan, D. and Zoomkawala, H. (2022) “Plunder in the Post-Colonial Era: Quantifying Drain from the Global South through Unequal Exchange, 1990–2015”. *Global Environmental Change*, 73, 102467. DOI: <https://doi.org/10.1016/j.gloenvcha.2022.102467>.
+**[59]** Hickel, J., Dorninger, C., Wieland, H. and Suwandi, I. (2022) “Imperialist appropriation in the world economy: Drain from the global South through unequal exchange, 1990–2015”. *Global Environmental Change*, 73, 102467. DOI: <https://doi.org/10.1016/j.gloenvcha.2022.102467>.
 
 </div>
 
@@ -424,7 +424,7 @@ Citation numbers match the PDF edition.
 
 <div class="reference-entry" id="ref-carmodytaylorzajontz2021" markdown="1">
 
-**[71]** Carmody, P., Taylor, I. and Zajontz, T. (2021) “A new global imaginary: The Belt and Road Initiative and the spatial fix”. *Business and Politics*, 23(4), 642–676. DOI: <https://doi.org/10.1017/bap.2020.25>.
+**[71]** Carmody, P., Taylor, I. and Zajontz, T. (2021) “China’s spatial fix and ‘debt diplomacy’ in Africa: constraining belt or road to economic transformation?” *Canadian Journal of African Studies*, 56(1), 57–77. DOI: <https://doi.org/10.1080/00083968.2020.1868014>.
 
 </div>
 
