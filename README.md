@@ -1,5 +1,7 @@
 # Marxian Economics 101
 
+![The web edition of Marxian Economics 101](docs/screenshots/pamphlet.png)
+
 This repository contains a LaTeX pamphlet and a MkDocs Material website version.
 
 An introduction to political economy for organisers, by Comrade Ammara.
