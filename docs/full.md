@@ -1,6 +1,6 @@
 # The whole pamphlet on one page
 
-Every chapter and appendix, in order. The contents panel follows you as you scroll.
+Every chapter, appendix and reference, in order. The contents panel follows you as you scroll.
 
 ## 1. Why this pamphlet? From meme to method {#sec-intro-meme-method}
 
@@ -41,7 +41,7 @@ Whenever we write $c$, $v$, $s$, $r$, or $e$, we are using a standard Marxian sh
 
 ## 2. Method: dialectical and historical materialism {#sec-method}
 
-Marx’s starting point was not a general ethical denunciation of capitalism (*capitalism is bad because it is unfair*). He begins from the problem of how societies reproduce themselves over time. Capitalism is a “definite mode of production” with its own laws of motion.<span class="citation">[[5](references.md#ref-marx1867), [3](references.md#ref-marxgrundrisse)]</span>
+Marx’s starting point was not a general ethical denunciation of capitalism (*capitalism is bad because it is unfair*). He begins from the problem of how societies reproduce themselves over time. Capitalism is a “definite mode of production” with its own laws of motion.<span class="citation">[[5](#ref-marx1867), [3](#ref-marxgrundrisse)]</span>
 
 ### 2.1 Materialism
 
@@ -63,17 +63,17 @@ The dialectical move is to see how these opposites presuppose and transform each
 
 ### 2.3 Historicity: categories as historical forms
 
-Historical materialism insists that our categories are historically specific. The “laws” of capitalism emerge from the separation of producers from the means of production, the generalisation of commodity exchange, and the subordination of production to profit. The task is therefore to reconstruct how this mode of production works: from the commodity up to crises, imperialism, and the possibility of transition.<span class="citation">[[7](references.md#ref-engelsantiduhring), [36](references.md#ref-shaikh2016)]</span>
+Historical materialism insists that our categories are historically specific. The “laws” of capitalism emerge from the separation of producers from the means of production, the generalisation of commodity exchange, and the subordination of production to profit. The task is therefore to reconstruct how this mode of production works: from the commodity up to crises, imperialism, and the possibility of transition.<span class="citation">[[7](#ref-engelsantiduhring), [36](#ref-shaikh2016)]</span>
 
 ##### From the abstract to the concrete.
 
-The ordering of this pamphlet follows a Marxist movement from the abstract to the concrete, and from the simplest form of appearance to the more complex totality it presupposes. We begin with the commodity and the value-form, because capitalism first confronts us as a world of commodities, prices, and exchange relations.<span class="citation">[[5](references.md#ref-marx1867)]</span> We then move to labour-power as a peculiar commodity, because only there do we find the hinge that makes profit compatible with apparently equal exchange. From that pivot we develop the production of surplus value (necessary and surplus labour time) and the rate of exploitation, before turning to how competition redistributes surplus value and, through the formation of prices of production, generates systematic divergences between values and market prices (see Section [7.2](#sec-prices-production)). On that basis we can treat credit and fictitious capital as claims on future surplus value that can expand well beyond the limits set by production and realisation, and therefore become a central transmission belt of crisis. We then extend the analysis to world-scale determinations—imperialism and unequal exchange—and to the reproduction of labour-power (social reproduction) as a part of the material conditions of accumulation, rather than a detached question of ethics and morality. Finally, we return to contemporary restructurings of the labour process and capitalist control (including platform power and AI): changes in technology and organisation that can transform how exploitation is administered and intensified, without abolishing the underlying relations that make value and accumulation possible.
+The ordering of this pamphlet follows a Marxist movement from the abstract to the concrete, and from the simplest form of appearance to the more complex totality it presupposes. We begin with the commodity and the value-form, because capitalism first confronts us as a world of commodities, prices, and exchange relations.<span class="citation">[[5](#ref-marx1867)]</span> We then move to labour-power as a peculiar commodity, because only there do we find the hinge that makes profit compatible with apparently equal exchange. From that pivot we develop the production of surplus value (necessary and surplus labour time) and the rate of exploitation, before turning to how competition redistributes surplus value and, through the formation of prices of production, generates systematic divergences between values and market prices (see Section [7.2](#sec-prices-production)). On that basis we can treat credit and fictitious capital as claims on future surplus value that can expand well beyond the limits set by production and realisation, and therefore become a central transmission belt of crisis. We then extend the analysis to world-scale determinations—imperialism and unequal exchange—and to the reproduction of labour-power (social reproduction) as a part of the material conditions of accumulation, rather than a detached question of ethics and morality. Finally, we return to contemporary restructurings of the labour process and capitalist control (including platform power and AI): changes in technology and organisation that can transform how exploitation is administered and intensified, without abolishing the underlying relations that make value and accumulation possible.
 
 ### 2.4 Social labour, surplus, and the historical problem of control {#sec-sociallabour-surplus-control}
 
 A useful starting point is the concrete problem every human society must solve before anything called “the economy” can appear: *how life is reproduced*. People must eat, drink, rest, care for children and the sick, build shelter, store against bad seasons, learn skills, defend themselves, and coordinate work across time.
 
-Humans have always done this through *social labour*. Individuals may forage, fish, or work alone, but durable survival under variable ecological conditions depends on coordination: shared knowledge, pooled risk, division of tasks, collective care, and forms of obligation and reciprocity.<span class="citation">[[18](references.md#ref-leedaly1999)]</span> The basic unit is a web of relations—kinship, households, camps, villages, pastoral networks, urban neighbourhoods, and work crews. Labour is social before it is “economic.”
+Humans have always done this through *social labour*. Individuals may forage, fish, or work alone, but durable survival under variable ecological conditions depends on coordination: shared knowledge, pooled risk, division of tasks, collective care, and forms of obligation and reciprocity.<span class="citation">[[18](#ref-leedaly1999)]</span> The basic unit is a web of relations—kinship, households, camps, villages, pastoral networks, urban neighbourhoods, and work crews. Labour is social before it is “economic.”
 
 ##### Two clarifying definitions.
 
@@ -81,15 +81,15 @@ Humans have always done this through *social labour*. Individuals may forage, fi
 
 #### For most of our history: foraging, sharing, and “primitive communism” {#sec-foraging-primitive-communism}
 
-In Marxist writing, “primitive communism” is a shorthand for the fact that for much of human history, the means of life were not organised as alienable private property in land, tools, and people, but through customary access, collective obligations, and strong norms of sharing and reciprocity. That term should not be romanticised: foraging life could be harsh, vulnerable to illness and climate shocks, and marked by gendered divisions of labour that varied widely across regions. But it names a real historical point: long before markets became dominant, many societies reproduced themselves through *collective* control and social claims rather than through commodity exchange.<span class="citation">[[18](references.md#ref-leedaly1999), [19](references.md#ref-woodburn1982), [20](references.md#ref-boehm1999)]</span>
+In Marxist writing, “primitive communism” is a shorthand for the fact that for much of human history, the means of life were not organised as alienable private property in land, tools, and people, but through customary access, collective obligations, and strong norms of sharing and reciprocity. That term should not be romanticised: foraging life could be harsh, vulnerable to illness and climate shocks, and marked by gendered divisions of labour that varied widely across regions. But it names a real historical point: long before markets became dominant, many societies reproduced themselves through *collective* control and social claims rather than through commodity exchange.<span class="citation">[[18](#ref-leedaly1999), [19](#ref-woodburn1982), [20](#ref-boehm1999)]</span>
 
 Hunter-gatherer communities are also not a single type. Some were highly mobile; others were more sedentary. Some developed strong hierarchies under particular ecological conditions (for example, where storable, dense resources enabled durable inequality). The issue is historical specificity: the commodity-form is not the natural default of human life.
 
 ##### How much of the human timeline?
 
-Anatomically modern *Homo sapiens* are at least on the order of $\sim 315{,}000$ years old on current evidence.<span class="citation">[[15](references.md#ref-hublin2017), [16](references.md#ref-richter2017)]</span> Agriculture and settled village life, by contrast, are extremely recent: they emerge unevenly in multiple regions during the Holocene climatic regime (the Holocene begins at $11{,}700$ years *b2k*, i.e. roughly $9700$ BCE).<span class="citation">[[17](references.md#ref-walker2018holocene), [21](references.md#ref-zeder2011), [22](references.md#ref-fuller2023)]</span> Standard syntheses therefore stress that for the overwhelming majority of our species history, humans lived by hunting, fishing, and foraging.<span class="citation">[[18](references.md#ref-leedaly1999)]</span>
+Anatomically modern *Homo sapiens* are at least on the order of $\sim 315{,}000$ years old on current evidence.<span class="citation">[[15](#ref-hublin2017), [16](#ref-richter2017)]</span> Agriculture and settled village life, by contrast, are extremely recent: they emerge unevenly in multiple regions during the Holocene climatic regime (the Holocene begins at $11{,}700$ years *b2k*, i.e. roughly $9700$ BCE).<span class="citation">[[17](#ref-walker2018holocene), [21](#ref-zeder2011), [22](#ref-fuller2023)]</span> Standard syntheses therefore stress that for the overwhelming majority of our species history, humans lived by hunting, fishing, and foraging.<span class="citation">[[18](#ref-leedaly1999)]</span>
 
-If we take $\sim 315{,}000$ years as a conservative baseline for *Homo sapiens* and $\sim 11{,}700$ years for the onset of the Holocene, then foraging-dominant reproduction represents roughly $95$–$97\%$ of our species’ time. What people often remember as “$\sim 10{,}000$ years ago” is usually the *Neolithic transition*: the uneven, regionally staggered onset of domestication, sedentism, and storage beginning around the terminal Pleistocene/early Holocene (on the order of 12–10k years ago in several regions). But *state-based* class society in the stricter sense—city–state complexes with taxation/tribute apparatuses, bureaucracy, durable institutionalised stratification, and (in some cases) written administration—becomes archaeologically legible later in some core regions, often in the fourth millennium BCE (hence a rough “$\sim 5$–$6$k years” anchor).<span class="citation">[[23](references.md#ref-scott2017)]</span>[^p1-1]
+If we take $\sim 315{,}000$ years as a conservative baseline for *Homo sapiens* and $\sim 11{,}700$ years for the onset of the Holocene, then foraging-dominant reproduction represents roughly $95$–$97\%$ of our species’ time. What people often remember as “$\sim 10{,}000$ years ago” is usually the *Neolithic transition*: the uneven, regionally staggered onset of domestication, sedentism, and storage beginning around the terminal Pleistocene/early Holocene (on the order of 12–10k years ago in several regions). But *state-based* class society in the stricter sense—city–state complexes with taxation/tribute apparatuses, bureaucracy, durable institutionalised stratification, and (in some cases) written administration—becomes archaeologically legible later in some core regions, often in the fourth millennium BCE (hence a rough “$\sim 5$–$6$k years” anchor).<span class="citation">[[23](#ref-scott2017)]</span>[^p1-1]
 
 | **Marker (indicative horizon; not a single “stage”)**                                                        | **Approx. years** | **Share of sapiens time** |
 |:-------------------------------------------------------------------------------------------------------------|------------------:|--------------------------:|
@@ -99,11 +99,11 @@ If we take $\sim 315{,}000$ years as a conservative baseline for *Homo sapiens* 
 | State-based class societies (cities/states; tax/tribute; bureaucracy; durable stratification)                |    $\sim 5{,}500$ |            $\sim 1$–$2\%$ |
 | Capitalism (world-market formation; colonial expansion; generalised commodity dependence consolidates later) |        $\sim 500$ |        $\sim 0.1$–$0.2\%$ |
 
-: Table 1. Compressed time-scales to keep “historicity” concrete. Percentages are shares of $\sim 315{,}000$ years and are *not additive*: rows mark overlapping horizons rather than mutually exclusive periods.<span class="citation">[[15](references.md#ref-hublin2017), [16](references.md#ref-richter2017), [17](references.md#ref-walker2018holocene), [18](references.md#ref-leedaly1999), [21](references.md#ref-zeder2011), [23](references.md#ref-scott2017), [27](references.md#ref-woodorigincapitalism)]</span>
+: Table 1. Compressed time-scales to keep “historicity” concrete. Percentages are shares of $\sim 315{,}000$ years and are *not additive*: rows mark overlapping horizons rather than mutually exclusive periods.<span class="citation">[[15](#ref-hublin2017), [16](#ref-richter2017), [17](#ref-walker2018holocene), [18](#ref-leedaly1999), [21](#ref-zeder2011), [23](#ref-scott2017), [27](#ref-woodorigincapitalism)]</span>
 
 #### The Neolithic transition: not one “revolution,” but many {#sec-neolithic-transition}
 
-What is often called the “Neolithic Revolution” is better treated as a long and uneven transition, across different ecologies, in which some communities intensified plant and animal management, experimented with cultivation, and in many regions gradually built more sedentary village life.<span class="citation">[[21](references.md#ref-zeder2011), [22](references.md#ref-fuller2023)]</span> Domestication was not a single invention in one place that then “diffused” to everyone else; multiple centres and pathways existed, and many people resisted, delayed, or partially adopted farming for good reasons.<span class="citation">[[23](references.md#ref-scott2017)]</span>
+What is often called the “Neolithic Revolution” is better treated as a long and uneven transition, across different ecologies, in which some communities intensified plant and animal management, experimented with cultivation, and in many regions gradually built more sedentary village life.<span class="citation">[[21](#ref-zeder2011), [22](#ref-fuller2023)]</span> Domestication was not a single invention in one place that then “diffused” to everyone else; multiple centres and pathways existed, and many people resisted, delayed, or partially adopted farming for good reasons.<span class="citation">[[23](#ref-scott2017)]</span>
 
 A minimal, non-teleological way to state the material stakes is this:
 
@@ -111,9 +111,9 @@ A minimal, non-teleological way to state the material stakes is this:
 
 -   **Population density** can rise, and with it both collective capacities (large projects, craft specialisation) and new vulnerabilities (disease burdens, crop failure risks, dependence on staples).
 
--   **Surplus becomes regular and legible** in new ways—especially where staples can be measured, stored, and appropriated (grain is a classic case).<span class="citation">[[23](references.md#ref-scott2017)]</span>
+-   **Surplus becomes regular and legible** in new ways—especially where staples can be measured, stored, and appropriated (grain is a classic case).<span class="citation">[[23](#ref-scott2017)]</span>
 
-This transition is also not “European.” South Asia, for example, contains some of the earliest village and farming evidence in the region at Mehrgarh (in today’s Balochistan), and later one of the world’s major early urban formations in the Indus/Harappan civilisation.<span class="citation">[[24](references.md#ref-cambridgemehrgarh), [25](references.md#ref-oupindus)]</span>
+This transition is also not “European.” South Asia, for example, contains some of the earliest village and farming evidence in the region at Mehrgarh (in today’s Balochistan), and later one of the world’s major early urban formations in the Indus/Harappan civilisation.<span class="citation">[[24](#ref-cambridgemehrgarh), [25](#ref-oupindus)]</span>
 
 #### From surplus to class power: why control becomes a problem {#sec-surplus-power}
 
@@ -127,9 +127,9 @@ Surplus does not automatically produce domination. But it raises the stakes and 
 
 -   **Coercive capacities:** organised violence and law (armies, militias, courts, police, tribute collectors, debt enforcement).
 
--   **Dependency through shortage:** scarcity can be ecological (drought, flood, crop failure), but it can also be *socially produced*—through enclosure, exclusion, monopolies, debt, and forced taxation in money.<span class="citation">[[5](references.md#ref-marx1867)]</span>
+-   **Dependency through shortage:** scarcity can be ecological (drought, flood, crop failure), but it can also be *socially produced*—through enclosure, exclusion, monopolies, debt, and forced taxation in money.<span class="citation">[[5](#ref-marx1867)]</span>
 
--   **Uneven social reproduction:** control over women’s labour, sexuality, and reproduction often becomes a pillar of class rule, because reproducing labour (children, care, food preparation, household work) is itself a material process power seeks to regulate and discipline.<span class="citation">[[23](references.md#ref-scott2017)]</span>
+-   **Uneven social reproduction:** control over women’s labour, sexuality, and reproduction often becomes a pillar of class rule, because reproducing labour (children, care, food preparation, household work) is itself a material process power seeks to regulate and discipline.<span class="citation">[[23](#ref-scott2017)]</span>
 
 There is no single ladder of “progress” from simplicity to complexity. Many communities have moved in and out of class relations; communal forms have persisted for centuries alongside empires; and conquest has forcibly combined different extraction logics in the same space. The materialist claim is narrower and stronger: class society is a historical answer to the problem of organising surplus and control—an answer built on durable asymmetry and coercion.
 
@@ -147,7 +147,7 @@ Class domination has taken multiple forms, depending on ecology, technology, sta
 
 -   **Casteed and racialised regimes of labour:** where domination is stabilised through inherited hierarchy and enforced separation, articulating with tributary extraction, landlordism, or capitalism.
 
--   **Colonial extraction:** where conquest forcibly reorganises land, revenue, and labour, often creating *new* scarcities (cash taxes, enclosure, forced crop patterns) that push producers into dependency.<span class="citation">[[5](references.md#ref-marx1867)]</span>
+-   **Colonial extraction:** where conquest forcibly reorganises land, revenue, and labour, often creating *new* scarcities (cash taxes, enclosure, forced crop patterns) that push producers into dependency.<span class="citation">[[5](#ref-marx1867)]</span>
 
 These are not neat stages. They overlap. They combine. They are violently made and remade. But they share a family resemblance: a producing majority must transfer surplus to a ruling minority because the latter controls the means of life and the instruments of coercion.
 
@@ -157,13 +157,13 @@ Capitalism cannot just be reduced to a growth in trade. Many societies traded; m
 
 Historically, capitalism develops through a specific combination of transformations:
 
--   **Separation of producers from means of production** (above all land): dispossession and enclosure create a class compelled to sell labour-power to live.<span class="citation">[[5](references.md#ref-marx1867), [33](references.md#ref-heller2011)]</span>
+-   **Separation of producers from means of production** (above all land): dispossession and enclosure create a class compelled to sell labour-power to live.<span class="citation">[[5](#ref-marx1867), [33](#ref-heller2011)]</span>
 
--   **Consolidation of state power and law** that stabilises property, contract, debt enforcement, and the political conditions for accumulation.<span class="citation">[[2](references.md#ref-marx1859)]</span>
+-   **Consolidation of state power and law** that stabilises property, contract, debt enforcement, and the political conditions for accumulation.<span class="citation">[[2](#ref-marx1859)]</span>
 
--   **Expansion of the world market through colonialism and slavery**: conquest, forced labour, resource extraction, and the violent opening of markets are not “external” to capitalism but central to its world-scale formation.<span class="citation">[[5](references.md#ref-marx1867), [34](references.md#ref-beckert2014)]</span>
+-   **Expansion of the world market through colonialism and slavery**: conquest, forced labour, resource extraction, and the violent opening of markets are not “external” to capitalism but central to its world-scale formation.<span class="citation">[[5](#ref-marx1867), [34](#ref-beckert2014)]</span>
 
--   **Industrialisation and competitive accumulation**: mechanisation raises productivity, concentrates workers, and produces a new kind of dependence: the wage, the factory, and the discipline of unemployment.<span class="citation">[[31](references.md#ref-cambridgecapitalism1), [32](references.md#ref-cambridgecapitalism2)]</span>
+-   **Industrialisation and competitive accumulation**: mechanisation raises productivity, concentrates workers, and produces a new kind of dependence: the wage, the factory, and the discipline of unemployment.<span class="citation">[[31](#ref-cambridgecapitalism1), [32](#ref-cambridgecapitalism2)]</span>
 
 Capitalism is a historically specific form of social coordination. It organises society through private property and markets, reproducing a class structure in which capitalists own the means of production and workers must sell labour-power.
 
@@ -173,32 +173,32 @@ This is why the commodity carries a *social relation*. A commodity is a product 
 
 Historical materialism does not say that society “naturally progresses” through fixed stages. It says something sharper: people make history under definite material conditions, and every mode of production develops contradictions that can make its own social relations into barriers to further development.
 
-Marx’s classic formulation is that, at a certain point, the existing relations of production come into conflict with the development of productive forces; they become “fetters,” and an epoch of social revolution opens.<span class="citation">[[2](references.md#ref-marx1859)]</span> The specific contradictions differ:
+Marx’s classic formulation is that, at a certain point, the existing relations of production come into conflict with the development of productive forces; they become “fetters,” and an epoch of social revolution opens.<span class="citation">[[2](#ref-marx1859)]</span> The specific contradictions differ:
 
--   **Agrarian class societies** often face contradictions between peasant reproduction and elite extraction (tax, rent, debt), producing chronic resistance, flight, and periodic collapse.<span class="citation">[[23](references.md#ref-scott2017)]</span>
+-   **Agrarian class societies** often face contradictions between peasant reproduction and elite extraction (tax, rent, debt), producing chronic resistance, flight, and periodic collapse.<span class="citation">[[23](#ref-scott2017)]</span>
 
--   **Feudalism** faced contradictions between seigneurial extraction and the expansion of commodity circuits, towns, and new productive capacities, helping to generate conflict over property, state power, and markets.<span class="citation">[[33](references.md#ref-heller2011)]</span>
+-   **Feudalism** faced contradictions between seigneurial extraction and the expansion of commodity circuits, towns, and new productive capacities, helping to generate conflict over property, state power, and markets.<span class="citation">[[33](#ref-heller2011)]</span>
 
--   **Capitalism** faces a contradiction between increasingly *socialised* production (collective labour, large-scale logistics, global coordination, automation) and *private* appropriation (profit, monopoly, rent). The same technologies that could reduce socially necessary labour and expand free time are used, under private property, to intensify work, discipline labour, and produce unemployment as leverage.<span class="citation">[[5](references.md#ref-marx1867)]</span>
+-   **Capitalism** faces a contradiction between increasingly *socialised* production (collective labour, large-scale logistics, global coordination, automation) and *private* appropriation (profit, monopoly, rent). The same technologies that could reduce socially necessary labour and expand free time are used, under private property, to intensify work, discipline labour, and produce unemployment as leverage.<span class="citation">[[5](#ref-marx1867)]</span>
 
 #### From abundance to freedom: why a classless society is thinkable now {#sec-abundance-freedom}
 
 One reason capitalism can appear “natural” is that it presents itself as the only way to coordinate complex societies. But capitalism is a historically specific way of coordinating: through private property, profit, and enforced dependence on markets.
 
-Today, the material basis for a different organisation of life is visible. Humanity can produce an enormous social surplus; the binding constraint for universal provision is less a lack of means than the social form that directs those means: profit first, property first, and the deliberate production of insecurity (unemployment, debt, eviction, austerity) as discipline.<span class="citation">[[5](references.md#ref-marx1867)]</span>
+Today, the material basis for a different organisation of life is visible. Humanity can produce an enormous social surplus; the binding constraint for universal provision is less a lack of means than the social form that directs those means: profit first, property first, and the deliberate production of insecurity (unemployment, debt, eviction, austerity) as discipline.<span class="citation">[[5](#ref-marx1867)]</span>
 
 This is why the question of a classless society follows from the analysis itself. It names the contradiction between what we can collectively produce and the cramped, insecure way we are forced to live. To move beyond class society is to make social labour conscious: to treat the means of life—land, water, housing, energy, care, knowledge, infrastructure—as collectively governed, and to replace market compulsion with democratic planning and shared decision-making.
 
 ##### Why the working class is central.
 
-Under capitalism, workers are not “outside” the system. They are the class that collectively runs production and circulation: factories, farms, hospitals, schools, software systems, ports, warehouses, municipal services. Capital depends on workers not as a charity recipient but as the living source of new value and the practical operator of the entire apparatus of social reproduction.<span class="citation">[[5](references.md#ref-marx1867), [1](references.md#ref-marxengels1848)]</span> That position gives the working class a strategic capacity no other exploited group possesses in the same way: the ability to halt production, disrupt circulation, and reorganise labour on a different basis. A socialist transition would mean more than just changing the personnel at the top. Workers and their allies would have to seize the means of production and reproduction and bring them under democratic control, so that automation and productivity become a common good rather than a weapon against labour.
+Under capitalism, workers are not “outside” the system. They are the class that collectively runs production and circulation: factories, farms, hospitals, schools, software systems, ports, warehouses, municipal services. Capital depends on workers not as a charity recipient but as the living source of new value and the practical operator of the entire apparatus of social reproduction.<span class="citation">[[5](#ref-marx1867), [1](#ref-marxengels1848)]</span> That position gives the working class a strategic capacity no other exploited group possesses in the same way: the ability to halt production, disrupt circulation, and reorganise labour on a different basis. A socialist transition would mean more than just changing the personnel at the top. Workers and their allies would have to seize the means of production and reproduction and bring them under democratic control, so that automation and productivity become a common good rather than a weapon against labour.
 
 [^p1-1]: These are *markers*, not a single global clock. Farming spreads unevenly; some societies remain primarily foraging-based for millennia; and inequality can appear without full state formation. Commodity production and capitalism occupy only a thin slice of our species history; the dates are included to make that historical proportion visible.
 
 
 ## 3. Commodities, value, use-value, and exchange-value {#sec-commodities}
 
-Marx opens *Capital* with the line that the wealth of societies where the capitalist mode of production rules appears as an “immense collection of commodities”.<span class="citation">[[5](references.md#ref-marx1867)]</span> That opening is not literary decoration. It is a methodological claim: capitalism first confronts us as a world of things with prices, and behind those things is a specific social relation. To understand capitalism, Marx begins with its simplest and most everyday cell-form: the commodity.
+Marx opens *Capital* with the line that the wealth of societies where the capitalist mode of production rules appears as an “immense collection of commodities”.<span class="citation">[[5](#ref-marx1867)]</span> That opening is not literary decoration. It is a methodological claim: capitalism first confronts us as a world of things with prices, and behind those things is a specific social relation. To understand capitalism, Marx begins with its simplest and most everyday cell-form: the commodity.
 
 ### 3.1 What is a commodity? {#sec-what-is-a-commodity}
 
@@ -273,9 +273,9 @@ Market prices fluctuate around these values due to supply, demand, speculation, 
 
 #### Complex labour, skill, and the reduction to simple labour {#sec-complex-labour-note}
 
-The labour-time that regulates value is *social* labour reduced to a common unit of **simple labour**. Concrete labours differ in skill, training, and intensity; Marx treats *complex* (skilled) labour as *multiplied simple labour*—that is, one hour of skilled labour counts as several hours of average labour.<span class="citation">[[5](references.md#ref-marx1867)]</span>
+The labour-time that regulates value is *social* labour reduced to a common unit of **simple labour**. Concrete labours differ in skill, training, and intensity; Marx treats *complex* (skilled) labour as *multiplied simple labour*—that is, one hour of skilled labour counts as several hours of average labour.<span class="citation">[[5](#ref-marx1867)]</span>
 
-This “reduction” is not an individual choice made in the market each morning. It is a durable social process: institutions, training pipelines, credential regimes, and workplace hierarchies stabilise what counts as “average” labour in each branch over time. In capitalism, wage hierarchies and professional closure help register and reproduce these differences, although wages do not themselves create value.<span class="citation">[[52](references.md#ref-foley1986), [36](references.md#ref-shaikh2016)]</span>
+This “reduction” is not an individual choice made in the market each morning. It is a durable social process: institutions, training pipelines, credential regimes, and workplace hierarchies stabilise what counts as “average” labour in each branch over time. In capitalism, wage hierarchies and professional closure help register and reproduce these differences, although wages do not themselves create value.<span class="citation">[[52](#ref-foley1986), [36](#ref-shaikh2016)]</span>
 
 ### 3.6 Common sceptical objections: supply and demand, “time is not value”, skilled labour, and the market {#sec-objections-measuring-value}
 
@@ -285,33 +285,33 @@ The key is to be clear about *what kind of object value is*. Many critics treat 
 
 ##### Objection 1: “Aren’t prices just supply, demand, and preferences?”
 
-Of course market prices move with supply and demand. Marx’s claim is different: those movements are *oscillations* around regulating magnitudes anchored in production conditions and the allocation of social labour under competition.<span class="citation">[[5](references.md#ref-marx1867), [36](references.md#ref-shaikh2016)]</span>
+Of course market prices move with supply and demand. Marx’s claim is different: those movements are *oscillations* around regulating magnitudes anchored in production conditions and the allocation of social labour under competition.<span class="citation">[[5](#ref-marx1867), [36](#ref-shaikh2016)]</span>
 
-Short-run price fluctuations must be distinguished from the long-run discipline imposed by production conditions and competition. A failed harvest can raise grain prices; a war can spike energy prices; a fashion wave can raise sneaker prices. But none of this explains why, across vast and heterogeneous industries, technical change that reduces labour per unit tends to reduce the value of commodities over time, nor why competition systematically reallocates capital in search of an average rate of profit.<span class="citation">[[5](references.md#ref-marx1867), [36](references.md#ref-shaikh2016)]</span> Supply and demand explains *movement*; it does not explain the *centre of gravity* around which those movements occur or why that centre shifts with productivity.
+Short-run price fluctuations must be distinguished from the long-run discipline imposed by production conditions and competition. A failed harvest can raise grain prices; a war can spike energy prices; a fashion wave can raise sneaker prices. But none of this explains why, across vast and heterogeneous industries, technical change that reduces labour per unit tends to reduce the value of commodities over time, nor why competition systematically reallocates capital in search of an average rate of profit.<span class="citation">[[5](#ref-marx1867), [36](#ref-shaikh2016)]</span> Supply and demand explains *movement*; it does not explain the *centre of gravity* around which those movements occur or why that centre shifts with productivity.
 
-Marginalist theory treats “value” as subjective utility. But utilities cannot explain why private labours become comparable in definite proportions, why outputs become exchangeable on a regular basis, and why the system reproduces itself by enforcing cost and time discipline. What needs explaining is the social commensuration itself: why the labour of strangers can be treated as equivalent, and why the market punishes producers whose methods are persistently out of line with the prevailing average. That commensuration is what the category of socially necessary labour time captures.<span class="citation">[[5](references.md#ref-marx1867)]</span>
+Marginalist theory treats “value” as subjective utility. But utilities cannot explain why private labours become comparable in definite proportions, why outputs become exchangeable on a regular basis, and why the system reproduces itself by enforcing cost and time discipline. What needs explaining is the social commensuration itself: why the labour of strangers can be treated as equivalent, and why the market punishes producers whose methods are persistently out of line with the prevailing average. That commensuration is what the category of socially necessary labour time captures.<span class="citation">[[5](#ref-marx1867)]</span>
 
 ##### Objection 2: “You measure value by time, but time is not value.”
 
 True: time is not value in the way centimetres are length. Marx is not committing a category error. He is explaining why, under capitalism, *social labour is compelled to take a commensurable form*, and why labour-time is the relevant measure of that commensuration.
 
-Under generalised commodity production, producers are not coordinating directly as a conscious plan. They coordinate *through exchange*. That requires that different concrete labours (sewing, coding, teaching, mining) be reduced to a common social denominator. Marx calls that denominator *abstract labour*. Value is the quantitative expression of that abstract social labour, and **the unit of abstract labour is socially necessary labour time**: the time required *under average conditions*, with average skill and normal intensity, using prevailing techniques.<span class="citation">[[5](references.md#ref-marx1867), [36](references.md#ref-shaikh2016)]</span>
+Under generalised commodity production, producers are not coordinating directly as a conscious plan. They coordinate *through exchange*. That requires that different concrete labours (sewing, coding, teaching, mining) be reduced to a common social denominator. Marx calls that denominator *abstract labour*. Value is the quantitative expression of that abstract social labour, and **the unit of abstract labour is socially necessary labour time**: the time required *under average conditions*, with average skill and normal intensity, using prevailing techniques.<span class="citation">[[5](#ref-marx1867), [36](#ref-shaikh2016)]</span>
 
 This is why “socially necessary” does the heavy lifting. The labour-time that counts is not the individual’s idiosyncratic time, and not mere clock-time taken in isolation. It is time *normalised* by social averages of technique, intensity, and skill, and enforced by the competitive discipline that compels producers to match prevailing conditions (see Section [4.1](#sec-snlt)). [^p2-1]
 
 ##### Objection 3: “Is an hour of a surgeon equal to an hour of a miner?”
 
-As clock-time, yes: an hour is an hour. As *abstract labour*, not necessarily. Marx distinguishes **simple** (average) labour from **complex** (skilled) labour. Complex labour counts as *multiplied* simple labour: one hour of skilled labour can count as several hours of average labour.<span class="citation">[[5](references.md#ref-marx1867)]</span>
+As clock-time, yes: an hour is an hour. As *abstract labour*, not necessarily. Marx distinguishes **simple** (average) labour from **complex** (skilled) labour. Complex labour counts as *multiplied* simple labour: one hour of skilled labour can count as several hours of average labour.<span class="citation">[[5](#ref-marx1867)]</span>
 
-This is not a judgement on the worth of different people. How this division comes into being and is socially produced (training pipelines, credential regimes, closure, wage hierarchies, and uneven social reproduction costs) is discussed in Section [3.1](#sec-complex-labour-note).<span class="citation">[[52](references.md#ref-foley1986), [36](references.md#ref-shaikh2016)]</span>
+This is not a judgement on the worth of different people. How this division comes into being and is socially produced (training pipelines, credential regimes, closure, wage hierarchies, and uneven social reproduction costs) is discussed in Section [3.1](#sec-complex-labour-note).<span class="citation">[[52](#ref-foley1986), [36](#ref-shaikh2016)]</span>
 
 ##### Objection 4: “If the market determines what counts as socially necessary, then there is no law.”
 
 Here the critic mixes up *validation* with *determination*.
 
-Yes: under capitalism, private labour is only validated as social labour through sale. Commodities that cannot be sold under normal conditions are devalorised, and the loss appears as write-downs, layoffs, bankruptcies, and idle capacity.<span class="citation">[[5](references.md#ref-marx1867), [36](references.md#ref-shaikh2016)]</span> But this does *not* mean that “prices determine value” in an arbitrary or purely subjective way. It means that a society organised through private production and exchange has no direct social accounting of labour; the market becomes the coercive mechanism through which social averages are imposed.
+Yes: under capitalism, private labour is only validated as social labour through sale. Commodities that cannot be sold under normal conditions are devalorised, and the loss appears as write-downs, layoffs, bankruptcies, and idle capacity.<span class="citation">[[5](#ref-marx1867), [36](#ref-shaikh2016)]</span> But this does *not* mean that “prices determine value” in an arbitrary or purely subjective way. It means that a society organised through private production and exchange has no direct social accounting of labour; the market becomes the coercive mechanism through which social averages are imposed.
 
-The “law” should not be read as an ethical rule or a perfect measuring instrument. It is a *tendential regulator*: competition reallocates production toward techniques closer to the social average and penalises producers whose unit labour-time is persistently above it (Section [4.1](#sec-snlt)). Over time, this pressure forms centres of gravitation. Market prices oscillate around regulating magnitudes anchored in production conditions, even though the surface is noisy, crisis-prone, and shaped by power.<span class="citation">[[36](references.md#ref-shaikh2016)]</span>
+The “law” should not be read as an ethical rule or a perfect measuring instrument. It is a *tendential regulator*: competition reallocates production toward techniques closer to the social average and penalises producers whose unit labour-time is persistently above it (Section [4.1](#sec-snlt)). Over time, this pressure forms centres of gravitation. Market prices oscillate around regulating magnitudes anchored in production conditions, even though the surface is noisy, crisis-prone, and shaped by power.<span class="citation">[[36](#ref-shaikh2016)]</span>
 
 ##### Illustrative approximation: weighted social averages.
 
@@ -319,7 +319,7 @@ When different firms or regions produce the same commodity with different unit l
 
 ##### Objection 5: “So is value measurable or not?”
 
-Value is not usually *directly observable* as a price tag in the way mass is observable on a scale. But that does not make it metaphysical. It makes it a social relation whose effects are observable through its regularities: productivity change tends to reduce values; capitals with persistently higher unit labour-time are disciplined; and competition generates a tendency toward average profit that redistributes surplus value (Section [7.2](#sec-prices-production)).<span class="citation">[[5](references.md#ref-marx1867), [36](references.md#ref-shaikh2016)]</span>
+Value is not usually *directly observable* as a price tag in the way mass is observable on a scale. But that does not make it metaphysical. It makes it a social relation whose effects are observable through its regularities: productivity change tends to reduce values; capitals with persistently higher unit labour-time are disciplined; and competition generates a tendency toward average profit that redistributes surplus value (Section [7.2](#sec-prices-production)).<span class="citation">[[5](#ref-marx1867), [36](#ref-shaikh2016)]</span>
 
 This is also why we keep three distinct levels explicit later: **values**, **prices of production**, and **market prices** (Section [7.2](#sec-prices-production)). Confusing these levels is the fastest route to false “refutations” that treat short-run price movements as if they abolished the underlying competitive regulator.
 
@@ -345,11 +345,11 @@ So Marx does not deny nature. He is distinguishing categories. Nature helps dete
 
 This distinction matters because capitalism can *increase* physical throughput and ecological harm while *reducing* the value embodied per unit (if productivity rises and $\mathrm{SNLT}$ falls). Greater material output, energy use, and extraction can therefore coincide with falling labour-time per unit. Ecological crisis and profitability pressures can intensify together.
 
-When natural conditions become *monopolised* (land, location, minerals), payments for access appear as *rent*. Rent is not value created by nature; it is a claim on surplus value created elsewhere, enforced by property rights over natural conditions.<span class="citation">[[6](references.md#ref-marx1894)]</span>
+When natural conditions become *monopolised* (land, location, minerals), payments for access appear as *rent*. Rent is not value created by nature; it is a claim on surplus value created elsewhere, enforced by property rights over natural conditions.<span class="citation">[[6](#ref-marx1894)]</span>
 
 ### 3.8 A modern example: the smartphone
 
-Consider a smartphone assembled in southern China for a large brand. The example is loosely based on the cost and value-chain structures documented in electronics supply-chain studies, but the magnitudes used below are illustrative rather than a firm-year decomposition of a specific handset.<span class="citation">[[58](references.md#ref-dedrickkraemerlinden2010), [41](references.md#ref-smith2016)]</span>
+Consider a smartphone assembled in southern China for a large brand. The example is loosely based on the cost and value-chain structures documented in electronics supply-chain studies, but the magnitudes used below are illustrative rather than a firm-year decomposition of a specific handset.<span class="citation">[[58](#ref-dedrickkraemerlinden2010), [41](#ref-smith2016)]</span>
 
 -   The phone retails in London for, say, £800.
 
@@ -361,7 +361,7 @@ The exchange-value of the phone vastly exceeds the direct wages paid in the fact
 
 [^p2-1]: If intensity rises (speed-up, piece-rates, tighter monitoring), an hour becomes “denser” in value-creation terms. This is why Marx’s unit is not a physiological constant but a social normalisation: “normal intensity” is historically specific and class-contested.
 
-[^p2-2]: Marx develops a related problem in Volume III when discussing how a “market value” can be formed when individual values differ within a branch: the regulating magnitude is shaped by the conditions of production that prevail for a significant mass of output, though not always through a simple arithmetic average.<span class="citation">[[6](references.md#ref-marx1894)]</span>
+[^p2-2]: Marx develops a related problem in Volume III when discussing how a “market value” can be formed when individual values differ within a branch: the regulating magnitude is shaped by the conditions of production that prevail for a significant mass of output, though not always through a simple arithmetic average.<span class="citation">[[6](#ref-marx1894)]</span>
 
 
 ## 4. Abstract and concrete labour {#sec-abstract-concrete}
@@ -389,14 +389,14 @@ where $L_{ij}$ is the direct and indirect labour time per unit of commodity $i$ 
 
 ##### Private labour is socially validated through exchange.
 
-Private labour does not count as social labour merely because it has been expended. Sale is the form through which privately performed labour is socially validated, but sale does not prove that every hour privately expended counts fully as socially necessary labour. Unsold output, forced discounts, write-downs, bankruptcies, and idle capacity reveal mismatches between private labour, prevailing production conditions, and social demand.<span class="citation">[[5](references.md#ref-marx1867)]</span>
+Private labour does not count as social labour merely because it has been expended. Sale is the form through which privately performed labour is socially validated, but sale does not prove that every hour privately expended counts fully as socially necessary labour. Unsold output, forced discounts, write-downs, bankruptcies, and idle capacity reveal mismatches between private labour, prevailing production conditions, and social demand.<span class="citation">[[5](#ref-marx1867)]</span>
 
 If a new technology halves the labour time required while becoming the industry norm, the value of the commodity falls—even if the selling price only gradually adjusts.
 
 
 ## 5. Labour-power, wages, surplus labour, and surplus value {#sec-labour-surplus}
 
-A central conceptual breakthrough in *Capital* is the distinction between **labour** and **labour-power**.<span class="citation">[[5](references.md#ref-marx1867)]</span>
+A central conceptual breakthrough in *Capital* is the distinction between **labour** and **labour-power**.<span class="citation">[[5](#ref-marx1867)]</span>
 
 -   **Labour-power** is the worker’s capacity to work, treated as a commodity. Its value is the socially necessary labour time required to reproduce labour-power under historically and socially specific conditions: food, housing, clothing, healthcare, transport, relevant education and training, social support, and the reproduction of the working class across generations.
 
@@ -740,7 +740,7 @@ This does *not* mean that the branch manager personally pockets \$400. In this s
 
 ### 5.7 Forms of wages: time-wages and piece-wages {#sec-wage-forms}
 
-Marx treats wages not only as a magnitude ($v$) but also as a *form* that can conceal exploitation.<span class="citation">[[5](references.md#ref-marx1867)]</span> Two classic forms are time-wages and piece-wages.
+Marx treats wages not only as a magnitude ($v$) but also as a *form* that can conceal exploitation.<span class="citation">[[5](#ref-marx1867)]</span> Two classic forms are time-wages and piece-wages.
 
 #### Time-wages {#time-wages .unnumbered}
 
@@ -934,7 +934,7 @@ We return to the same industry in Example [6.1](#ex-sialkot-costtable), after i
 
 ##### Piece-rates and technological change.
 
-The Sialkot case also shows why technology is never just about “efficiency”. Atkin et al.’s study of Sialkot football producers examined a new cutting die that reduced waste of rexine, the main material input. From the owner’s standpoint, this looked like a straightforward cost-saving innovation. But the relevant workers were commonly paid by piece-rate. If the new technique slowed them down while they learned it, and if the piece-rate was not adjusted, then part of the cost of adoption was shifted onto workers as a lower effective hourly wage.<span class="citation">[[53](references.md#ref-atkinetal2017)]</span>
+The Sialkot case also shows why technology is never just about “efficiency”. Atkin et al.’s study of Sialkot football producers examined a new cutting die that reduced waste of rexine, the main material input. From the owner’s standpoint, this looked like a straightforward cost-saving innovation. But the relevant workers were commonly paid by piece-rate. If the new technique slowed them down while they learned it, and if the piece-rate was not adjusted, then part of the cost of adoption was shifted onto workers as a lower effective hourly wage.<span class="citation">[[53](#ref-atkinetal2017)]</span>
 
 A productive force does not enter society abstractly or in isolation, but through a labour process already organised by property, wages, supervision, and competition. Under capitalist control, even a technique that could reduce material waste can become a conflict over who bears the transition cost and who captures the gain. That same logic returns later in automation and AI: the question is not only what the tool can do, but who owns it, who controls its introduction, how it changes the pace of work, and whether the saving becomes free time for workers or surplus for capital.
 
@@ -973,7 +973,7 @@ Two cautions matter for Marxian precision.
 
 First, this arithmetic treats money magnitudes as proportional to values for clarity. In reality, competition, productivity differentials, and market power generate systematic value–price divergences (see Section [7.2](#sec-prices-production)); we flag this here but abstract from those divergences in the worked numbers.[^p4-8]
 
-Second, surplus value is produced where *productive labour* is set to work in production processes that create commodities (or commodity-services) for sale.[^p4-9] Much of what happens “downstream” (advertising, branding, some retail functions, finance) is better analysed as the *realisation* and *redistribution* of surplus value rather than its direct production. The brand and its shareholders can nonetheless capture surplus generated across the global chain through control of intellectual property, market access, finance, logistics, and pricing power (including transfer pricing and monopoly rents).<span class="citation">[[41](references.md#ref-smith2016), [59](references.md#ref-hickel2022)]</span>
+Second, surplus value is produced where *productive labour* is set to work in production processes that create commodities (or commodity-services) for sale.[^p4-9] Much of what happens “downstream” (advertising, branding, some retail functions, finance) is better analysed as the *realisation* and *redistribution* of surplus value rather than its direct production. The brand and its shareholders can nonetheless capture surplus generated across the global chain through control of intellectual property, market access, finance, logistics, and pricing power (including transfer pricing and monopoly rents).<span class="citation">[[41](#ref-smith2016), [59](#ref-hickel2022)]</span>
 
 [^p4-1]: This is the specific sense in which Marx calls the worker “free”: free to sell labour-power to any capitalist, but also free of property in the means of production. The “choice” is therefore constrained by the material need to reproduce life under conditions of dispossession.
 
@@ -981,9 +981,9 @@ Second, surplus value is produced where *productive labour* is set to work in pr
 
 [^p4-3]: In plain terms: ending exploitation requires breaking the link between survival and selling labour-power, and socialising the major means of production so that the surplus produced by collective labour is democratically planned and used rather than privately appropriated.
 
-[^p4-4]: Bloomberg Businessweek reported a piece-rate benchmark of roughly PKR $160{}$ per ball, about three hours per ball, roughly three balls per day, and an illustrative monthly wage figure of roughly PKR $9{,}600{}$; it also quotes a researcher-estimate living-wage benchmark of roughly PKR $20{,}000{}$ per month. See<span class="citation">[[55](references.md#ref-bloomberg2022sialkot)]</span>.
+[^p4-4]: Bloomberg Businessweek reported a piece-rate benchmark of roughly PKR $160{}$ per ball, about three hours per ball, roughly three balls per day, and an illustrative monthly wage figure of roughly PKR $9{,}600{}$; it also quotes a researcher-estimate living-wage benchmark of roughly PKR $20{,}000{}$ per month. See<span class="citation">[[55](#ref-bloomberg2022sialkot)]</span>.
 
-[^p4-5]: For the retail-price benchmark, see<span class="citation">[[57](references.md#ref-goalalrihla2022)]</span>. For the conversion below, we use the NBP Treasury rate sheet for 20 January 2026 as a fixed benchmark: $1\,\text{USD}\approx\text{PKR }279.897{}$; see<span class="citation">[[68](references.md#ref-nbpratesheet20jan2026)]</span>. This is used only to make the comparison in PKR and should not be read as a retail foreign-exchange quotation.
+[^p4-5]: For the retail-price benchmark, see<span class="citation">[[57](#ref-goalalrihla2022)]</span>. For the conversion below, we use the NBP Treasury rate sheet for 20 January 2026 as a fixed benchmark: $1\,\text{USD}\approx\text{PKR }279.897{}$; see<span class="citation">[[68](#ref-nbpratesheet20jan2026)]</span>. This is used only to make the comparison in PKR and should not be read as a retail foreign-exchange quotation.
 
 [^p4-6]: In what follows, this “proportional to values” convention should be read as: we treat the money figures as value magnitudes expressed in money (as if a roughly constant conversion from socially necessary labour time to money were operating), and we treat the consumed inputs as if they enter at their values. This isolates the logic of exploitation and accumulation. When one instead plugs in observed supplier prices, the same subtraction yields an *accounting residual* (realised profit for this firm/segment) that can mix surplus value produced here with surplus value redistributed through mark-ups, transfer pricing, monopoly rents, and credit conditions.
 
@@ -996,7 +996,7 @@ Second, surplus value is produced where *productive labour* is set to work in pr
 
 ## 6. Constant and variable capital; circuits of capital {#sec-constant-variable}
 
-To move from exploitation at the point of production to the dynamics of the system as a whole, we need to distinguish types of capital.<span class="citation">[[5](references.md#ref-marx1867)]</span>
+To move from exploitation at the point of production to the dynamics of the system as a whole, we need to distinguish types of capital.<span class="citation">[[5](#ref-marx1867)]</span>
 
 ### 6.1 Constant and variable capital
 
@@ -1210,7 +1210,7 @@ $$
 
 Capital is therefore best understood not as a thing (a machine) but as a social relation and a circuit: **value in motion that valorises itself through the exploitation of labour, and that necessarily appears and is realised in monetary form as $M \rightarrow M'$.**
 
-[^p5-1]: Atkin et al. report the table as Appendix Table A.1, “Production Costs”. The figures are mean input costs in rupees per ball from their baseline survey. See<span class="citation">[[53](references.md#ref-atkinetal2017)]</span>. The NBER working-paper version is<span class="citation">[[54](references.md#ref-atkinetal2015nber)]</span>.
+[^p5-1]: Atkin et al. report the table as Appendix Table A.1, “Production Costs”. The figures are mean input costs in rupees per ball from their baseline survey. See<span class="citation">[[53](#ref-atkinetal2017)]</span>. The NBER working-paper version is<span class="citation">[[54](#ref-atkinetal2015nber)]</span>.
 
 [^p5-2]: The paper reports profit percentages for size-5 promotional balls in its baseline summary statistics. It also explains that unit cost is recovered by dividing reported price by $1+$ the reported profit margin, so the margin is treated here as a markup on cost.
 
@@ -1255,7 +1255,7 @@ Suppose, for simplicity, that the exploitation rate is fixed at $e= 100\%$, i.e.
 
 </div>
 
-Even with a constant rate of exploitation $e=s/v=100\%$, the rate of profit $r$ falls as constant capital rises relative to variable capital, that is, as the ratio $c/v$ increases. Under the simplifying convention used here, this rising value composition is treated as an expression of a rising organic composition of capital. The resulting downward pressure on $r$, other things equal, is the basic relation underlying Marx’s *law of the tendency of the rate of profit to fall* (TRPF).<span class="citation">[[42](references.md#ref-roberts2016), [36](references.md#ref-shaikh2016)]</span>
+Even with a constant rate of exploitation $e=s/v=100\%$, the rate of profit $r$ falls as constant capital rises relative to variable capital, that is, as the ratio $c/v$ increases. Under the simplifying convention used here, this rising value composition is treated as an expression of a rising organic composition of capital. The resulting downward pressure on $r$, other things equal, is the basic relation underlying Marx’s *law of the tendency of the rate of profit to fall* (TRPF).<span class="citation">[[42](#ref-roberts2016), [36](#ref-shaikh2016)]</span>
 
 ### 7.2 Competition, average profit, and prices of production {#sec-prices-production}
 
@@ -1470,7 +1470,7 @@ $$
 \sum_i \pi_i = \sum_i s_i.
 $$
 
-So prices of production redistribute surplus value; they do not create it. Market prices can fluctuate around $p_i$ due to demand, supply, monopoly power, state policy, and world-market conditions, but the competitive tendency toward average profit is the key mediating mechanism through which labour-time asserts itself in the long run.<span class="citation">[[6](references.md#ref-marx1894), [36](references.md#ref-shaikh2016)]</span>
+So prices of production redistribute surplus value; they do not create it. Market prices can fluctuate around $p_i$ due to demand, supply, monopoly power, state policy, and world-market conditions, but the competitive tendency toward average profit is the key mediating mechanism through which labour-time asserts itself in the long run.<span class="citation">[[6](#ref-marx1894), [36](#ref-shaikh2016)]</span>
 
 ##### How labour-time regulates prices.
 
@@ -1491,11 +1491,11 @@ At the level of an individual firm, this may boost profits for a while, because 
 
 ## 8. The tendency of the rate of profit to fall and its countertendencies {#sec-trpf}
 
-Marx formulates the TRPF as a *tendency* of capitalist accumulation:<span class="citation">[[6](references.md#ref-marx1894), [42](references.md#ref-roberts2016)]</span>
+Marx formulates the TRPF as a *tendency* of capitalist accumulation:<span class="citation">[[6](#ref-marx1894), [42](#ref-roberts2016)]</span>
 
 Marx argues that, *other things equal*, accumulation tends to raise the organic composition of capital: more machinery, technology, and materials are set in motion per worker. Since only living labour produces new value, a rising $c$ relative to $v$ tends, over long periods, to press down the rate of profit, unless counter-tendencies (higher exploitation, cheapening of elements of constant capital, foreign trade, etc.) offset it.
 
-> *“\[T\]he gradual growth of constant capital in relation to variable capital must necessarily lead to a gradual fall of the general rate of profit …”*<span class="citation">[[6](references.md#ref-marx1894)]</span>
+> *“\[T\]he gradual growth of constant capital in relation to variable capital must necessarily lead to a gradual fall of the general rate of profit …”*<span class="citation">[[6](#ref-marx1894)]</span>
 
 The mathematics is compact in Eq. [(7.2)](#eq-profit-rate-occ): if $\mathrm{OCC}$ rises while $e$ is constant, then the rate of profit $r$ must fall. But Marx immediately adds that this tendency is modified by counteracting influences.
 
@@ -1519,11 +1519,11 @@ Other processes can relieve pressure on profitability without being identical to
 
 Two points prevent common misunderstandings.
 
-First, empirical “profit rates” are constructed in different ways (before/after tax, historical cost versus current cost, with/without purely financial gains, different sectoral boundaries, and different treatments of depreciation and inventories). Marx’s argument concerns the profitability of *productive* capital in historically unfolding accumulation, so any empirical proxy has to be read with its construction in mind.<span class="citation">[[36](references.md#ref-shaikh2016), [42](references.md#ref-roberts2016)]</span>[^p7-1]
+First, empirical “profit rates” are constructed in different ways (before/after tax, historical cost versus current cost, with/without purely financial gains, different sectoral boundaries, and different treatments of depreciation and inventories). Marx’s argument concerns the profitability of *productive* capital in historically unfolding accumulation, so any empirical proxy has to be read with its construction in mind.<span class="citation">[[36](#ref-shaikh2016), [42](#ref-roberts2016)]</span>[^p7-1]
 
-Second, there is a well-known theoretical objection associated with the Okishio theorem: if capitalists adopt only cost-reducing technical changes and the real wage is held constant, the competitive equilibrium profit rate rises rather than falls.<span class="citation">[[43](references.md#ref-okishio1961)]</span>[^p7-2] Marxists respond by disputing the closure (especially the constant-real-wage assumption), by distinguishing equilibrium comparisons from historically unfolding accumulation with crises and devaluation, and by stressing that technical change is driven by class struggle and competitive coercion in ways that can raise capital intensity faster than exploitation rises.[^p7-3] The TRPF is therefore not a mechanical prediction of monotone decline, but a claim about the direction of pressure created by rising capital intensity under capitalist conditions, mediated through countertendencies and crises.
+Second, there is a well-known theoretical objection associated with the Okishio theorem: if capitalists adopt only cost-reducing technical changes and the real wage is held constant, the competitive equilibrium profit rate rises rather than falls.<span class="citation">[[43](#ref-okishio1961)]</span>[^p7-2] Marxists respond by disputing the closure (especially the constant-real-wage assumption), by distinguishing equilibrium comparisons from historically unfolding accumulation with crises and devaluation, and by stressing that technical change is driven by class struggle and competitive coercion in ways that can raise capital intensity faster than exploitation rises.[^p7-3] The TRPF is therefore not a mechanical prediction of monotone decline, but a claim about the direction of pressure created by rising capital intensity under capitalist conditions, mediated through countertendencies and crises.
 
-Empirical work by Marxist economists suggests that, across many advanced capitalist economies, profitability tends to fall over long periods, interrupted by partial recoveries, and that major crises are often preceded by profit squeezes.<span class="citation">[[42](references.md#ref-roberts2016), [36](references.md#ref-shaikh2016)]</span>
+Empirical work by Marxist economists suggests that, across many advanced capitalist economies, profitability tends to fall over long periods, interrupted by partial recoveries, and that major crises are often preceded by profit squeezes.<span class="citation">[[42](#ref-roberts2016), [36](#ref-shaikh2016)]</span>
 
 The details remain debated. The argument defended here is that accumulation and competition repeatedly push firms towards greater mechanisation and capital intensity, tending to raise the technical composition of capital and, where this is reflected in value terms, the ratio $c/v$. This places recurrent downward pressure on profitability, though the result is mediated by the counteracting tendencies discussed above. Credit and financial speculation can sustain demand, extend accumulation, and postpone devaluation for a time, but they also enlarge the claims resting on future surplus value and can increase the scale of the subsequent adjustment.[^p7-4]
 
@@ -1542,7 +1542,7 @@ Mainstream economics often treats crises as the result of “shocks”: a bad po
 
 ### 9.1 Overaccumulation and overproduction
 
-If profits fall in the productive sectors, capitalists may cut investment. Yet credit and fictitious capital—stocks, bonds, derivatives, property titles—can keep expanding claims on future surplus value even when the underlying surplus is under strain.<span class="citation">[[37](references.md#ref-harveynewimperialism)]</span>
+If profits fall in the productive sectors, capitalists may cut investment. Yet credit and fictitious capital—stocks, bonds, derivatives, property titles—can keep expanding claims on future surplus value even when the underlying surplus is under strain.<span class="citation">[[37](#ref-harveynewimperialism)]</span>
 
 At the same time, the drive to raise $e$ and cut costs means that workers’ wages grow slowly relative to productivity. This contributes, alongside other mechanisms, to a chronic tendency towards **overproduction**: more goods and services than can be profitably sold at existing wages and power relations.
 
@@ -1582,7 +1582,7 @@ $$
 D = C_w + C_c + I + G + NX,
 $$
 
-where $C_w$ is workers’ consumption out of wages, $C_c$ is capitalists’ consumption, $I$ is investment, $G$ is state demand, and $NX$ is net exports. Underconsumption arguments focus on the chronic constraint on $C_w$. Marx’s crisis theory insists that the volatile and decisive component in capitalist dynamics is often $I$ (and credit conditions behind it): when the expected rate of profit falls and risk rises, $I$ contracts sharply, and then the constraint on $C_w$ becomes catastrophic rather than merely chronic.<span class="citation">[[36](references.md#ref-shaikh2016)]</span>
+where $C_w$ is workers’ consumption out of wages, $C_c$ is capitalists’ consumption, $I$ is investment, $G$ is state demand, and $NX$ is net exports. Underconsumption arguments focus on the chronic constraint on $C_w$. Marx’s crisis theory insists that the volatile and decisive component in capitalist dynamics is often $I$ (and credit conditions behind it): when the expected rate of profit falls and risk rises, $I$ contracts sharply, and then the constraint on $C_w$ becomes catastrophic rather than merely chronic.<span class="citation">[[36](#ref-shaikh2016)]</span>
 
 #### A compact reproduction-schemas intuition (why “demand” is not only workers’ wages) {#a-compact-reproduction-schemas-intuition-why-demand-is-not-only-workers-wages .unnumbered}
 
@@ -1641,15 +1641,15 @@ In the interpretation advanced here, underconsumption is a real constraint on ma
 
 A useful real-world illustration is China’s long investment-led growth model. For decades, a very large share of growth was driven by high rates of fixed investment: factories, transport, power, ports, housing, and urban infrastructure. It was a coherent accumulation strategy in a world economy where (i) profitability is pursued through scale, productivity, and cost compression, and (ii) competition rewards those who expand capacity quickly.
 
-But the same strategy tends to generate a distinct Marxian problem: *the build-up of productive capacity faster than profitable outlets to absorb it.* In practical terms this appears as recurring debates over “excess capacity” (for example in steel, cement, shipbuilding, or heavy machinery): too much capacity *relative to the prices and profits that can be realised* in domestic and export markets.<span class="citation">[[70](references.md#ref-oecdsteel)]</span> When margins fall, the pressure to maintain cash flow and employment pushes firms toward price competition, consolidation, closures, or offloading output abroad—all of which are mechanisms of crisis management, not proof that the original contradiction disappeared.
+But the same strategy tends to generate a distinct Marxian problem: *the build-up of productive capacity faster than profitable outlets to absorb it.* In practical terms this appears as recurring debates over “excess capacity” (for example in steel, cement, shipbuilding, or heavy machinery): too much capacity *relative to the prices and profits that can be realised* in domestic and export markets.<span class="citation">[[70](#ref-oecdsteel)]</span> When margins fall, the pressure to maintain cash flow and employment pushes firms toward price competition, consolidation, closures, or offloading output abroad—all of which are mechanisms of crisis management, not proof that the original contradiction disappeared.
 
 Urban real estate and mega-infrastructure can temporarily absorb surplus capital because they are huge sinks for concrete, steel, labour, land rents, and credit. This is one reason why periods of rapid urbanisation and construction can coexist with underconsumption in everyday life. The popular label “ghost cities” points to a version of this contradiction: large volumes of built space can exist with low occupancy or weak use, not because people do not need housing, but because housing is treated as an asset, a collateral base, and a profit vehicle. When housing is financialised, the binding constraint is not need; it is the capacity to pay, the expected trajectory of prices, and the ability to refinance. A surplus of *unsold or under-occupied* units is therefore a surplus in the value-form: dwellings exist, but cannot be absorbed at prices that validate the balance sheets behind them.
 
 ##### BRI/OBOR and CPEC as a “spatial outlet” for surplus capital.
 
-Initiatives like OBOR/BRI can be read, in part, as attempts to create external outlets for domestic surplus capital, capacity, and construction-industrial ecosystems. When profitable openings narrow at home, capital and states look outward: new corridors, ports, rail, energy grids, industrial parks, logistics chains.<span class="citation">[[71](references.md#ref-carmodytaylorzajontz2021)]</span> Specific projects can produce real benefits, but they remain embedded in class relations, credit relations, and geopolitical competition. They are investments organised through accumulation and state strategy, not acts of charity.
+Initiatives like OBOR/BRI can be read, in part, as attempts to create external outlets for domestic surplus capital, capacity, and construction-industrial ecosystems. When profitable openings narrow at home, capital and states look outward: new corridors, ports, rail, energy grids, industrial parks, logistics chains.<span class="citation">[[71](#ref-carmodytaylorzajontz2021)]</span> Specific projects can produce real benefits, but they remain embedded in class relations, credit relations, and geopolitical competition. They are investments organised through accumulation and state strategy, not acts of charity.
 
-CPEC illustrates the contradictory unity especially clearly. On one side, energy and transport bottlenecks are real; infrastructure can raise productivity and reduce friction in circulation. On the other side, corridor-style development often intensifies classic dependency pressures: import surges for machinery and fuel, profit repatriation and capacity payments, and hard-currency debt service that tightens the balance of payments.<span class="citation">[[72](references.md#ref-imfpakistan2026)]</span> In a country like Pakistan—already disciplined by foreign exchange constraints—this means infrastructure can simultaneously (i) expand physical capacity and (ii) sharpen the monetary and external constraints through which creditors impose “adjustment.” So the question is not “is CPEC good or bad in the abstract,” but: *who controls investment decisions, who captures the surplus, what is the currency composition of liabilities, and what happens when the global cycle turns downward.*
+CPEC illustrates the contradictory unity especially clearly. On one side, energy and transport bottlenecks are real; infrastructure can raise productivity and reduce friction in circulation. On the other side, corridor-style development often intensifies classic dependency pressures: import surges for machinery and fuel, profit repatriation and capacity payments, and hard-currency debt service that tightens the balance of payments.<span class="citation">[[72](#ref-imfpakistan2026)]</span> In a country like Pakistan—already disciplined by foreign exchange constraints—this means infrastructure can simultaneously (i) expand physical capacity and (ii) sharpen the monetary and external constraints through which creditors impose “adjustment.” So the question is not “is CPEC good or bad in the abstract,” but: *who controls investment decisions, who captures the surplus, what is the currency composition of liabilities, and what happens when the global cycle turns downward.*
 
 ##### Tariff war and external demand shocks: how realisation problems become political conflict.
 
@@ -1669,7 +1669,7 @@ In Marxian terms, the most precise formulation is: capitalism tends toward *over
 
 ### 9.3 Realisation, expanded reproduction, and Rosa Luxemburg {#sec-rosa-realisation}
 
-Marx’s reproduction schemas (Volume II) show that capitalism must not only produce surplus value but also *realise* it: commodities must be sold, and the departments of production must reproduce in the right proportions. Luxemburg radicalised this into a world-market argument: in expanded reproduction, capital must not only realise existing surplus but also realise a *growing* mass of surplus each cycle. She argued that a purely capitalist society (workers consuming wages; capitalists consuming a fraction of surplus) cannot, by itself, generate sufficient effective demand to absorb the expanding surplus that accumulation presupposes. Hence the systematic drive toward **external/non-capitalist markets** and social spaces: imperial conquest, unequal trade, forced incorporation of peasantries, dispossession, and state-led reorganisation that creates new buyers, new debtors, and new commodity frontiers.<span class="citation">[[11](references.md#ref-luxemburg1913)]</span>
+Marx’s reproduction schemas (Volume II) show that capitalism must not only produce surplus value but also *realise* it: commodities must be sold, and the departments of production must reproduce in the right proportions. Luxemburg radicalised this into a world-market argument: in expanded reproduction, capital must not only realise existing surplus but also realise a *growing* mass of surplus each cycle. She argued that a purely capitalist society (workers consuming wages; capitalists consuming a fraction of surplus) cannot, by itself, generate sufficient effective demand to absorb the expanding surplus that accumulation presupposes. Hence the systematic drive toward **external/non-capitalist markets** and social spaces: imperial conquest, unequal trade, forced incorporation of peasantries, dispossession, and state-led reorganisation that creates new buyers, new debtors, and new commodity frontiers.<span class="citation">[[11](#ref-luxemburg1913)]</span>
 
 This does *not* mean every crisis is “caused” by not having enough peasants left. It means the system’s normal functioning already presupposes continual market-making beyond the wage relation: expansion into new territories, new needs, new infrastructures, and new state-backed demand channels. Luxemburg’s imperialism thesis is one historically concrete way of naming how capitalism repeatedly postpones the realisation barrier by *reconstructing* the world as a field for commodity sales and profit.
 
@@ -1693,7 +1693,7 @@ The story usually looks like this:
 
 5.  **Renewed expansion**—until the next wave.
 
-The Great Depression, the post-war boom, the profitability crisis of the 1970s, the global crisis of 2007–08, and the uneven post-COVID conjuncture can all be read through this lens.<span class="citation">[[42](references.md#ref-roberts2016), [39](references.md#ref-harveycompanion)]</span>
+The Great Depression, the post-war boom, the profitability crisis of the 1970s, the global crisis of 2007–08, and the uneven post-COVID conjuncture can all be read through this lens.<span class="citation">[[42](#ref-roberts2016), [39](#ref-harveycompanion)]</span>
 
 [^p8-1]: This is a deliberately stylised illustration that treats realised sale prices as the mechanism that *validates* (or destroys) the expected surplus. It abstracts from systematic value–price divergences discussed elsewhere in the pamphlet.
 
@@ -1837,7 +1837,7 @@ Financialisation cannot be explained by a single cause. Pressure on profitabilit
 
 ### 11.1 Fictitious capital {#sec-fictitious-capital}
 
-**Fictitious capital** refers to tradable claims on future monetary income: shares, bonds, loans, mortgage-backed securities, and many derivatives. The term distinguishes the market value of these claims from capital actually advanced and functioning in production. Their prices are formed by capitalising expected future payments, so they can rise or fall without a corresponding change in current productive capacity. Across the capitalist economy as a whole, however, these claims can be sustained only through future income generated and redistributed through production, profits, wages, rents, interest, and taxation.<span class="citation">[[37](references.md#ref-harveynewimperialism)]</span>
+**Fictitious capital** refers to tradable claims on future monetary income: shares, bonds, loans, mortgage-backed securities, and many derivatives. The term distinguishes the market value of these claims from capital actually advanced and functioning in production. Their prices are formed by capitalising expected future payments, so they can rise or fall without a corresponding change in current productive capacity. Across the capitalist economy as a whole, however, these claims can be sustained only through future income generated and redistributed through production, profits, wages, rents, interest, and taxation.<span class="citation">[[37](#ref-harveynewimperialism)]</span>
 
 A share can be understood as a claim on a stream of expected future profits (or dividends); a bond as a claim on a stream of interest payments; and many structured assets as claims on bundled or re-sliced cash flows. A basic way to see this is capitalisation. If an asset is expected to yield net receipts $R_t$ (dividends, interest, rents, or other contractual payoffs) over time, and those receipts are discounted at rate $d$ (which may incorporate risk and liquidity), then its market valuation can be written schematically as
 
@@ -1864,7 +1864,7 @@ Technological development remains decisive, but under capitalism the dominant se
 
 ### 11.3 Example: real estate and speculation in Pakistan {#sec-pk-real-estate-speculation}
 
-In many parts of the global South, including Pakistan, the combination of energy costs, infrastructural bottlenecks, political instability, and import dependence has made productive investment risky. At the same time, property speculation, urban land grabs, and financial arbitrage have offered relatively easier gains for those with capital.<span class="citation">[[73](references.md#ref-strugglepk_tdr)]</span>[^p10-1]
+In many parts of the global South, including Pakistan, the combination of energy costs, infrastructural bottlenecks, political instability, and import dependence has made productive investment risky. At the same time, property speculation, urban land grabs, and financial arbitrage have offered relatively easier gains for those with capital.<span class="citation">[[73](#ref-strugglepk_tdr)]</span>[^p10-1]
 
 ##### Land prices and the capitalisation of rent.
 
@@ -1878,7 +1878,7 @@ In that sense, much of what is bought and sold in speculative property markets i
 
 This pattern is inseparable from belated, uneven development and the structure of the state. Where local capital has historically remained narrow, import- and contract-dependent, and politically risk-averse, it has often failed to build an industrial base capable of absorbing labour at scale and raising productivity in a broad, socially transformative way. In that vacuum, the most coherent and force-concentrated institutions of the capitalist state can become not only coercive arbiters but also major economic organisers: they sit atop land allocations, procurement chains, regulatory power, and the “security” framing through which budgets and property regimes are protected.[^p10-3] Such institutions are central forms of the capitalist state and, in crisis conditions, can expand their economic footprint as other fractions falter.[^p10-4]
 
-In that context, liberal hopes that rotating civilian parties will steadily produce a secular-democratic modernisation run into a material barrier: the underlying property relations, the world-market constraint, and the coercive apparatus that defends both. Without confronting those relations—especially land, finance, strategic infrastructure, and the external discipline of debt and conditionality—electoral alternation tends to reshuffle administrators while leaving the core drivers of speculation, informalisation, and repression intact.<span class="citation">[[74](references.md#ref-strugglepk_worldperspectives), [40](references.md#ref-peetunholytrinity)]</span>[^p10-5]
+In that context, liberal hopes that rotating civilian parties will steadily produce a secular-democratic modernisation run into a material barrier: the underlying property relations, the world-market constraint, and the coercive apparatus that defends both. Without confronting those relations—especially land, finance, strategic infrastructure, and the external discipline of debt and conditionality—electoral alternation tends to reshuffle administrators while leaving the core drivers of speculation, informalisation, and repression intact.<span class="citation">[[74](#ref-strugglepk_worldperspectives), [40](#ref-peetunholytrinity)]</span>[^p10-5]
 
 This leads to:
 
@@ -1926,7 +1926,7 @@ The contradiction returns when valuations and credit claims outrun the ability o
 
 Real estate speculation is not an alternative to exploitation; it is a *mode of organising and claiming* the surplus produced elsewhere, and a way of disciplining labour through the cost of reproduction. It can sustain accumulation temporarily by absorbing surplus capital and credit, but it also tends to build a more fragile and rent-heavy economy whose “growth” depends on rising claims rather than rising social capacity.
 
-[^p10-1]: For an institutional anchor on weak and volatile productive investment (and the macro constraints that shape it), see the State Bank of Pakistan’s recent *Annual Report* discussion of growth composition, private fixed investment trends, and external-sector pressures.<span class="citation">[[67](references.md#ref-sbpannualreportfy24)]</span> The analytical claim here is not that “property is irrational” but that, under these conditions, the expected risk-adjusted returns on productive accumulation can be low relative to rentier and speculative strategies.
+[^p10-1]: For an institutional anchor on weak and volatile productive investment (and the macro constraints that shape it), see the State Bank of Pakistan’s recent *Annual Report* discussion of growth composition, private fixed investment trends, and external-sector pressures.<span class="citation">[[67](#ref-sbpannualreportfy24)]</span> The analytical claim here is not that “property is irrational” but that, under these conditions, the expected risk-adjusted returns on productive accumulation can be low relative to rentier and speculative strategies.
 
 [^p10-2]: This is why property booms are often tightly connected to credit cycles and interest-rate regimes: if expected rents are held constant while the effective discount rate falls, the capitalised price rises mechanically. Conversely, tighter credit or rising interest rates can trigger sharp repricing. In Pakistan, these dynamics sit alongside dollar constraint and inflation expectations, which can further intensify the turn toward land as a “store of value” even when underlying productive accumulation is weak.
 
@@ -2005,7 +2005,7 @@ The political conclusion drawn by ruling classes was clear: the post-war comprom
 
 ### 12.5 Monetarism and neoliberalism: restoring class power {#subsec-neoliberal-turn}
 
-What followed is now called neoliberalism: privatisation, deregulation, attacks on unions, cuts to social spending, and the reorientation of states toward “market confidence.” This was not merely an ideological fad. It was a class strategy to restore profitability by reshaping the balance of power between labour and capital.<span class="citation">[[38](references.md#ref-harveyneoliberalism)]</span>
+What followed is now called neoliberalism: privatisation, deregulation, attacks on unions, cuts to social spending, and the reorientation of states toward “market confidence.” This was not merely an ideological fad. It was a class strategy to restore profitability by reshaping the balance of power between labour and capital.<span class="citation">[[38](#ref-harveyneoliberalism)]</span>
 
 Monetarism—the shift toward using interest rates and tight money as the primary policy tool—played a key role. High interest-rate regimes disciplined wages, raised unemployment, and strengthened creditors. In Marxist terms, this was a reassertion of capital’s power through the labour market and through finance: a deliberate raising of the social cost of resistance.
 
@@ -2017,15 +2017,15 @@ This is why, even where social-democratic parties remained in office, they incre
 
 Neoliberalism was not rolled out only through elections. It was imposed through coups, repression, and debt regimes, especially in the global South.
 
-Latin America provides clear examples of “shock” restructuring: labour rights crushed, public assets privatised, and economies opened to foreign capital. Debt crises—especially from the late 1970s into the 1980s—became a lever. States dependent on external finance were pushed into IMF-style programmes: austerity, currency devaluation, cuts to subsidies, and privatisation.<span class="citation">[[40](references.md#ref-peetunholytrinity)]</span> These policies were sold as “stabilisation,” but their class content was consistent: shift crisis costs onto workers and the poor, open new fields for accumulation, and guarantee repayment to creditors.
+Latin America provides clear examples of “shock” restructuring: labour rights crushed, public assets privatised, and economies opened to foreign capital. Debt crises—especially from the late 1970s into the 1980s—became a lever. States dependent on external finance were pushed into IMF-style programmes: austerity, currency devaluation, cuts to subsidies, and privatisation.<span class="citation">[[40](#ref-peetunholytrinity)]</span> These policies were sold as “stabilisation,” but their class content was consistent: shift crisis costs onto workers and the poor, open new fields for accumulation, and guarantee repayment to creditors.
 
 This history matters for countries like Pakistan because it clarifies that fiscal policy is not only a domestic choice. External debt, import dependence, and creditor conditionality shape what states are “allowed” to do under capitalism.
 
 ### 12.7 Belated capitalism, combined and uneven development, and the bourgeois-democratic impasse {#subsec-combined-uneven}
 
-Across much of the global South, capitalism did not develop through a “clean” national sequence in which an independent bourgeoisie built an industrial base, completed land reform, secularised the state, and then deepened democratic participation. It arrives *through a world market already dominated by monopolies, imperial states, and finance*, and it therefore produces a pattern of **combined and uneven development**: advanced technologies and enclaves of modern production sit alongside older property relations, coercive labour regimes, and vast zones of abandonment.<span class="citation">[[10](references.md#ref-trotskypermanentrevolution), [44](references.md#ref-rosenbergucd)]</span> The result is not “underdevelopment” as a cultural failure, but a structured outcome of integration into a hierarchical world economy.<span class="citation">[[9](references.md#ref-leninimperialism), [35](references.md#ref-patnaikimperialism)]</span>
+Across much of the global South, capitalism did not develop through a “clean” national sequence in which an independent bourgeoisie built an industrial base, completed land reform, secularised the state, and then deepened democratic participation. It arrives *through a world market already dominated by monopolies, imperial states, and finance*, and it therefore produces a pattern of **combined and uneven development**: advanced technologies and enclaves of modern production sit alongside older property relations, coercive labour regimes, and vast zones of abandonment.<span class="citation">[[10](#ref-trotskypermanentrevolution), [44](#ref-rosenbergucd)]</span> The result is not “underdevelopment” as a cultural failure, but a structured outcome of integration into a hierarchical world economy.<span class="citation">[[9](#ref-leninimperialism), [35](#ref-patnaikimperialism)]</span>
 
-This matters because the classic tasks often associated with bourgeois-democratic revolutions—land reform, a thorough secularisation of law and schooling, universal civil equality, democratic control over the state, and the construction of an inclusive nation-state on a modern material basis—collide with the actual interests and dependencies of local ruling classes in belated capitalist formations. A dependent bourgeoisie typically sits at the intersection of landlordism, foreign capital, state contracts, and creditor discipline. It therefore fears mass mobilisation from below more than it fears the survival of “pre-modern” coercions and compromises. Even when liberal elections occur, decisive questions about investment, energy, trade, security, and debt servicing remain constrained by property, the world market, and external conditionality.<span class="citation">[[40](references.md#ref-peetunholytrinity), [38](references.md#ref-harveyneoliberalism)]</span>
+This matters because the classic tasks often associated with bourgeois-democratic revolutions—land reform, a thorough secularisation of law and schooling, universal civil equality, democratic control over the state, and the construction of an inclusive nation-state on a modern material basis—collide with the actual interests and dependencies of local ruling classes in belated capitalist formations. A dependent bourgeoisie typically sits at the intersection of landlordism, foreign capital, state contracts, and creditor discipline. It therefore fears mass mobilisation from below more than it fears the survival of “pre-modern” coercions and compromises. Even when liberal elections occur, decisive questions about investment, energy, trade, security, and debt servicing remain constrained by property, the world market, and external conditionality.<span class="citation">[[40](#ref-peetunholytrinity), [38](#ref-harveyneoliberalism)]</span>
 
 This is why the democratic question cannot be reduced to whether elections are formally competitive. In many settings, the deeper absence is *popular decision-making power over the material organisation of life*: what is built, where, for whom, with what labour conditions, and under what ecological constraints. When those decisions remain governed by profitability, creditor confidence, and unelected coercive apparatuses, liberal democracy becomes a narrow procedure for rotating managers of an order whose core decisions are insulated from the majority.
 
@@ -2033,7 +2033,7 @@ This is why the democratic question cannot be reduced to whether elections are f
 
 There are partial exceptions where state-led industrialisation achieved significant upgrading (often under specific geopolitical conditions, with strong state direction of credit, export strategy, and sometimes land reform). But even these cases do not refute the general point: capitalist development remains structured by the world market, and democratic control over investment is not guaranteed by growth. The question is not simply “development” but *who controls it* and *whose interests it serves*.
 
-The strategic conclusion is not that elections never matter. It is that, under dependent and crisis-ridden capitalism, the completion of democratic and social tasks cannot be entrusted to bourgeois parties whose material reproduction depends on the very property relations and external constraints that block those tasks. In that sense, what liberals treat as the horizon of “secular, democratic progress” becomes inseparable from working-class struggle for power: decommodification of essentials, democratic control of investment, and breaking the mechanisms of imperial and creditor discipline.<span class="citation">[[40](references.md#ref-peetunholytrinity), [38](references.md#ref-harveyneoliberalism)]</span>
+The strategic conclusion is not that elections never matter. It is that, under dependent and crisis-ridden capitalism, the completion of democratic and social tasks cannot be entrusted to bourgeois parties whose material reproduction depends on the very property relations and external constraints that block those tasks. In that sense, what liberals treat as the horizon of “secular, democratic progress” becomes inseparable from working-class struggle for power: decommodification of essentials, democratic control of investment, and breaking the mechanisms of imperial and creditor discipline.<span class="citation">[[40](#ref-peetunholytrinity), [38](#ref-harveyneoliberalism)]</span>
 
 ### 12.8 Financialisation and bubble-led management: dot-com to housing {#subsec-dotcom-2008}
 
@@ -2073,7 +2073,7 @@ Even if one admires the best welfare achievements of the post-war period, restor
 
 3.  **Debt and external constraints are tighter.** Many states operate under heavy debt burdens and creditor conditionality. In the global South, import dependence and foreign-exchange vulnerability amplify these constraints. This is why IMF-style programmes so often demand cuts to public spending and “market reforms.”
 
-4.  **The ecological constraint is now unavoidable.** The post-war boom assumed cheap energy and expanding throughput. Today, climate breakdown and ecological limits mean that a growth-at-all-costs welfare compromise is not a viable horizon.<span class="citation">[[69](references.md#ref-ipccar6wgiii)]</span> Transition requires planning, not just redistribution.
+4.  **The ecological constraint is now unavoidable.** The post-war boom assumed cheap energy and expanding throughput. Today, climate breakdown and ecological limits mean that a growth-at-all-costs welfare compromise is not a viable horizon.<span class="citation">[[69](#ref-ipccar6wgiii)]</span> Transition requires planning, not just redistribution.
 
 5.  **Financialisation changes the terrain.** Asset-price inflation, rent extraction, and private control of housing, energy, and infrastructure mean that cash-based reforms are often recaptured through prices unless essentials are decommodified.
 
@@ -2098,11 +2098,11 @@ In this sense, socialism is a practical necessity because the problems people fa
 
 ## 13. Imperialism, global value chains, and unequal exchange {#sec-imperialism}
 
-Capitalism is a world system. Marx wrote about the world market and colonial plunder; later Marxists analysed imperialism as a phase in which monopolies, capital exports, and state power become central.<span class="citation">[[9](references.md#ref-leninimperialism), [35](references.md#ref-patnaikimperialism)]</span> Beyond mere global trade, we see accumulation organised and disciplined through world-scale institutions: currency hierarchies, debt regimes, military and diplomatic power, intellectual-property law, shipping/logistics chokepoints, and the state-backed rules that govern investment and trade.
+Capitalism is a world system. Marx wrote about the world market and colonial plunder; later Marxists analysed imperialism as a phase in which monopolies, capital exports, and state power become central.<span class="citation">[[9](#ref-leninimperialism), [35](#ref-patnaikimperialism)]</span> Beyond mere global trade, we see accumulation organised and disciplined through world-scale institutions: currency hierarchies, debt regimes, military and diplomatic power, intellectual-property law, shipping/logistics chokepoints, and the state-backed rules that govern investment and trade.
 
 ### 13.1 A core distinction: trade as exchange, imperialism as enforced structure {#sec-imperialism-trade-structure}
 
-Trade exists in many societies. **Imperialism** names something more specific: a durable structure in which stronger states and capitals secure privileged access to markets, inputs, shipping routes, finance, and strategic territory, and enforce that access through political pressure, conditional lending, military power, and control over international rules.<span class="citation">[[9](references.md#ref-leninimperialism), [35](references.md#ref-patnaikimperialism)]</span> The world market is therefore structured by asymmetries of ownership and coercion, even where exchange takes the legal form of a meeting between equals.
+Trade exists in many societies. **Imperialism** names something more specific: a durable structure in which stronger states and capitals secure privileged access to markets, inputs, shipping routes, finance, and strategic territory, and enforce that access through political pressure, conditional lending, military power, and control over international rules.<span class="citation">[[9](#ref-leninimperialism), [35](#ref-patnaikimperialism)]</span> The world market is therefore structured by asymmetries of ownership and coercion, even where exchange takes the legal form of a meeting between equals.
 
 ### 13.2 Unequal exchange in practice {#sec-unequal-exchange-practice}
 
@@ -2112,7 +2112,7 @@ Consider again:
 
 -   electronics workers in East and Southeast Asia assembling devices for firms headquartered in the US, Japan, or South Korea.
 
-Studies of global value-chain decompositions and branded commodity pricing (including classic electronics case-studies)<span class="citation">[[41](references.md#ref-smith2016), [59](references.md#ref-hickel2022), [58](references.md#ref-dedrickkraemerlinden2010)]</span> show a robust headline pattern: *the labour-cost share at the point of manufacture is typically a small fraction of the final realised price in core markets*, while downstream claims concentrated in the core (branding, design/IP, finance, and retail control) dominate the realised price.[^p12-1][^p12-2]
+Studies of global value-chain decompositions and branded commodity pricing (including classic electronics case-studies)<span class="citation">[[41](#ref-smith2016), [59](#ref-hickel2022), [58](#ref-dedrickkraemerlinden2010)]</span> show a robust headline pattern: *the labour-cost share at the point of manufacture is typically a small fraction of the final realised price in core markets*, while downstream claims concentrated in the core (branding, design/IP, finance, and retail control) dominate the realised price.[^p12-1][^p12-2]
 
 A stylised summary:
 
@@ -2120,7 +2120,7 @@ A stylised summary:
 
 -   much of the realised surplus, together with monopoly rents and other rent-like revenues, can be appropriated by firms that control finance, branding, intellectual property, logistics, and access to retail markets; and
 
--   Northern states and firms control key chokepoints: technology, finance, logistics, and trade rules.<span class="citation">[[41](references.md#ref-smith2016), [59](references.md#ref-hickel2022)]</span>
+-   Northern states and firms control key chokepoints: technology, finance, logistics, and trade rules.<span class="citation">[[41](#ref-smith2016), [59](#ref-hickel2022)]</span>
 
 *Concrete illustration.* For a South Asian supply-chain example that turns this into hours, workdays, and units, see Example [5.2](#ex-sialkot-piecewage) (Sialkot football stitching and the retail-price gap). The same object can move through very different price-forms: a piece-rate wage at the stitching stage, a producer-stage price, an export unit value, and finally a branded retail price. The local producer does not capture the full retail difference. Much of the command over realisation sits downstream: export contracts, brand ownership, retail access, sponsorship, logistics, finance, and intellectual-property control help determine where the final money-price is captured.
 
@@ -2134,7 +2134,7 @@ From a Marxian point of view, new value is created by socially necessary abstrac
 
 ### 13.3 Debt, austerity, and structural adjustment: currency hierarchy and the external constraint {#sec-debt-austerity-structural-adjustment}
 
-Imperialist relations are reinforced through sovereign debt, IMF and World Bank conditionalities, and trade agreements. Southern economies are pushed towards export-oriented, low-wage specialisation, while austerity shrinks public services and public employment.<span class="citation">[[74](references.md#ref-strugglepk_worldperspectives)]</span> This is not simply a policy preference; it is a world-market discipline. For many peripheral and semi-peripheral countries, the circuit $M \rightarrow C \rightarrow M'$ is constrained by the need to obtain hard currency for imports, debt service, and profit remittance. Under currency hierarchy and chronic foreign-exchange pressure, “development” strategies repeatedly become strategies of discipline: wage repression, subsidy cuts, privatisation, and export push—because creditors and the world market enforce specific reproduction conditions.<span class="citation">[[40](references.md#ref-peetunholytrinity), [72](references.md#ref-imfpakistan2026)]</span>
+Imperialist relations are reinforced through sovereign debt, IMF and World Bank conditionalities, and trade agreements. Southern economies are pushed towards export-oriented, low-wage specialisation, while austerity shrinks public services and public employment.<span class="citation">[[74](#ref-strugglepk_worldperspectives)]</span> This is not simply a policy preference; it is a world-market discipline. For many peripheral and semi-peripheral countries, the circuit $M \rightarrow C \rightarrow M'$ is constrained by the need to obtain hard currency for imports, debt service, and profit remittance. Under currency hierarchy and chronic foreign-exchange pressure, “development” strategies repeatedly become strategies of discipline: wage repression, subsidy cuts, privatisation, and export push—because creditors and the world market enforce specific reproduction conditions.<span class="citation">[[40](#ref-peetunholytrinity), [72](#ref-imfpakistan2026)]</span>
 
 This directly affects class struggle: workers, peasants, and oppressed genders face both the local bourgeoisie and global institutions as they fight for wages, land, services, and democratic rights.
 
@@ -2157,7 +2157,7 @@ This directly affects class struggle: workers, peasants, and oppressed genders f
 
 Class struggle does not occur only in the workplace. The reproduction of labour-power—the everyday and generational work of keeping human beings alive, functional, and able to return to work—is itself a site of struggle. This includes feeding, cleaning, rest and recovery, caring for children and elders, emotional support, maintaining social ties, and community organising. It also includes the broader social conditions that make labour-power available at all: housing, water, transport, schooling, healthcare, and safety, whether provided privately in households, collectively in communities, or through the state.
 
-Capitalism depends on this reproductive work, but it does not automatically pay for it. The wage is the money-form of the value of labour-power—the portion of social labour that reproduces the worker—yet much of the work that actually reproduces labour-power is displaced onto households, disproportionately onto women and marginalised genders, and onto racialised and migrant workers in low-paid “care” and service sectors. Feminist Marxists speak of **social reproduction** to name this terrain: the interlinked processes through which labour-power is produced, maintained, repaired, and renewed as a condition for capitalist production.<span class="citation">[[45](references.md#ref-bhattacharyasrt), [46](references.md#ref-federicicaliban)]</span>
+Capitalism depends on this reproductive work, but it does not automatically pay for it. The wage is the money-form of the value of labour-power—the portion of social labour that reproduces the worker—yet much of the work that actually reproduces labour-power is displaced onto households, disproportionately onto women and marginalised genders, and onto racialised and migrant workers in low-paid “care” and service sectors. Feminist Marxists speak of **social reproduction** to name this terrain: the interlinked processes through which labour-power is produced, maintained, repaired, and renewed as a condition for capitalist production.<span class="citation">[[45](#ref-bhattacharyasrt), [46](#ref-federicicaliban)]</span>
 
 This matters politically because it changes what we count as “economic.” If the workplace is one frontline of exploitation, the household and community are another frontline where the costs of that exploitation are absorbed, managed, and fought over. When public services are cut, when inflation hits food and rent, when care is privatised, when migration regimes split families, or when violence and criminalisation target gendered survival, the pressure shows up as longer unpaid hours, worse health, and tighter control over bodies and time. Social reproduction is therefore not a “side issue” to class politics; it is one of the main ways class power is organised and contested.
 
@@ -2187,7 +2187,7 @@ For example:
 
 -   When housing is financialised and rents rise, the cost of reproducing labour-power increases. If wages rise to reflect that higher cost, necessary labour time expands and surplus labour time is squeezed; if wages do not rise, workers absorb the pressure through lower living standards, debt, overcrowding, and heavier burdens of paid and unpaid labour.
 
-Marxian political economy enriched by social reproduction theory therefore links factory, office, and platform struggles with feminist, queer, and anti-racist movements.<span class="citation">[[45](references.md#ref-bhattacharyasrt)]</span>
+Marxian political economy enriched by social reproduction theory therefore links factory, office, and platform struggles with feminist, queer, and anti-racist movements.<span class="citation">[[45](#ref-bhattacharyasrt)]</span>
 
 
 ## 15. Technology, AI, and the future of work {#sec-technology-ai}
@@ -2216,17 +2216,17 @@ A fall in socially necessary labour time does not by itself raise the economy-wi
 
 In many workplaces and public institutions, AI and digital systems are used to organise labour, monitor performance, and extend managerial and state control:
 
--   automated scheduling, productivity tracking, ratings, and other forms of algorithmic control in logistics and platform work<span class="citation">[[60](references.md#ref-woodetal2019)]</span>;
+-   automated scheduling, productivity tracking, ratings, and other forms of algorithmic control in logistics and platform work<span class="citation">[[60](#ref-woodetal2019)]</span>;
 
--   algorithmic management in call centres and warehouses<span class="citation">[[61](references.md#ref-mateescunguyen2019)]</span>;
+-   algorithmic management in call centres and warehouses<span class="citation">[[61](#ref-mateescunguyen2019)]</span>;
 
--   predictive policing and automated risk scoring in welfare systems<span class="citation">[[62](references.md#ref-lumisaac2016), [63](references.md#ref-eubanks2018)]</span>.
+-   predictive policing and automated risk scoring in welfare systems<span class="citation">[[62](#ref-lumisaac2016), [63](#ref-eubanks2018)]</span>.
 
 The decisive questions concern who controls AI, the purposes for which it is deployed, and how its gains are distributed. Under capitalism, AI is generally used to intensify exploitation and surveillance rather than to liberate time.
 
 ### 15.3 Data centres, ecological cost, and democratic control of computation {#sec-data-centres-ecology-control}
 
-The same clarity applies to the material infrastructure behind “AI”: data centres, fibre networks, server farms, and the mining and assembly labour embedded in hardware. These are not abstract clouds; they are energy- and water-intensive industrial systems.<span class="citation">[[64](references.md#ref-ieaenergyai2026)]</span>[^p14-1] Empirically, data-centre electricity demand is already a material component of national grids, and leading estimates emphasise both the scale and uncertainty introduced by rapid hardware turnover and accelerated AI workloads.<span class="citation">[[64](references.md#ref-ieaenergyai2026), [65](references.md#ref-masanet2020), [66](references.md#ref-lietal2023thirsty)]</span> Recent IEA analysis projects global electricity consumption from data centres to roughly double from $485$ TWh in 2025 to around $950$ TWh in 2030, when it would account for about $3\%$ of global electricity demand. Electricity consumption from AI-focused data centres is projected to triple over the same period.<span class="citation">[[64](references.md#ref-ieaenergyai2026)]</span>[^p14-2] The ecological question is therefore not whether computation exists, but *what it is used for*, *who controls it*, and *how its costs and benefits are allocated*.[^p14-3]
+The same clarity applies to the material infrastructure behind “AI”: data centres, fibre networks, server farms, and the mining and assembly labour embedded in hardware. These are not abstract clouds; they are energy- and water-intensive industrial systems.<span class="citation">[[64](#ref-ieaenergyai2026)]</span>[^p14-1] Empirically, data-centre electricity demand is already a material component of national grids, and leading estimates emphasise both the scale and uncertainty introduced by rapid hardware turnover and accelerated AI workloads.<span class="citation">[[64](#ref-ieaenergyai2026), [65](#ref-masanet2020), [66](#ref-lietal2023thirsty)]</span> Recent IEA analysis projects global electricity consumption from data centres to roughly double from $485$ TWh in 2025 to around $950$ TWh in 2030, when it would account for about $3\%$ of global electricity demand. Electricity consumption from AI-focused data centres is projected to triple over the same period.<span class="citation">[[64](#ref-ieaenergyai2026)]</span>[^p14-2] The ecological question is therefore not whether computation exists, but *what it is used for*, *who controls it*, and *how its costs and benefits are allocated*.[^p14-3]
 
 Modern cloud infrastructure is software-defined and multi-tenant: the same physical servers can be allocated by software to many users and can run very different workloads at the same time. One class of workloads can be socially necessary and life-saving—storm tracking, flood mapping, early warning systems, public health modelling, grid optimisation, drought monitoring. Another class can be socially low-value but profit-rich—advertising optimisation, mass surveillance, speculative content factories, endless synthetic media churn. It is not the existence of servers as such that decides the socio-environmental outcome, but who schedules those machines, which workloads are prioritised, and what rules govern their use.[^p14-4]
 
@@ -2287,7 +2287,7 @@ No single pamphlet can tell you what to do. But it can suggest some directions:
 
 -   Build and support organisations—unions, feminist and queer collectives, socialist groups, tenant unions—that link immediate demands to the horizon of a classless, moneyless, stateless society.
 
-Marx wrote that philosophers had only interpreted the world; the point was to change it.<span class="citation">[[4](references.md#ref-marxthesesfeuerbach1845)]</span> Understanding the logic of capital is one small part of learning how to fight it consciously.
+Marx wrote that philosophers had only interpreted the world; the point was to change it.<span class="citation">[[4](#ref-marxthesesfeuerbach1845)]</span> Understanding the logic of capital is one small part of learning how to fight it consciously.
 
 
 ## Appendix A. Marxian notation at a glance { #sec-notation }
@@ -2464,4 +2464,453 @@ We use standard circuit shorthand (with arrows indicating exchange, and with the
 <dt id="term-value-composition">value composition of capital</dt>
 <dd markdown="1">The ratio of constant to variable capital expressed in value terms, $c/v$. This pamphlet uses the ratio as shorthand for the organic composition of capital where changes in the value composition reflect changes in the underlying technical composition of production.</dd>
 </dl>
+
+
+## References and further reading { #references }
+
+Citation numbers match the PDF edition.
+
+<div class="reference-entry" id="ref-marxengels1848" markdown="1">
+
+**[1]** Marx, K. and Engels, F. (1848) *Manifesto of the Communist Party*. Available at: <https://www.marxists.org/archive/marx/works/1848/communist-manifesto/>.
+
+</div>
+
+<div class="reference-entry" id="ref-marx1859" markdown="1">
+
+**[2]** Marx, K. (1859) *A Contribution to the Critique of Political Economy* (Preface). Available at: <https://www.marxists.org/archive/marx/works/1859/critique-pol-economy/preface.htm>.
+
+</div>
+
+<div class="reference-entry" id="ref-marxgrundrisse" markdown="1">
+
+**[3]** Marx, K. (1857–58) *Grundrisse: Foundations of the Critique of Political Economy*. Available at: <https://www.marxists.org/archive/marx/works/1857/grundrisse/>.
+
+</div>
+
+<div class="reference-entry" id="ref-marxthesesfeuerbach1845" markdown="1">
+
+**[4]** Marx, K. (1845) *Theses on Feuerbach*. Available at: <https://www.marxists.org/archive/marx/works/1845/theses/theses.htm> (Accessed: 20 Jan 2026).
+
+</div>
+
+<div class="reference-entry" id="ref-marx1867" markdown="1">
+
+**[5]** Marx, K. (1867) *Capital: A Critique of Political Economy, Volume I*. Available at: <https://www.marxists.org/archive/marx/works/1867-c1/>.
+
+</div>
+
+<div class="reference-entry" id="ref-marx1894" markdown="1">
+
+**[6]** Marx, K. (1894) *Capital: A Critique of Political Economy, Volume III*. (Edited by F. Engels.) Available at: <https://www.marxists.org/archive/marx/works/1894-c3/>.
+
+</div>
+
+<div class="reference-entry" id="ref-engelsantiduhring" markdown="1">
+
+**[7]** Engels, F. (1878) *Anti-Dühring*. Available at: <https://www.marxists.org/archive/marx/works/1877/anti-duhring/>.
+
+</div>
+
+<div class="reference-entry" id="ref-engelsfuneral" markdown="1">
+
+**[8]** Engels, F. (1883) “Speech at the Grave of Karl Marx”. Available at: <https://www.marxists.org/archive/marx/works/1883/death/burial.htm>.
+
+</div>
+
+<div class="reference-entry" id="ref-leninimperialism" markdown="1">
+
+**[9]** Lenin, V. I. (1916) *Imperialism, the Highest Stage of Capitalism*. Available at: <https://www.marxists.org/archive/lenin/works/1916/imp-hsc/>.
+
+</div>
+
+<div class="reference-entry" id="ref-trotskypermanentrevolution" markdown="1">
+
+**[10]** Trotsky, L. (1931) *The Permanent Revolution*. Available at: <https://www.marxists.org/archive/trotsky/1931/tpr/>.
+
+</div>
+
+<div class="reference-entry" id="ref-luxemburg1913" markdown="1">
+
+**[11]** Luxemburg, R. (1913) *The Accumulation of Capital*. Translated from the German by Agnes Schwarzschild. Available at: <https://www.marxists.org/archive/luxemburg/1913/accumulation-capital/>.
+
+</div>
+
+<div class="reference-entry" id="ref-harmanpeopleshistory" markdown="1">
+
+**[12]** Harman, C. (2008) *A People’s History of the World: From the Stone Age to the New Millennium*. London: Verso. (See also publisher page: <https://www.versobooks.com/en-gb/products/2044-a-people-s-history-of-the-world> (accessed 20 January 2026).)
+
+</div>
+
+<div class="reference-entry" id="ref-faulknermarxisthistory" markdown="1">
+
+**[13]** Faulkner, N. (2013) *A Marxist History of the World: From Neanderthals to Neoliberals*. London: Pluto Press. Publisher page: <https://www.plutobooks.com/product/a-marxist-history-of-the-world/> (accessed 20 January 2026).
+
+</div>
+
+<div class="reference-entry" id="ref-faulknerradicalhistory" markdown="1">
+
+**[14]** Faulkner, N. (2018) *A Radical History of the World*. London: Pluto Press. Publisher page: <https://www.plutobooks.com/product/a-radical-history-of-the-world/> (accessed 20 January 2026).
+
+</div>
+
+<div class="reference-entry" id="ref-hublin2017" markdown="1">
+
+**[15]** Hublin, J.-J., Ben-Ncer, A., Bailey, S. E., Freidline, S. E., Neubauer, S., Skinner, M. M., Bergmann, I., Le Cabec, A., Benazzi, S., Harvati, K. and Gunz, P. (2017) “New fossils from Jebel Irhoud, Morocco and the pan-African origin of *Homo sapiens*”. *Nature*, 546, 289–292. DOI: <https://doi.org/10.1038/nature22336>.
+
+</div>
+
+<div class="reference-entry" id="ref-richter2017" markdown="1">
+
+**[16]** Richter, D., Grün, R., Joannes-Boyau, R., Steele, T. E., Amani, F., Rué, M., Fernandes, P., Raynal, J.-P., Geraads, D., Ben-Ncer, A., Hublin, J.-J. and McPherron, S. P. (2017) “The age of the hominin fossils from Jebel Irhoud, Morocco, and the origins of the Middle Stone Age”. *Nature*, 546, 293–296. DOI: <https://doi.org/10.1038/nature22335>.
+
+</div>
+
+<div class="reference-entry" id="ref-walker2018holocene" markdown="1">
+
+**[17]** Walker, M., Head, M. J., Berkelhammer, M., Björck, S., Cheng, H., Cwynar, L., Fisher, D., Gkinis, V., Long, A., Lowe, J., Newnham, R., Rasmussen, S. O. and Weiss, H. (2018) “Formal ratification of the subdivision of the Holocene Series/Epoch (Quaternary System/Period): two new Global Boundary Stratotype Sections and Points (GSSPs) and three new stages/subseries”. *Episodes*, 41(4), 213–223. DOI: <https://doi.org/10.18814/epiiugs/2018/018016>. (Repository copy: <https://dro.dur.ac.uk/25961/1/25961.pdf> (accessed 20 January 2026).)
+
+</div>
+
+<div class="reference-entry" id="ref-leedaly1999" markdown="1">
+
+**[18]** Lee, R. B. and Daly, R. (eds.) (1999) *The Cambridge Encyclopedia of Hunters and Gatherers*. Cambridge: Cambridge University Press.
+
+</div>
+
+<div class="reference-entry" id="ref-woodburn1982" markdown="1">
+
+**[19]** Woodburn, J. (1982) “Egalitarian Societies”. *Man* (New Series), 17(3), 431–451. DOI: <https://doi.org/10.2307/2801707>.
+
+</div>
+
+<div class="reference-entry" id="ref-boehm1999" markdown="1">
+
+**[20]** Boehm, C. (1999) *Hierarchy in the Forest: The Evolution of Egalitarian Behavior*. Cambridge, MA: Harvard University Press.
+
+</div>
+
+<div class="reference-entry" id="ref-zeder2011" markdown="1">
+
+**[21]** Zeder, M. A. (2011) “The Origins of Agriculture in the Near East”. *Current Anthropology*, 52(S4), S221–S235. DOI: <https://doi.org/10.1086/659307>.
+
+</div>
+
+<div class="reference-entry" id="ref-fuller2023" markdown="1">
+
+**[22]** Fuller, D. Q., Denham, T. and Allaby, R. G. (2023) “Plant domestication and agricultural ecologies”. *Current Biology*, 33(11), R525–R531. DOI: <https://doi.org/10.1016/j.cub.2023.04.038>.
+
+</div>
+
+<div class="reference-entry" id="ref-scott2017" markdown="1">
+
+**[23]** Scott, J. C. (2017) *Against the Grain: A Deep History of the Earliest States*. New Haven, CT: Yale University Press. Publisher page: <https://yalebooks.yale.edu/book/9780300240214/against-the-grain/> (accessed 20 January 2026).
+
+</div>
+
+<div class="reference-entry" id="ref-cambridgemehrgarh" markdown="1">
+
+**[24]** Petrie, C. A. (2015) “Mehrgarh, Pakistan”, in Barker, G. and Goucher, C. (eds.) *The Cambridge World History, Volume 2: A World with Agriculture, 12,000 BCE–500 CE*. Cambridge: Cambridge University Press, 289–309. DOI: <https://doi.org/10.1017/CBO9780511978807.012>.
+
+</div>
+
+<div class="reference-entry" id="ref-oupindus" markdown="1">
+
+**[25]** Kenoyer, J. M. (1998) *Ancient Cities of the Indus Valley Civilization*. Karachi: Oxford University Press.
+
+</div>
+
+<div class="reference-entry" id="ref-wright2010ancientindus" markdown="1">
+
+**[26]** Wright, R. P. (2010) *The Ancient Indus: Urbanism, Economy, and Society*. Cambridge: Cambridge University Press. (Front matter available at: <https://assets.cambridge.org/97805215/76529/frontmatter/9780521576529_frontmatter.pdf> (accessed 20 January 2026).)
+
+</div>
+
+<div class="reference-entry" id="ref-woodorigincapitalism" markdown="1">
+
+**[27]** Wood, E. M. (2002) *The Origin of Capitalism: A Longer View*. London: Verso. Publisher page: <https://www.versobooks.com/en-gb/products/1782-the-origin-of-capitalism> (accessed 20 January 2026).
+
+</div>
+
+<div class="reference-entry" id="ref-brenner1976" markdown="1">
+
+**[28]** Brenner, R. (1976) “Agrarian Class Structure and Economic Development in Pre-Industrial Europe”. *Past & Present*, 70, 30–75.
+
+</div>
+
+<div class="reference-entry" id="ref-wallerstein1974" markdown="1">
+
+**[29]** Wallerstein, I. (1974) *The Modern World-System I: Capitalist Agriculture and the Origins of the European World-Economy in the Sixteenth Century*. New York: Academic Press. (Record copy: <https://archive.org/details/modernworldsyste00wall> (accessed 20 January 2026).)
+
+</div>
+
+<div class="reference-entry" id="ref-polanyi1944" markdown="1">
+
+**[30]** Polanyi, K. (1944) *The Great Transformation: The Political and Economic Origins of Our Time*. New York: Farrar & Rinehart.
+
+</div>
+
+<div class="reference-entry" id="ref-cambridgecapitalism1" markdown="1">
+
+**[31]** Neal, L. and Williamson, J. G. (eds.) (2014) *The Cambridge History of Capitalism, Volume 1: The Rise of Capitalism: From Ancient Origins to 1848*. Cambridge: Cambridge University Press.
+
+</div>
+
+<div class="reference-entry" id="ref-cambridgecapitalism2" markdown="1">
+
+**[32]** Neal, L. and Williamson, J. G. (eds.) (2014) *The Cambridge History of Capitalism, Volume 2: The Spread of Capitalism: From 1848 to the Present*. Cambridge: Cambridge University Press. Available at: <https://www.cambridge.org/core/books/cambridge-history-of-capitalism/2BB5CB8190044779B3BC4D640C3D3EB5> (accessed 20 January 2026).
+
+</div>
+
+<div class="reference-entry" id="ref-heller2011" markdown="1">
+
+**[33]** Heller, H. (2011) *The Birth of Capitalism: A Twenty-First-Century Perspective*. London: Pluto Press. Open access. DOI: <https://doi.org/10.2307/j.ctt183p671>.
+
+</div>
+
+<div class="reference-entry" id="ref-beckert2014" markdown="1">
+
+**[34]** Beckert, S. (2014) *Empire of Cotton: A Global History*. New York: Alfred A. Knopf.
+
+</div>
+
+<div class="reference-entry" id="ref-patnaikimperialism" markdown="1">
+
+**[35]** Patnaik, U. and Patnaik, P. (2016) *A Theory of Imperialism*. New York: Columbia University Press.
+
+</div>
+
+<div class="reference-entry" id="ref-shaikh2016" markdown="1">
+
+**[36]** Shaikh, A. (2016) *Capitalism: Competition, Conflict, Crises*. Oxford: Oxford University Press.
+
+</div>
+
+<div class="reference-entry" id="ref-harveynewimperialism" markdown="1">
+
+**[37]** Harvey, D. (2003) *The New Imperialism*. Oxford: Oxford University Press.
+
+</div>
+
+<div class="reference-entry" id="ref-harveyneoliberalism" markdown="1">
+
+**[38]** Harvey, D. (2005) *A Brief History of Neoliberalism*. Oxford: Oxford University Press.
+
+</div>
+
+<div class="reference-entry" id="ref-harveycompanion" markdown="1">
+
+**[39]** Harvey, D. (2010) *A Companion to Marx’s Capital, Volume 1*. London: Verso.
+
+</div>
+
+<div class="reference-entry" id="ref-peetunholytrinity" markdown="1">
+
+**[40]** Peet, R. (2003) *Unholy Trinity: The IMF, World Bank and WTO*. London: Zed Books.
+
+</div>
+
+<div class="reference-entry" id="ref-smith2016" markdown="1">
+
+**[41]** Smith, J. (2016) *Imperialism in the Twenty-First Century: Globalization, Super-Exploitation, and Capitalism’s Final Crisis*. New York: Monthly Review Press.
+
+</div>
+
+<div class="reference-entry" id="ref-roberts2016" markdown="1">
+
+**[42]** Roberts, M. (2016) *The Long Depression: Marxism and the Global Crisis of Capitalism*. Chicago: Haymarket Books.
+
+</div>
+
+<div class="reference-entry" id="ref-okishio1961" markdown="1">
+
+**[43]** Okishio, N. (1961) “Technical Changes and the Rate of Profit”. *Kobe University Economic Review*, 7, 85–99.
+
+</div>
+
+<div class="reference-entry" id="ref-rosenbergucd" markdown="1">
+
+**[44]** Rosenberg, J. (2006) “Why is there no International Historical Sociology?” *European Journal of International Relations*, 12(3), 307–340. (Develops the concept of uneven and combined development in IR/IHS.) DOI: <https://doi.org/10.1177/1354066106067345>.
+
+</div>
+
+<div class="reference-entry" id="ref-bhattacharyasrt" markdown="1">
+
+**[45]** Bhattacharya, T. (ed.) (2017) *Social Reproduction Theory: Remapping Class, Recentering Oppression*. London: Pluto Press.
+
+</div>
+
+<div class="reference-entry" id="ref-federicicaliban" markdown="1">
+
+**[46]** Federici, S. (2004) *Caliban and the Witch: Women, the Body and Primitive Accumulation*. Brooklyn: Autonomedia.
+
+</div>
+
+<div class="reference-entry" id="ref-steedman1977" markdown="1">
+
+**[47]** Steedman, I. (1977) *Marx After Sraffa*. London: New Left Books.
+
+</div>
+
+<div class="reference-entry" id="ref-roemer1977" markdown="1">
+
+**[48]** Roemer, J. E. (1977) “Technical Change and the ‘Tendency of the Rate of Profit to Fall’”. *Journal of Economic Theory*, 16(2), 403–424. DOI: <https://doi.org/10.1016/0022-0531(77)90016-3>.
+
+</div>
+
+<div class="reference-entry" id="ref-basumanolakos2013" markdown="1">
+
+**[49]** Basu, D. and Manolakos, P. (2013) “Is There a Tendency for the Rate of Profit to Fall? Econometric Evidence for the U.S. Economy, 1948–2007”. *Review of Radical Political Economics*, 45(1), 76–95. DOI: <https://doi.org/10.1177/0486613412447059>.
+
+</div>
+
+<div class="reference-entry" id="ref-kliman2007" markdown="1">
+
+**[50]** Kliman, A. (2007) *Reclaiming Marx’s “Capital”: A Refutation of the Myth of Inconsistency*. Lanham, MD: Lexington Books.
+
+</div>
+
+<div class="reference-entry" id="ref-moseley2016" markdown="1">
+
+**[51]** Moseley, F. (2016) *Money and Totality: A Macro-Monetary Interpretation of Marx’s Logic in *Capital* and the End of the “Transformation Problem”*. Leiden: Brill.
+
+</div>
+
+<div class="reference-entry" id="ref-foley1986" markdown="1">
+
+**[52]** Foley, D. K. (1986) *Understanding Capital: Marx’s Economic Theory*. Cambridge, MA: Harvard University Press.
+
+</div>
+
+<div class="reference-entry" id="ref-atkinetal2017" markdown="1">
+
+**[53]** Atkin, D., Chaudhry, A., Chaudry, S., Khandelwal, A. K. and Verhoogen, E. (2017) “Organizational Barriers to Technology Adoption: Evidence from Soccer-Ball Producers in Pakistan”. *The Quarterly Journal of Economics*, 132(3), 1101–1164. DOI: <https://doi.org/10.1093/qje/qjx010>.
+
+</div>
+
+<div class="reference-entry" id="ref-atkinetal2015nber" markdown="1">
+
+**[54]** Atkin, D., Chaudhry, A., Chaudry, S., Khandelwal, A. K. and Verhoogen, E. (2015) “Organizational Barriers to Technology Adoption: Evidence from Soccer-Ball Producers in Pakistan”. NBER Working Paper No. 21417. DOI: <https://doi.org/10.3386/w21417>.
+
+</div>
+
+<div class="reference-entry" id="ref-bloomberg2022sialkot" markdown="1">
+
+**[55]** Bloomberg Businessweek (2022) “This Is Where Most of the World’s Soccer Balls Come From”. 22 November. Available at: <https://www.bloomberg.com/features/2022-world-cup-soccer-ball-adidas-al-rihla-sialkot/>.
+
+</div>
+
+<div class="reference-entry" id="ref-dawnreuters2022sialkot" markdown="1">
+
+**[56]** Dawn / Reuters (2022) “ ‘Made-in-Sialkot’ ball puts Pakistan in FIFA World Cup”. 9 December. Available at: <https://www.dawn.com/news/1725468>.
+
+</div>
+
+<div class="reference-entry" id="ref-goalalrihla2022" markdown="1">
+
+**[57]** GOAL (2022) “Adidas unveils ‘fastest in flight’ World Cup match ball Al Rihla”. 30 March. Available at: <https://www.goal.com/en/news/adidas-world-cup-match-ball-al-rihla-qatar-2022/blta7dc0012ef2a879f>.
+
+</div>
+
+<div class="reference-entry" id="ref-dedrickkraemerlinden2010" markdown="1">
+
+**[58]** Dedrick, J., Kraemer, K. L. and Linden, G. (2010) “Who profits from innovation in global value chains? A study of the iPod and notebook PCs”. *Industrial and Corporate Change*, 19(1), 81–116. DOI: <https://doi.org/10.1093/icc/dtp032>.
+
+</div>
+
+<div class="reference-entry" id="ref-hickel2022" markdown="1">
+
+**[59]** Hickel, J., Dorninger, C., Wieland, H. and Suwandi, I. (2022) “Imperialist appropriation in the world economy: Drain from the global South through unequal exchange, 1990–2015”. *Global Environmental Change*, 73, 102467. DOI: <https://doi.org/10.1016/j.gloenvcha.2022.102467>.
+
+</div>
+
+<div class="reference-entry" id="ref-woodetal2019" markdown="1">
+
+**[60]** Wood, A. J., Graham, M., Lehdonvirta, V. and Hjorth, I. (2019) “Good Gig, Bad Gig: Autonomy and Algorithmic Control in the Global Gig Economy”. *Work, Employment and Society*, 33(1), 56–75. DOI: <https://doi.org/10.1177/0950017018785616>.
+
+</div>
+
+<div class="reference-entry" id="ref-mateescunguyen2019" markdown="1">
+
+**[61]** Mateescu, A. and Nguyen, A. (2019) *Explainer: Algorithmic Management in the Workplace*. New York: Data & Society Research Institute. Available at: <https://datasociety.net/library/explainer-algorithmic-management-in-the-workplace/>.
+
+</div>
+
+<div class="reference-entry" id="ref-lumisaac2016" markdown="1">
+
+**[62]** Lum, K. and Isaac, W. (2016) “To Predict and Serve?” *Significance*, 13(5), 14–19. DOI: <https://doi.org/10.1111/j.1740-9713.2016.00960.x>.
+
+</div>
+
+<div class="reference-entry" id="ref-eubanks2018" markdown="1">
+
+**[63]** Eubanks, V. (2018) *Automating Inequality: How High-Tech Tools Profile, Police, and Punish the Poor*. New York: St. Martin’s Press.
+
+</div>
+
+<div class="reference-entry" id="ref-ieaenergyai2026" markdown="1">
+
+**[64]** International Energy Agency (IEA) (2026) *Key Questions on Energy and AI*. Paris: IEA, 16 April 2026. Available at: <https://www.iea.org/reports/key-questions-on-energy-and-ai> (Accessed: 5 June 2026).
+
+</div>
+
+<div class="reference-entry" id="ref-masanet2020" markdown="1">
+
+**[65]** Masanet, E., Shehabi, A., Lei, N., Smith, S. and Koomey, J. (2020) “Recalibrating global data center energy-use estimates”. *Science*, 367(6481), 984–986. DOI: <https://doi.org/10.1126/science.aba3758>.
+
+</div>
+
+<div class="reference-entry" id="ref-lietal2023thirsty" markdown="1">
+
+**[66]** Li, P., Yang, J., Islam, M. A. and Ren, S. (2023) “Making AI Less ‘Thirsty’: Uncovering and Addressing the Secret Water Footprint of AI Models”. *arXiv* preprint arXiv:2304.03271. Available at: <https://arxiv.org/abs/2304.03271>.
+
+</div>
+
+<div class="reference-entry" id="ref-sbpannualreportfy24" markdown="1">
+
+**[67]** State Bank of Pakistan (SBP) (2024) *Annual Report 2023–2024: State of the Economy*. Karachi: SBP. Available at: <https://www.sbp.org.pk/reports/annual/aarFY24/Complete.pdf> (accessed 1 January 2026).
+
+</div>
+
+<div class="reference-entry" id="ref-nbpratesheet20jan2026" markdown="1">
+
+**[68]** National Bank of Pakistan (2026) *FX Rates Sheet: Treasury & Capital Markets Group*, 20 January 2026. Available at: <https://www.nbp.com.pk/RateSheetFiles/NBP-RateSheet-20-01-2026.pdf> (Accessed: 5 June 2026).
+
+</div>
+
+<div class="reference-entry" id="ref-ipccar6wgiii" markdown="1">
+
+**[69]** IPCC (2022) *Climate Change 2022: Mitigation of Climate Change*. Contribution of Working Group III to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change. Cambridge: Cambridge University Press.
+
+</div>
+
+<div class="reference-entry" id="ref-oecdsteel" markdown="1">
+
+**[70]** OECD (n.d.) *Steel* (topic page). Organisation for Economic Co-operation and Development. Available at: <https://www.oecd.org/en/topics/sub-issues/steel.html> (accessed 1 January 2026).
+
+</div>
+
+<div class="reference-entry" id="ref-carmodytaylorzajontz2021" markdown="1">
+
+**[71]** Carmody, P., Taylor, I. and Zajontz, T. (2021) “China’s spatial fix and ‘debt diplomacy’ in Africa: constraining belt or road to economic transformation?” *Canadian Journal of African Studies*, 56(1), 57–77. DOI: <https://doi.org/10.1080/00083968.2020.1868014>.
+
+</div>
+
+<div class="reference-entry" id="ref-imfpakistan2026" markdown="1">
+
+**[72]** International Monetary Fund, Middle East and Central Asia Department (2026) *Pakistan: Third Review Under the Extended Arrangement Under the Extended Fund Facility and Second Review Under the Resilience and Sustainability Facility Arrangement—Press Release; Staff Report; and Statement by the Executive Director for Pakistan*. IMF Staff Country Report No. 26/101, 14 May 2026. DOI: <https://doi.org/10.5089/9798229047449.002>.
+
+</div>
+
+<div class="reference-entry" id="ref-strugglepk_tdr" markdown="1">
+
+**[73]** The Struggle (Pakistan) (2024) *Pakistan Perspective 2024–25* \[PDF\]. Available at: <https://www.struggle.pk/wp-content/uploads/2024/02/The-Struggle-Pakistan-Perspective-2024-25-PDF-Final.pdf>.
+
+</div>
+
+<div class="reference-entry" id="ref-strugglepk_worldperspectives" markdown="1">
+
+**[74]** Asian Marxist Review (2025) *A Turning Point in History: Trump, Crisis, and the Decline of the Liberal Order* (World Perspectives 2025) \[English translation of the first draft of the Congress 2025 document\]. Available at: <https://www.marxistreview.asia/wp-2025/>.
+
+</div>
 

@@ -308,13 +308,13 @@ def glossary(out, labels):
 
 def full_page(out, chapters):
     """Every chapter and appendix on one scrolling page, with its own contents panel."""
-    parts = ["# The whole pamphlet on one page", "", "Every chapter and appendix, in order. The contents panel follows you as you scroll.", ""]
-    pages = [out / "chapters" / c["file"] for c in chapters] + [out / "appendix-notation.md", out / "appendix-glossary.md"]
+    parts = ["# The whole pamphlet on one page", "", "Every chapter, appendix and reference, in order. The contents panel follows you as you scroll.", ""]
+    pages = [out / "chapters" / c["file"] for c in chapters] + [out / "appendix-notation.md", out / "appendix-glossary.md", out / "references.md"]
     for n, page in enumerate(pages):
         md = page.read_text(encoding="utf8")
         md = re.sub(r"\[\^([^\]]+)\]", lambda m: f"[^p{n}-{m.group(1)}]", md)
         md = re.sub(r"\]\((?:chapters/)?\d\d-[^)#]*\.md#", "](#", md)
-        md = md.replace("](../references.md", "](references.md").replace("](../appendix-notation.md", "](#").replace("](../appendix-glossary.md", "](#")
+        md = md.replace("](../references.md#", "](#").replace("](references.md#", "](#").replace("](../appendix-notation.md", "](#").replace("](../appendix-glossary.md", "](#")
         md = re.sub(r"\]\(#(#[^)]*)\)", r"](\1)", md)
         md = re.sub(r"(?m)^(#{1,5}) ", r"#\1 ", md)
         parts += [md, ""]
