@@ -40,6 +40,9 @@
 \author{Standalone teaching note (with fully worked arithmetic)}
 \date{\today}
 
+% Figures shared with the pamphlet and slides, generated from data/sialkot.json
+\input{../../latex/generated/sialkot_numbers.tex}
+
 \begin{document}
 \maketitle
 
@@ -256,6 +259,29 @@ So, at launch pricing, the stitcher’s pay is roughly:
 \[
   0.45\% \text{ of the retail price of an Al Rihla match ball.}
 \]
+
+\subsection{Step 7: wage-hours needed to buy the commodity}
+How long must the stitcher work to buy back, at the retail benchmark, the kind of commodity this labour helps to produce?
+
+First put the retail price into rupees. Step 6 used Bloomberg's dollar figure for pay, from 2022. Here we use one stated reference rate instead, \(\PKR{}~\USDPKR\) per \USD{}~1 (NBP Treasury rate sheet, \RateDate), so the two steps should not be read as a single conversion:
+\[
+  P_{\text{retail}} = 165\times \USDPKR \approx \PKR{}~\SkRetail.
+\]
+Now divide by the hourly wage from Step 3. Call the result \(H\), the wage-hours needed:
+\[
+  H=\frac{P_{\text{retail}}}{w_{\uHour}}\approx\frac{\SkRetail}{\SkHourly}\approx \SkHours\ \text{hours}.
+\]
+At \(3\) hours per ball, that is the time taken to stitch:
+\[
+  \frac{\SkHours}{3}\approx \SkBalls\ \text{balls}.
+\]
+At \(9\) hours per day, it is:
+\[
+  \frac{\SkHours}{9}\approx \SkDays\ \text{workdays}.
+\]
+So, at these benchmarks, a worker would stitch about \SkBalls{} balls, over about \SkDays{} nine-hour days, to earn the retail price of one.
+
+\textbf{How to read this.} The benchmark is the official Al Rihla match ball, a premium product. So this measures the distance between the wage and that market price, and not the price of the particular ball this worker stitched. It also counts all of the wage towards the purchase, leaving nothing for food, rent or anything else.
 
 \subsection{A quick ``order'' calculation (1,000 balls)}
 Suppose a buyer places an order for \(Q=1{,}000\) hand-stitched balls at \(160\) rupees stitching pay each.
