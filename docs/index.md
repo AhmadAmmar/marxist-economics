@@ -7,6 +7,7 @@ PhD Researcher (Earth Observation, Geo-computing, Urban Informatics), Ulster Uni
 Organiser, [The Struggle (Pakistan)](https://www.struggle.pk/) | [Solidarity: The Socialist Alternative (Ireland)](https://www.solidarity.ie/)
 
 [Start reading](chapters/01-why-this-pamphlet-from-meme-to-method.md){ .md-button .md-button--primary }
+[Read it all on one page](full.md){ .md-button }
 [Read or download the PDF](pamphlet.md){ .md-button }
 [References](references.md){ .md-button }
 [The mathematics](mathematics.md){ .md-button }

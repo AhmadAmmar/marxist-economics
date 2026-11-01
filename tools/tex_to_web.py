@@ -306,6 +306,21 @@ def glossary(out, labels):
     (out / "appendix-glossary.md").write_text("\n".join(md) + "\n", encoding="utf8", newline="\n")
 
 
+def full_page(out, chapters):
+    """Every chapter and appendix on one scrolling page, with its own contents panel."""
+    parts = ["# The whole pamphlet on one page", "", "Every chapter and appendix, in order. The contents panel follows you as you scroll.", ""]
+    pages = [out / "chapters" / c["file"] for c in chapters] + [out / "appendix-notation.md", out / "appendix-glossary.md"]
+    for n, page in enumerate(pages):
+        md = page.read_text(encoding="utf8")
+        md = re.sub(r"\[\^([^\]]+)\]", lambda m: f"[^p{n}-{m.group(1)}]", md)
+        md = re.sub(r"\]\((?:chapters/)?\d\d-[^)#]*\.md#", "](#", md)
+        md = md.replace("](../references.md", "](references.md").replace("](../appendix-notation.md", "](#").replace("](../appendix-glossary.md", "](#")
+        md = re.sub(r"\]\(#(#[^)]*)\)", r"](\1)", md)
+        md = re.sub(r"(?m)^(#{1,5}) ", r"#\1 ", md)
+        parts += [md, ""]
+    (out / "full.md").write_text("\n".join(parts), encoding="utf8", newline="\n")
+
+
 def main(out):
     head, sections = split_sections(inputs((L / "content.tex").read_text(encoding="utf8")))
     keys = bib_keys()
@@ -319,6 +334,7 @@ def main(out):
     bibliography(keys, out)
     notation(out, labels)
     glossary(out, labels)
+    full_page(out, chapters)
     print(f"wrote {len(chapters)} chapters and {len(keys)} references to {out}")
 
 

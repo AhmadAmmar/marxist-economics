@@ -7,6 +7,7 @@ use_directory_urls: true
 
 nav:
   - Home: index.md
+  - The whole pamphlet on one page: full.md
   - Pamphlet PDF: pamphlet.md
   - Chapters:
       - "01. Why this pamphlet? From meme to method": chapters/01-why-this-pamphlet-from-meme-to-method.md

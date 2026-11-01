@@ -84,3 +84,16 @@ body { background: var(--bg); color: var(--ink); font-family: var(--sans); }
 .md-typeset .example .center table:not([class]) mjx-container { font-size: 92% !important; }
 .md-typeset .example .md-typeset__scrollwrap { margin-inline: 0; }
 .md-typeset table:not([class]) th, .md-typeset table:not([class]) td { min-width: 0; }
+
+/* Side panels can be hidden, for reading or teaching at any zoom */
+.aa-side { flex: none; display: none; }
+@media (min-width: 76.25em) { .aa-side { display: inline-grid; } }
+html.aa-panels-hidden .md-sidebar { display: none; }
+html.aa-panels-hidden .md-content { max-width: 52rem; margin-inline: auto; }
+/* Reading on from one page to the next */
+.aa-pager { max-width: 61rem; margin: 2rem auto 0; padding: 0 .2rem; display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; font-size: 15px; line-height: 1.4; }
+.aa-pager a { color: var(--accent); flex: 1 1 240px; max-width: 48%; padding: 12px 14px; border: 1px solid var(--line); border-radius: 8px; }
+.aa-pager a.next { text-align: right; margin-left: auto; }
+.aa-pager a:hover { border-color: var(--accent); }
+.aa-pager span { display: block; color: var(--muted); font-size: 13px; }
+@media (max-width: 600px) { .aa-pager a { max-width: 100%; } }

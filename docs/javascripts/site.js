@@ -28,3 +28,15 @@ window.addEventListener("load", function () {
   if (window.MathJax && MathJax.startup && MathJax.startup.promise) MathJax.startup.promise.then(fitEquations);
 });
 window.addEventListener("resize", fitEquations);
+
+// Hide or show the side panels, and remember the choice.
+document.addEventListener("DOMContentLoaded", function () {
+  var root = document.documentElement, button = document.querySelector("[data-aa-sidebar]");
+  function set(hidden) {
+    root.classList.toggle("aa-panels-hidden", hidden);
+    if (button) button.setAttribute("aria-pressed", hidden ? "true" : "false");
+    try { localStorage.setItem("panels", hidden ? "hidden" : "shown"); } catch (e) {}
+  }
+  try { if (localStorage.getItem("panels") === "hidden") set(true); } catch (e) {}
+  if (button) button.addEventListener("click", function () { set(!root.classList.contains("aa-panels-hidden")); });
+});

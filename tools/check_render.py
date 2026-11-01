@@ -154,12 +154,12 @@ def main():
         for view in VIEWS:
             ctx = browser.new_context(viewport={"width": view[2], "height": view[3]}, color_scheme=view[0])
             page = ctx.new_page()
+            page.set_default_timeout(240000)
             for name in pages:
                 url = f"http://127.0.0.1:{port}/{BASE}/" + ("" if name == "." else name + "/")
-                page.goto(url, wait_until="networkidle")
-                page.wait_for_function("() => !window.MathJax || !MathJax.startup || !MathJax.startup.promise || true")
+                page.goto(url, wait_until="load")
                 page.evaluate("() => window.MathJax && MathJax.startup && MathJax.startup.promise")
-                page.wait_for_timeout(100)
+                page.wait_for_timeout(400)
                 m = page.evaluate(MEASURE)
                 bad = problems_of(m, want.get(name), view)
                 for b in bad:
