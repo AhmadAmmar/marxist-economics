@@ -1,0 +1,6 @@
+name = "marxian_economics_101"
+title = "Marxian Economics 101"
+author = "Comrade Ammara"
+layouts = ["own"]
+source = "latex"
+main = "main.tex"

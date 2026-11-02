@@ -32,3 +32,4 @@ fix_remaining_dollar_math_v2.py
 !.env.example
 Thumbs.db
 Desktop.ini
+build/
