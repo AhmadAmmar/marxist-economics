@@ -70,6 +70,6 @@ if __name__ == "__main__":
     if check.returncode:
         sys.exit(1)
     if "--site" in sys.argv:
-        subprocess.run([sys.executable, "-m", "mkdocs", "build", "--strict"], cwd=ROOT, check=True)
+        subprocess.run([shutil.which("zensical") or str(pathlib.Path(sys.prefix) / "Scripts" / "zensical.exe"), "build", "--clean"], cwd=ROOT, check=True)
         if subprocess.run([sys.executable, str(ROOT / "tools/check_links.py")]).returncode:
             sys.exit(1)

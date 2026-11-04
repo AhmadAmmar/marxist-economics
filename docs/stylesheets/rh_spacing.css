@@ -1,0 +1,8 @@
+:root{--rh-section-before:1.6;--rh-section-after:0.6;--rh-subsection-before:1.2;--rh-subsection-after:0.4;--rh-paragraph:0.5;--rh-line:1.12;--rh-body:0.95rem}
+.md-typeset h2{margin:calc(var(--rh-section-before)*1em) 0 calc(var(--rh-section-after)*1em);color:var(--md-primary-fg-color)}
+.md-typeset h3{margin:calc(var(--rh-subsection-before)*1em) 0 calc(var(--rh-subsection-after)*1em)}
+.md-typeset p{margin:calc(var(--rh-paragraph)*1em) 0}
+.md-typeset img{display:block;max-width:100%;height:auto;margin:1em auto;background:#fff;border-radius:3px}
+.md-typeset table:not([class]){display:block;overflow-x:auto;max-width:100%}
+mjx-container[display="true"]{overflow-x:auto;overflow-y:hidden;max-width:100%}
+.rh-pdf canvas{display:block;width:100%;height:auto;margin:0 0 12px;background:#fff;border:1px solid var(--md-default-fg-color--lightest)}

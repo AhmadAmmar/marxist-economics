@@ -126,3 +126,6 @@
     min-height: 520px;
   }
 }
+
+/* Zensical draws the phone menu on a translucent white panel; use the page background so its links stay readable in both themes. */
+.md-sidebar--primary { background: var(--bg); }
