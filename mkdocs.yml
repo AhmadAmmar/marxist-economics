@@ -1,6 +1,7 @@
 site_name: Marxian Economics 101
 site_description: Understanding Political Economy for Socialist Struggle in the 21st Century
 site_author: Comrade Ammara
+copyright: 'Comrade Ammara. <a href="https://ahmadammar.github.io/writing.html">More writing</a>'
 site_url: https://ahmadammar.github.io/marxist-economics/
 
 use_directory_urls: true
@@ -38,8 +39,12 @@ nav:
 
 theme:
   name: material
-  custom_dir: overrides
   font: false
+  palette:
+    - scheme: default
+      toggle: {icon: material/weather-night, name: Dark}
+    - scheme: slate
+      toggle: {icon: material/weather-sunny, name: Light}
   features:
     - navigation.sections
     - navigation.expand
@@ -71,9 +76,10 @@ markdown_extensions:
 
 extra_css:
   - stylesheets/extra.css
-  - stylesheets/site-theme.css
+  - stylesheets/rh.css
 
 extra_javascript:
   - javascripts/mathjax.js
   - javascripts/site.js
+  - javascripts/pdfview.js
   - https://unpkg.com/mathjax@3.2.2/es5/tex-mml-chtml.js
