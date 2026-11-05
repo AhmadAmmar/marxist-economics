@@ -99,7 +99,7 @@ extra:
       - {label: Writing, url: /writing.html}
       - {label: CV, url: /cv.html}
     links:
-      - {label: Report a problem or suggest a change, url: /marxist-economics/contribute/}
+      - {label: Report a problem or suggest a change, url: contribute/}
       - {label: Email, url: "mailto:ahmadammargeo@gmail.com"}
       - {label: GitHub, url: "https://github.com/AhmadAmmar"}
       - {label: LinkedIn, url: "https://www.linkedin.com/in/ahmadammar/"}
