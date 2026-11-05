@@ -1,4 +1,4 @@
-/* The main site's look on Material for MkDocs. Colours and fonts match assets/css/site.css in AhmadAmmar.github.io. */
+/* The wider site's look on Zensical: header bar, colours and fonts. Kept the same as the site's own stylesheet. */
 :root { --bg:#fbfaf7;--surface:#fff;--surface-2:#f3f1ec;--ink:#1c2226;--muted:#5a656e;--line:#e2ded6;--accent:#0d6a6e;--accent-soft:#e3f0ef;--rust:#a8502a; color-scheme: light; --serif:"Source Serif 4",Georgia,"Times New Roman",serif; --sans:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg:#101416;--surface:#161b1e;--surface-2:#1c2226;--ink:#e6e9ea;--muted:#9ba7ae;--line:#2a3237;--accent:#5fc3c0;--accent-soft:#15302f;--rust:#e08a5f; color-scheme: dark; } }
 :root[data-theme="dark"] { --bg:#101416;--surface:#161b1e;--surface-2:#1c2226;--ink:#e6e9ea;--muted:#9ba7ae;--line:#2a3237;--accent:#5fc3c0;--accent-soft:#15302f;--rust:#e08a5f; color-scheme: dark; }

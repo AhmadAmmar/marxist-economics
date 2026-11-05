@@ -81,3 +81,27 @@ extra_javascript:
   - https://unpkg.com/mathjax@3.2.2/es5/tex-mml-chtml.js
 extra:
   year: 2026
+  # The wider site's bar and footer, filled into the shared templates (research_helpers.stack skin).
+  skin:
+    brand_first: Comrade
+    brand_second: Ammara
+    brand_url: /writing.html
+    owner: Comrade Ammara
+    year: 2026
+    section: Writing
+    section_url: /writing.html
+    source: https://github.com/AhmadAmmar/marxist-economics
+    nav:
+      - {label: About, url: /index.html}
+      - {label: Research, url: /research.html}
+      - {label: Teaching, url: /teaching.html}
+      - {label: Projects, url: /projects.html}
+      - {label: Writing, url: /writing.html}
+      - {label: CV, url: /cv.html}
+    links:
+      - {label: Report a problem or suggest a change, url: /marxist-economics/contribute/}
+      - {label: Email, url: "mailto:ahmadammargeo@gmail.com"}
+      - {label: GitHub, url: "https://github.com/AhmadAmmar"}
+      - {label: LinkedIn, url: "https://www.linkedin.com/in/ahmadammar/"}
+      - {label: Substack, url: "https://ammarastan.substack.com/"}
+    jsonld: '{"@context": "https://schema.org", "@type": "Person", "name": "Ammara", "alternateName": ["Comrade Ammara", "Ahmad Ammar"], "url": "https://ahmadammar.github.io/writing.html", "sameAs": ["https://azadi.asia/", "https://ammarastan.substack.com/", "https://github.com/AhmadAmmar"]}' 

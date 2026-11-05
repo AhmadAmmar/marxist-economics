@@ -1,3 +1,4 @@
+{% set s = config.extra.skin %}
 {% if page.previous_page or page.next_page %}
 <nav class="aa-pager" aria-label="Previous and next page">
   {% if page.previous_page %}<a href="{{ page.previous_page.url | url }}"><span>Previous</span>{{ page.previous_page.title | e }}</a>{% else %}<span></span>{% endif %}
@@ -6,7 +7,7 @@
 {% endif %}
 <footer class="aa-footer">
   <div class="aa-bar">
-    <div>&copy; {{ config.extra.year }} Comrade Ammara. <a href="/writing.html">More writing</a>. <a href="https://github.com/AhmadAmmar/marxist-economics">Source on GitHub</a>. <a href="{{ 'contribute/' | url }}">Report a problem or suggest a change</a>.</div>
-    <div><a href="mailto:ahmadammargeo@gmail.com">Email</a> &middot; <a href="https://github.com/AhmadAmmar">GitHub</a> &middot; <a href="https://www.linkedin.com/in/ahmadammar/">LinkedIn</a> &middot; <a href="https://ammarastan.substack.com/">Substack</a></div>
+    <div>&copy; {{ s.year }} {{ s.owner }}.{% if s.section %} <a href="{{ s.section_url }}">More {{ s.section | lower }}</a>.{% endif %}{% if s.source %} <a href="{{ s.source }}">Source on GitHub</a>.{% endif %}</div>
+    <div>{% for item in s.links %}{% if not loop.first %} &middot; {% endif %}<a href="{{ item.url }}">{{ item.label }}</a>{% endfor %}</div>
   </div>
 </footer>

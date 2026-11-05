@@ -40,3 +40,18 @@ document.addEventListener("DOMContentLoaded", function () {
   try { if (localStorage.getItem("panels") === "hidden") set(true); } catch (e) {}
   if (button) button.addEventListener("click", function () { set(!root.classList.contains("aa-panels-hidden")); });
 });
+
+// Headings move after the page first lays out (equations typeset, pictures load). The table of contents
+// measures heading positions on resize, so tell it once each of those settles; otherwise it marks the wrong section.
+(function () {
+  var t;
+  function remeasure() { clearTimeout(t); t = setTimeout(function () { window.dispatchEvent(new Event("resize")); }, 150); }
+  window.addEventListener("load", remeasure);
+  document.addEventListener("load", function (e) { if (e.target && e.target.tagName === "IMG") remeasure(); }, true);
+  function afterMaths() { if (window.MathJax && MathJax.startup && MathJax.startup.promise) MathJax.startup.promise.then(remeasure); }
+  window.addEventListener("load", afterMaths);
+  if (window.document$) document$.subscribe(function () { afterMaths(); remeasure(); });
+  if (window.ResizeObserver) document.addEventListener("DOMContentLoaded", function () {
+    var c = document.querySelector(".md-content"); if (c) new ResizeObserver(remeasure).observe(c);
+  });
+})();
